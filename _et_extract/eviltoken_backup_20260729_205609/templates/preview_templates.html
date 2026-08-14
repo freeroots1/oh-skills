@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Preview Template{% endblock %}
+{% block page_title %}Preview: {{ template.name }}{% endblock %}
+{% block content %}
+<div class="glass">
+    <h2>📄 Template Preview</h2>
+    <p><strong>Subject:</strong> {{ template.subject }}</p>
+    <p><strong>Type:</strong> {{ template.type }}</p>
+    <h3>Rendered HTML</h3>
+    <div style="border: 1px solid var(--border); padding: 16px; border-radius: 8px; background: var(--bg);">
+        {{ rendered | safe }}
+    </div>
+    <h3>Raw HTML</h3>
+    <pre style="background: var(--bg); padding: 16px; border-radius: 8px; white-space: pre-wrap; word-wrap: break-word;">{{ template.body }}</pre>
+    <a href="/templates" class="btn btn-outline" style="margin-top: 16px;">← Back to Templates</a>
+</div>
+{% endblock %}

@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    <h2>Analytics</h2>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card"><div class="card-body">
+                <h5>Total Victims</h5>
+                <p class="display-4">{{ total or 0 }}</p>
+            </div></div>
+        </div>
+        <div class="col-md-3">
+            <div class="card"><div class="card-body">
+                <h5>Captured</h5>
+                <p class="display-4">{{ captured or 0 }}</p>
+            </div></div>
+        </div>
+        <div class="col-md-3">
+            <div class="card"><div class="card-body">
+                <h5>Campaigns</h5>
+                <p class="display-4">{{ campaigns or 0 }}</p>
+            </div></div>
+        </div>
+        <div class="col-md-3">
+            <div class="card"><div class="card-body">
+                <h5>Active</h5>
+                <p class="display-4">{{ active or 0 }}</p>
+            </div></div>
+        </div>
+    </div>
+    <h3 class="mt-4">Campaign Stats</h3>
+    <table class="table table-striped">
+        <thead><tr><th>Campaign</th><th>Total</th><th>Captured</th><th>Rate</th></tr></thead>
+        <tbody>
+            {% for stat in camp_stats %}
+            <tr>
+                <td>{{ stat.name }}</td>
+                <td>{{ stat.total }}</td>
+                <td>{{ stat.captured }}</td>
+                <td>{{ (stat.captured / stat.total * 100)|round(1) if stat.total > 0 else 0 }}%</td>
+            </tr>
+            {% else %}
+            <tr><td colspan="4" class="text-center">No campaign data</td></tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

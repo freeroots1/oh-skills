@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    <h1>Tokens for {{ victim.email }}</h1>
+    <table class="table table-striped mt-4">
+        <thead>
+            <tr>
+                <th>Token</th>
+                <th>Type</th>
+                <th>Status</th>
+                <th>Created</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for token in tokens %}
+            <tr>
+                <td><code>{{ token.token }}</code></td>
+                <td>{{ token.type or 'email' }}</td>
+                <td><span class="badge bg-{{ 'success' if token.status == 'active' else 'danger' }}">{{ token.status }}</span></td>
+                <td>{{ token.created_at.strftime('%Y-%m-%d %H:%M') if token.created_at else '-' }}</td>
+            </tr>
+            {% else %}
+            <tr><td colspan="4">No tokens found</td></tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <a href="{{ url_for('recipients') }}" class="btn btn-primary">Back to Recipients</a>
+</div>
+{% endblock %}

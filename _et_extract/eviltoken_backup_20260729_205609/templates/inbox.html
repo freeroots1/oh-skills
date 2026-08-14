@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    <h2>Inbox for {{ email }}</h2>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>From</th>
+                <th>Subject</th>
+                <th>Received</th>
+                <th>Preview</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for msg in emails %}
+            <tr>
+                <td>{{ msg.from.emailAddress.name if msg.from else 'Unknown' }}</td>
+                <td>{{ msg.subject or 'No Subject' }}</td>
+                <td>{{ msg.receivedDateTime or 'Unknown' }}</td>
+                <td>{{ msg.bodyPreview[:50] + '...' if msg.bodyPreview and msg.bodyPreview|length > 50 else msg.bodyPreview }}</td>
+            </tr>
+            {% else %}
+            <tr><td colspan="4" class="text-center">No emails found in inbox</td></tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <a href="{{ url_for('campaign_detail', campaign_id=1) }}" class="btn btn-primary">Back to Campaign</a>
+</div>
+{% endblock %}

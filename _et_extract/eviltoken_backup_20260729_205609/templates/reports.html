@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    <h2>Reports</h2>
+    <h3>SMTP Provider Stats</h3>
+    <table class="table table-striped">
+        <thead><tr><th>Name</th><th>Server</th><th>Status</th><th>Score</th><th>Success</th><th>Failed</th></tr></thead>
+        <tbody>
+            {% for stat in smtp_stats %}
+            <tr>
+                <td>{{ stat.name }}</td>
+                <td>{{ stat.server }}</td>
+                <td><span class="badge bg-{{ 'success' if stat.enabled else 'danger' }}">{{ 'Enabled' if stat.enabled else 'Disabled' }}</span></td>
+                <td>{{ stat.score }}</td>
+                <td>{{ stat.success_count or 0 }}</td>
+                <td>{{ stat.fail_count or 0 }}</td>
+            </tr>
+            {% else %}
+            <tr><td colspan="6" class="text-center">No SMTP providers</td></tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

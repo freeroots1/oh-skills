@@ -1,0 +1,277 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2><i class="fas fa-pen text-primary"></i> Create Template</h2>
+                <a href="{{ url_for('list_templates') }}" class="btn btn-secondary">
+                    <i class="fas fa-arrow-left"></i> Back to Templates
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="card shadow-sm">
+                <div class="card-header bg-white">
+                    <h5 class="mb-0">📝 Template Details</h5>
+                </div>
+                <div class="card-body">
+                    <form method="POST" id="templateForm">
+                        <!-- Template Name -->
+                        <div class="form-group mb-4">
+                            <label for="name" class="form-label fw-bold">Template Name <span class="text-danger">*</span></label>
+                            <input type="text" id="name" name="name" class="form-control form-control-lg" 
+                                   placeholder="e.g., Microsoft Security Alert - Q4 2026" required>
+                            <small class="text-muted">Descriptive name to identify this template</small>
+                        </div>
+
+                        <!-- Subject Line -->
+                        <div class="form-group mb-4">
+                            <label for="subject" class="form-label fw-bold">Subject Line <span class="text-danger">*</span></label>
+                            <input type="text" id="subject" name="subject" class="form-control form-control-lg" 
+                                   placeholder="e.g., Your Microsoft 365 account requires immediate verification" required>
+                            <small class="text-muted">Keep it short, urgent, and compelling</small>
+                        </div>
+
+                        <!-- Template Type -->
+                        <div class="form-group mb-4">
+                            <label for="type" class="form-label fw-bold">Template Type</label>
+                            <select id="type" name="type" class="form-select">
+                                <option value="standard">📄 Standard</option>
+                                <option value="phishing">🎣 Phishing</option>
+                                <option value="notification">🔔 Notification</option>
+                                <option value="warning">⚠️ Warning</option>
+                                <option value="verification">✅ Verification</option>
+                            </select>
+                            <small class="text-muted">Helps organize your templates</small>
+                        </div>
+
+                        <hr class="my-4">
+
+                        <!-- Email Body -->
+                        <div class="form-group mb-4">
+                            <label for="body" class="form-label fw-bold">Email Body (HTML) <span class="text-danger">*</span></label>
+                            <div class="border rounded">
+                                <div class="bg-light p-2 border-bottom">
+                                    <small class="text-muted">
+                                        <i class="fas fa-code"></i> HTML Content
+                                        <span class="float-end">
+                                            <button type="button" class="btn btn-sm btn-outline-success" onclick="insertVariable('{first_name}')">
+                                                <code>{first_name}</code>
+                                            </button>
+                                            <button type="button" class="btn btn-sm btn-outline-success" onclick="insertVariable('{last_name}')">
+                                                <code>{last_name}</code>
+                                            </button>
+                                            <button type="button" class="btn btn-sm btn-outline-success" onclick="insertVariable('{email}')">
+                                                <code>{email}</code>
+                                            </button>
+                                            <button type="button" class="btn btn-sm btn-outline-success" onclick="insertVariable('{company}')">
+                                                <code>{company}</code>
+                                            </button>
+                                            <button type="button" class="btn btn-sm btn-outline-success" onclick="insertVariable('{link}')">
+                                                <code>{link}</code>
+                                            </button>
+                                        </span>
+                                    </small>
+                                </div>
+                                <textarea id="body" name="body" class="form-control border-0" rows="20" 
+                                          placeholder="<!DOCTYPE html>&#10;<html>&#10;<head>&#10;  <style>&#10;    body { font-family: Arial, sans-serif; }&#10;  </style>&#10;</head>&#10;<body>&#10;  <h2>Dear {first_name} {last_name},</h2>&#10;  <p>Your account at {company} requires immediate verification.</p>&#10;  <p>Please verify your account by clicking the link below:</p>&#10;  <p><a href='{link}'>Click here to verify</a></p>&#10;  <p>Thank you,</p>&#10;  <p>Security Team</p>&#10;</body>&#10;</html>"
+                                          style="font-family: 'Courier New', monospace; font-size: 13px; resize: vertical; min-height: 400px;" 
+                                          required></textarea>
+                            </div>
+                            <small class="text-muted">
+                                <strong>Available variables:</strong><br>
+                                <span class="badge bg-primary"><code>{first_name}</code></span> - Recipient's first name<br>
+                                <span class="badge bg-primary"><code>{last_name}</code></span> - Recipient's last name<br>
+                                <span class="badge bg-primary"><code>{email}</code></span> - Recipient's email address<br>
+                                <span class="badge bg-primary"><code>{company}</code></span> - Recipient's company<br>
+                                <span class="badge bg-primary"><code>{link}</code></span> - Tracking link (automatically generated)
+                            </small>
+                        </div>
+
+                        <!-- Buttons -->
+                        <div class="d-flex gap-2 mt-4">
+                            <button type="button" class="btn btn-info btn-lg" onclick="previewTemplate()">
+                                <i class="fas fa-eye"></i> Preview
+                            </button>
+                            <button type="submit" class="btn btn-primary btn-lg flex-grow-1">
+                                <i class="fas fa-save"></i> Create Template
+                            </button>
+                            <a href="{{ url_for('list_templates') }}" class="btn btn-secondary btn-lg">
+                                <i class="fas fa-times"></i> Cancel
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="col-lg-4">
+            <div class="card shadow-sm mb-3">
+                <div class="card-header bg-info text-white">
+                    <i class="fas fa-lightbulb"></i> Template Tips
+                </div>
+                <div class="card-body">
+                    <ul class="list-unstyled">
+                        <li class="mb-3">
+                            <i class="fas fa-check-circle text-success"></i>
+                            <strong>Professional Design:</strong> Use clean, modern HTML
+                        </li>
+                        <li class="mb-3">
+                            <i class="fas fa-check-circle text-success"></i>
+                            <strong>Variables:</strong> Use variables to personalize emails
+                        </li>
+                        <li class="mb-3">
+                            <i class="fas fa-check-circle text-success"></i>
+                            <strong>Mobile Friendly:</strong> Make sure emails render well on mobile
+                        </li>
+                        <li class="mb-3">
+                            <i class="fas fa-check-circle text-success"></i>
+                            <strong>Testing:</strong> Preview before saving
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card shadow-sm">
+                <div class="card-header bg-warning text-dark">
+                    <i class="fas fa-exclamation-triangle"></i> Best Practices
+                </div>
+                <div class="card-body">
+                    <ul>
+                        <li>Use {first_name} for personalization</li>
+                        <li>Create a sense of urgency</li>
+                        <li>Include clear call-to-action</li>
+                        <li>Brand your emails consistently</li>
+                        <li>Test different subject lines</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Preview Modal -->
+<div class="modal fade" id="previewModal" tabindex="-1">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header bg-light">
+                <h5 class="modal-title">
+                    <i class="fas fa-eye text-info"></i> Template Preview
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body" id="previewContent" style="min-height: 400px;">
+                <div class="text-center text-muted py-5">
+                    <i class="fas fa-spinner fa-spin fa-2x"></i>
+                    <p class="mt-2">Loading preview...</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" onclick="applyTemplate()">
+                    <i class="fas fa-check"></i> Use This Template
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+function previewTemplate() {
+    const name = document.getElementById('name').value.trim();
+    const subject = document.getElementById('subject').value.trim();
+    const body = document.getElementById('body').value.trim();
+    
+    if (!name) {
+        alert('⚠️ Please enter a template name first.');
+        document.getElementById('name').focus();
+        return;
+    }
+    
+    if (!subject) {
+        alert('⚠️ Please enter a subject line first.');
+        document.getElementById('subject').focus();
+        return;
+    }
+    
+    if (!body) {
+        alert('⚠️ Please enter the email body content.');
+        document.getElementById('body').focus();
+        return;
+    }
+    
+    // Build preview with sample data
+    const sampleData = {
+        first_name: 'John',
+        last_name: 'Doe',
+        email: 'john.doe@example.com',
+        company: 'Acme Corporation',
+        link: 'https://example.com/verify/abc123'
+    };
+    
+    let preview = `<div class="card mb-3">
+        <div class="card-header bg-primary text-white">
+            <strong>Subject:</strong> ${subject}
+        </div>
+        <div class="card-body">
+            <div class="alert alert-info">
+                <strong>📧 Email Preview (with sample data)</strong><br>
+                <small>First Name: ${sampleData.first_name} | Last Name: ${sampleData.last_name} | Email: ${sampleData.email} | Company: ${sampleData.company}</small>
+            </div>
+            <div style="border: 1px solid #ddd; padding: 20px; border-radius: 5px; min-height: 300px;">
+                ${body}
+            </div>
+        </div>
+    </div>`;
+    
+    document.getElementById('previewContent').innerHTML = preview;
+    
+    // Show modal
+    var modal = new bootstrap.Modal(document.getElementById('previewModal'));
+    modal.show();
+}
+
+function applyTemplate() {
+    // Close modal and save
+    bootstrap.Modal.getInstance(document.getElementById('previewModal')).hide();
+    document.getElementById('templateForm').submit();
+}
+
+function insertVariable(varName) {
+    const textarea = document.getElementById('body');
+    const start = textarea.selectionStart;
+    const end = textarea.selectionEnd;
+    const text = textarea.value;
+    const before = text.substring(0, start);
+    const after = text.substring(end, text.length);
+    textarea.value = before + varName + after;
+    textarea.focus();
+    textarea.selectionStart = textarea.selectionEnd = start + varName.length;
+}
+
+// Auto-save draft indicator
+let autosaveTimer;
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('templateForm');
+    const inputs = form.querySelectorAll('input, textarea, select');
+    inputs.forEach(input => {
+        input.addEventListener('input', function() {
+            clearTimeout(autosaveTimer);
+            autosaveTimer = setTimeout(() => {
+                // Show auto-save indicator
+                const indicator = document.getElementById('autosaveIndicator');
+                if (indicator) {
+                    indicator.textContent = '💾 Draft saved';
+                    indicator.className = 'text-success';
+                }
+            }, 2000);
+        });
+    });
+});
+</script>
+{% endblock %}

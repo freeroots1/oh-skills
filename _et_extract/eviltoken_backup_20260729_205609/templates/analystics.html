@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}Analytics{% endblock %}
+{% block page_title %}Analytics{% endblock %}
+{% block extra_head %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+{% endblock %}
+{% block content %}
+<div class="stats-grid">
+    <div class="glass stat-card blue"><div class="number">{{ campaigns }}</div><div class="label">Total Campaigns</div></div>
+    <div class="glass stat-card green"><div class="number">{{ total }}</div><div class="label">Total Victims</div></div>
+    <div class="glass stat-card orange"><div class="number">{{ captured }}</div><div class="label">Captured</div></div>
+    <div class="glass stat-card" style="border-left-color: var(--info);"><div class="number">{{ active }}</div><div class="label">Active Campaigns</div></div>
+</div>
+<div class="glass">
+    <h3>📊 Campaign Performance</h3>
+    <div class="chart-container" style="height:300px;">
+        <canvas id="analyticsChart"></canvas>
+    </div>
+</div>
+<script>
+const ctx = document.getElementById('analyticsChart').getContext('2d');
+const labels = [{% for stat in camp_stats %}'{{ stat.name }}',{% endfor %}];
+const totalData = [{% for stat in camp_stats %}{{ stat.total }},{% endfor %}];
+const capturedData = [{% for stat in camp_stats %}{{ stat.captured }},{% endfor %}];
+new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: labels,
+        datasets: [
+            { label: 'Total Victims', data: totalData, backgroundColor: 'rgba(67,97,238,0.6)' },
+            { label: 'Captured', data: capturedData, backgroundColor: 'rgba(46,204,113,0.6)' }
+        ]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: { y: { beginAtZero: true } }
+    }
+});
+</script>
+{% endblock %}

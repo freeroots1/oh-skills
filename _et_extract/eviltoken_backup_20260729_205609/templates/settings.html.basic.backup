@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block title %}Settings{% endblock %}
+{% block page_title %}⚙️ System Settings{% endblock %}
+
+{% block content %}
+<div class="glass">
+    <h3>📧 SMTP Configuration</h3>
+    <form method="POST" action="/settings">
+        <div class="form-group">
+            <label>SMTP Server</label>
+            <input type="text" name="smtp_server" value="{{ settings.smtp_server or '' }}" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Port</label>
+            <input type="number" name="smtp_port" value="{{ settings.smtp_port or '587' }}" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Username</label>
+            <input type="text" name="smtp_username" value="{{ settings.smtp_username or '' }}" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Password</label>
+            <input type="password" name="smtp_password" value="{{ settings.smtp_password or '' }}" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>From Email</label>
+            <input type="email" name="smtp_from" value="{{ settings.smtp_from or '' }}" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Sender Name</label>
+            <input type="text" name="sender_name" value="{{ settings.sender_name or 'Microsoft Security' }}" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Base URL</label>
+            <input type="text" name="base_url" value="{{ settings.base_url or '' }}" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Max Workers</label>
+            <input type="number" name="max_workers" value="{{ settings.max_workers or '5' }}" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Rate Limit</label>
+            <input type="number" name="rate_limit_per_minute" value="{{ settings.rate_limit_per_minute or '60' }}" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-primary">💾 Save Settings</button>
+    </form>
+</div>
+{% endblock %}

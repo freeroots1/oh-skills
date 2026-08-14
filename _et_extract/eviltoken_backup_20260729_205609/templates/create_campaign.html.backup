@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Create Campaign{% endblock %}
+{% block page_title %}Create Campaign{% endblock %}
+{% block content %}
+<div class="glass" style="max-width: 700px; margin: 0 auto;">
+    <h2><i class="fas fa-plus-circle"></i> New Campaign</h2>
+    <form method="POST" enctype="multipart/form-data">
+        <label>Campaign Name</label>
+        <input type="text" name="name" required>
+
+        <label>Select Email Template (optional)</label>
+        <select name="template_id">
+            <option value="">Random (default)</option>
+            {% for t in templates %}
+            <option value="{{ t.id }}">{{ t.name }} ({{ t.type }})</option>
+            {% endfor %}
+        </select>
+
+        <label>Emails (one per line) OR upload CSV</label>
+        <textarea name="emails" rows="10" placeholder="victim1@domain.com"></textarea>
+
+        <label>CSV Upload (columns: email, first_name, last_name, company)</label>
+        <input type="file" name="csv_file" accept=".csv">
+
+        <button type="submit" class="btn">Create Campaign</button>
+    </form>
+</div>
+{% endblock %}

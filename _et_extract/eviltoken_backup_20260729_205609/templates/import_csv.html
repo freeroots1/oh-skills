@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    <h2>📥 Import CSV</h2>
+    <div class="card mt-4">
+        <div class="card-body">
+            <form method="POST" enctype="multipart/form-data">
+                <div class="form-group mb-3">
+                    <label for="name">Campaign Name</label>
+                    <input type="text" id="name" name="name" class="form-control" placeholder="Enter campaign name" required>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="csv_file">CSV File</label>
+                    <input type="file" id="csv_file" name="csv_file" class="form-control" accept=".csv" required>
+                    <small class="form-text text-muted">
+                        <strong>Supported formats:</strong><br>
+                        - One email per line<br>
+                        - CSV with email in first column<br>
+                        - Emails anywhere in the file (extracted automatically)
+                    </small>
+                </div>
+                <button type="submit" class="btn btn-success">
+                    <i class="fas fa-upload"></i> Upload & Create Campaign
+                </button>
+                <a href="{{ url_for('dashboard') }}" class="btn btn-secondary">Cancel</a>
+            </form>
+        </div>
+    </div>
+    
+    <div class="card mt-4">
+        <div class="card-header">
+            <h5>📋 CSV Format Example</h5>
+        </div>
+        <div class="card-body">
+            <pre class="bg-light p-3 rounded">
+email,first_name,last_name
+john@example.com,John,Doe
+jane@example.com,Jane,Smith
+bob@example.com,Bob,Johnson</pre>
+            <small class="text-muted">Note: Only the email column is required. Name columns are optional.</small>
+        </div>
+    </div>
+</div>
+{% endblock %}

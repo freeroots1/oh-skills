@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    <h1>Inbox for {{ victim.email }}</h1>
+    <table class="table table-striped mt-4">
+        <thead>
+            <tr>
+                <th>From</th>
+                <th>Subject</th>
+                <th>Date</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for inbox in inboxes %}
+            <tr>
+                <td>{{ inbox.sender or '-' }}</td>
+                <td>{{ inbox.subject or '-' }}</td>
+                <td>{{ inbox.received_at.strftime('%Y-%m-%d %H:%M') if inbox.received_at else '-' }}</td>
+                <td><span class="badge bg-{{ 'success' if inbox.is_read else 'warning' }}">{{ 'Read' if inbox.is_read else 'Unread' }}</span></td>
+            </tr>
+            {% else %}
+            <tr><td colspan="4">No messages found</td></tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <a href="{{ url_for('recipients') }}" class="btn btn-primary">Back to Recipients</a>
+</div>
+{% endblock %}

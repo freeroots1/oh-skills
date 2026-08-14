@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Create Template{% endblock %}
+{% block content %}
+<div class="card" style="max-width: 700px; margin: 0 auto;">
+    <h2>✏️ New Email Template</h2>
+    <p>Use placeholders: <code>{first_name}</code>, <code>{last_name}</code>, <code>{email}</code>, <code>{company}</code>, <code>{link}</code></p>
+    <form method="POST">
+        <label>Name</label>
+        <input type="text" name="name" required style="width:100%; padding:8px; margin:8px 0; border:1px solid #d2d2d7; border-radius:6px;">
+        <label>Subject</label>
+        <input type="text" name="subject" required style="width:100%; padding:8px; margin:8px 0; border:1px solid #d2d2d7; border-radius:6px;">
+        <label>Body (HTML)</label>
+        <textarea name="body" rows="15" style="width:100%; padding:8px; margin:8px 0; border:1px solid #d2d2d7; border-radius:6px;" required></textarea>
+        <label>Type</label>
+        <select name="type" style="width:100%; padding:8px; margin:8px 0; border:1px solid #d2d2d7; border-radius:6px;">
+            <option value="standard">Standard</option>
+            <option value="docusign">DocuSign</option>
+            <option value="sharepoint">SharePoint</option>
+            <option value="invoice">Invoice</option>
+            <option value="it_security">IT Security</option>
+        </select>
+        <button type="submit" class="btn">Create Template</button>
+    </form>
+</div>
+{% endblock %}

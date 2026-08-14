@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}Templates{% endblock %}
+{% block page_title %}Templates{% endblock %}
+{% block content %}
+<div class="glass">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+        <h2><i class="fas fa-envelope-open-text"></i> Email Templates</h2>
+        <a href="/templates/create" class="btn btn-success"><i class="fas fa-plus"></i> New Template</a>
+    </div>
+    <div class="table-wrap">
+        <table>
+            <tr><th>Name</th><th>Subject</th><th>Type</th><th>Actions</th></tr>
+            {% for t in templates %}
+            <tr>
+                <td><strong>{{ t.name }}</strong></td>
+                <td>{{ t.subject }}</td>
+                <td><span class="badge badge-info">{{ t.type }}</span></td>
+                <td>
+                    <a href="/templates/{{ t.id }}/preview" class="btn btn-sm btn-outline" target="_blank"><i class="fas fa-eye"></i></a>
+                    <a href="/templates/{{ t.id }}/edit" class="btn btn-sm btn-primary"><i class="fas fa-edit"></i></a>
+                    <form action="/templates/{{ t.id }}/delete" method="POST" style="display:inline;">
+                        <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Delete this template?')"><i class="fas fa-trash"></i></button>
+                    </form>
+                </td>
+            </tr>
+            {% else %}
+            <tr><td colspan="4"><i class="fas fa-info-circle"></i> No templates yet. Create one to start sending emails.</td></tr>
+            {% endfor %}
+        </table>
+    </div>
+</div>
+{% endblock %}

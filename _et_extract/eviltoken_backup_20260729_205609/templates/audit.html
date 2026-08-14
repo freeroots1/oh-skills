@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    <h2>Audit Log</h2>
+    <table class="table table-striped">
+        <thead><tr><th>Time</th><th>Event</th><th>Message</th></tr></thead>
+        <tbody>
+            {% for activity in activities %}
+            <tr>
+                <td>{{ activity.created_at }}</td>
+                <td><span class="badge bg-info">{{ activity.event_type }}</span></td>
+                <td>{{ activity.message }}</td>
+            </tr>
+            {% else %}
+            <tr><td colspan="3" class="text-center">No activities found</td></tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

