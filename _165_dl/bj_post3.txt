@@ -3,12 +3,22 @@
 <head>
 <meta charset="gb2312">
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<<<<<<< ours
 <title>后台管理</title>
 <meta name="keywords" content="后台管理" />
 <meta name="description" content="后台管理" />
+=======
+<title>锟斤拷台锟斤拷锟斤拷</title>
+<meta name="keywords" content="锟斤拷台锟斤拷锟斤拷" />
+<meta name="description" content="锟斤拷台锟斤拷锟斤拷" />
+>>>>>>> theirs
 <meta name="robots" content="none" />
 <link rel="stylesheet" type="text/css" href="a7css.css" />
 </head>
 <body>
 
+<<<<<<< ours
 <script LANGUAGE='javascript'>alert('验证码错误！');history.go(-1);</script>
+=======
+<script LANGUAGE='javascript'>alert('锟斤拷证锟斤拷锟斤拷锟�');history.go(-1);</script>
+>>>>>>> theirs

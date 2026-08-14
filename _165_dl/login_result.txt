@@ -1,4 +1,8 @@
+<<<<<<< ours
 ﻿<!DOCTYPE html>
+=======
+<!DOCTYPE html>
+>>>>>>> theirs
 <html>
 <head>
     <meta charset="UTF-8">
