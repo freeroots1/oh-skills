@@ -1,0 +1,9 @@
+PART /tmp/batch_part_ae DONE
+PART /tmp/batch_part_ai DONE
+PART /tmp/batch_part_ad DONE
+PART /tmp/batch_part_aj DONE
+PART /tmp/batch_part_af DONE
+PART /tmp/batch_part_ac DONE
+PART /tmp/batch_part_ah DONE
+PART /tmp/batch_part_ab DONE
+PART /tmp/batch_part_aa DONE

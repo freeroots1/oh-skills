@@ -1,0 +1,2 @@
+iitang.com	http://iitang.com/	admin/admin123	https://iitang.com/
+www.qjsgf.com	http://www.qjsgf.com/admin/	admin/000000	http://www.qjsgf.com/admin/login.html

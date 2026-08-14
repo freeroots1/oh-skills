@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Tue, 04 Aug 2026 02:39:17 GMT
+Content-Type: text/plain; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Location: http://heshdity.com
+Trace-Id: 35e42248c979c818762c4d1db0863791
+Set-Cookie: server_name_session=9c41d0fe35256312b83fb1e7c782706d; Max-Age=86400; httponly; path=/
+

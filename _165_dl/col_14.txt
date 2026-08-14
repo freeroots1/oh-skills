@@ -1,0 +1,7 @@
+<!--动态TKD只在列表类详细页使用-->
+ <font face="Arial" size=2>
+<p>Microsoft JET Database Engine</font> <font face="Arial" size=2>错误 '80040e14'</font>
+<p>
+<font face="Arial" size=2>在联合查询中所选定的两个数据表或查询中的列数不匹配。</font>
+<p>
+<font face="Arial" size=2>/inc/inhead2.asp</font><font face="Arial" size=2>，行 4</font> 

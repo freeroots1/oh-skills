@@ -1,0 +1,10 @@
+=== HYDRA BIG BRUTE FORCE ===
+Started: Thu Jul 30 02:55:16 UTC 2026
+
+[*] Starting SSH hydra (11 hosts, users: root+admin, -t 4, 100806 passwords)...
+SSH PID: 1928734
+[*] Starting RDP hydra (9 hosts, user: administrator, -t 1, 100806 passwords)...
+RDP PID: 1928735
+
+Waiting for both to complete...
+SSH hydra finished at: Thu Jul 30 02:57:41 UTC 2026

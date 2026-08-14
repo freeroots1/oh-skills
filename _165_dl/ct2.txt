@@ -1,0 +1,4 @@
+*/50 * * * * /opt/msray/collect_round.sh > /tmp/collect_round_cron.log 2>&1
+@reboot /opt/msray/collect_round.sh > /tmp/collect_round_cron.log 2>&1
+@reboot cd /www/sub && setsid python3 -m http.server 8001 --bind 0.0.0.0 > /tmp/subhttp.log 2>&1
+@reboot cd /www/sub && setsid python3 -m http.server 80 --bind 0.0.0.0 > /tmp/subhttp80.log 2>&1

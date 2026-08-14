@@ -1,0 +1,1 @@
+# Hydra v9.2 run at 2026-07-28 09:04:07 on 103.24.230.93 rdp (hydra -l administrator -P /tmp/test20.txt -t 2 -w 3 -o /tmp/test20_result.txt rdp://103.24.230.93)

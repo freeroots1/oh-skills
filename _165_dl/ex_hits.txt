@@ -1,0 +1,4 @@
+dgyibiao.com|/admin|admin
+hanyaohuanbao.com|/login|admin
+yidianzixun.com|/admin|admin
+yiqipaipingtai.com|/login|yiqipaipingtai

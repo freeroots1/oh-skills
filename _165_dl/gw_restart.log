@@ -1,0 +1,18 @@
+=== GW RESTART Sun Aug  9 00:24:30 UTC 2026 ===
+gateway stopped: 0
+API ok=True conflict=False
+gateway restarted: 0
+=== post-start polling check ===
+nohup: failed to run command './venv/bin/python3': No such file or directory
+=== GW RESTART END Sun Aug  9 00:25:07 UTC 2026 ===
+=== GW RESTART Sun Aug  9 00:26:25 UTC 2026 ===
+gateway stopped: 0
+API ok=True conflict=False
+gateway restarted: 1
+=== post-start polling check ===
+nohup: failed to run command './venv/bin/python3': No such file or directory
+WARNING gateway.run: No env user allowlists configured. Messaging platforms default to pairing/allowlist policies and will deny unknown senders unless you configure platform allowlists (e.g., TELEGRAM_ALLOWED_USERS=your_id) or explicitly opt in with GATEWAY_ALLOW_ALL_USERS=true plus dm_policy/group_policy: open on the platform.
+WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Discovering Telegram API fallback IPs via DNS-over-HTTPS…
+WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connecting to Telegram (attempt 1/8)…
+WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling conflict (1/5) — previous session still held open on Telegram's servers. Waiting 20s for it to expire. Error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=== GW RESTART END Sun Aug  9 00:27:07 UTC 2026 ===

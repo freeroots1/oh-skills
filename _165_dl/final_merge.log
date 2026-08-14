@@ -1,0 +1,17 @@
+[10:38:16] 等待 nuclei 全量扫描结束...
+[13:22:57] nuclei 已结束
+[13:22:57] 全量hits: 4
+最终保留域名: 105
+分类: {'auth': 46, 'sqli': 45, 'upload': 25}
+保留IP: 3
+  113.96.190.199	sunten
+  81.70.245.25	persist,server-root
+  81.70.245.25内网	lateral
+[13:22:58] 可渗透目标池: 105
+[13:22:59] 存活且命中4类: 21
+[13:22:59] 已更新 active_domains.txt
+[CVE-2021-37598] [http] [medium] https://96krock.com/wp-json
+[CVE-2021-37598] [http] [medium] https://alorica.com/wp-json
+[CVE-2021-37598] [http] [medium] https://clarkfund.org/wp-json
+[CVE-2021-37598] [http] [medium] https://cvec.com/wp-json
+DONE 13:22:59

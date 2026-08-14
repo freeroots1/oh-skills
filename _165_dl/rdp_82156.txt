@@ -1,0 +1,1 @@
+# Hydra v9.2 run at 2026-08-02 01:04:22 on 82.156.17.65 rdp (hydra -l administrator -P /tmp/precise_pass.txt -t 1 -W 3 -o /tmp/rdp_82156.txt rdp://82.156.17.65)

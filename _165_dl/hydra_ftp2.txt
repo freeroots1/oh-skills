@@ -1,0 +1,1 @@
+# Hydra v9.2 run at 2026-07-30 01:49:21 on /tmp/ftp_hosts.txt ftp (hydra -M /tmp/ftp_hosts.txt -l root -P /tmp/smart_pass.txt -t 2 -w 3 -f -o /tmp/hydra_ftp2.txt ftp)

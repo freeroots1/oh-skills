@@ -1,0 +1,18 @@
+szxinjiyou.com	generic	admin	123123
+www.lamoo.cn	generic	admin	admin123456
+cepn.cn	generic	admin	admin123
+699pic.com	generic	admin	admin123
+lsks.org.cn	generic	admin	admin123
+iitang.com	generic	admin	123456
+wallpic.cn	generic	admin	admin123
+cepn.cn	backend	admin	admin123	/admin/login.php REAL
+540.com.cn	generic	admin	admin123
+lsks.org.cn	backend	admin	admin123	/admin/ REAL
+cepn.cn	backend	admin	admin123	/admin/login.php REAL
+admin-dashboard.pagsmile.com	wordpress	admin	admin123
+anshig.com	generic	admin	admin123
+armord-alloy.com	generic	admin	admin123
+athdf.com	generic	admin	admin123
+auncel.com.cn	generic	admin	admin123
+bensonic-china.cn	generic	admin	admin123
+besttc.net	generic	admin	admin123

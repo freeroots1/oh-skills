@@ -1,0 +1,43 @@
+[*] Passwords file: /tmp/pwds.txt
+[*] Password count: 10
+[*] Codes per password: 10000
+[*] Total attempts: 100000
+[*] Captcha API: https://api.myxypt.com/captcha?width=140&height=48
+[*] Login URL: http://chinanaisi.com/admin/login.php
+[*] Username: admin
+[*] Starting...
+
+[*] PW[1/10]: admin | UUID: 405bf943-c4ac-4827-aa2c-39911fc8ea77
+[PROGRESS] 500/100000 (0.5%) | pw[1/10]: admin | code: 0499
+[PROGRESS] 1000/100000 (1.0%) | pw[1/10]: admin | code: 0999
+[PROGRESS] 1500/100000 (1.5%) | pw[1/10]: admin | code: 1499
+[PROGRESS] 2000/100000 (2.0%) | pw[1/10]: admin | code: 1999
+[PROGRESS] 2500/100000 (2.5%) | pw[1/10]: admin | code: 2499
+[PROGRESS] 3000/100000 (3.0%) | pw[1/10]: admin | code: 2999
+[PROGRESS] 3500/100000 (3.5%) | pw[1/10]: admin | code: 3499
+[PROGRESS] 4000/100000 (4.0%) | pw[1/10]: admin | code: 3999
+[PROGRESS] 4500/100000 (4.5%) | pw[1/10]: admin | code: 4499
+[PROGRESS] 5000/100000 (5.0%) | pw[1/10]: admin | code: 4999
+[PROGRESS] 5500/100000 (5.5%) | pw[1/10]: admin | code: 5499
+[PROGRESS] 6000/100000 (6.0%) | pw[1/10]: admin | code: 5999
+[PROGRESS] 6500/100000 (6.5%) | pw[1/10]: admin | code: 6499
+[PROGRESS] 7000/100000 (7.0%) | pw[1/10]: admin | code: 6999
+[PROGRESS] 7500/100000 (7.5%) | pw[1/10]: admin | code: 7499
+[PROGRESS] 8000/100000 (8.0%) | pw[1/10]: admin | code: 7999
+[PROGRESS] 8500/100000 (8.5%) | pw[1/10]: admin | code: 8499
+[PROGRESS] 9000/100000 (9.0%) | pw[1/10]: admin | code: 8999
+[PROGRESS] 9500/100000 (9.5%) | pw[1/10]: admin | code: 9499
+[PROGRESS] 10000/100000 (10.0%) | pw[1/10]: admin | code: 9999
+[*] No correct captcha found for 'admin'
+[*] PW[2/10]: admin123 | UUID: babff795-820d-49ef-8c21-2389486a8c88
+[PROGRESS] 10500/100000 (10.5%) | pw[2/10]: admin123 | code: 0499
+[PROGRESS] 11000/100000 (11.0%) | pw[2/10]: admin123 | code: 0999
+[PROGRESS] 11500/100000 (11.5%) | pw[2/10]: admin123 | code: 1499
+[PROGRESS] 12000/100000 (12.0%) | pw[2/10]: admin123 | code: 1999
+[PROGRESS] 12500/100000 (12.5%) | pw[2/10]: admin123 | code: 2499
+[PROGRESS] 13000/100000 (13.0%) | pw[2/10]: admin123 | code: 2999
+[PROGRESS] 13500/100000 (13.5%) | pw[2/10]: admin123 | code: 3499
+[PROGRESS] 14000/100000 (14.0%) | pw[2/10]: admin123 | code: 3999
+[PROGRESS] 14500/100000 (14.5%) | pw[2/10]: admin123 | code: 4499
+[PROGRESS] 15000/100000 (15.0%) | pw[2/10]: admin123 | code: 4999
+[PROGRESS] 15500/100000 (15.5%) | pw[2/10]: admin123 | code: 5499

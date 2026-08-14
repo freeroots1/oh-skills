@@ -1,0 +1,2 @@
+lkqihang.com|/admin|admin
+upaiyun.com|/login|admin

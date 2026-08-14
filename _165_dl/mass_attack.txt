@@ -1,0 +1,29 @@
+=== 全量攻击13目标 ===
+--- wmbluegame.com (129.204.72.107) ---
+  >>> MySQL root/root OK <<<
+--- baizhanke.com (123.206.224.148) ---
+  >>> MySQL root/root OK <<<
+--- shkm.com (150.158.112.25) ---
+  >>> MySQL root/root OK <<<
+--- swceb.com (120.79.150.103) ---
+  >>> MySQL root/root OK <<<
+--- imshusheng.com (175.24.174.28) ---
+  >>> MySQL root/root OK <<<
+  >>> imshusheng.com/admin admin/admin -> 5432B <<<
+--- lzyd.com (114.215.105.174) ---
+  >>> MySQL root/root OK <<<
+--- nw0898.com (47.120.63.67) ---
+  >>> MySQL root/root OK <<<
+--- bigddg.com (211.149.239.226) ---
+  >>> MySQL root/root OK <<<
+--- guimamuye.com (211.149.228.173) ---
+  >>> MySQL root/root OK <<<
+--- gxzyhb.com (211.149.229.52) ---
+  >>> MySQL root/root OK <<<
+--- qinggonggroup.com (211.149.230.231) ---
+  >>> MySQL root/root OK <<<
+--- e2say.com (120.55.92.21) ---
+--- guoxuedashi.com (39.100.109.144) ---
+--- dcccji.com (152.136.46.163) ---
+=== 全量完成 ===
+Sat Aug  1 08:48:48 UTC 2026

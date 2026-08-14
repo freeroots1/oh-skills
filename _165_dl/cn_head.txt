@@ -1,0 +1,11 @@
+HTTP/1.1 302 Found
+Server: nginx
+Date: Thu, 30 Jul 2026 02:35:59 GMT
+Content-Type: text/html;charset=utf-8
+Content-Length: 0
+Connection: keep-alive
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Location: /admin/login.php
+

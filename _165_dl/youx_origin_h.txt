@@ -1,0 +1,14 @@
+HTTP/1.1 301 Moved Permanently
+Server: ESA
+Date: Thu, 30 Jul 2026 07:00:34 GMT
+Content-Type: text/html
+Content-Length: 258
+Connection: keep-alive
+Set-Cookie: acw_tc=3b242d1a17853948340683415e1e1ff56597ed5391008430099d2d9384;path=/;HttpOnly;Max-Age=3600
+Set-Cookie: cdn_sec_tc=3b242d1a17853948340683415e1e1ff56597ed5391008430099d2d9384;path=/;HttpOnly;Max-Age=3600
+Location: https://youxiniao.com/
+Cache-Control: max-age=3600
+Via: ens-cache6.cn9564[,0]
+Timing-Allow-Origin: *
+EagleId: 3b242d1a17853948340683415e
+

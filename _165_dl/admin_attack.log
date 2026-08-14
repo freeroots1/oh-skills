@@ -1,0 +1,23 @@
+admin_attack: 104 domains
+!!! HIT iitang.com admin/admin123 -> https://iitang.com/
+[admin_attack done] captcha-blocked: 34
+CAPTCHA	lsks.org.cn	/admin/	inputs=chCode,password,username,exprandCode
+CAPTCHA	hbvalve.com.cn	/admin.php	inputs=user,pass,_code
+CAPTCHA	gdcq119.com	/admin/login.asp	inputs=UserName,Password,CheckCode,Submit,reset
+CAPTCHA	szsadwj.com	/admin/login.asp	inputs=UserName,Password,CheckCode,Submit,reset
+CAPTCHA	haitaicasting.com	/admin.php	inputs=formcheck,username,password,checkcode
+CAPTCHA	skgcn.cn	/admin/	inputs=username,password,code
+CAPTCHA	skgcn.cn	/admin.php	inputs=username,password,code
+CAPTCHA	lianxiangzz.com	/admin.php	inputs=username,password,verify,submit
+CAPTCHA	kohergroup.com	/login.php	inputs=act,login_url,username,password,valicode,login_btn
+CAPTCHA	www.hui-zhong.com.cn	/admin/login.php	inputs=cookie_time,login_name,login_pass,codeid,action,imageField
+CAPTCHA	www.hbkx.org.cn	/admin/login.php	inputs=username,password,vcode,remember_me
+CAPTCHA	www.hbkx.org.cn	/admin/login.asp	inputs=username,password,vcode,remember_me
+CAPTCHA	www.songfa.com	/admin/	inputs=__token__,username,password,captcha
+CAPTCHA	www.songfa.com	/admin/login	inputs=__token__,username,password,captcha
+CAPTCHA	www.xiangpaichain.com	/admin/login.php	inputs=username,password,authcode
+CAPTCHA	catugbio.com	/admin/	inputs=username,password,verify
+CAPTCHA	catugbio.com	/admin/login	inputs=username,password,verify
+CAPTCHA	resemi.com	/admin/login.php	inputs=username,password,capcode,action
+CAPTCHA	jy.huvtc.edu.cn	/admin/	inputs=UserULoginForm[username],UserULoginForm[password],UserULoginForm[verifyCode],UserULoginForm[rememberMe],UserULoginForm[rememberMe],yt0
+CAPTCHA	jy.huvtc.edu.cn	/manage/	inputs=UserULoginForm[username],UserULoginForm[password],UserULoginForm[verifyCode],UserULoginForm[rememberMe],UserULoginForm[rememberMe],yt0

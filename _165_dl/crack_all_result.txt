@@ -1,0 +1,31 @@
+Progress: 0.5M - remaining: admin, admin999, hacker
+Progress: 1.0M - remaining: admin, admin999, hacker
+Progress: 1.5M - remaining: admin, admin999, hacker
+Progress: 2.0M - remaining: admin, admin999, hacker
+Progress: 2.5M - remaining: admin, admin999, hacker
+Progress: 3.0M - remaining: admin, admin999, hacker
+Progress: 3.5M - remaining: admin, admin999, hacker
+Progress: 4.0M - remaining: admin, admin999, hacker
+Progress: 4.5M - remaining: admin, admin999, hacker
+Progress: 5.0M - remaining: admin, admin999, hacker
+Progress: 5.5M - remaining: admin, admin999, hacker
+Progress: 6.0M - remaining: admin, admin999, hacker
+Progress: 6.5M - remaining: admin, admin999, hacker
+Progress: 7.0M - remaining: admin, admin999, hacker
+Progress: 7.5M - remaining: admin, admin999, hacker
+Progress: 8.0M - remaining: admin, admin999, hacker
+Progress: 8.5M - remaining: admin, admin999, hacker
+Progress: 9.0M - remaining: admin, admin999, hacker
+Progress: 9.5M - remaining: admin, admin999, hacker
+Progress: 10.0M - remaining: admin, admin999, hacker
+Progress: 10.5M - remaining: admin, admin999, hacker
+Progress: 11.0M - remaining: admin, admin999, hacker
+Progress: 11.5M - remaining: admin, admin999, hacker
+Progress: 12.0M - remaining: admin, admin999, hacker
+Progress: 12.5M - remaining: admin, admin999, hacker
+Progress: 13.0M - remaining: admin, admin999, hacker
+Progress: 13.5M - remaining: admin, admin999, hacker
+Progress: 14.0M - remaining: admin, admin999, hacker
+Rockyou exhausted. Remaining: admin, admin999, hacker
+FOUND! hack5 password: test123
+FOUND! shell password: shell123

@@ -1,0 +1,11 @@
+>>> tianyiidc.com/login admin/admin -> 10062B
+>>> haifanwu.com/admin admin/admin -> 11242B
+>>> aonaotu.com/login admin/admin -> 7612B
+>>> gxtuoyi.com/login admin/123456 -> 4123B
+>>> hn-medical.com/admin/login admin/admin -> 21040B
+>>> susungroup.com/admin/login admin/admin -> 7934B
+>>> fescojinan.com/login admin/admin -> 3368B
+>>> yhdfa.com/admin admin/admin -> 16040B
+>>> ieevchina.com/admin admin/admin -> 19879B
+>>> hiheartgo.com/admin admin/admin -> 21508B
+>>> sadidc.com/login admin/admin -> 8432B

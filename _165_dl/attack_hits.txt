@@ -1,0 +1,2 @@
+CONTROL|BACKEND|mail.cyclubliveapp.com|admin:admin|/login.php (cookie-verified)
+CONTROL|BACKEND|www.sotlschool.com|admin:admin|/admin/ (cookie-verified)

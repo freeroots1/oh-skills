@@ -1,0 +1,17 @@
+C:\phpStudy\MySQL\bin\mysqld.exe, Version: 5.5.53 (MySQL Community Server (GPL)). started with:
+TCP Port: 3306, Named Pipe: MySQL
+Time                 Id Command    Argument
+260812 20:48:23	 3933 Query	SELECT 'GIF89aDONE:117.50.158.75
+DONE:38.182.229.24
+DONE:38.182.229.92
+DONE:121.41.128.239
+DONE:112.74.92.61
+DONE:47.104.13.165
+DONE:101.43.211.68
+DONE:106.52.211.102
+DONE:117.50.68.247
+//'
+SET GLOBAL general_log=OFF
+		 3933 Quit	
+		 3934 Connect	root@localhost on 
+		 3934 Query	SET GLOBAL general_log_file='C:/phpStudy/MySQL/data/zz_general.log'

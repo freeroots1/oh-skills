@@ -1,0 +1,38 @@
+[jixie] https://www.huangye88.com/jixie/ ... FAIL(182B)
+[jianzhu] https://www.huangye88.com/jianzhu/ ... FAIL(2067B)
+[huagong] https://www.huangye88.com/huagong/ ... FAIL(182B)
+[fangzhi] https://www.huangye88.com/fangzhi/ ... 3 domains
+[dianqi] https://www.huangye88.com/dianqi/ ... FAIL(182B)
+[wujin] https://www.huangye88.com/wujin/ ... FAIL(182B)
+[yibiao] https://www.huangye88.com/yibiao/ ... FAIL(2067B)
+[zhoucheng] https://www.huangye88.com/zhoucheng/ ... FAIL(2067B)
+[gangtie] https://www.huangye88.com/gangtie/ ... FAIL(182B)
+[muju] https://www.huangye88.com/muju/ ... FAIL(2067B)
+[dianlan] https://www.huangye88.com/dianlan/ ... FAIL(2067B)
+[yeya] https://www.huangye88.com/yeya/ ... FAIL(2067B)
+[suliao] https://www.huangye88.com/suliao/ ... FAIL(182B)
+[baozhuang] https://www.huangye88.com/baozhuang/ ... FAIL(182B)
+[shipin] https://www.huangye88.com/shipin/ ... FAIL(182B)
+[yiliao] https://www.huangye88.com/yiliao/ ... FAIL(2067B)
+[huanbao] https://www.huangye88.com/huanbao/ ... FAIL(182B)
+[nengyuan] https://www.huangye88.com/nengyuan/ ... FAIL(182B)
+[tongxin] https://www.huangye88.com/tongxin/ ... FAIL(182B)
+[ruanjian] https://www.huangye88.com/ruanjian/ ... FAIL(2067B)
+[qiche] https://www.huangye88.com/qiche/ ... 2 domains
+[dianji] https://www.huangye88.com/dianji/ ... 2 domains
+[zhizao] https://www.huangye88.com/zhizao/ ... 2 domains
+[jiagong] https://www.huangye88.com/jiagong/ ... 2 domains
+[shiyou] https://www.huangye88.com/shiyou/ ... 2 domains
+[yejin] https://www.huangye88.com/yejin/ ... 2 domains
+[taoci] https://www.huangye88.com/taoci/ ... 2 domains
+[jiaju] https://www.huangye88.com/jiaju/ ... 2 domains
+[dianzi] https://www.huangye88.com/dianzi/ ... 2 domains
+[guangdian] https://www.huangye88.com/guangdian/ ... 2 domains
+[zhileng] https://www.huangye88.com/zhileng/ ... 2 domains
+[bianyaqi] https://www.huangye88.com/bianyaqi/ ... 2 domains
+[shukong] https://www.huangye88.com/shukong/ ... 2 domains
+[jingmi] https://www.huangye88.com/jingmi/ ... 2 domains
+[mucai] https://www.huangye88.com/mucai/ ... 2 domains
+[xincailiao] https://www.huangye88.com/xincailiao/ ... 2 domains
+
+总计: 5 → /tmp/huangye_domains.txt

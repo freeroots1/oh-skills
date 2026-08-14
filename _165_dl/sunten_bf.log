@@ -1,0 +1,15 @@
+=== user admin ===
+CHECK admin/admin123: err=nojson msg=
+CHECK admin/qwe123: err=nojson msg=
+user admin done
+=== user root ===
+CHECK root/1qaz2wsx: err=nojson msg=
+user root done
+=== user test ===
+CHECK test/123456: err=nojson msg=
+user test done
+=== user sunten ===
+user sunten done
+=== user manager ===
+user manager done
+=== NO HIT ===

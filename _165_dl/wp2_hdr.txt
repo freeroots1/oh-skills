@@ -1,0 +1,17 @@
+HTTP/2 302 
+server: nginx
+date: Tue, 04 Aug 2026 03:10:03 GMT
+content-type: text/html; charset=UTF-8
+location: https://chegva.com/
+pragma: no-cache
+expires: Wed, 11 Jan 1984 05:00:00 GMT
+cache-control: no-cache, must-revalidate, max-age=0
+set-cookie: wordpress_test_cookie=WP%20Cookie%20check; path=/; secure
+x-frame-options: SAMEORIGIN
+access-control-allow-origin: *
+access-control-allow-headers: X-Requested-With
+access-control-allow-methods: GET,POST,OPTIONS,HEAD
+x-content-type-options: nosniff
+strict-transport-security: max-age=31536000; includeSubdomains
+x-frame-options: SAMEORIGIN
+

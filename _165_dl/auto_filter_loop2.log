@@ -1,0 +1,13 @@
+[loop] start Wed Aug 12 23:38:46 UTC 2026
+[loop] batch 0 Wed Aug 12 23:38:46 UTC 2026
+[loop] batch 0 rc=0 remaining=13901
+[loop] batch 1 Thu Aug 13 00:09:26 UTC 2026
+[loop] batch 1 rc=0 remaining=9202
+[loop] batch 2 Thu Aug 13 00:38:36 UTC 2026
+[loop] batch 2 rc=0 remaining=7268
+[loop] batch 3 Thu Aug 13 01:10:37 UTC 2026
+[loop] batch 3 rc=0 remaining=2462
+[loop] batch 4 Thu Aug 13 01:41:11 UTC 2026
+[loop] batch 4 rc=0 remaining=0
+[loop] all done
+[loop] end Thu Aug 13 01:52:49 UTC 2026

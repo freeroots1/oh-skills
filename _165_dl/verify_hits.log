@@ -1,0 +1,18 @@
+verify: 16 hits
+[FALSE] cordeiroesaraiva.com /admin/ admin/admin123 (still-login(http://cordeiroesaraiva.com/admin/))
+[FALSE] agence-uni.com /login.php admin/admin123 (still-login(https://agence-uni.com/wp-login.php))
+[FALSE] evenement.otrement.info /login.php admin/admin123 (still-login(https://evenement.otrement.info/wp-login.php))
+[FALSE] 11ban.top /admin/index.php admin/admin123 (still-login(https://www.11ban.top/admin/login.php?referer=https%3A%2F%2F))
+[FALSE] idx.1strealtyrangewide.com /admin/ admin/admin123 (still-login(https://1strealtyrangewide.com/wp-login.php?redirect_to=http))
+[FALSE] lamoo.cn /admin/ admin/admin123 (still-login(http://lamoo.cn/Admin/Signin.aspx?returnURL=%2fadmin%2fdefau))
+[FALSE] swedx.com /login.php admin/admin123 (still-login(https://swedx.com/wp-login.php))
+[FALSE] szwd3d.com /admin/ admin/abc123456 (no form)
+[FALSE] szxinjiyou.com /admin/ admin/123321 (no form)
+[FALSE] www.atlashomehealth.com /login.php admin/admin123 (still-login(https://atlashomehealth.com/wp-login.php))
+[FALSE] www.elbuzondejoseba.org /login.php admin/admin123 (still-login(https://www.elbuzondejoseba.org/wp-login.php))
+[FALSE] www.g-gmakine.com /admin/ admin/admin123 (still-login(https://www.g-gmakine.com/Admin/SignIn.aspx?ReturnUrl=%2fadm))
+[FALSE] www.escoladolouvor.com /login.php admin/admin123 (still-login(https://escoladolouvor.com/wp-login.php))
+[FALSE] www.jointherivercoalition.org /login.php admin/admin123 (still-login(https://jointherivercoalition.org/wp-login.php))
+[FALSE] www.mingyangshijia.cn /admin/ admin/admin123456 (no form)
+[FALSE] www.lamoo.cn /admin/ admin/admin123 (still-login(http://www.lamoo.cn/Admin/Signin.aspx?returnURL=%2fadmin%2fd))
+[verify done]

@@ -1,0 +1,1 @@
+# Hydra v9.2 run at 2026-08-04 07:21:27 on /tmp/ssh20.txt ssh (hydra -L /tmp/users.txt -P /tmp/pass.txt -M /tmp/ssh20.txt -t 4 -o /tmp/ssh_result.txt ssh)

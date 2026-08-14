@@ -1,0 +1,10 @@
+pw-wrong admin/admin
+pw-wrong admin/admin123
+pw-wrong admin/123456
+pw-wrong admin/admin888
+pw-wrong admin/12345678
+WAF admin/password sleep 60
+WAF admin/admin@123 sleep 60
+cap-fail admin/admin1234, sleep 30
+cap-fail admin/admin1234, sleep 30
+cap-fail admin/admin1234, sleep 30

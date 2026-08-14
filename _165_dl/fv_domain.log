@@ -1,0 +1,4 @@
+targets: 13853
+
+=== [upload] ===
+templates: ['/root/nuclei-templates/http/vulnerabilities/codimd-file-upload.yaml', '/root/nuclei-templates/http/vulnerabilities/ueditor-arbitrary-file-upload.yaml']

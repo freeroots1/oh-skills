@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>网站后台管理系统--管理员登录</title>
+<link href="/default/css/main_new.css?ver=0.0.30" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/default/js/jquery.js"></script>
+<script type="text/javascript" src="/track/permission/index/commonscript"></script>
+<script type="text/javascript" src="/default/js/admin.js?ver=0.0.30"></script>
+<style>
+  td {background: url(/default/images/bk.bmp) repeat; /*#278296*/; color:white;}
+  .body {background: url(/default/images/bk.bmp) repeat;}
+  .top100 {margin-top: 100px;}
+  .left50 {padding-left: 50px;}
+  .cursor {cursor: pointer;}
+</style>
+<script>
+    if (window.self != window.top) window.top.location.href = window.self.location.href;
+
+	$(document).keydown(function(event){
+		if (event.keyCode == 13) {
+			chklogin();
+		}
+	});
+	function flush_check_code() 
+	{
+		var check_img = $('#check_img').get(0);
+		var split_check_img_src = check_img.src.split('?');
+		var url = split_check_img_src[0];
+		var query = split_check_img_src[1];
+		check_img.src = url + "?time=" + (new Date().getTime());
+	}
+</script>
+</head>
+<body class='body'>
+  <table cellspacing="0" cellpadding="0" class='top100' align="center">
+  <tr>
+    <td><img src="/default/images/x7.bmp" width="178" height="256" border="0" alt="" /></td>
+    <td class='left50'>
+      <table>
+      <tr><td>用户名：</td><td><input type="text" name="account" id="account" value="" maxlength="30" /></td></tr>
+      <tr><td>密码：</td><td><input type="password" name="password" id="password" value="" /></td></tr>
+      <tr><td>验证码：</td><td><input type="text" name="check_code" id="check_code" value="" maxlength="4" /></td></tr>
+      <tr>
+         <td>&nbsp;</td>
+         <td align="left">
+            <img src="/track/permission/index/check-code?time=0" width="134" height="20" border="1" name="check_img" id="check_img" 
+                 title="看不清楚请点击换图" alt="看不清楚请点击换图" onclick="flush_check_code();" class='cursor'/>
+         </td>
+      </tr>
+      <tr>
+          <td colspan="2"><input name="remeber" id="remeber" type="checkbox" title="记住密码" checked="checked"/><label for="remember">记住密码</label></td>
+      </tr>
+      <tr>
+          <td>&nbsp;</td>
+          <td>
+            <input type="button" class="button" onclick="chklogin();" value='马上登陆'/>
+            <input type="reset"  onclick='reset()'/>
+          </td>
+      </tr>
+      </table>
+    </td>
+  </tr>
+  </table>
+<script>
+	var account = "";
+	var password = "";
+	
+	if (account = get_local_storage("cookie_account")) $("#account").val(account);
+	if (password = get_local_storage("cookie_password")) $("#password").val(password);
+	if (get_local_storage("cookie_remeber") != null) $("#remeber").attr('checked', 'checked');
+	
+	function reset()
+	{
+		$('#account').val('');
+		$('#password').val('');
+		$('#check_code').val('');
+	}
+</script>
+</body>
+</html>

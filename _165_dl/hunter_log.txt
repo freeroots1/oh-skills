@@ -1,0 +1,166 @@
+[SQLI?] mx007.com/?id=1 31905vs31890
+[PORTS] shenqiwunet.com(129.211.7.217) | 3306(MySQL),22(SSH),21(FTP),8080(HTTP8080)
+[PORTS] zenner-metering.com(47.98.45.245) | 21(FTP)
+[PORTS] fiberhome.com(36.111.148.98) | 8080(HTTP8080)
+[PORTS] ztedu.com(61.166.53.158) | 3306(MySQL)
+[PORTS] lzsgmf.com(39.104.14.69) | 22(SSH),21(FTP)
+[LEAK] gdkingma.com/config.php.bak 509B
+[LEAK] gdkingma.com/db.sql 509B
+[PORTS] ddxstxt8.com(23.224.93.42) | 22(SSH)
+[REDIS-NO-AUTH!!] ibossay.com(120.46.187.242) Redis no-auth
+[PORTS] zhishifenzi.com(47.94.85.250) | 3306(MySQL),22(SSH)
+[PORTS] hbooker.com(47.114.93.84) | 22(SSH)
+[PORTS] shmet.com(124.223.147.11) | 8080(HTTP8080)
+[PORTS] macsc.com(47.57.183.13) | 22(SSH)
+[PORTS] geyo.com(8.210.195.226) | 22(SSH)
+[LEAK] zhongyi9999.com/config.php.bak 900B
+[PORTS] lyggm.com(58.241.227.45) | 8080(HTTP8080)
+[PORTS] upkk.com(211.136.106.223) | 8080(HTTP8080)
+[PORTS] xhxgt.com(43.140.193.145) | 22(SSH)
+[PORTS] kejitechangsheng.com(49.232.57.164) | 22(SSH)
+[PORTS] pymh.com(127.0.0.1) | 3306(MySQL),22(SSH)
+[PORTS] puaas.com(47.112.204.1) | 22(SSH)
+[PORTS] mythcare.com(123.57.80.207) | 22(SSH)
+[PORTS] riyugo.com(8.217.223.9) | 22(SSH)
+[SQLI?] xmzhkt.com/?id=1 59919vs59925
+[LEAK] zhengqi100.com/.git/config 372B
+[PORTS] 9a9m.com(120.78.234.165) | 3306(MySQL),22(SSH),21(FTP)
+[PORTS] yuanxinbaoxian.com(47.242.36.233) | 3306(MySQL),22(SSH),21(FTP)
+[PORTS] pryk0755.com(47.116.201.121) | 21(FTP)
+[PORTS] laikanxia.com(43.100.4.42) | 22(SSH)
+[PORTS] oempromo.com(182.161.39.118) | 21(FTP)
+[LEAK] cyswxa.com/web.config 305B
+[PORTS] shwhl.com(120.78.78.131) | 22(SSH)
+[PORTS] suruicloud.com(124.70.221.10) | 8080(HTTP8080)
+[PORTS] bjqtsecbase.com(122.112.208.227) | 8080(HTTP8080)
+[LEAK] for-she.com/.env 946B
+[LEAK] for-she.com/.git/config 946B
+[LEAK] for-she.com/web.config 946B
+[LEAK] for-she.com/.svn/entries 946B
+[LEAK] for-she.com/config.php.bak 946B
+[LEAK] for-she.com/db.sql 946B
+[SQLI?] alliancebrh.com/?id=1 102491vs102694
+[PORTS] zzzlsh.com(101.201.106.191) | 21(FTP),8080(HTTP8080)
+[PORTS] zxpmq.com(121.198.236.198) | 21(FTP),8080(HTTP8080)
+[PORTS] ee1234.com(103.231.15.138) | 21(FTP)
+[SQLI?] miliol.com/?id=1 119758vs119692
+[PORTS] huazirc.com(47.98.195.70) | 22(SSH),8080(HTTP8080)
+[SQLI?] xiusheji.com/?id=1 82057vs82003
+[SQLI?] mesonart.com/?id=1 1845806vs1845807
+[PORTS] emai.com(152.32.219.197) | 22(SSH)
+[LEAK] china-pcba.com/web.config 1474B
+[PORTS] china-pcba.com(123.58.214.9) | 22(SSH),21(FTP)
+[PORTS] dsary.com(118.123.250.150) | 3306(MySQL)
+[PORTS] wancaomei.com(47.114.217.244) | 22(SSH)
+[PORTS] hotgamehl.com(124.95.136.140) | 8080(HTTP8080)
+[PORTS] zhaojiaoan.com(120.55.72.175) | 3389(RDP)
+[PORTS] tabbywork.com(104.21.54.170) | 8080(HTTP8080)
+[PORTS] mingfucloud.com(39.105.120.117) | 8080(HTTP8080)
+[PORTS] jingjiasc.com(110.42.101.58) | 3306(MySQL),22(SSH),21(FTP)
+[PORTS] jisi17.com(8.136.4.141) | 3389(RDP)
+[SQLI?] sdysjcc.com/?id=1 55882vs55910
+[PORTS] ihanbridge.com(173.255.240.198) | 3306(MySQL),22(SSH)
+[PORTS] aimoeart.com(47.76.147.234) | 3306(MySQL)
+[PORTS] weiyi.com(47.104.146.152) | 3389(RDP),8080(HTTP8080)
+[PORTS] smartermicro.com(47.101.179.177) | 22(SSH)
+[PORTS] nnwilking.com(43.138.203.5) | 22(SSH),21(FTP)
+[SQLI?] asklink.com/?id=1 115532vs115551
+[PORTS] dadongwu.com(60.191.141.84) | 8080(HTTP8080)
+[PORTS] etoptour.com(121.42.247.236) | 22(SSH)
+[SQLI?] artaime.com/?id=1 41231vs41243
+[PORTS] baiousen.com(120.26.41.131) | 21(FTP),8080(HTTP8080)
+[PORTS] shunnengoil.com(120.26.66.204) | 22(SSH)
+[PORTS] njrzkj.com(121.43.239.200) | 21(FTP),8080(HTTP8080)
+[PORTS] wutaishanfojiao.com(47.93.192.193) | 22(SSH)
+[PORTS] zgjsqw.com(103.148.58.62) | 22(SSH),21(FTP)
+[PORTS] yiqig.com(47.94.112.177) | 3306(MySQL),22(SSH)
+[PORTS] up135.com(47.115.80.123) | 22(SSH),8080(HTTP8080)
+[PORTS] qinglinong.com(175.178.0.132) | 22(SSH)
+[PORTS] netchina100.com(39.96.174.18) | 21(FTP),8080(HTTP8080)
+[PORTS] zhuoqundianli.com(60.205.224.62) | 21(FTP)
+[PORTS] liyangic.com(121.199.174.220) | 3389(RDP)
+[ROUND] 04:39 done
+[PORTS] devskyr.com(47.113.194.177) | 3306(MySQL),22(SSH),21(FTP)
+[PORTS] sz-gaokai.com(101.36.223.222) | 21(FTP)
+[PORTS] pujingjt888.com(43.139.186.133) | 22(SSH),21(FTP)
+[PORTS] xiankabao.com(127.0.0.127) | 22(SSH)
+[PORTS] hmsemi.com(121.43.237.111) | 22(SSH)
+[PORTS] tv189.com(121.229.202.6) | 8080(HTTP8080)
+[PORTS] bangjigroup.com(114.215.155.101) | 21(FTP),8080(HTTP8080)
+[PORTS] cqhewin.com(211.149.231.47) | 3306(MySQL)
+[SQLI?] 1zu.com/?id=1 22622vs22623
+[SQLI?] nenghaoidc.com/?id=1 42143vs42051
+[PORTS] sziota.com(8.129.10.67) | 3389(RDP)
+[SQLI?] bigherdsman.com/?id=1 171836vs171838
+[PORTS] shouxi.com(123.56.101.75) | 21(FTP)
+[PORTS] cheersofa.com(47.106.76.140) | 22(SSH)
+[SQLI?] jywanrun.com/?id=1 34622vs260
+[PORTS] yuliancn.com(110.88.128.242) | 3389(RDP),21(FTP)
+[PORTS] scmylike.com(112.124.17.118) | 22(SSH)
+[PORTS] playchd.com(81.68.254.206) | 22(SSH),21(FTP)
+[PORTS] anicoga.com(192.144.210.244) | 22(SSH)
+[PORTS] adssaas.com(39.108.230.161) | 3306(MySQL),22(SSH),21(FTP)
+[PORTS] xichongsm.com(8.130.15.227) | 3306(MySQL)
+[PORTS] weiyi.com(47.104.146.152) | 3389(RDP),8080(HTTP8080)
+[SQLI?] philipswechat.com/?id=1 5792vs5798
+[PORTS] fjhcw.com(103.217.192.37) | 21(FTP)
+[PORTS] jumold.com(120.24.227.189) | 3306(MySQL),21(FTP)
+[SQLI?] aboutyun.com/?id=1 22661vs22663
+[PORTS] houzhibo.com(47.94.150.18) | 22(SSH)
+[SQLI?] yabyy.com/?id=1 30163vs30166
+[PORTS] ygbx.com(101.37.42.237) | 8080(HTTP8080)
+[PORTS] renmaiku.com(47.86.221.20) | 22(SSH)
+[PORTS] hszsz.com(124.220.15.209) | 21(FTP)
+[PORTS] yaoxiaoyi.com(112.74.129.164) | 3389(RDP),21(FTP),8080(HTTP8080)
+[PORTS] seasj.com(114.55.168.204) | 22(SSH),21(FTP)
+[LEAK] luebin.com/db.sql 13643B
+[PORTS] chinaneweast.com(47.97.161.235) | 22(SSH),21(FTP)
+[PORTS] dingliangame.com(47.243.139.128) | 22(SSH),8080(HTTP8080)
+[PORTS] gzghic.com(47.106.91.243) | 21(FTP)
+[PORTS] juhuisuan.com(47.98.205.206) | 22(SSH)
+[PORTS] piaobing.com(112.124.32.112) | 3306(MySQL),22(SSH)
+[PORTS] 9linux.com(43.156.25.3) | 22(SSH)
+[SQLI?] eprcw.com/?id=1 216393vs216394
+[SQLI?] cnhls.com/?id=1 102247vs102248
+[PORTS] zhongwogroup.com(81.71.137.44) | 3306(MySQL),3389(RDP),21(FTP)
+[PORTS] liqwei.com(159.75.149.63) | 3389(RDP)
+[PHPINFO] yzhcloud.com/info.php 4927B
+[UPLOAD?] ssbjf.com/kindeditor/php/upload_json.php 136B
+[UPLOAD?] ssbjf.com/ueditor/php/controller.php?action=uploadimage 136B
+[PORTS] chengyuwan.com(211.149.241.43) | 3306(MySQL)
+[PORTS] sinotf.com(60.205.2.148) | 22(SSH)
+[PORTS] iqujing.com(39.108.64.93) | 3306(MySQL)
+[PORTS] 2weima.com(47.107.34.255) | 22(SSH)
+[PORTS] metro-3d.com(47.104.79.60) | 21(FTP)
+[PORTS] taipumed.com(8.134.216.199) | 22(SSH)
+[SQLI?] niparts.com/?id=1 10338vs10347
+[PORTS] hzfesco.com(211.149.231.28) | 3306(MySQL)
+[PORTS] ailibang.com(157.0.3.36) | 8080(HTTP8080)
+[PORTS] wanrungj.com(106.15.197.78) | 3306(MySQL),22(SSH),21(FTP)
+[SQLI?] hellogithub.com/?id=1 38178vs38191
+[PORTS] gzkofa.com(8.138.102.201) | 22(SSH)
+[PORTS] cclawer.com(39.106.151.209) | 22(SSH)
+[PORTS] gumodels.com(42.96.153.156) | 21(FTP),8080(HTTP8080)
+[PORTS] fxtrip.com(120.26.103.188) | 22(SSH)
+[PORTS] wantiangroup.com(124.232.137.110) | 3306(MySQL),8080(HTTP8080)
+[PORTS] cn4e.com(101.201.252.250) | 22(SSH)
+[PORTS] sfjx888.com(211.149.250.101) | 21(FTP)
+[PORTS] bpteach.com(47.107.39.233) | 22(SSH)
+[PORTS] hbcjw.com(60.247.154.209) | 21(FTP)
+[PORTS] junyisj.com(42.240.151.42) | 21(FTP)
+[PORTS] truesing.com(101.43.14.236) | 3389(RDP),8080(HTTP8080)
+[PORTS] china-nsftz.com(47.107.44.99) | 22(SSH),21(FTP)
+[PORTS] juben108.com(127.0.0.1) | 3306(MySQL),22(SSH)
+[PORTS] gaohaipeng.com(182.92.172.223) | 21(FTP)
+[PORTS] qisankeji.com(47.92.156.15) | 3306(MySQL),3389(RDP),8080(HTTP8080)
+[PORTS] mmscoo.com(81.70.194.49) | 3389(RDP),21(FTP)
+[PORTS] 1kic.com(47.113.193.14) | 22(SSH)
+[PORTS] lzbhmy.com(120.79.45.53) | 21(FTP),8080(HTTP8080)
+[SQLI?] marshal-ceramics.com/?id=1 72548vs72662
+[PORTS] huiyutools.com(101.132.235.10) | 22(SSH)
+[PORTS] itheat.com(139.224.45.163) | 3389(RDP)
+[PORTS] jiangruyi.com(121.43.60.116) | 3306(MySQL),22(SSH)
+[PORTS] lalkk.com(43.174.247.33) | 8080(HTTP8080)
+[PORTS] maoqitian.com(107.174.197.168) | 22(SSH)
+[SQLI?] futuau.com/?id=1 440576vs440581
+[ROUND] 07:13 done

@@ -1,0 +1,13 @@
+Second progress: 5M
+Second progress: 10M
+Second progress: 15M
+Second progress: 20M
+Second progress: 25M
+Second progress: 30M
+Second progress: 35M
+Second progress: 40M
+Second progress: 45M
+Second progress: 50M
+Second progress: 55M
+Second progress: 60M
+5-char done. Not found. Total: 60466176

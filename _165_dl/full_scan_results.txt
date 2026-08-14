@@ -1,0 +1,3822 @@
+CMS Scan Results - Wed Jul 29 07:49:46 UTC 2026
+========================================
+========== bdsmhunters.com ==========
+HTTP: 200
+Server: Apache/1.3.42 (Unix) PHP/5.2.14
+Title: Bondage sex and BDSM porn videos at BDSM Hunters
+!! phpinfo.php: PHPINFO EXPOSED !!
+
+========== fjtz.net ==========
+HTTP: 200
+Server: Microsoft-IIS/10.0
+Title: 
+CMS: Discuz!
+  /admin.php: 200
+  /robots.txt: 200
+
+========== kskg.net ==========
+HTTP: 200
+Server: Microsoft-IIS/10.0
+Title: 张氏家族文化网 - 欢迎全球张姓宗亲回家！
+  /config.php.bak: 403 (BACKUP!)
+  /admin.php.bak: 403 (BACKUP!)
+  /index.php.bak: 403 (BACKUP!)
+  /db.php.bak: 403 (BACKUP!)
+  /database.php.bak: 403 (BACKUP!)
+  /web.bak: 403 (BACKUP!)
+  /www.bak: 403 (BACKUP!)
+  /backup.bak: 403 (BACKUP!)
+  /site.sql.bak: 403 (BACKUP!)
+  /config.php~: 403 (BACKUP!)
+  /admin.php~: 403 (BACKUP!)
+  /index.php~: 403 (BACKUP!)
+  /db.php~: 403 (BACKUP!)
+  /database.php~: 403 (BACKUP!)
+  /web~: 403 (BACKUP!)
+  /www~: 403 (BACKUP!)
+  /backup~: 403 (BACKUP!)
+  /site.sql~: 403 (BACKUP!)
+
+========== joyalltire.cn ==========
+HTTP: 200
+Server: Apache
+Title: 威海君乐轮胎有限公司
+  /admin: 302
+  /manager: 200
+  /robots.txt: 200
+  /index.php.bak: 200 (BACKUP!)
+  /index.php.old: 200 (BACKUP!)
+  /index.php.swp: 200 (BACKUP!)
+  /index.php~: 200 (BACKUP!)
+  /index.php.save: 200 (BACKUP!)
+  /index.php.txt: 200 (BACKUP!)
+  /index.php.tar.gz: 200 (BACKUP!)
+  /index.php.zip: 200 (BACKUP!)
+  /index.php.sql: 200 (BACKUP!)
+  /index.php.gz: 200 (BACKUP!)
+
+========== 5165.org ==========
+HTTP: 200
+Server: cloudflare
+Title: 大悟读书网_免费在线阅读
+CMS: DedeCMS
+CMS: EmpireCMS
+  /robots.txt: 200
+  /sitemap.xml: 200
+  /www.zip: 200 (BACKUP!)
+  /backup.zip: 200 (BACKUP!)
+
+========== chn-top.cn ==========
+HTTP: 200
+Server: nginx/1.18.0
+Title: 注塑机气辅设备|水辅注塑设备|微发泡注塑成型设备|隔膜压缩机生产厂家|气辅压缩机供应商|北京中拓机械集团有限责任公司
+  /admin: 302
+
+========== shimingchina.com ==========
+HTTP: 200
+Server: Microsoft-IIS/8.5
+Title: 鹤山市世铭家具五金制品有限公司
+  /admin: 301
+
+========== zonessoft.com ==========
+HTTP: 200
+Server: Microsoft-IIS/7.5
+Title: 
+
+========== szxmx.net ==========
+HTTP: 403
+Server: Apache
+Title: 403 Forbidden
+  /.env: 403
+  /config.json: 403
+  /config.php: 403
+  /database.php: 403
+  /db.php: 403
+  /admin: 403
+  /admin.php: 403
+  /manager: 403
+  /login.php: 403
+  /setup.php: 403
+  /install.php: 403
+  /robots.txt: 200
+  /sitemap.xml: 403
+  /config.php.bak: 403 (BACKUP!)
+  /admin.php.bak: 403 (BACKUP!)
+  /index.php.bak: 403 (BACKUP!)
+  /db.php.bak: 403 (BACKUP!)
+  /database.php.bak: 403 (BACKUP!)
+  /web.bak: 403 (BACKUP!)
+  /www.bak: 403 (BACKUP!)
+  /backup.bak: 403 (BACKUP!)
+  /site.sql.bak: 403 (BACKUP!)
+  /config.php.old: 403 (BACKUP!)
+  /admin.php.old: 403 (BACKUP!)
+  /index.php.old: 403 (BACKUP!)
+  /db.php.old: 403 (BACKUP!)
+  /database.php.old: 403 (BACKUP!)
+  /web.old: 403 (BACKUP!)
+  /www.old: 403 (BACKUP!)
+  /backup.old: 403 (BACKUP!)
+  /site.sql.old: 403 (BACKUP!)
+  /config.php.swp: 403 (BACKUP!)
+  /admin.php.swp: 403 (BACKUP!)
+  /index.php.swp: 403 (BACKUP!)
+  /db.php.swp: 403 (BACKUP!)
+  /database.php.swp: 403 (BACKUP!)
+  /web.swp: 403 (BACKUP!)
+  /www.swp: 403 (BACKUP!)
+  /backup.swp: 403 (BACKUP!)
+  /site.sql.swp: 403 (BACKUP!)
+  /config.php~: 403 (BACKUP!)
+  /admin.php~: 403 (BACKUP!)
+  /index.php~: 403 (BACKUP!)
+  /db.php~: 403 (BACKUP!)
+  /database.php~: 403 (BACKUP!)
+  /web~: 403 (BACKUP!)
+  /www~: 403 (BACKUP!)
+  /backup~: 403 (BACKUP!)
+  /site.sql~: 403 (BACKUP!)
+  /config.php.save: 403 (BACKUP!)
+  /admin.php.save: 403 (BACKUP!)
+  /index.php.save: 403 (BACKUP!)
+  /db.php.save: 403 (BACKUP!)
+  /database.php.save: 403 (BACKUP!)
+  /web.save: 403 (BACKUP!)
+  /www.save: 403 (BACKUP!)
+  /backup.save: 403 (BACKUP!)
+  /site.sql.save: 403 (BACKUP!)
+  /config.php.txt: 403 (BACKUP!)
+  /admin.php.txt: 403 (BACKUP!)
+  /index.php.txt: 403 (BACKUP!)
+  /db.php.txt: 403 (BACKUP!)
+  /database.php.txt: 403 (BACKUP!)
+  /web.txt: 403 (BACKUP!)
+  /www.txt: 403 (BACKUP!)
+  /backup.txt: 403 (BACKUP!)
+  /site.sql.txt: 403 (BACKUP!)
+  /config.php.tar.gz: 403 (BACKUP!)
+  /admin.php.tar.gz: 403 (BACKUP!)
+  /index.php.tar.gz: 403 (BACKUP!)
+  /db.php.tar.gz: 403 (BACKUP!)
+  /database.php.tar.gz: 403 (BACKUP!)
+  /web.tar.gz: 403 (BACKUP!)
+  /www.tar.gz: 403 (BACKUP!)
+  /backup.tar.gz: 403 (BACKUP!)
+  /site.sql.tar.gz: 403 (BACKUP!)
+  /config.php.zip: 403 (BACKUP!)
+  /admin.php.zip: 403 (BACKUP!)
+  /index.php.zip: 403 (BACKUP!)
+  /db.php.zip: 403 (BACKUP!)
+  /database.php.zip: 403 (BACKUP!)
+  /web.zip: 403 (BACKUP!)
+  /www.zip: 403 (BACKUP!)
+  /backup.zip: 403 (BACKUP!)
+  /site.sql.zip: 403 (BACKUP!)
+  /config.php.sql: 403 (BACKUP!)
+  /admin.php.sql: 403 (BACKUP!)
+  /index.php.sql: 403 (BACKUP!)
+  /db.php.sql: 403 (BACKUP!)
+  /database.php.sql: 403 (BACKUP!)
+  /web.sql: 403 (BACKUP!)
+  /www.sql: 403 (BACKUP!)
+  /backup.sql: 403 (BACKUP!)
+  /site.sql.sql: 403 (BACKUP!)
+  /config.php.gz: 403 (BACKUP!)
+  /admin.php.gz: 403 (BACKUP!)
+  /index.php.gz: 403 (BACKUP!)
+  /db.php.gz: 403 (BACKUP!)
+  /database.php.gz: 403 (BACKUP!)
+  /web.gz: 403 (BACKUP!)
+  /www.gz: 403 (BACKUP!)
+  /backup.gz: 403 (BACKUP!)
+  /site.sql.gz: 403 (BACKUP!)
+
+========== sryun.net ==========
+HTTP: 200
+Server: Microsoft-IIS/10.0
+Title: 
+  /manager: 301
+  /robots.txt: 200
+  /sitemap.xml: 200
+
+========== bq998.com ==========
+HTTP: 200
+Server: Microsoft-IIS/10.0
+Title: 
+  /admin: 301
+  /config.php.bak: 403 (BACKUP!)
+  /admin.php.bak: 403 (BACKUP!)
+  /index.php.bak: 403 (BACKUP!)
+  /db.php.bak: 403 (BACKUP!)
+  /database.php.bak: 403 (BACKUP!)
+  /web.bak: 403 (BACKUP!)
+  /www.bak: 403 (BACKUP!)
+  /site.sql.bak: 403 (BACKUP!)
+  /config.php~: 403 (BACKUP!)
+  /admin.php~: 403 (BACKUP!)
+  /index.php~: 403 (BACKUP!)
+  /db.php~: 403 (BACKUP!)
+  /database.php~: 403 (BACKUP!)
+  /web~: 403 (BACKUP!)
+  /www~: 403 (BACKUP!)
+  /backup~: 403 (BACKUP!)
+  /site.sql~: 403 (BACKUP!)
+
+========== jmguoguo.com ==========
+HTTP: 200
+Server: wts
+Title: 网站设计_网站建设_全球贸易通-江门市华企立方科技有限公司
+  /.env: 403
+  /config.php.bak: 403 (BACKUP!)
+  /admin.php.bak: 403 (BACKUP!)
+  /index.php.bak: 403 (BACKUP!)
+  /db.php.bak: 403 (BACKUP!)
+  /database.php.bak: 403 (BACKUP!)
+  /web.bak: 403 (BACKUP!)
+  /www.bak: 403 (BACKUP!)
+  /backup.bak: 403 (BACKUP!)
+  /site.sql.bak: 403 (BACKUP!)
+  /config.php.old: 403 (BACKUP!)
+  /admin.php.old: 403 (BACKUP!)
+  /index.php.old: 403 (BACKUP!)
+  /db.php.old: 403 (BACKUP!)
+  /database.php.old: 403 (BACKUP!)
+  /config.php.swp: 403 (BACKUP!)
+  /admin.php.swp: 403 (BACKUP!)
+  /index.php.swp: 403 (BACKUP!)
+  /db.php.swp: 403 (BACKUP!)
+  /database.php.swp: 403 (BACKUP!)
+  /config.php.save: 403 (BACKUP!)
+  /admin.php.save: 403 (BACKUP!)
+  /index.php.save: 403 (BACKUP!)
+  /db.php.save: 403 (BACKUP!)
+  /database.php.save: 403 (BACKUP!)
+  /config.php.txt: 403 (BACKUP!)
+  /admin.php.txt: 403 (BACKUP!)
+  /index.php.txt: 403 (BACKUP!)
+  /db.php.txt: 403 (BACKUP!)
+  /database.php.txt: 403 (BACKUP!)
+  /config.php.tar.gz: 403 (BACKUP!)
+  /admin.php.tar.gz: 403 (BACKUP!)
+  /index.php.tar.gz: 403 (BACKUP!)
+  /db.php.tar.gz: 403 (BACKUP!)
+  /database.php.tar.gz: 403 (BACKUP!)
+  /web.tar.gz: 403 (BACKUP!)
+  /www.tar.gz: 403 (BACKUP!)
+  /backup.tar.gz: 403 (BACKUP!)
+  /site.sql.tar.gz: 403 (BACKUP!)
+  /config.php.zip: 403 (BACKUP!)
+  /admin.php.zip: 403 (BACKUP!)
+  /index.php.zip: 403 (BACKUP!)
+  /db.php.zip: 403 (BACKUP!)
+  /database.php.zip: 403 (BACKUP!)
+  /web.zip: 403 (BACKUP!)
+  /www.zip: 403 (BACKUP!)
+  /backup.zip: 403 (BACKUP!)
+  /site.sql.zip: 403 (BACKUP!)
+  /config.php.sql: 403 (BACKUP!)
+  /admin.php.sql: 403 (BACKUP!)
+  /index.php.sql: 403 (BACKUP!)
+  /db.php.sql: 403 (BACKUP!)
+  /database.php.sql: 403 (BACKUP!)
+  /config.php.gz: 403 (BACKUP!)
+  /admin.php.gz: 403 (BACKUP!)
+  /index.php.gz: 403 (BACKUP!)
+  /db.php.gz: 403 (BACKUP!)
+  /database.php.gz: 403 (BACKUP!)
+  /web.gz: 403 (BACKUP!)
+  /www.gz: 403 (BACKUP!)
+  /backup.gz: 403 (BACKUP!)
+  /site.sql.gz: 403 (BACKUP!)
+
+========== sdmj.com.cn ==========
+HTTP: 200
+Server: nginx
+Title: 天鹅股份-山东天鹅棉业机械股份有限公司
+  /admin: 302
+  /manager: 200
+  /robots.txt: 200
+
+========== stad.wang ==========
+HTTP: 200
+Server: nginx
+Title: 标识标牌制作厂家,标识标牌设计公司,标识标牌加工定做,标识标牌_江苏苏通广告有限公司
+  /.env: 403
+  /robots.txt: 200
+  /sitemap.xml: 200
+
+========== hongguanjixie.com ==========
+HTTP: 307
+Server: 
+Title: 
+  /site.sql.zip: 307 (BACKUP!)
+  /config.php.sql: 307 (BACKUP!)
+  /admin.php.sql: 307 (BACKUP!)
+  /index.php.sql: 307 (BACKUP!)
+  /db.php.sql: 307 (BACKUP!)
+  /database.php.sql: 307 (BACKUP!)
+  /web.sql: 307 (BACKUP!)
+  /www.sql: 307 (BACKUP!)
+  /backup.sql: 307 (BACKUP!)
+  /site.sql.sql: 307 (BACKUP!)
+  /config.php.gz: 307 (BACKUP!)
+  /admin.php.gz: 307 (BACKUP!)
+  /index.php.gz: 307 (BACKUP!)
+  /db.php.gz: 307 (BACKUP!)
+  /database.php.gz: 307 (BACKUP!)
+  /web.gz: 307 (BACKUP!)
+  /www.gz: 307 (BACKUP!)
+  /backup.gz: 307 (BACKUP!)
+  /site.sql.gz: 307 (BACKUP!)
+
+========== bjry168.com ==========
+HTTP: 200
+Server: wts
+Title: 北京儒雅科技发展有限公司
+  /.env: 403
+  /robots.txt: 200
+  /config.php.bak: 403 (BACKUP!)
+  /admin.php.bak: 403 (BACKUP!)
+  /index.php.bak: 403 (BACKUP!)
+  /db.php.bak: 403 (BACKUP!)
+  /database.php.bak: 403 (BACKUP!)
+  /web.bak: 403 (BACKUP!)
+  /www.bak: 403 (BACKUP!)
+  /backup.bak: 403 (BACKUP!)
+  /site.sql.bak: 403 (BACKUP!)
+  /config.php.tar.gz: 403 (BACKUP!)
+  /admin.php.tar.gz: 403 (BACKUP!)
+  /index.php.tar.gz: 403 (BACKUP!)
+  /db.php.tar.gz: 403 (BACKUP!)
+  /database.php.tar.gz: 403 (BACKUP!)
+  /web.tar.gz: 403 (BACKUP!)
+  /www.tar.gz: 403 (BACKUP!)
+  /backup.tar.gz: 403 (BACKUP!)
+  /site.sql.tar.gz: 403 (BACKUP!)
+  /config.php.zip: 403 (BACKUP!)
+  /admin.php.zip: 403 (BACKUP!)
+  /index.php.zip: 403 (BACKUP!)
+  /db.php.zip: 403 (BACKUP!)
+  /web.zip: 403 (BACKUP!)
+  /www.zip: 403 (BACKUP!)
+  /backup.zip: 403 (BACKUP!)
+  /site.sql.zip: 403 (BACKUP!)
+  /config.php.gz: 403 (BACKUP!)
+  /admin.php.gz: 403 (BACKUP!)
+  /index.php.gz: 403 (BACKUP!)
+  /database.php.gz: 403 (BACKUP!)
+  /web.gz: 403 (BACKUP!)
+  /www.gz: 403 (BACKUP!)
+  /backup.gz: 403 (BACKUP!)
+
+========== bdfuyang.com ==========
+HTTP: 200
+Server: wts
+Title: 高压柜_低压配电柜_控制保护屏_有源滤波柜APE_电力监控系统-保定富阳电力科技有限公司
+  /.env: 403
+  /config.json: 403
+  /config.php: 403
+  /database.php: 403
+  /db.php: 403
+  /admin: 403
+  /admin.php: 403
+  /manager: 403
+  /login.php: 403
+  /setup.php: 403
+  /install.php: 403
+  /robots.txt: 200
+  /sitemap.xml: 403
+  /config.php.bak: 403 (BACKUP!)
+  /admin.php.bak: 403 (BACKUP!)
+  /index.php.bak: 403 (BACKUP!)
+  /db.php.bak: 403 (BACKUP!)
+  /database.php.bak: 403 (BACKUP!)
+  /web.bak: 403 (BACKUP!)
+  /www.bak: 403 (BACKUP!)
+  /backup.bak: 403 (BACKUP!)
+  /site.sql.bak: 403 (BACKUP!)
+  /config.php.old: 403 (BACKUP!)
+  /admin.php.old: 403 (BACKUP!)
+  /index.php.old: 403 (BACKUP!)
+  /db.php.old: 403 (BACKUP!)
+  /database.php.old: 403 (BACKUP!)
+  /web.old: 403 (BACKUP!)
+  /www.old: 403 (BACKUP!)
+  /backup.old: 403 (BACKUP!)
+  /site.sql.old: 403 (BACKUP!)
+  /config.php.swp: 403 (BACKUP!)
+  /admin.php.swp: 403 (BACKUP!)
+  /index.php.swp: 403 (BACKUP!)
+  /db.php.swp: 403 (BACKUP!)
+  /database.php.swp: 403 (BACKUP!)
+  /web.swp: 403 (BACKUP!)
+  /www.swp: 403 (BACKUP!)
+  /backup.swp: 403 (BACKUP!)
+  /site.sql.swp: 403 (BACKUP!)
+  /config.php~: 403 (BACKUP!)
+  /admin.php~: 403 (BACKUP!)
+  /index.php~: 403 (BACKUP!)
+  /db.php~: 403 (BACKUP!)
+  /database.php~: 403 (BACKUP!)
+  /web~: 403 (BACKUP!)
+  /www~: 403 (BACKUP!)
+  /backup~: 403 (BACKUP!)
+  /site.sql~: 403 (BACKUP!)
+  /config.php.save: 403 (BACKUP!)
+  /admin.php.save: 403 (BACKUP!)
+  /index.php.save: 403 (BACKUP!)
+  /db.php.save: 403 (BACKUP!)
+  /database.php.save: 403 (BACKUP!)
+  /web.save: 403 (BACKUP!)
+  /www.save: 403 (BACKUP!)
+  /backup.save: 403 (BACKUP!)
+  /site.sql.save: 403 (BACKUP!)
+  /config.php.txt: 403 (BACKUP!)
+  /admin.php.txt: 403 (BACKUP!)
+  /index.php.txt: 403 (BACKUP!)
+  /db.php.txt: 403 (BACKUP!)
+  /database.php.txt: 403 (BACKUP!)
+  /web.txt: 403 (BACKUP!)
+  /www.txt: 403 (BACKUP!)
+  /backup.txt: 403 (BACKUP!)
+  /site.sql.txt: 403 (BACKUP!)
+  /config.php.tar.gz: 403 (BACKUP!)
+  /admin.php.tar.gz: 403 (BACKUP!)
+  /index.php.tar.gz: 403 (BACKUP!)
+  /db.php.tar.gz: 403 (BACKUP!)
+  /database.php.tar.gz: 403 (BACKUP!)
+  /web.tar.gz: 403 (BACKUP!)
+  /www.tar.gz: 403 (BACKUP!)
+  /backup.tar.gz: 403 (BACKUP!)
+  /site.sql.tar.gz: 403 (BACKUP!)
+  /config.php.zip: 403 (BACKUP!)
+  /admin.php.zip: 403 (BACKUP!)
+  /index.php.zip: 403 (BACKUP!)
+  /db.php.zip: 403 (BACKUP!)
+  /database.php.zip: 403 (BACKUP!)
+  /web.zip: 403 (BACKUP!)
+  /www.zip: 403 (BACKUP!)
+  /backup.zip: 403 (BACKUP!)
+  /site.sql.zip: 403 (BACKUP!)
+  /config.php.sql: 403 (BACKUP!)
+  /admin.php.sql: 403 (BACKUP!)
+  /index.php.sql: 403 (BACKUP!)
+  /db.php.sql: 403 (BACKUP!)
+  /database.php.sql: 403 (BACKUP!)
+  /web.sql: 403 (BACKUP!)
+  /www.sql: 403 (BACKUP!)
+  /backup.sql: 403 (BACKUP!)
+  /site.sql.sql: 403 (BACKUP!)
+  /config.php.gz: 403 (BACKUP!)
+  /admin.php.gz: 403 (BACKUP!)
+  /index.php.gz: 403 (BACKUP!)
+  /db.php.gz: 403 (BACKUP!)
+  /database.php.gz: 403 (BACKUP!)
+  /web.gz: 403 (BACKUP!)
+  /www.gz: 403 (BACKUP!)
+  /backup.gz: 403 (BACKUP!)
+  /site.sql.gz: 403 (BACKUP!)
+
+========== hefu56.com ==========
+HTTP: 
+Server: 
+Title: 
+  /robots.txt: 200
+
+========== dlyunlong.com ==========
+HTTP: 200
+Server: Microsoft-IIS/8.5
+Title: 大连汽车内饰翻新_大连汽车真皮座椅修复_大连汽车内饰改装_大连兴胜汽车内饰改装升级
+  /admin.php: 302
+  /web.zip: 200 (BACKUP!)
+
+========== huanyouche.cn ==========
+HTTP: 200
+Server: nginx
+Title: 换油车_风力发电机换油车_风电换油车_换油设备-赛士通（天津）供应链有限公司
+  /config.json: 302
+  /admin: 302
+  /manager: 302
+  /robots.txt: 302
+  /sitemap.xml: 200
+  /config.php.bak: 302 (BACKUP!)
+  /admin.php.bak: 302 (BACKUP!)
+  /index.php.bak: 302 (BACKUP!)
+  /db.php.bak: 302 (BACKUP!)
+  /database.php.bak: 302 (BACKUP!)
+  /web.bak: 302 (BACKUP!)
+  /www.bak: 302 (BACKUP!)
+  /backup.bak: 302 (BACKUP!)
+  /site.sql.bak: 302 (BACKUP!)
+  /config.php.old: 302 (BACKUP!)
+  /admin.php.old: 302 (BACKUP!)
+  /index.php.old: 302 (BACKUP!)
+  /db.php.old: 302 (BACKUP!)
+  /database.php.old: 302 (BACKUP!)
+  /web.old: 302 (BACKUP!)
+  /www.old: 302 (BACKUP!)
+  /backup.old: 302 (BACKUP!)
+  /site.sql.old: 302 (BACKUP!)
+  /config.php.swp: 302 (BACKUP!)
+  /admin.php.swp: 302 (BACKUP!)
+  /index.php.swp: 302 (BACKUP!)
+  /db.php.swp: 302 (BACKUP!)
+  /database.php.swp: 302 (BACKUP!)
+  /web.swp: 302 (BACKUP!)
+  /www.swp: 302 (BACKUP!)
+  /backup.swp: 302 (BACKUP!)
+  /site.sql.swp: 302 (BACKUP!)
+  /config.php~: 302 (BACKUP!)
+  /admin.php~: 302 (BACKUP!)
+  /index.php~: 302 (BACKUP!)
+  /db.php~: 302 (BACKUP!)
+  /database.php~: 302 (BACKUP!)
+  /web~: 302 (BACKUP!)
+  /www~: 302 (BACKUP!)
+  /backup~: 302 (BACKUP!)
+  /site.sql~: 302 (BACKUP!)
+  /config.php.save: 302 (BACKUP!)
+  /admin.php.save: 302 (BACKUP!)
+  /index.php.save: 302 (BACKUP!)
+  /db.php.save: 302 (BACKUP!)
+  /database.php.save: 302 (BACKUP!)
+  /web.save: 302 (BACKUP!)
+  /www.save: 302 (BACKUP!)
+  /site.sql.save: 302 (BACKUP!)
+  /config.php.txt: 302 (BACKUP!)
+  /admin.php.txt: 302 (BACKUP!)
+  /index.php.txt: 302 (BACKUP!)
+  /db.php.txt: 302 (BACKUP!)
+  /database.php.txt: 302 (BACKUP!)
+  /web.txt: 302 (BACKUP!)
+  /www.txt: 302 (BACKUP!)
+  /backup.txt: 302 (BACKUP!)
+  /site.sql.txt: 302 (BACKUP!)
+  /config.php.tar.gz: 302 (BACKUP!)
+  /admin.php.tar.gz: 302 (BACKUP!)
+  /index.php.tar.gz: 302 (BACKUP!)
+  /db.php.tar.gz: 302 (BACKUP!)
+  /database.php.tar.gz: 302 (BACKUP!)
+  /web.tar.gz: 302 (BACKUP!)
+  /www.tar.gz: 302 (BACKUP!)
+  /backup.tar.gz: 302 (BACKUP!)
+  /site.sql.tar.gz: 302 (BACKUP!)
+  /config.php.zip: 302 (BACKUP!)
+  /admin.php.zip: 302 (BACKUP!)
+  /index.php.zip: 302 (BACKUP!)
+  /db.php.zip: 302 (BACKUP!)
+  /database.php.zip: 302 (BACKUP!)
+  /web.zip: 302 (BACKUP!)
+  /www.zip: 302 (BACKUP!)
+  /backup.zip: 302 (BACKUP!)
+  /site.sql.zip: 302 (BACKUP!)
+  /config.php.sql: 302 (BACKUP!)
+  /admin.php.sql: 302 (BACKUP!)
+  /index.php.sql: 302 (BACKUP!)
+  /db.php.sql: 302 (BACKUP!)
+  /database.php.sql: 302 (BACKUP!)
+  /web.sql: 302 (BACKUP!)
+  /www.sql: 302 (BACKUP!)
+  /backup.sql: 302 (BACKUP!)
+  /site.sql.sql: 302 (BACKUP!)
+  /config.php.gz: 302 (BACKUP!)
+  /admin.php.gz: 302 (BACKUP!)
+  /index.php.gz: 302 (BACKUP!)
+  /db.php.gz: 302 (BACKUP!)
+  /database.php.gz: 302 (BACKUP!)
+  /web.gz: 302 (BACKUP!)
+  /www.gz: 302 (BACKUP!)
+  /backup.gz: 302 (BACKUP!)
+  /site.sql.gz: 302 (BACKUP!)
+
+========== mkaqscbz.com ==========
+HTTP: 200
+Server: Microsoft-IIS/10.0
+Title: 煤矿安全生产标准化管理体系
+
+========== shlonggang.com ==========
+HTTP: 200
+Server: Microsoft-IIS/10.0
+Title: 上海龙港电机设备有限公司
+!! phpinfo.php: PHPINFO EXPOSED !!
+  /config.php.bak: 403 (BACKUP!)
+  /admin.php.bak: 403 (BACKUP!)
+  /index.php.bak: 403 (BACKUP!)
+  /db.php.bak: 403 (BACKUP!)
+  /database.php.bak: 403 (BACKUP!)
+  /web.bak: 403 (BACKUP!)
+  /www.bak: 403 (BACKUP!)
+  /backup.bak: 403 (BACKUP!)
+  /site.sql.bak: 403 (BACKUP!)
+  /config.php~: 403 (BACKUP!)
+  /admin.php~: 403 (BACKUP!)
+  /index.php~: 403 (BACKUP!)
+  /db.php~: 403 (BACKUP!)
+  /database.php~: 403 (BACKUP!)
+  /web~: 403 (BACKUP!)
+  /www~: 403 (BACKUP!)
+  /backup~: 403 (BACKUP!)
+  /site.sql~: 403 (BACKUP!)
+
+========== jtec.com.cn ==========
+HTTP: 200
+Server: wts
+Title: 北京佳瑞欣科技发展有限公司
+!! ThinkPHP 5.0.23 RCE VULNERABLE (captcha variant) !!
+!! phpinfo.php: PHPINFO EXPOSED !!
+  /.env: 403
+  /config.json: 403
+  /config.php: 403
+  /database.php: 403
+  /db.php: 403
+  /admin: 403
+  /admin.php: 403
+  /manager: 403
+  /login.php: 403
+  /setup.php: 403
+  /install.php: 403
+  /sitemap.xml: 403
+  /config.php.bak: 403 (BACKUP!)
+  /admin.php.bak: 403 (BACKUP!)
+  /index.php.bak: 403 (BACKUP!)
+  /db.php.bak: 403 (BACKUP!)
+  /database.php.bak: 403 (BACKUP!)
+  /web.bak: 403 (BACKUP!)
+  /www.bak: 403 (BACKUP!)
+  /backup.bak: 403 (BACKUP!)
+  /site.sql.bak: 403 (BACKUP!)
+  /config.php.old: 403 (BACKUP!)
+  /admin.php.old: 403 (BACKUP!)
+  /index.php.old: 403 (BACKUP!)
+  /db.php.old: 403 (BACKUP!)
+  /database.php.old: 403 (BACKUP!)
+  /web.old: 403 (BACKUP!)
+  /www.old: 403 (BACKUP!)
+  /backup.old: 403 (BACKUP!)
+  /site.sql.old: 403 (BACKUP!)
+  /config.php.swp: 403 (BACKUP!)
+  /admin.php.swp: 403 (BACKUP!)
+  /index.php.swp: 403 (BACKUP!)
+  /db.php.swp: 403 (BACKUP!)
+  /database.php.swp: 403 (BACKUP!)
+  /web.swp: 403 (BACKUP!)
+  /www.swp: 403 (BACKUP!)
+  /backup.swp: 403 (BACKUP!)
+  /site.sql.swp: 403 (BACKUP!)
+  /config.php~: 403 (BACKUP!)
+  /admin.php~: 403 (BACKUP!)
+  /index.php~: 403 (BACKUP!)
+  /db.php~: 403 (BACKUP!)
+  /database.php~: 403 (BACKUP!)
+  /web~: 403 (BACKUP!)
+  /www~: 403 (BACKUP!)
+  /backup~: 403 (BACKUP!)
+  /site.sql~: 403 (BACKUP!)
+  /config.php.save: 403 (BACKUP!)
+  /admin.php.save: 403 (BACKUP!)
+  /index.php.save: 403 (BACKUP!)
+  /db.php.save: 403 (BACKUP!)
+  /database.php.save: 403 (BACKUP!)
+  /web.save: 403 (BACKUP!)
+  /www.save: 403 (BACKUP!)
+  /backup.save: 403 (BACKUP!)
+  /site.sql.save: 403 (BACKUP!)
+  /config.php.txt: 403 (BACKUP!)
+  /admin.php.txt: 403 (BACKUP!)
+  /index.php.txt: 403 (BACKUP!)
+  /db.php.txt: 403 (BACKUP!)
+  /database.php.txt: 403 (BACKUP!)
+  /web.txt: 403 (BACKUP!)
+  /www.txt: 403 (BACKUP!)
+  /backup.txt: 403 (BACKUP!)
+  /config.php.tar.gz: 403 (BACKUP!)
+  /admin.php.tar.gz: 403 (BACKUP!)
+  /index.php.tar.gz: 403 (BACKUP!)
+  /db.php.tar.gz: 403 (BACKUP!)
+  /database.php.tar.gz: 403 (BACKUP!)
+  /web.tar.gz: 403 (BACKUP!)
+  /www.tar.gz: 403 (BACKUP!)
+  /backup.tar.gz: 403 (BACKUP!)
+  /site.sql.tar.gz: 403 (BACKUP!)
+  /config.php.zip: 403 (BACKUP!)
+  /admin.php.zip: 403 (BACKUP!)
+  /index.php.zip: 403 (BACKUP!)
+  /db.php.zip: 403 (BACKUP!)
+  /database.php.zip: 403 (BACKUP!)
+  /www.zip: 403 (BACKUP!)
+  /backup.zip: 403 (BACKUP!)
+  /site.sql.zip: 403 (BACKUP!)
+  /config.php.sql: 403 (BACKUP!)
+  /admin.php.sql: 403 (BACKUP!)
+  /index.php.sql: 403 (BACKUP!)
+  /db.php.sql: 403 (BACKUP!)
+  /database.php.sql: 403 (BACKUP!)
+  /web.sql: 403 (BACKUP!)
+  /www.sql: 403 (BACKUP!)
+  /backup.sql: 403 (BACKUP!)
+  /site.sql.sql: 403 (BACKUP!)
+  /config.php.gz: 403 (BACKUP!)
+  /admin.php.gz: 403 (BACKUP!)
+  /index.php.gz: 403 (BACKUP!)
+  /db.php.gz: 403 (BACKUP!)
+  /database.php.gz: 403 (BACKUP!)
+  /www.gz: 403 (BACKUP!)
+  /backup.gz: 403 (BACKUP!)
+  /site.sql.gz: 403 (BACKUP!)
+
+========== fshuamin.com ==========
+HTTP: 403
+Server: Microsoft-IIS/10.0
+Title: 
+  /.env: 403
+  /config.json: 403
+  /config.php: 403
+  /database.php: 403
+  /db.php: 403
+  /admin: 403
+  /admin.php: 403
+  /manager: 403
+  /login.php: 403
+  /setup.php: 403
+  /install.php: 403
+  /robots.txt: 403
+  /sitemap.xml: 403
+  /config.php.bak: 403 (BACKUP!)
+  /admin.php.bak: 403 (BACKUP!)
+  /index.php.bak: 403 (BACKUP!)
+  /db.php.bak: 403 (BACKUP!)
+  /database.php.bak: 403 (BACKUP!)
+  /web.bak: 403 (BACKUP!)
+  /www.bak: 403 (BACKUP!)
+  /backup.bak: 403 (BACKUP!)
+  /site.sql.bak: 403 (BACKUP!)
+  /config.php.old: 403 (BACKUP!)
+  /admin.php.old: 403 (BACKUP!)
+  /index.php.old: 403 (BACKUP!)
+  /db.php.old: 403 (BACKUP!)
+  /database.php.old: 403 (BACKUP!)
+  /web.old: 403 (BACKUP!)
+  /www.old: 403 (BACKUP!)
+  /backup.old: 403 (BACKUP!)
+  /site.sql.old: 403 (BACKUP!)
+  /config.php.swp: 403 (BACKUP!)
+  /admin.php.swp: 403 (BACKUP!)
+  /index.php.swp: 403 (BACKUP!)
+  /database.php.swp: 403 (BACKUP!)
+  /web.swp: 403 (BACKUP!)
+  /www.swp: 403 (BACKUP!)
+  /backup.swp: 403 (BACKUP!)
+  /site.sql.swp: 403 (BACKUP!)
+  /config.php~: 403 (BACKUP!)
+  /admin.php~: 403 (BACKUP!)
+  /index.php~: 403 (BACKUP!)
+  /db.php~: 403 (BACKUP!)
+  /database.php~: 403 (BACKUP!)
+  /web~: 403 (BACKUP!)
+  /www~: 403 (BACKUP!)
+  /backup~: 403 (BACKUP!)
+  /site.sql~: 403 (BACKUP!)
+  /config.php.save: 403 (BACKUP!)
+  /admin.php.save: 403 (BACKUP!)
+  /index.php.save: 403 (BACKUP!)
+  /db.php.save: 403 (BACKUP!)
+  /database.php.save: 403 (BACKUP!)
+  /web.save: 403 (BACKUP!)
+  /www.save: 403 (BACKUP!)
+  /backup.save: 403 (BACKUP!)
+  /site.sql.save: 403 (BACKUP!)
+  /config.php.txt: 403 (BACKUP!)
+  /admin.php.txt: 403 (BACKUP!)
+  /index.php.txt: 403 (BACKUP!)
+  /db.php.txt: 403 (BACKUP!)
+  /database.php.txt: 403 (BACKUP!)
+  /web.txt: 403 (BACKUP!)
+  /www.txt: 403 (BACKUP!)
+  /backup.txt: 403 (BACKUP!)
+  /site.sql.txt: 403 (BACKUP!)
+  /config.php.tar.gz: 403 (BACKUP!)
+  /admin.php.tar.gz: 403 (BACKUP!)
+  /index.php.tar.gz: 403 (BACKUP!)
+  /db.php.tar.gz: 403 (BACKUP!)
+  /web.tar.gz: 403 (BACKUP!)
+  /www.tar.gz: 403 (BACKUP!)
+  /backup.tar.gz: 403 (BACKUP!)
+  /site.sql.tar.gz: 403 (BACKUP!)
+  /config.php.zip: 403 (BACKUP!)
+  /admin.php.zip: 403 (BACKUP!)
+  /index.php.zip: 403 (BACKUP!)
+  /db.php.zip: 403 (BACKUP!)
+  /database.php.zip: 403 (BACKUP!)
+  /web.zip: 403 (BACKUP!)
+  /www.zip: 403 (BACKUP!)
+  /backup.zip: 403 (BACKUP!)
+  /site.sql.zip: 403 (BACKUP!)
+  /config.php.sql: 403 (BACKUP!)
+  /admin.php.sql: 403 (BACKUP!)
+  /index.php.sql: 403 (BACKUP!)
+  /db.php.sql: 403 (BACKUP!)
+  /database.php.sql: 403 (BACKUP!)
+  /web.sql: 403 (BACKUP!)
+  /www.sql: 403 (BACKUP!)
+  /backup.sql: 403 (BACKUP!)
+  /site.sql.sql: 403 (BACKUP!)
+  /config.php.gz: 403 (BACKUP!)
+  /admin.php.gz: 403 (BACKUP!)
+  /index.php.gz: 403 (BACKUP!)
+  /db.php.gz: 403 (BACKUP!)
+  /database.php.gz: 403 (BACKUP!)
+  /web.gz: 403 (BACKUP!)
+  /www.gz: 403 (BACKUP!)
+  /backup.gz: 403 (BACKUP!)
+  /site.sql.gz: 403 (BACKUP!)
+
+========== lcah.top ==========
+HTTP: 200
+Server: Microsoft-IIS/8.5
+Title: 
+
+========== tongde.sh.cn ==========
+HTTP: 200
+Server: wts
+Title: 上海同得建筑工程有限公司
+!! ThinkPHP 5.0.23 RCE VULNERABLE (captcha variant) !!
+!! phpinfo.php: PHPINFO EXPOSED !!
+  /.env: 403
+  /config.php.bak: 403 (BACKUP!)
+  /admin.php.bak: 403 (BACKUP!)
+  /index.php.bak: 403 (BACKUP!)
+  /db.php.bak: 403 (BACKUP!)
+  /database.php.bak: 403 (BACKUP!)
+  /web.bak: 403 (BACKUP!)
+  /www.bak: 403 (BACKUP!)
+  /backup.bak: 403 (BACKUP!)
+  /site.sql.bak: 403 (BACKUP!)
+  /config.php.tar.gz: 403 (BACKUP!)
+  /admin.php.tar.gz: 403 (BACKUP!)
+  /index.php.tar.gz: 403 (BACKUP!)
+  /db.php.tar.gz: 403 (BACKUP!)
+  /database.php.tar.gz: 403 (BACKUP!)
+  /web.tar.gz: 403 (BACKUP!)
+  /www.tar.gz: 403 (BACKUP!)
+  /backup.tar.gz: 403 (BACKUP!)
+  /site.sql.tar.gz: 403 (BACKUP!)
+  /config.php.zip: 403 (BACKUP!)
+  /admin.php.zip: 403 (BACKUP!)
+  /index.php.zip: 403 (BACKUP!)
+  /db.php.zip: 403 (BACKUP!)
+  /database.php.zip: 403 (BACKUP!)
+  /web.zip: 403 (BACKUP!)
+  /www.zip: 403 (BACKUP!)
+  /site.sql.zip: 403 (BACKUP!)
+  /config.php.gz: 403 (BACKUP!)
+  /admin.php.gz: 403 (BACKUP!)
+  /index.php.gz: 403 (BACKUP!)
+  /db.php.gz: 403 (BACKUP!)
+  /database.php.gz: 403 (BACKUP!)
+  /web.gz: 403 (BACKUP!)
+  /www.gz: 403 (BACKUP!)
+  /backup.gz: 403 (BACKUP!)
+  /site.sql.gz: 403 (BACKUP!)
+
+========== taiaojituan.com ==========
+HTTP: 200
+Server: wts
+Title: 
+!! ThinkPHP 5.0.23 RCE VULNERABLE (captcha variant) !!
+!! phpinfo.php: PHPINFO EXPOSED !!
+  /.env: 403
+  /config.php.bak: 403 (BACKUP!)
+  /admin.php.bak: 403 (BACKUP!)
+  /index.php.bak: 403 (BACKUP!)
+  /db.php.bak: 403 (BACKUP!)
+  /database.php.bak: 403 (BACKUP!)
+  /web.bak: 403 (BACKUP!)
+  /www.bak: 403 (BACKUP!)
+  /backup.bak: 403 (BACKUP!)
+  /site.sql.bak: 403 (BACKUP!)
+  /config.php.tar.gz: 403 (BACKUP!)
+  /admin.php.tar.gz: 403 (BACKUP!)
+  /index.php.tar.gz: 403 (BACKUP!)
+  /db.php.tar.gz: 403 (BACKUP!)
+  /database.php.tar.gz: 403 (BACKUP!)
+  /web.tar.gz: 403 (BACKUP!)
+  /www.tar.gz: 403 (BACKUP!)
+  /backup.tar.gz: 403 (BACKUP!)
+  /site.sql.tar.gz: 403 (BACKUP!)
+  /config.php.zip: 403 (BACKUP!)
+  /admin.php.zip: 403 (BACKUP!)
+  /index.php.zip: 403 (BACKUP!)
+  /db.php.zip: 403 (BACKUP!)
+  /database.php.zip: 403 (BACKUP!)
+  /web.zip: 403 (BACKUP!)
+  /www.zip: 403 (BACKUP!)
+  /backup.zip: 403 (BACKUP!)
+  /site.sql.zip: 403 (BACKUP!)
+  /config.php.gz: 403 (BACKUP!)
+  /admin.php.gz: 403 (BACKUP!)
+  /index.php.gz: 403 (BACKUP!)
+  /db.php.gz: 403 (BACKUP!)
+  /database.php.gz: 403 (BACKUP!)
+  /web.gz: 403 (BACKUP!)
+  /www.gz: 403 (BACKUP!)
+  /backup.gz: 403 (BACKUP!)
+  /site.sql.gz: 403 (BACKUP!)
+
+========== silkmachine.cn ==========
+HTTP: 200
+Server: Apache
+Title: 窗帘定型机-蒸纱机-袜子预缩定型机-纺织蒸箱-江苏精明机械有限公司
+  /.env: 403
+  /robots.txt: 200
+  /sitemap.xml: 200
+
+========== longuang.ltd ==========
+HTTP: 200
+Server: wts
+Title: 
+!! ThinkPHP 5.0.23 RCE VULNERABLE (captcha variant) !!
+!! phpinfo.php: PHPINFO EXPOSED !!
+  /.env: 403
+  /manager: 301
+  /robots.txt: 200
+  /sitemap.xml: 200
+  /config.php.bak: 403 (BACKUP!)
+  /admin.php.bak: 403 (BACKUP!)
+  /index.php.bak: 403 (BACKUP!)
+  /db.php.bak: 403 (BACKUP!)
+  /database.php.bak: 403 (BACKUP!)
+  /web.bak: 403 (BACKUP!)
+  /www.bak: 403 (BACKUP!)
+  /backup.bak: 403 (BACKUP!)
+  /site.sql.bak: 403 (BACKUP!)
+  /config.php.tar.gz: 403 (BACKUP!)
+  /admin.php.tar.gz: 403 (BACKUP!)
+  /index.php.tar.gz: 403 (BACKUP!)
+  /db.php.tar.gz: 403 (BACKUP!)
+  /database.php.tar.gz: 403 (BACKUP!)
+  /web.tar.gz: 403 (BACKUP!)
+  /www.tar.gz: 403 (BACKUP!)
+  /backup.tar.gz: 403 (BACKUP!)
+  /site.sql.tar.gz: 403 (BACKUP!)
+  /config.php.zip: 403 (BACKUP!)
+  /admin.php.zip: 403 (BACKUP!)
+  /index.php.zip: 403 (BACKUP!)
+  /db.php.zip: 403 (BACKUP!)
+  /database.php.zip: 403 (BACKUP!)
+  /web.zip: 403 (BACKUP!)
+  /www.zip: 403 (BACKUP!)
+  /backup.zip: 403 (BACKUP!)
+  /site.sql.zip: 403 (BACKUP!)
+  /config.php.gz: 403 (BACKUP!)
+  /admin.php.gz: 403 (BACKUP!)
+  /index.php.gz: 403 (BACKUP!)
+  /db.php.gz: 403 (BACKUP!)
+  /database.php.gz: 403 (BACKUP!)
+  /web.gz: 403 (BACKUP!)
+  /www.gz: 403 (BACKUP!)
+  /backup.gz: 403 (BACKUP!)
+  /site.sql.gz: 403 (BACKUP!)
+
+========== kbangbox.com ==========
+HTTP: 200
+Server: wts/1.7.4
+Title: 上海敬邦包装技术有限公司
+!! ThinkPHP 5.0.23 RCE VULNERABLE (captcha variant) !!
+!! phpinfo.php: PHPINFO EXPOSED !!
+  /.env: 403
+  /config.json: 403
+  /config.php: 403
+  /database.php: 403
+  /db.php: 403
+  /admin: 403
+  /admin.php: 403
+  /manager: 403
+  /login.php: 403
+  /setup.php: 403
+  /install.php: 403
+  /sitemap.xml: 403
+  /config.php.bak: 403 (BACKUP!)
+  /admin.php.bak: 403 (BACKUP!)
+  /index.php.bak: 403 (BACKUP!)
+  /db.php.bak: 403 (BACKUP!)
+  /database.php.bak: 403 (BACKUP!)
+  /web.bak: 403 (BACKUP!)
+  /www.bak: 403 (BACKUP!)
+  /backup.bak: 403 (BACKUP!)
+  /site.sql.bak: 403 (BACKUP!)
+  /config.php.old: 403 (BACKUP!)
+  /admin.php.old: 403 (BACKUP!)
+  /index.php.old: 403 (BACKUP!)
+  /db.php.old: 403 (BACKUP!)
+  /database.php.old: 403 (BACKUP!)
+  /web.old: 403 (BACKUP!)
+  /www.old: 403 (BACKUP!)
+  /backup.old: 403 (BACKUP!)
+  /site.sql.old: 403 (BACKUP!)
+  /config.php.swp: 403 (BACKUP!)
+  /admin.php.swp: 403 (BACKUP!)
+  /index.php.swp: 403 (BACKUP!)
+  /db.php.swp: 403 (BACKUP!)
+  /database.php.swp: 403 (BACKUP!)
+  /web.swp: 403 (BACKUP!)
+  /www.swp: 403 (BACKUP!)
+  /backup.swp: 403 (BACKUP!)
+  /site.sql.swp: 403 (BACKUP!)
+  /config.php~: 403 (BACKUP!)
+  /admin.php~: 403 (BACKUP!)
+  /index.php~: 403 (BACKUP!)
+  /db.php~: 403 (BACKUP!)
+  /database.php~: 403 (BACKUP!)
+  /web~: 403 (BACKUP!)
+  /www~: 403 (BACKUP!)
+  /backup~: 403 (BACKUP!)
+  /site.sql~: 403 (BACKUP!)
+  /config.php.save: 403 (BACKUP!)
+  /admin.php.save: 403 (BACKUP!)
+  /index.php.save: 403 (BACKUP!)
+  /db.php.save: 403 (BACKUP!)
+  /database.php.save: 403 (BACKUP!)
+  /web.save: 403 (BACKUP!)
+  /www.save: 403 (BACKUP!)
+  /backup.save: 403 (BACKUP!)
+  /site.sql.save: 403 (BACKUP!)
+  /config.php.txt: 403 (BACKUP!)
+  /admin.php.txt: 403 (BACKUP!)
+  /index.php.txt: 403 (BACKUP!)
+  /db.php.txt: 403 (BACKUP!)
+  /database.php.txt: 403 (BACKUP!)
+  /www.txt: 403 (BACKUP!)
+  /backup.txt: 403 (BACKUP!)
+  /site.sql.txt: 403 (BACKUP!)
+  /config.php.tar.gz: 403 (BACKUP!)
+  /admin.php.tar.gz: 403 (BACKUP!)
+  /index.php.tar.gz: 403 (BACKUP!)
+  /db.php.tar.gz: 403 (BACKUP!)
+  /database.php.tar.gz: 403 (BACKUP!)
+  /web.tar.gz: 403 (BACKUP!)
+  /www.tar.gz: 403 (BACKUP!)
+  /backup.tar.gz: 403 (BACKUP!)
+  /site.sql.tar.gz: 403 (BACKUP!)
+  /config.php.zip: 403 (BACKUP!)
+  /admin.php.zip: 403 (BACKUP!)
+  /index.php.zip: 403 (BACKUP!)
+  /db.php.zip: 403 (BACKUP!)
+  /database.php.zip: 403 (BACKUP!)
+  /web.zip: 403 (BACKUP!)
+  /www.zip: 403 (BACKUP!)
+  /backup.zip: 403 (BACKUP!)
+  /site.sql.zip: 403 (BACKUP!)
+  /config.php.sql: 403 (BACKUP!)
+  /admin.php.sql: 403 (BACKUP!)
+  /index.php.sql: 403 (BACKUP!)
+  /db.php.sql: 403 (BACKUP!)
+  /database.php.sql: 403 (BACKUP!)
+  /web.sql: 403 (BACKUP!)
+  /www.sql: 403 (BACKUP!)
+  /backup.sql: 403 (BACKUP!)
+  /site.sql.sql: 403 (BACKUP!)
+  /config.php.gz: 403 (BACKUP!)
+  /admin.php.gz: 403 (BACKUP!)
+  /index.php.gz: 403 (BACKUP!)
+  /db.php.gz: 403 (BACKUP!)
+  /database.php.gz: 403 (BACKUP!)
+  /web.gz: 403 (BACKUP!)
+  /www.gz: 403 (BACKUP!)
+  /backup.gz: 403 (BACKUP!)
+  /site.sql.gz: 403 (BACKUP!)
+
+========== vktalent.com ==========
+HTTP: 200
+Server: wts
+Title: 上海卡佰文化传播有限公司
+!! ThinkPHP 5.0.23 RCE VULNERABLE (captcha variant) !!
+!! phpinfo.php: PHPINFO EXPOSED !!
+  /.env: 403
+  /config.php.bak: 403 (BACKUP!)
+  /admin.php.bak: 403 (BACKUP!)
+  /index.php.bak: 403 (BACKUP!)
+  /db.php.bak: 403 (BACKUP!)
+  /database.php.bak: 403 (BACKUP!)
+  /web.bak: 403 (BACKUP!)
+  /www.bak: 403 (BACKUP!)
+  /backup.bak: 403 (BACKUP!)
+  /site.sql.bak: 403 (BACKUP!)
+  /config.php.tar.gz: 403 (BACKUP!)
+  /admin.php.tar.gz: 403 (BACKUP!)
+  /index.php.tar.gz: 403 (BACKUP!)
+  /db.php.tar.gz: 403 (BACKUP!)
+  /database.php.tar.gz: 403 (BACKUP!)
+  /web.tar.gz: 403 (BACKUP!)
+  /www.tar.gz: 403 (BACKUP!)
+  /backup.tar.gz: 403 (BACKUP!)
+  /site.sql.tar.gz: 403 (BACKUP!)
+  /config.php.zip: 403 (BACKUP!)
+  /admin.php.zip: 403 (BACKUP!)
+  /index.php.zip: 403 (BACKUP!)
+  /db.php.zip: 403 (BACKUP!)
+  /database.php.zip: 403 (BACKUP!)
+  /web.zip: 403 (BACKUP!)
+  /www.zip: 403 (BACKUP!)
+  /backup.zip: 403 (BACKUP!)
+  /site.sql.zip: 403 (BACKUP!)
+  /config.php.gz: 403 (BACKUP!)
+  /admin.php.gz: 403 (BACKUP!)
+  /index.php.gz: 403 (BACKUP!)
+  /db.php.gz: 403 (BACKUP!)
+  /database.php.gz: 403 (BACKUP!)
+  /web.gz: 403 (BACKUP!)
+  /www.gz: 403 (BACKUP!)
+  /backup.gz: 403 (BACKUP!)
+  /site.sql.gz: 403 (BACKUP!)
+
+========== fenglanjs.com ==========
+HTTP: 302
+Server: Microsoft-IIS/10.0
+Title: 上海枫岚建设工程有限公司
+
+========== shzyjjzz.com ==========
+HTTP: 200
+Server: wts
+Title: 上海办公家具厂家,办公桌定制,办公椅价格,屏风工作位
+!! ThinkPHP 5.0.23 RCE VULNERABLE (captcha variant) !!
+!! phpinfo.php: PHPINFO EXPOSED !!
+  /.env: 403
+  /sitemap.xml: 200
+  /config.php.bak: 403 (BACKUP!)
+  /admin.php.bak: 403 (BACKUP!)
+  /index.php.bak: 403 (BACKUP!)
+  /db.php.bak: 403 (BACKUP!)
+  /database.php.bak: 403 (BACKUP!)
+  /web.bak: 403 (BACKUP!)
+  /www.bak: 403 (BACKUP!)
+  /backup.bak: 403 (BACKUP!)
+  /site.sql.bak: 403 (BACKUP!)
+  /config.php.tar.gz: 403 (BACKUP!)
+  /admin.php.tar.gz: 403 (BACKUP!)
+  /index.php.tar.gz: 403 (BACKUP!)
+  /db.php.tar.gz: 403 (BACKUP!)
+  /database.php.tar.gz: 403 (BACKUP!)
+  /web.tar.gz: 403 (BACKUP!)
+  /backup.tar.gz: 403 (BACKUP!)
+  /site.sql.tar.gz: 403 (BACKUP!)
+  /config.php.zip: 403 (BACKUP!)
+  /admin.php.zip: 403 (BACKUP!)
+  /index.php.zip: 403 (BACKUP!)
+  /db.php.zip: 403 (BACKUP!)
+  /database.php.zip: 403 (BACKUP!)
+  /web.zip: 403 (BACKUP!)
+  /www.zip: 403 (BACKUP!)
+  /backup.zip: 403 (BACKUP!)
+  /site.sql.zip: 403 (BACKUP!)
+  /config.php.gz: 403 (BACKUP!)
+  /admin.php.gz: 403 (BACKUP!)
+  /index.php.gz: 403 (BACKUP!)
+  /db.php.gz: 403 (BACKUP!)
+  /database.php.gz: 403 (BACKUP!)
+  /www.gz: 403 (BACKUP!)
+  /backup.gz: 403 (BACKUP!)
+  /site.sql.gz: 403 (BACKUP!)
+
+========== silverplus-intl.com ==========
+HTTP: 403
+Server: Microsoft-IIS/10.0
+Title: 
+  /.env: 403
+  /config.json: 403
+  /config.php: 403
+  /database.php: 403
+  /db.php: 403
+  /admin: 403
+  /admin.php: 403
+  /manager: 403
+  /login.php: 403
+  /setup.php: 403
+  /install.php: 403
+  /robots.txt: 403
+  /sitemap.xml: 403
+  /config.php.bak: 403 (BACKUP!)
+  /admin.php.bak: 403 (BACKUP!)
+  /index.php.bak: 403 (BACKUP!)
+  /db.php.bak: 403 (BACKUP!)
+  /database.php.bak: 403 (BACKUP!)
+  /web.bak: 403 (BACKUP!)
+  /www.bak: 403 (BACKUP!)
+  /backup.bak: 403 (BACKUP!)
+  /site.sql.bak: 403 (BACKUP!)
+  /config.php.old: 403 (BACKUP!)
+  /admin.php.old: 403 (BACKUP!)
+  /index.php.old: 403 (BACKUP!)
+  /db.php.old: 403 (BACKUP!)
+  /database.php.old: 403 (BACKUP!)
+  /web.old: 403 (BACKUP!)
+  /www.old: 403 (BACKUP!)
+  /backup.old: 403 (BACKUP!)
+  /site.sql.old: 403 (BACKUP!)
+  /config.php.swp: 403 (BACKUP!)
+  /index.php.swp: 403 (BACKUP!)
+  /db.php.swp: 403 (BACKUP!)
+  /database.php.swp: 403 (BACKUP!)
+  /web.swp: 403 (BACKUP!)
+  /backup.swp: 403 (BACKUP!)
+  /site.sql.swp: 403 (BACKUP!)
+  /config.php~: 403 (BACKUP!)
+  /admin.php~: 403 (BACKUP!)
+  /index.php~: 403 (BACKUP!)
+  /db.php~: 403 (BACKUP!)
+  /database.php~: 403 (BACKUP!)
+  /web~: 403 (BACKUP!)
+  /www~: 403 (BACKUP!)
+  /backup~: 403 (BACKUP!)
+  /site.sql~: 403 (BACKUP!)
+  /config.php.save: 403 (BACKUP!)
+  /admin.php.save: 403 (BACKUP!)
+  /index.php.save: 403 (BACKUP!)
+  /db.php.save: 403 (BACKUP!)
+  /database.php.save: 403 (BACKUP!)
+  /web.save: 403 (BACKUP!)
+  /www.save: 403 (BACKUP!)
+  /backup.save: 403 (BACKUP!)
+  /site.sql.save: 403 (BACKUP!)
+  /config.php.txt: 403 (BACKUP!)
+  /admin.php.txt: 403 (BACKUP!)
+  /index.php.txt: 403 (BACKUP!)
+  /db.php.txt: 403 (BACKUP!)
+  /database.php.txt: 403 (BACKUP!)
+  /web.txt: 403 (BACKUP!)
+  /www.txt: 403 (BACKUP!)
+  /backup.txt: 403 (BACKUP!)
+  /site.sql.txt: 403 (BACKUP!)
+  /admin.php.tar.gz: 403 (BACKUP!)
+  /index.php.tar.gz: 403 (BACKUP!)
+  /db.php.tar.gz: 403 (BACKUP!)
+  /database.php.tar.gz: 403 (BACKUP!)
+  /web.tar.gz: 403 (BACKUP!)
+  /backup.tar.gz: 403 (BACKUP!)
+  /site.sql.tar.gz: 403 (BACKUP!)
+  /config.php.zip: 403 (BACKUP!)
+  /admin.php.zip: 403 (BACKUP!)
+  /index.php.zip: 403 (BACKUP!)
+  /db.php.zip: 403 (BACKUP!)
+  /database.php.zip: 403 (BACKUP!)
+  /web.zip: 403 (BACKUP!)
+  /www.zip: 403 (BACKUP!)
+  /backup.zip: 403 (BACKUP!)
+  /site.sql.zip: 403 (BACKUP!)
+  /config.php.sql: 403 (BACKUP!)
+  /admin.php.sql: 403 (BACKUP!)
+  /index.php.sql: 403 (BACKUP!)
+  /db.php.sql: 403 (BACKUP!)
+  /database.php.sql: 403 (BACKUP!)
+  /web.sql: 403 (BACKUP!)
+  /www.sql: 403 (BACKUP!)
+  /backup.sql: 403 (BACKUP!)
+  /site.sql.sql: 403 (BACKUP!)
+  /config.php.gz: 403 (BACKUP!)
+  /admin.php.gz: 403 (BACKUP!)
+  /index.php.gz: 403 (BACKUP!)
+  /db.php.gz: 403 (BACKUP!)
+  /database.php.gz: 403 (BACKUP!)
+  /web.gz: 403 (BACKUP!)
+  /www.gz: 403 (BACKUP!)
+  /backup.gz: 403 (BACKUP!)
+  /site.sql.gz: 403 (BACKUP!)
+
+========== porttown-fz.com.cn ==========
+HTTP: 200
+Server: Microsoft-IIS/7.5
+Title: IIS7
+
+========== qiaobenkeji.com ==========
+HTTP: 200
+Server: Microsoft-IIS/10.0
+Title: 上海桥本科技有限公司
+
+========== wuzizuifood.com ==========
+HTTP: 200
+Server: nginx
+Title: 湖南伍子醉实业集团有限公司 - 域名未授权
+  /.env: 200
+  /config.json: 200
+  /admin: 200
+  /manager: 200
+  /robots.txt: 200
+  /sitemap.xml: 200
+  /config.php~: 200 (BACKUP!)
+  /admin.php~: 200 (BACKUP!)
+  /index.php~: 200 (BACKUP!)
+  /db.php~: 200 (BACKUP!)
+  /database.php~: 200 (BACKUP!)
+  /web~: 200 (BACKUP!)
+  /www~: 200 (BACKUP!)
+  /backup~: 200 (BACKUP!)
+  /site.sql~: 200 (BACKUP!)
+  /config.php.save: 200 (BACKUP!)
+  /admin.php.save: 200 (BACKUP!)
+  /index.php.save: 200 (BACKUP!)
+  /db.php.save: 200 (BACKUP!)
+  /database.php.save: 200 (BACKUP!)
+  /web.save: 200 (BACKUP!)
+  /www.save: 200 (BACKUP!)
+  /backup.save: 200 (BACKUP!)
+  /site.sql.save: 200 (BACKUP!)
+  /config.php.txt: 200 (BACKUP!)
+  /admin.php.txt: 200 (BACKUP!)
+  /index.php.txt: 200 (BACKUP!)
+  /db.php.txt: 200 (BACKUP!)
+  /database.php.txt: 200 (BACKUP!)
+  /www.txt: 200 (BACKUP!)
+  /backup.txt: 200 (BACKUP!)
+  /site.sql.txt: 200 (BACKUP!)
+  /config.php.tar.gz: 200 (BACKUP!)
+  /admin.php.tar.gz: 200 (BACKUP!)
+  /index.php.tar.gz: 200 (BACKUP!)
+  /db.php.tar.gz: 200 (BACKUP!)
+  /database.php.tar.gz: 200 (BACKUP!)
+  /web.tar.gz: 200 (BACKUP!)
+  /www.tar.gz: 200 (BACKUP!)
+  /backup.tar.gz: 200 (BACKUP!)
+  /site.sql.tar.gz: 200 (BACKUP!)
+  /config.php.zip: 200 (BACKUP!)
+  /admin.php.zip: 200 (BACKUP!)
+  /index.php.zip: 200 (BACKUP!)
+  /db.php.zip: 200 (BACKUP!)
+  /database.php.zip: 200 (BACKUP!)
+  /web.zip: 200 (BACKUP!)
+  /www.zip: 200 (BACKUP!)
+  /backup.zip: 200 (BACKUP!)
+  /site.sql.zip: 200 (BACKUP!)
+  /config.php.sql: 200 (BACKUP!)
+  /admin.php.sql: 200 (BACKUP!)
+  /index.php.sql: 200 (BACKUP!)
+  /db.php.sql: 200 (BACKUP!)
+  /database.php.sql: 200 (BACKUP!)
+  /web.sql: 200 (BACKUP!)
+  /www.sql: 200 (BACKUP!)
+  /backup.sql: 200 (BACKUP!)
+  /site.sql.sql: 200 (BACKUP!)
+  /config.php.gz: 200 (BACKUP!)
+  /admin.php.gz: 200 (BACKUP!)
+  /index.php.gz: 200 (BACKUP!)
+  /db.php.gz: 200 (BACKUP!)
+  /database.php.gz: 200 (BACKUP!)
+  /web.gz: 200 (BACKUP!)
+  /www.gz: 200 (BACKUP!)
+  /backup.gz: 200 (BACKUP!)
+  /site.sql.gz: 200 (BACKUP!)
+
+========== yz-li.com ==========
+HTTP: 200
+Server: nginx
+Title: 浙江永正锂电股份有限公司
+  /.env: 403
+  /robots.txt: 200
+  /config.php.bak: 403 (BACKUP!)
+  /admin.php.bak: 403 (BACKUP!)
+  /index.php.bak: 403 (BACKUP!)
+  /db.php.bak: 403 (BACKUP!)
+  /database.php.bak: 403 (BACKUP!)
+  /web.bak: 403 (BACKUP!)
+  /www.bak: 403 (BACKUP!)
+  /backup.bak: 403 (BACKUP!)
+  /site.sql.bak: 403 (BACKUP!)
+  /config.php.old: 403 (BACKUP!)
+  /admin.php.old: 403 (BACKUP!)
+  /index.php.old: 403 (BACKUP!)
+  /db.php.old: 403 (BACKUP!)
+  /database.php.old: 403 (BACKUP!)
+  /web.old: 403 (BACKUP!)
+  /www.old: 403 (BACKUP!)
+  /backup.old: 403 (BACKUP!)
+  /site.sql.old: 403 (BACKUP!)
+
+========== linkopto.com ==========
+HTTP: 200
+Server: Microsoft-IIS/7.5
+Title: 深圳市联普泰通信技术有限公司
+!! ThinkPHP 5.0.23 RCE VULNERABLE (captcha variant) !!
+!! phpinfo.php: PHPINFO EXPOSED !!
+
+========== se5111.com ==========
+HTTP: 200
+Server: Microsoft-IIS/7.5
+Title: 天天看片|手机看片|亚洲 欧美 国产 综合|天堂在线|天天看高清影视在线-三里桃花,春风十里不如你免费成人在线视频-免费观看最新上映大片,午夜剧,不用下载播放器免费在线观看,手机在线观看！
+  /install.php: 200
+
+========== 106318b.com ==========
+HTTP: 200
+Server: cloudflare
+Title: 免费小说网-书友公认最好看值得收藏的小说网站
+  /.env: 403
+  /admin: 301
+  /login.php: 200
+  /robots.txt: 200
+  /sitemap.xml: 200
+  /config.php.bak: 403 (BACKUP!)
+  /admin.php.bak: 403 (BACKUP!)
+  /index.php.bak: 403 (BACKUP!)
+  /db.php.bak: 403 (BACKUP!)
+  /database.php.bak: 403 (BACKUP!)
+  /web.bak: 403 (BACKUP!)
+  /www.bak: 403 (BACKUP!)
+  /backup.bak: 403 (BACKUP!)
+  /site.sql.bak: 403 (BACKUP!)
+  /config.php.old: 403 (BACKUP!)
+  /admin.php.old: 403 (BACKUP!)
+  /index.php.old: 403 (BACKUP!)
+  /db.php.old: 403 (BACKUP!)
+  /database.php.old: 403 (BACKUP!)
+  /web.old: 403 (BACKUP!)
+  /www.old: 403 (BACKUP!)
+  /backup.old: 403 (BACKUP!)
+  /site.sql.old: 403 (BACKUP!)
+  /config.php.swp: 520 (BACKUP!)
+  /admin.php.swp: 520 (BACKUP!)
+  /index.php.swp: 520 (BACKUP!)
+  /db.php.swp: 520 (BACKUP!)
+  /database.php.swp: 520 (BACKUP!)
+  /web.swp: 520 (BACKUP!)
+  /www.swp: 520 (BACKUP!)
+  /backup.swp: 520 (BACKUP!)
+  /site.sql.swp: 520 (BACKUP!)
+  /config.php~: 520 (BACKUP!)
+  /admin.php~: 520 (BACKUP!)
+  /index.php~: 520 (BACKUP!)
+  /db.php~: 520 (BACKUP!)
+  /database.php~: 520 (BACKUP!)
+  /web~: 520 (BACKUP!)
+  /www~: 520 (BACKUP!)
+  /backup~: 520 (BACKUP!)
+  /site.sql~: 520 (BACKUP!)
+  /config.php.save: 520 (BACKUP!)
+  /admin.php.save: 520 (BACKUP!)
+  /index.php.save: 520 (BACKUP!)
+  /db.php.save: 520 (BACKUP!)
+  /database.php.save: 520 (BACKUP!)
+  /web.save: 520 (BACKUP!)
+  /www.save: 520 (BACKUP!)
+  /backup.save: 520 (BACKUP!)
+  /site.sql.save: 520 (BACKUP!)
+  /config.php.txt: 520 (BACKUP!)
+  /admin.php.txt: 520 (BACKUP!)
+  /index.php.txt: 520 (BACKUP!)
+  /db.php.txt: 520 (BACKUP!)
+  /database.php.txt: 520 (BACKUP!)
+  /web.txt: 520 (BACKUP!)
+  /www.txt: 520 (BACKUP!)
+  /backup.txt: 520 (BACKUP!)
+  /site.sql.txt: 520 (BACKUP!)
+  /config.php.tar.gz: 520 (BACKUP!)
+  /admin.php.tar.gz: 520 (BACKUP!)
+  /index.php.tar.gz: 520 (BACKUP!)
+  /db.php.tar.gz: 520 (BACKUP!)
+  /database.php.tar.gz: 520 (BACKUP!)
+  /web.tar.gz: 520 (BACKUP!)
+  /www.tar.gz: 520 (BACKUP!)
+  /backup.tar.gz: 520 (BACKUP!)
+  /site.sql.tar.gz: 520 (BACKUP!)
+  /config.php.zip: 520 (BACKUP!)
+  /admin.php.zip: 520 (BACKUP!)
+  /index.php.zip: 520 (BACKUP!)
+  /db.php.zip: 520 (BACKUP!)
+  /database.php.zip: 520 (BACKUP!)
+  /web.zip: 520 (BACKUP!)
+  /www.zip: 520 (BACKUP!)
+  /backup.zip: 520 (BACKUP!)
+  /site.sql.zip: 520 (BACKUP!)
+  /config.php.sql: 520 (BACKUP!)
+  /admin.php.sql: 520 (BACKUP!)
+  /index.php.sql: 520 (BACKUP!)
+  /db.php.sql: 520 (BACKUP!)
+  /database.php.sql: 520 (BACKUP!)
+  /web.sql: 520 (BACKUP!)
+  /www.sql: 520 (BACKUP!)
+  /backup.sql: 520 (BACKUP!)
+  /site.sql.sql: 520 (BACKUP!)
+  /config.php.gz: 520 (BACKUP!)
+  /admin.php.gz: 520 (BACKUP!)
+  /index.php.gz: 520 (BACKUP!)
+  /db.php.gz: 520 (BACKUP!)
+  /database.php.gz: 520 (BACKUP!)
+  /web.gz: 520 (BACKUP!)
+  /www.gz: 520 (BACKUP!)
+  /backup.gz: 520 (BACKUP!)
+  /site.sql.gz: 520 (BACKUP!)
+
+========== wanzhengdq.com ==========
+HTTP: 200
+Server: Microsoft-IIS/7.5
+Title: 湖北万征电气有限公司 高低压成套配电设备、高低压无功补偿设备、电能质量优化及节能设备、电动机软启动及变频设备
+  /robots.txt: 200
+  /sitemap.xml: 200
+
+========== cixingkeji.com ==========
+HTTP: 200
+Server: Microsoft-IIS/7.5
+Title: 网站首页-磁性科技网
+  /admin: 301
+  /robots.txt: 200
+
+========== fv-plast.cn ==========
+HTTP: 200
+Server: Microsoft-IIS/7.5
+Title: 芬驰PPR水管_进口家装PPR热水管_进口PPR水管品牌_芬驰管
+!! ThinkPHP 5.0.23 RCE VULNERABLE (captcha variant) !!
+!! phpinfo.php: PHPINFO EXPOSED !!
+  /robots.txt: 200
+  /sitemap.xml: 200
+
+========== gymszp.com.cn ==========
+HTTP: 200
+Server: Microsoft-IIS/10.0
+Title: 温州市工艺美术行业协会
+!! phpinfo.php: PHPINFO EXPOSED !!
+  /admin: 301
+  /robots.txt: 200
+
+========== nbzhongxin.net ==========
+HTTP: 200
+Server: Microsoft-IIS/7.5
+Title: 宁波中鑫毛纺集团有限公司
+  /.env: 302
+  /config.json: 302
+  /config.php: 302
+  /database.php: 302
+  /db.php: 302
+  /admin: 302
+  /admin.php: 302
+  /manager: 302
+  /login.php: 302
+  /setup.php: 302
+  /install.php: 302
+  /robots.txt: 302
+  /sitemap.xml: 302
+  /config.php.bak: 302 (BACKUP!)
+  /admin.php.bak: 302 (BACKUP!)
+  /index.php.bak: 302 (BACKUP!)
+  /db.php.bak: 302 (BACKUP!)
+  /database.php.bak: 302 (BACKUP!)
+  /web.bak: 302 (BACKUP!)
+  /www.bak: 302 (BACKUP!)
+  /backup.bak: 302 (BACKUP!)
+  /site.sql.bak: 302 (BACKUP!)
+  /config.php.old: 302 (BACKUP!)
+  /admin.php.old: 302 (BACKUP!)
+  /index.php.old: 302 (BACKUP!)
+  /db.php.old: 302 (BACKUP!)
+  /database.php.old: 302 (BACKUP!)
+  /web.old: 302 (BACKUP!)
+  /www.old: 302 (BACKUP!)
+  /backup.old: 302 (BACKUP!)
+  /site.sql.old: 302 (BACKUP!)
+  /config.php.swp: 302 (BACKUP!)
+  /admin.php.swp: 302 (BACKUP!)
+  /index.php.swp: 302 (BACKUP!)
+  /db.php.swp: 302 (BACKUP!)
+  /database.php.swp: 302 (BACKUP!)
+  /www.swp: 302 (BACKUP!)
+  /backup.swp: 302 (BACKUP!)
+  /site.sql.swp: 302 (BACKUP!)
+  /config.php~: 302 (BACKUP!)
+  /admin.php~: 302 (BACKUP!)
+  /index.php~: 302 (BACKUP!)
+  /db.php~: 302 (BACKUP!)
+  /database.php~: 302 (BACKUP!)
+  /web~: 302 (BACKUP!)
+  /www~: 302 (BACKUP!)
+  /backup~: 302 (BACKUP!)
+  /site.sql~: 302 (BACKUP!)
+  /config.php.save: 302 (BACKUP!)
+  /admin.php.save: 302 (BACKUP!)
+  /index.php.save: 302 (BACKUP!)
+  /db.php.save: 302 (BACKUP!)
+  /database.php.save: 302 (BACKUP!)
+  /web.save: 302 (BACKUP!)
+  /www.save: 302 (BACKUP!)
+  /backup.save: 302 (BACKUP!)
+  /site.sql.save: 302 (BACKUP!)
+  /config.php.txt: 302 (BACKUP!)
+  /admin.php.txt: 302 (BACKUP!)
+  /index.php.txt: 302 (BACKUP!)
+  /db.php.txt: 302 (BACKUP!)
+  /database.php.txt: 302 (BACKUP!)
+  /web.txt: 302 (BACKUP!)
+  /www.txt: 302 (BACKUP!)
+  /backup.txt: 302 (BACKUP!)
+  /site.sql.txt: 302 (BACKUP!)
+  /config.php.tar.gz: 302 (BACKUP!)
+  /admin.php.tar.gz: 302 (BACKUP!)
+  /index.php.tar.gz: 302 (BACKUP!)
+  /db.php.tar.gz: 302 (BACKUP!)
+  /database.php.tar.gz: 302 (BACKUP!)
+  /web.tar.gz: 302 (BACKUP!)
+  /www.tar.gz: 302 (BACKUP!)
+  /backup.tar.gz: 302 (BACKUP!)
+  /site.sql.tar.gz: 302 (BACKUP!)
+  /config.php.zip: 302 (BACKUP!)
+  /admin.php.zip: 302 (BACKUP!)
+  /index.php.zip: 302 (BACKUP!)
+  /db.php.zip: 302 (BACKUP!)
+  /database.php.zip: 302 (BACKUP!)
+  /web.zip: 302 (BACKUP!)
+  /www.zip: 302 (BACKUP!)
+  /backup.zip: 302 (BACKUP!)
+  /site.sql.zip: 302 (BACKUP!)
+  /config.php.sql: 302 (BACKUP!)
+  /admin.php.sql: 302 (BACKUP!)
+  /index.php.sql: 302 (BACKUP!)
+  /db.php.sql: 302 (BACKUP!)
+  /database.php.sql: 302 (BACKUP!)
+  /web.sql: 302 (BACKUP!)
+  /www.sql: 302 (BACKUP!)
+  /backup.sql: 302 (BACKUP!)
+  /site.sql.sql: 302 (BACKUP!)
+  /config.php.gz: 302 (BACKUP!)
+  /index.php.gz: 302 (BACKUP!)
+  /db.php.gz: 302 (BACKUP!)
+  /database.php.gz: 302 (BACKUP!)
+  /web.gz: 302 (BACKUP!)
+  /www.gz: 302 (BACKUP!)
+  /backup.gz: 302 (BACKUP!)
+  /site.sql.gz: 302 (BACKUP!)
+
+========== qdlidong.com ==========
+HTTP: 200
+Server: Microsoft-IIS/10.0
+Title: 
+
+========== rifutaoci.com ==========
+HTTP: 200
+Server: nginx
+Title: 秦皇岛日福陶瓷有限公司
+  /config.php: 200
+  /database.php: 200
+  /db.php: 200
+  /admin.php: 200
+  /login.php: 200
+  /setup.php: 200
+  /install.php: 200
+  /config.php.sql: 200 (BACKUP!)
+  /admin.php.sql: 200 (BACKUP!)
+  /index.php.sql: 200 (BACKUP!)
+  /db.php.sql: 200 (BACKUP!)
+  /database.php.sql: 200 (BACKUP!)
+  /web.sql: 200 (BACKUP!)
+  /www.sql: 200 (BACKUP!)
+  /backup.sql: 200 (BACKUP!)
+  /site.sql.sql: 200 (BACKUP!)
+
+========== wenzhouoceanpark.com ==========
+HTTP: 200
+Server: Microsoft-IIS/10.0
+Title: 温州极地海洋世界
+  /.env: 200
+  /config.json: 200
+  /config.php: 200
+  /database.php: 200
+  /db.php: 200
+  /admin: 301
+  /admin.php: 200
+  /manager: 200
+  /login.php: 200
+  /setup.php: 200
+  /install.php: 200
+  /robots.txt: 200
+  /sitemap.xml: 200
+  /config.php.bak: 200 (BACKUP!)
+  /admin.php.bak: 200 (BACKUP!)
+  /index.php.bak: 200 (BACKUP!)
+  /db.php.bak: 200 (BACKUP!)
+  /database.php.bak: 200 (BACKUP!)
+  /web.bak: 200 (BACKUP!)
+  /www.bak: 200 (BACKUP!)
+  /backup.bak: 200 (BACKUP!)
+  /config.php.old: 200 (BACKUP!)
+  /admin.php.old: 200 (BACKUP!)
+  /index.php.old: 200 (BACKUP!)
+  /db.php.old: 200 (BACKUP!)
+  /database.php.old: 200 (BACKUP!)
+  /web.old: 200 (BACKUP!)
+  /www.old: 200 (BACKUP!)
+  /backup.old: 200 (BACKUP!)
+  /site.sql.old: 200 (BACKUP!)
+  /config.php.swp: 200 (BACKUP!)
+  /admin.php.swp: 200 (BACKUP!)
+  /index.php.swp: 200 (BACKUP!)
+  /db.php.swp: 200 (BACKUP!)
+  /database.php.swp: 200 (BACKUP!)
+  /web.swp: 200 (BACKUP!)
+  /www.swp: 200 (BACKUP!)
+  /backup.swp: 200 (BACKUP!)
+  /site.sql.swp: 200 (BACKUP!)
+  /config.php~: 200 (BACKUP!)
+  /admin.php~: 200 (BACKUP!)
+  /index.php~: 200 (BACKUP!)
+  /db.php~: 200 (BACKUP!)
+  /database.php~: 200 (BACKUP!)
+  /web~: 200 (BACKUP!)
+  /www~: 200 (BACKUP!)
+  /backup~: 200 (BACKUP!)
+  /site.sql~: 200 (BACKUP!)
+  /config.php.save: 200 (BACKUP!)
+  /admin.php.save: 200 (BACKUP!)
+  /index.php.save: 200 (BACKUP!)
+  /db.php.save: 200 (BACKUP!)
+  /database.php.save: 200 (BACKUP!)
+  /web.save: 200 (BACKUP!)
+  /www.save: 200 (BACKUP!)
+  /backup.save: 200 (BACKUP!)
+  /site.sql.save: 200 (BACKUP!)
+  /config.php.txt: 200 (BACKUP!)
+  /admin.php.txt: 200 (BACKUP!)
+  /index.php.txt: 200 (BACKUP!)
+  /db.php.txt: 200 (BACKUP!)
+  /database.php.txt: 200 (BACKUP!)
+  /web.txt: 200 (BACKUP!)
+  /www.txt: 200 (BACKUP!)
+  /backup.txt: 200 (BACKUP!)
+  /site.sql.txt: 200 (BACKUP!)
+  /config.php.tar.gz: 200 (BACKUP!)
+  /admin.php.tar.gz: 200 (BACKUP!)
+  /index.php.tar.gz: 200 (BACKUP!)
+  /db.php.tar.gz: 200 (BACKUP!)
+  /database.php.tar.gz: 200 (BACKUP!)
+  /web.tar.gz: 200 (BACKUP!)
+  /www.tar.gz: 200 (BACKUP!)
+  /backup.tar.gz: 200 (BACKUP!)
+  /site.sql.tar.gz: 200 (BACKUP!)
+  /config.php.zip: 200 (BACKUP!)
+  /admin.php.zip: 200 (BACKUP!)
+  /index.php.zip: 200 (BACKUP!)
+  /db.php.zip: 200 (BACKUP!)
+  /database.php.zip: 200 (BACKUP!)
+  /web.zip: 200 (BACKUP!)
+  /www.zip: 200 (BACKUP!)
+  /backup.zip: 200 (BACKUP!)
+  /site.sql.zip: 200 (BACKUP!)
+  /config.php.sql: 200 (BACKUP!)
+  /admin.php.sql: 200 (BACKUP!)
+  /index.php.sql: 200 (BACKUP!)
+  /db.php.sql: 200 (BACKUP!)
+  /database.php.sql: 200 (BACKUP!)
+  /web.sql: 200 (BACKUP!)
+  /www.sql: 200 (BACKUP!)
+  /backup.sql: 200 (BACKUP!)
+  /site.sql.sql: 200 (BACKUP!)
+  /config.php.gz: 200 (BACKUP!)
+  /admin.php.gz: 200 (BACKUP!)
+  /index.php.gz: 200 (BACKUP!)
+  /db.php.gz: 200 (BACKUP!)
+  /database.php.gz: 200 (BACKUP!)
+  /web.gz: 200 (BACKUP!)
+  /www.gz: 200 (BACKUP!)
+  /backup.gz: 200 (BACKUP!)
+  /site.sql.gz: 200 (BACKUP!)
+
+========== zjshuangkai.com ==========
+HTTP: 200
+Server: Microsoft-IIS/8.5
+Title: 抱歉，站点已暂停
+  /robots.txt: 200
+  /config.php.bak: 200 (BACKUP!)
+  /admin.php.bak: 200 (BACKUP!)
+  /index.php.bak: 200 (BACKUP!)
+  /db.php.bak: 200 (BACKUP!)
+  /database.php.bak: 200 (BACKUP!)
+  /web.bak: 200 (BACKUP!)
+  /www.bak: 200 (BACKUP!)
+  /backup.bak: 200 (BACKUP!)
+  /site.sql.bak: 200 (BACKUP!)
+  /config.php.sql: 200 (BACKUP!)
+  /admin.php.sql: 200 (BACKUP!)
+  /index.php.sql: 200 (BACKUP!)
+  /db.php.sql: 200 (BACKUP!)
+  /database.php.sql: 200 (BACKUP!)
+  /web.sql: 200 (BACKUP!)
+  /www.sql: 200 (BACKUP!)
+  /backup.sql: 200 (BACKUP!)
+  /site.sql.sql: 200 (BACKUP!)
+
+========== h0591.com ==========
+HTTP: 200
+Server: Microsoft-IIS/7.5
+Title: 福建房产门户_福州楼盘_福州二手房_海西房产网
+CMS: EmpireCMS
+  /robots.txt: 200
+
+========== gx-jx.com ==========
+HTTP: 404
+Server: 
+Title: 庆元菇星节能机械有限公司,菇星机械,香菇机械,食用菌机械,装袋机,烘干机,自动化装袋,官方网站
+  /robots.txt: 200
+  /config.php.bak: 200 (BACKUP!)
+  /admin.php.bak: 200 (BACKUP!)
+  /index.php.bak: 200 (BACKUP!)
+  /db.php.bak: 200 (BACKUP!)
+  /database.php.bak: 200 (BACKUP!)
+  /web.bak: 200 (BACKUP!)
+  /www.bak: 200 (BACKUP!)
+  /backup.bak: 200 (BACKUP!)
+  /site.sql.bak: 200 (BACKUP!)
+  /config.php.sql: 200 (BACKUP!)
+  /admin.php.sql: 200 (BACKUP!)
+  /index.php.sql: 200 (BACKUP!)
+  /db.php.sql: 200 (BACKUP!)
+  /database.php.sql: 200 (BACKUP!)
+  /web.sql: 200 (BACKUP!)
+  /www.sql: 200 (BACKUP!)
+  /backup.sql: 200 (BACKUP!)
+  /site.sql.sql: 200 (BACKUP!)
+
+========== gzny56.cn ==========
+HTTP: 
+Server: 
+Title: 
+
+========== seikocrystal.com ==========
+HTTP: 200
+Server: Microsoft-IIS/7.5
+Title: 日本精工晶振-日本富士晶振-中国大陆市场指定代理商
+  /robots.txt: 200
+  /sitemap.xml: 200
+
+========== jiandaoshi.com ==========
+HTTP: 200
+Server: Microsoft-IIS/7.5
+Title: 
+  /manager: 301
+  /robots.txt: 200
+  /sitemap.xml: 200
+
+========== qianliyu.com ==========
+HTTP: 200
+Server: Microsoft-IIS/7.5
+Title: 劳保雨衣设计来料定做PVC下水裤批发代加工_盐城千里雨衣制造厂-劳保雨衣设计来料定做PVC下水裤批发代加工_盐城千里雨衣制造厂
+
+========== shanguoying.com ==========
+HTTP: 200
+Server: Microsoft-IIS/10.0
+Title: 单国英-郑州惠仁中医肿瘤医院-郑州颈椎病腰椎间盘突出中医院-郑州中医肿瘤专家
+  /admin: 301
+  /robots.txt: 200
+
+========== gdrongda.com ==========
+HTTP: 200
+Server: 
+Title: 
+!! ThinkPHP 5.0.23 RCE VULNERABLE (captcha variant) !!
+!! phpinfo.php: PHPINFO EXPOSED !!
+  /config.json: 200
+  /config.php: 200
+  /database.php: 200
+  /db.php: 200
+  /login.php: 200
+  /setup.php: 200
+  /install.php: 200
+  /index.php.bak: 200 (BACKUP!)
+  /db.php.bak: 200 (BACKUP!)
+  /www.bak: 200 (BACKUP!)
+  /config.php.old: 200 (BACKUP!)
+  /db.php.old: 200 (BACKUP!)
+  /site.sql.old: 200 (BACKUP!)
+  /admin.php.swp: 200 (BACKUP!)
+  /db.php.swp: 200 (BACKUP!)
+  /www.swp: 200 (BACKUP!)
+  /backup.swp: 200 (BACKUP!)
+  /site.sql.swp: 200 (BACKUP!)
+  /config.php~: 200 (BACKUP!)
+  /db.php~: 200 (BACKUP!)
+  /database.php~: 200 (BACKUP!)
+  /www~: 200 (BACKUP!)
+  /config.php.save: 200 (BACKUP!)
+  /admin.php.save: 200 (BACKUP!)
+  /db.php.save: 200 (BACKUP!)
+  /web.save: 200 (BACKUP!)
+  /site.sql.save: 200 (BACKUP!)
+  /admin.php.txt: 200 (BACKUP!)
+  /db.php.txt: 200 (BACKUP!)
+  /web.txt: 200 (BACKUP!)
+  /site.sql.txt: 200 (BACKUP!)
+  /config.php.tar.gz: 200 (BACKUP!)
+  /admin.php.tar.gz: 200 (BACKUP!)
+  /index.php.tar.gz: 200 (BACKUP!)
+  /db.php.tar.gz: 200 (BACKUP!)
+  /database.php.tar.gz: 200 (BACKUP!)
+  /www.tar.gz: 200 (BACKUP!)
+  /site.sql.tar.gz: 200 (BACKUP!)
+  /admin.php.zip: 200 (BACKUP!)
+  /db.php.zip: 200 (BACKUP!)
+  /database.php.zip: 200 (BACKUP!)
+  /web.zip: 200 (BACKUP!)
+  /backup.zip: 200 (BACKUP!)
+  /index.php.sql: 200 (BACKUP!)
+  /db.php.sql: 200 (BACKUP!)
+  /database.php.sql: 200 (BACKUP!)
+  /backup.sql: 200 (BACKUP!)
+  /config.php.gz: 200 (BACKUP!)
+  /admin.php.gz: 200 (BACKUP!)
+  /db.php.gz: 200 (BACKUP!)
+  /database.php.gz: 200 (BACKUP!)
+  /web.gz: 200 (BACKUP!)
+  /backup.gz: 200 (BACKUP!)
+  /site.sql.gz: 200 (BACKUP!)
+
+========== jinhuaruitong.com ==========
+HTTP: 200
+Server: nginx
+Title: 锦华瑞通机械设备销售有限公司
+  /config.json: 302
+  /admin: 302
+  /manager: 302
+  /robots.txt: 302
+  /config.php.bak: 302 (BACKUP!)
+  /admin.php.bak: 302 (BACKUP!)
+  /index.php.bak: 302 (BACKUP!)
+  /db.php.bak: 302 (BACKUP!)
+  /database.php.bak: 302 (BACKUP!)
+  /web.bak: 302 (BACKUP!)
+  /www.bak: 302 (BACKUP!)
+  /backup.bak: 302 (BACKUP!)
+  /site.sql.bak: 302 (BACKUP!)
+  /config.php.old: 302 (BACKUP!)
+  /admin.php.old: 302 (BACKUP!)
+  /index.php.old: 302 (BACKUP!)
+  /db.php.old: 302 (BACKUP!)
+  /database.php.old: 302 (BACKUP!)
+  /web.old: 302 (BACKUP!)
+  /www.old: 302 (BACKUP!)
+  /backup.old: 302 (BACKUP!)
+  /site.sql.old: 302 (BACKUP!)
+  /config.php.swp: 302 (BACKUP!)
+  /admin.php.swp: 302 (BACKUP!)
+  /index.php.swp: 302 (BACKUP!)
+  /db.php.swp: 302 (BACKUP!)
+  /database.php.swp: 302 (BACKUP!)
+  /www.swp: 302 (BACKUP!)
+  /backup.swp: 302 (BACKUP!)
+  /site.sql.swp: 302 (BACKUP!)
+  /config.php~: 302 (BACKUP!)
+  /admin.php~: 302 (BACKUP!)
+  /index.php~: 302 (BACKUP!)
+  /db.php~: 302 (BACKUP!)
+  /database.php~: 302 (BACKUP!)
+  /web~: 302 (BACKUP!)
+  /www~: 302 (BACKUP!)
+  /backup~: 302 (BACKUP!)
+  /site.sql~: 302 (BACKUP!)
+  /config.php.save: 302 (BACKUP!)
+  /admin.php.save: 302 (BACKUP!)
+  /index.php.save: 302 (BACKUP!)
+  /db.php.save: 302 (BACKUP!)
+  /database.php.save: 302 (BACKUP!)
+  /web.save: 302 (BACKUP!)
+  /www.save: 302 (BACKUP!)
+  /backup.save: 302 (BACKUP!)
+  /site.sql.save: 302 (BACKUP!)
+  /config.php.tar.gz: 302 (BACKUP!)
+  /admin.php.tar.gz: 302 (BACKUP!)
+  /index.php.tar.gz: 302 (BACKUP!)
+  /db.php.tar.gz: 302 (BACKUP!)
+  /database.php.tar.gz: 302 (BACKUP!)
+  /web.tar.gz: 302 (BACKUP!)
+  /www.tar.gz: 302 (BACKUP!)
+  /backup.tar.gz: 302 (BACKUP!)
+  /site.sql.tar.gz: 302 (BACKUP!)
+  /config.php.zip: 302 (BACKUP!)
+  /admin.php.zip: 302 (BACKUP!)
+  /index.php.zip: 302 (BACKUP!)
+  /db.php.zip: 302 (BACKUP!)
+  /database.php.zip: 302 (BACKUP!)
+  /web.zip: 302 (BACKUP!)
+  /www.zip: 302 (BACKUP!)
+  /backup.zip: 302 (BACKUP!)
+  /site.sql.zip: 302 (BACKUP!)
+  /config.php.sql: 302 (BACKUP!)
+  /admin.php.sql: 302 (BACKUP!)
+  /index.php.sql: 302 (BACKUP!)
+  /db.php.sql: 302 (BACKUP!)
+  /database.php.sql: 302 (BACKUP!)
+  /web.sql: 302 (BACKUP!)
+  /www.sql: 302 (BACKUP!)
+  /backup.sql: 302 (BACKUP!)
+  /site.sql.sql: 302 (BACKUP!)
+  /config.php.gz: 302 (BACKUP!)
+  /admin.php.gz: 302 (BACKUP!)
+  /index.php.gz: 302 (BACKUP!)
+  /db.php.gz: 302 (BACKUP!)
+  /database.php.gz: 302 (BACKUP!)
+  /web.gz: 302 (BACKUP!)
+  /www.gz: 302 (BACKUP!)
+  /backup.gz: 302 (BACKUP!)
+  /site.sql.gz: 302 (BACKUP!)
+
+========== hongshengss.cn ==========
+HTTP: 200
+Server: wts
+Title: 河北鸿晟输送机械有限公司
+  /.env: 403
+  /robots.txt: 200
+  /config.php.bak: 403 (BACKUP!)
+  /admin.php.bak: 403 (BACKUP!)
+  /index.php.bak: 403 (BACKUP!)
+  /db.php.bak: 403 (BACKUP!)
+  /database.php.bak: 403 (BACKUP!)
+  /web.bak: 403 (BACKUP!)
+  /www.bak: 403 (BACKUP!)
+  /backup.bak: 403 (BACKUP!)
+  /site.sql.bak: 403 (BACKUP!)
+  /config.php.tar.gz: 403 (BACKUP!)
+  /admin.php.tar.gz: 403 (BACKUP!)
+  /index.php.tar.gz: 403 (BACKUP!)
+  /db.php.tar.gz: 403 (BACKUP!)
+  /database.php.tar.gz: 403 (BACKUP!)
+  /web.tar.gz: 403 (BACKUP!)
+  /www.tar.gz: 403 (BACKUP!)
+  /backup.tar.gz: 403 (BACKUP!)
+  /site.sql.tar.gz: 403 (BACKUP!)
+  /config.php.zip: 403 (BACKUP!)
+  /admin.php.zip: 403 (BACKUP!)
+  /index.php.zip: 403 (BACKUP!)
+  /db.php.zip: 403 (BACKUP!)
+  /database.php.zip: 403 (BACKUP!)
+  /web.zip: 403 (BACKUP!)
+  /www.zip: 403 (BACKUP!)
+  /backup.zip: 403 (BACKUP!)
+  /site.sql.zip: 403 (BACKUP!)
+  /config.php.gz: 403 (BACKUP!)
+  /admin.php.gz: 403 (BACKUP!)
+  /index.php.gz: 403 (BACKUP!)
+  /db.php.gz: 403 (BACKUP!)
+  /database.php.gz: 403 (BACKUP!)
+  /web.gz: 403 (BACKUP!)
+  /www.gz: 403 (BACKUP!)
+  /backup.gz: 403 (BACKUP!)
+  /site.sql.gz: 403 (BACKUP!)
+
+========== yhhuixin.com ==========
+HTTP: 200
+Server: wits/1.17
+Title: 玉环市汇鑫机械有限公司
+!! phpinfo.php: PHPINFO EXPOSED !!
+  /admin.php: 200
+  /robots.txt: 200
+  /config.php.zip: 500 (BACKUP!)
+  /admin.php.zip: 500 (BACKUP!)
+  /index.php.zip: 500 (BACKUP!)
+  /db.php.zip: 500 (BACKUP!)
+  /database.php.zip: 500 (BACKUP!)
+  /web.zip: 500 (BACKUP!)
+  /www.zip: 500 (BACKUP!)
+  /backup.zip: 500 (BACKUP!)
+  /site.sql.zip: 500 (BACKUP!)
+
+========== hnks09.com ==========
+HTTP: 200
+Server: Apache
+Title: 系统发生错误
+CMS: ThinkPHP
+  /.env: 403
+  /admin: 302
+  /admin.php: 302
+  /robots.txt: 200
+  /admin.php~: 302 (BACKUP!)
+  /index.php~: 200 (BACKUP!)
+
+========== hnhuawang.com ==========
+HTTP: 403
+Server: Microsoft-IIS/10.0
+Title: 
+  /.env: 403
+  /config.json: 403
+  /config.php: 403
+  /database.php: 403
+  /db.php: 403
+  /admin: 403
+  /admin.php: 403
+  /manager: 403
+  /login.php: 403
+  /setup.php: 403
+  /install.php: 403
+  /robots.txt: 403
+  /sitemap.xml: 403
+  /config.php.bak: 403 (BACKUP!)
+  /admin.php.bak: 403 (BACKUP!)
+  /index.php.bak: 403 (BACKUP!)
+  /db.php.bak: 403 (BACKUP!)
+  /database.php.bak: 403 (BACKUP!)
+  /web.bak: 403 (BACKUP!)
+  /www.bak: 403 (BACKUP!)
+  /backup.bak: 403 (BACKUP!)
+  /site.sql.bak: 403 (BACKUP!)
+  /config.php.old: 403 (BACKUP!)
+  /admin.php.old: 403 (BACKUP!)
+  /index.php.old: 403 (BACKUP!)
+  /db.php.old: 403 (BACKUP!)
+  /database.php.old: 403 (BACKUP!)
+  /web.old: 403 (BACKUP!)
+  /www.old: 403 (BACKUP!)
+  /backup.old: 403 (BACKUP!)
+  /site.sql.old: 403 (BACKUP!)
+  /config.php.swp: 403 (BACKUP!)
+  /admin.php.swp: 403 (BACKUP!)
+  /index.php.swp: 403 (BACKUP!)
+  /db.php.swp: 403 (BACKUP!)
+  /database.php.swp: 403 (BACKUP!)
+  /web.swp: 403 (BACKUP!)
+  /www.swp: 403 (BACKUP!)
+  /backup.swp: 403 (BACKUP!)
+  /site.sql.swp: 403 (BACKUP!)
+  /config.php~: 403 (BACKUP!)
+  /admin.php~: 403 (BACKUP!)
+  /index.php~: 403 (BACKUP!)
+  /db.php~: 403 (BACKUP!)
+  /database.php~: 403 (BACKUP!)
+  /web~: 403 (BACKUP!)
+  /www~: 403 (BACKUP!)
+  /backup~: 403 (BACKUP!)
+  /site.sql~: 403 (BACKUP!)
+  /config.php.save: 403 (BACKUP!)
+  /admin.php.save: 403 (BACKUP!)
+  /index.php.save: 403 (BACKUP!)
+  /db.php.save: 403 (BACKUP!)
+  /database.php.save: 403 (BACKUP!)
+  /web.save: 403 (BACKUP!)
+  /www.save: 403 (BACKUP!)
+  /backup.save: 403 (BACKUP!)
+  /site.sql.save: 403 (BACKUP!)
+  /config.php.txt: 403 (BACKUP!)
+  /admin.php.txt: 403 (BACKUP!)
+  /index.php.txt: 403 (BACKUP!)
+  /db.php.txt: 403 (BACKUP!)
+  /database.php.txt: 403 (BACKUP!)
+  /web.txt: 403 (BACKUP!)
+  /www.txt: 403 (BACKUP!)
+  /backup.txt: 403 (BACKUP!)
+  /site.sql.txt: 403 (BACKUP!)
+  /config.php.tar.gz: 403 (BACKUP!)
+  /admin.php.tar.gz: 403 (BACKUP!)
+  /index.php.tar.gz: 403 (BACKUP!)
+  /db.php.tar.gz: 403 (BACKUP!)
+  /database.php.tar.gz: 403 (BACKUP!)
+  /web.tar.gz: 403 (BACKUP!)
+  /www.tar.gz: 403 (BACKUP!)
+  /backup.tar.gz: 403 (BACKUP!)
+  /site.sql.tar.gz: 403 (BACKUP!)
+  /config.php.zip: 403 (BACKUP!)
+  /admin.php.zip: 403 (BACKUP!)
+  /index.php.zip: 403 (BACKUP!)
+  /db.php.zip: 403 (BACKUP!)
+  /database.php.zip: 403 (BACKUP!)
+  /web.zip: 403 (BACKUP!)
+  /www.zip: 403 (BACKUP!)
+  /backup.zip: 403 (BACKUP!)
+  /site.sql.zip: 403 (BACKUP!)
+  /config.php.sql: 403 (BACKUP!)
+  /admin.php.sql: 403 (BACKUP!)
+  /index.php.sql: 403 (BACKUP!)
+  /db.php.sql: 403 (BACKUP!)
+  /database.php.sql: 403 (BACKUP!)
+  /web.sql: 403 (BACKUP!)
+  /www.sql: 403 (BACKUP!)
+  /backup.sql: 403 (BACKUP!)
+  /site.sql.sql: 403 (BACKUP!)
+  /config.php.gz: 403 (BACKUP!)
+  /admin.php.gz: 403 (BACKUP!)
+  /index.php.gz: 403 (BACKUP!)
+  /db.php.gz: 403 (BACKUP!)
+  /database.php.gz: 403 (BACKUP!)
+  /web.gz: 403 (BACKUP!)
+  /www.gz: 403 (BACKUP!)
+  /backup.gz: 403 (BACKUP!)
+
+========== mun17.com ==========
+HTTP: 200
+Server: Apache
+Title: 二氧化碳培养箱-恒温恒湿试验箱-高低温-上海目尼实验设备
+  /admin: 302
+
+========== canbe.com.cn ==========
+HTTP: 200
+Server: nginx
+Title: 广东广碧环保科技有限公司
+  /robots.txt: 200
+  /sitemap.xml: 200
+
+========== cn-hunters.com ==========
+HTTP: 200
+Server: nginx
+Title: 北京瀚特仕管理咨询有限公司
+  /admin.php: 200
+
+========== eleai.net ==========
+HTTP: 200
+Server: nginx
+Title: ELEAI-生成式人工智能包装设计平台
+
+========== glwyy.org.cn ==========
+HTTP: 200
+Server: Microsoft-IIS/7.5
+Title: 桂林市中西医结合医院
+  /.env: 200
+  /config.json: 200
+  /config.php: 200
+  /database.php: 200
+  /db.php: 200
+  /admin: 200
+  /admin.php: 200
+  /manager: 200
+  /login.php: 200
+  /setup.php: 200
+  /install.php: 200
+  /robots.txt: 200
+  /sitemap.xml: 200
+  /config.php.bak: 200 (BACKUP!)
+  /admin.php.bak: 200 (BACKUP!)
+  /index.php.bak: 200 (BACKUP!)
+  /db.php.bak: 200 (BACKUP!)
+  /database.php.bak: 200 (BACKUP!)
+  /web.bak: 200 (BACKUP!)
+  /www.bak: 200 (BACKUP!)
+  /backup.bak: 200 (BACKUP!)
+  /site.sql.bak: 200 (BACKUP!)
+  /config.php.old: 200 (BACKUP!)
+  /admin.php.old: 200 (BACKUP!)
+  /index.php.old: 200 (BACKUP!)
+  /db.php.old: 200 (BACKUP!)
+  /database.php.old: 200 (BACKUP!)
+  /web.old: 200 (BACKUP!)
+  /www.old: 200 (BACKUP!)
+  /backup.old: 200 (BACKUP!)
+  /site.sql.old: 200 (BACKUP!)
+  /config.php.swp: 200 (BACKUP!)
+  /admin.php.swp: 200 (BACKUP!)
+  /index.php.swp: 200 (BACKUP!)
+  /db.php.swp: 200 (BACKUP!)
+  /database.php.swp: 200 (BACKUP!)
+  /web.swp: 200 (BACKUP!)
+  /www.swp: 200 (BACKUP!)
+  /backup.swp: 200 (BACKUP!)
+  /site.sql.swp: 200 (BACKUP!)
+  /config.php~: 200 (BACKUP!)
+  /admin.php~: 200 (BACKUP!)
+  /index.php~: 200 (BACKUP!)
+  /db.php~: 200 (BACKUP!)
+  /database.php~: 200 (BACKUP!)
+  /web~: 200 (BACKUP!)
+  /backup~: 200 (BACKUP!)
+  /site.sql~: 200 (BACKUP!)
+  /config.php.save: 200 (BACKUP!)
+  /admin.php.save: 200 (BACKUP!)
+  /index.php.save: 200 (BACKUP!)
+  /db.php.save: 200 (BACKUP!)
+  /database.php.save: 200 (BACKUP!)
+  /web.save: 200 (BACKUP!)
+  /www.save: 200 (BACKUP!)
+  /backup.save: 200 (BACKUP!)
+  /site.sql.save: 200 (BACKUP!)
+  /config.php.txt: 200 (BACKUP!)
+  /admin.php.txt: 200 (BACKUP!)
+  /index.php.txt: 200 (BACKUP!)
+  /db.php.txt: 200 (BACKUP!)
+  /database.php.txt: 200 (BACKUP!)
+  /web.txt: 200 (BACKUP!)
+  /www.txt: 200 (BACKUP!)
+  /backup.txt: 200 (BACKUP!)
+  /site.sql.txt: 200 (BACKUP!)
+  /config.php.tar.gz: 200 (BACKUP!)
+  /admin.php.tar.gz: 200 (BACKUP!)
+  /index.php.tar.gz: 200 (BACKUP!)
+  /db.php.tar.gz: 200 (BACKUP!)
+  /database.php.tar.gz: 200 (BACKUP!)
+  /web.tar.gz: 200 (BACKUP!)
+  /www.tar.gz: 200 (BACKUP!)
+  /backup.tar.gz: 200 (BACKUP!)
+  /site.sql.tar.gz: 200 (BACKUP!)
+  /config.php.zip: 200 (BACKUP!)
+  /admin.php.zip: 200 (BACKUP!)
+  /index.php.zip: 200 (BACKUP!)
+  /db.php.zip: 200 (BACKUP!)
+  /database.php.zip: 200 (BACKUP!)
+  /web.zip: 200 (BACKUP!)
+  /www.zip: 200 (BACKUP!)
+  /backup.zip: 200 (BACKUP!)
+  /site.sql.zip: 200 (BACKUP!)
+  /config.php.sql: 200 (BACKUP!)
+  /admin.php.sql: 200 (BACKUP!)
+  /index.php.sql: 200 (BACKUP!)
+  /db.php.sql: 200 (BACKUP!)
+  /database.php.sql: 200 (BACKUP!)
+  /web.sql: 200 (BACKUP!)
+  /www.sql: 200 (BACKUP!)
+  /backup.sql: 200 (BACKUP!)
+  /site.sql.sql: 200 (BACKUP!)
+  /config.php.gz: 200 (BACKUP!)
+  /admin.php.gz: 200 (BACKUP!)
+  /index.php.gz: 200 (BACKUP!)
+  /database.php.gz: 200 (BACKUP!)
+  /web.gz: 200 (BACKUP!)
+  /www.gz: 200 (BACKUP!)
+  /backup.gz: 200 (BACKUP!)
+  /site.sql.gz: 200 (BACKUP!)
+
+========== 51huilife.com ==========
+HTTP: 200
+Server: nginx
+Title: 17C.com一起草-生态系统修复与环保教育专业平台
+  /.env: 403
+  /robots.txt: 200
+  /sitemap.xml: 200
+  /config.php.bak: 403 (BACKUP!)
+  /admin.php.bak: 403 (BACKUP!)
+  /index.php.bak: 403 (BACKUP!)
+  /db.php.bak: 403 (BACKUP!)
+  /database.php.bak: 403 (BACKUP!)
+  /web.bak: 403 (BACKUP!)
+  /www.bak: 403 (BACKUP!)
+  /backup.bak: 403 (BACKUP!)
+  /site.sql.bak: 403 (BACKUP!)
+  /config.php.old: 403 (BACKUP!)
+  /admin.php.old: 403 (BACKUP!)
+  /index.php.old: 403 (BACKUP!)
+  /db.php.old: 403 (BACKUP!)
+  /database.php.old: 403 (BACKUP!)
+  /web.old: 403 (BACKUP!)
+  /www.old: 403 (BACKUP!)
+  /backup.old: 403 (BACKUP!)
+  /site.sql.old: 403 (BACKUP!)
+
+========== hpyq.net ==========
+HTTP: 200
+Server: nginx
+Title: 杭州杭谱检测仪器有限公司
+
+========== hebeihuajiu.com ==========
+HTTP: 200
+Server: nginx
+Title: 河北华久 | 护栏网厂家 | 声屏障厂家 | 隔离栅 | 隔音屏 | 防护网
+  /admin: 301
+  /robots.txt: 200
+
+========== post-harvest.com.cn ==========
+HTTP: 200
+Server: Apache/2.4.55 (Win64) OpenSSL/1.1.1s mod_fcgid/2.3.9a
+Title: 山东营养源食品科技有限公司官网
+  /robots.txt: 200
+  /sitemap.xml: 200
+
+========== ahcq-scm.com ==========
+HTTP: 200
+Server: nginx
+Title: 安徽仓储物流配送公司_合肥工厂第三方物流公司-安徽诚全供应链物流有限公司
+  /robots.txt: 200
+
+========== hubeijinheng.com ==========
+HTTP: 200
+Server: Microsoft-IIS/10.0
+Title: 湖北金恒机械有限公司
+  /.env: 302
+  /config.json: 302
+  /config.php: 302
+  /database.php: 302
+  /db.php: 302
+  /admin: 302
+  /admin.php: 302
+  /manager: 302
+  /login.php: 302
+  /setup.php: 302
+  /install.php: 302
+  /robots.txt: 302
+  /sitemap.xml: 302
+  /config.php.bak: 403 (BACKUP!)
+  /admin.php.bak: 403 (BACKUP!)
+  /index.php.bak: 403 (BACKUP!)
+  /db.php.bak: 403 (BACKUP!)
+  /database.php.bak: 403 (BACKUP!)
+  /web.bak: 403 (BACKUP!)
+  /www.bak: 403 (BACKUP!)
+  /backup.bak: 403 (BACKUP!)
+  /site.sql.bak: 403 (BACKUP!)
+  /config.php.old: 302 (BACKUP!)
+  /admin.php.old: 302 (BACKUP!)
+  /index.php.old: 302 (BACKUP!)
+  /db.php.old: 302 (BACKUP!)
+  /web.old: 302 (BACKUP!)
+  /www.old: 302 (BACKUP!)
+  /backup.old: 302 (BACKUP!)
+  /site.sql.old: 302 (BACKUP!)
+  /admin.php.swp: 302 (BACKUP!)
+  /index.php.swp: 302 (BACKUP!)
+  /db.php.swp: 302 (BACKUP!)
+  /database.php.swp: 302 (BACKUP!)
+  /web.swp: 302 (BACKUP!)
+  /www.swp: 302 (BACKUP!)
+  /backup.swp: 302 (BACKUP!)
+  /site.sql.swp: 302 (BACKUP!)
+  /config.php~: 403 (BACKUP!)
+  /admin.php~: 403 (BACKUP!)
+  /index.php~: 403 (BACKUP!)
+  /db.php~: 403 (BACKUP!)
+  /database.php~: 403 (BACKUP!)
+  /web~: 403 (BACKUP!)
+  /www~: 403 (BACKUP!)
+  /backup~: 403 (BACKUP!)
+  /site.sql~: 403 (BACKUP!)
+  /config.php.save: 302 (BACKUP!)
+  /admin.php.save: 302 (BACKUP!)
+  /index.php.save: 302 (BACKUP!)
+  /db.php.save: 302 (BACKUP!)
+  /database.php.save: 302 (BACKUP!)
+  /web.save: 302 (BACKUP!)
+  /www.save: 302 (BACKUP!)
+  /backup.save: 302 (BACKUP!)
+  /site.sql.save: 302 (BACKUP!)
+  /config.php.txt: 302 (BACKUP!)
+  /admin.php.txt: 302 (BACKUP!)
+  /index.php.txt: 302 (BACKUP!)
+  /db.php.txt: 302 (BACKUP!)
+  /database.php.txt: 302 (BACKUP!)
+  /web.txt: 302 (BACKUP!)
+  /www.txt: 302 (BACKUP!)
+  /backup.txt: 302 (BACKUP!)
+  /site.sql.txt: 302 (BACKUP!)
+  /config.php.tar.gz: 302 (BACKUP!)
+  /admin.php.tar.gz: 302 (BACKUP!)
+  /index.php.tar.gz: 302 (BACKUP!)
+  /db.php.tar.gz: 302 (BACKUP!)
+  /database.php.tar.gz: 302 (BACKUP!)
+  /web.tar.gz: 302 (BACKUP!)
+  /www.tar.gz: 302 (BACKUP!)
+  /backup.tar.gz: 302 (BACKUP!)
+  /site.sql.tar.gz: 302 (BACKUP!)
+  /config.php.zip: 302 (BACKUP!)
+  /admin.php.zip: 302 (BACKUP!)
+  /index.php.zip: 302 (BACKUP!)
+  /db.php.zip: 302 (BACKUP!)
+  /database.php.zip: 302 (BACKUP!)
+  /web.zip: 302 (BACKUP!)
+  /www.zip: 302 (BACKUP!)
+  /backup.zip: 302 (BACKUP!)
+  /site.sql.zip: 302 (BACKUP!)
+  /config.php.sql: 302 (BACKUP!)
+  /admin.php.sql: 302 (BACKUP!)
+  /index.php.sql: 302 (BACKUP!)
+  /db.php.sql: 302 (BACKUP!)
+  /web.sql: 302 (BACKUP!)
+  /www.sql: 302 (BACKUP!)
+  /backup.sql: 302 (BACKUP!)
+  /site.sql.sql: 302 (BACKUP!)
+  /config.php.gz: 302 (BACKUP!)
+  /admin.php.gz: 302 (BACKUP!)
+  /index.php.gz: 302 (BACKUP!)
+  /db.php.gz: 302 (BACKUP!)
+  /database.php.gz: 302 (BACKUP!)
+  /web.gz: 302 (BACKUP!)
+  /www.gz: 302 (BACKUP!)
+  /backup.gz: 302 (BACKUP!)
+  /site.sql.gz: 302 (BACKUP!)
+
+========== link-in.com.cn ==========
+HTTP: 200
+Server: nginx
+Title: 北京北联创盛信息技术有限公司
+  /admin: 301
+  /robots.txt: 200
+
+========== gipa.org.cn ==========
+HTTP: 200
+Server: Microsoft-IIS/10.0
+Title: 湖北格林凯尔精准农业研究院
+CMS: DedeCMS
+  /.env: 302
+  /config.json: 302
+  /config.php: 302
+  /database.php: 302
+  /db.php: 302
+  /admin: 302
+  /admin.php: 302
+  /manager: 302
+  /login.php: 302
+  /setup.php: 302
+  /install.php: 302
+  /robots.txt: 302
+  /sitemap.xml: 302
+  /config.php.bak: 403 (BACKUP!)
+  /admin.php.bak: 403 (BACKUP!)
+  /index.php.bak: 403 (BACKUP!)
+  /db.php.bak: 403 (BACKUP!)
+  /database.php.bak: 403 (BACKUP!)
+  /web.bak: 403 (BACKUP!)
+  /www.bak: 403 (BACKUP!)
+  /backup.bak: 403 (BACKUP!)
+  /site.sql.bak: 403 (BACKUP!)
+  /config.php.old: 302 (BACKUP!)
+  /admin.php.old: 302 (BACKUP!)
+  /index.php.old: 302 (BACKUP!)
+  /db.php.old: 302 (BACKUP!)
+  /database.php.old: 302 (BACKUP!)
+  /web.old: 302 (BACKUP!)
+  /www.old: 302 (BACKUP!)
+  /backup.old: 302 (BACKUP!)
+  /site.sql.old: 302 (BACKUP!)
+  /config.php.swp: 302 (BACKUP!)
+  /admin.php.swp: 302 (BACKUP!)
+  /index.php.swp: 302 (BACKUP!)
+  /db.php.swp: 302 (BACKUP!)
+  /database.php.swp: 302 (BACKUP!)
+  /web.swp: 302 (BACKUP!)
+  /www.swp: 302 (BACKUP!)
+  /backup.swp: 302 (BACKUP!)
+  /site.sql.swp: 302 (BACKUP!)
+  /config.php~: 403 (BACKUP!)
+  /admin.php~: 403 (BACKUP!)
+  /index.php~: 403 (BACKUP!)
+  /db.php~: 403 (BACKUP!)
+  /database.php~: 403 (BACKUP!)
+  /web~: 403 (BACKUP!)
+  /www~: 403 (BACKUP!)
+  /site.sql~: 403 (BACKUP!)
+  /config.php.save: 200 (BACKUP!)
+  /admin.php.save: 302 (BACKUP!)
+  /index.php.save: 200 (BACKUP!)
+  /db.php.save: 200 (BACKUP!)
+  /database.php.save: 200 (BACKUP!)
+  /web.save: 200 (BACKUP!)
+  /www.save: 200 (BACKUP!)
+  /backup.save: 200 (BACKUP!)
+  /site.sql.save: 200 (BACKUP!)
+  /config.php.txt: 200 (BACKUP!)
+  /admin.php.txt: 200 (BACKUP!)
+  /index.php.txt: 302 (BACKUP!)
+  /db.php.txt: 302 (BACKUP!)
+  /database.php.txt: 302 (BACKUP!)
+  /web.txt: 302 (BACKUP!)
+  /www.txt: 302 (BACKUP!)
+  /backup.txt: 302 (BACKUP!)
+  /site.sql.txt: 302 (BACKUP!)
+  /config.php.tar.gz: 302 (BACKUP!)
+  /admin.php.tar.gz: 302 (BACKUP!)
+  /index.php.tar.gz: 302 (BACKUP!)
+  /db.php.tar.gz: 302 (BACKUP!)
+  /database.php.tar.gz: 302 (BACKUP!)
+  /web.tar.gz: 302 (BACKUP!)
+  /www.tar.gz: 302 (BACKUP!)
+  /backup.tar.gz: 302 (BACKUP!)
+  /site.sql.tar.gz: 302 (BACKUP!)
+  /config.php.zip: 302 (BACKUP!)
+  /admin.php.zip: 302 (BACKUP!)
+  /index.php.zip: 302 (BACKUP!)
+  /db.php.zip: 302 (BACKUP!)
+  /database.php.zip: 302 (BACKUP!)
+  /web.zip: 302 (BACKUP!)
+  /www.zip: 302 (BACKUP!)
+  /backup.zip: 302 (BACKUP!)
+  /site.sql.zip: 302 (BACKUP!)
+  /config.php.sql: 302 (BACKUP!)
+  /admin.php.sql: 302 (BACKUP!)
+  /index.php.sql: 302 (BACKUP!)
+  /db.php.sql: 302 (BACKUP!)
+  /database.php.sql: 302 (BACKUP!)
+  /web.sql: 302 (BACKUP!)
+  /www.sql: 302 (BACKUP!)
+  /backup.sql: 302 (BACKUP!)
+  /site.sql.sql: 302 (BACKUP!)
+  /config.php.gz: 302 (BACKUP!)
+  /admin.php.gz: 302 (BACKUP!)
+  /index.php.gz: 302 (BACKUP!)
+  /db.php.gz: 302 (BACKUP!)
+  /database.php.gz: 302 (BACKUP!)
+  /web.gz: 302 (BACKUP!)
+  /www.gz: 302 (BACKUP!)
+  /backup.gz: 302 (BACKUP!)
+  /site.sql.gz: 302 (BACKUP!)
+
+========== hbsite.net ==========
+HTTP: 200
+Server: Microsoft-IIS/10.0
+Title: 湖北省思特职业培训学校_湖北省思特职业培训学校
+  /.env: 302
+  /config.json: 302
+  /config.php: 302
+  /database.php: 302
+  /db.php: 302
+  /admin: 302
+  /admin.php: 302
+  /manager: 302
+  /login.php: 302
+  /setup.php: 302
+  /install.php: 302
+  /robots.txt: 302
+  /sitemap.xml: 302
+  /config.php.bak: 403 (BACKUP!)
+  /admin.php.bak: 403 (BACKUP!)
+  /index.php.bak: 403 (BACKUP!)
+  /db.php.bak: 403 (BACKUP!)
+  /database.php.bak: 403 (BACKUP!)
+  /web.bak: 403 (BACKUP!)
+  /www.bak: 403 (BACKUP!)
+  /backup.bak: 403 (BACKUP!)
+  /site.sql.bak: 403 (BACKUP!)
+  /config.php.old: 302 (BACKUP!)
+  /admin.php.old: 302 (BACKUP!)
+  /index.php.old: 302 (BACKUP!)
+  /db.php.old: 302 (BACKUP!)
+  /database.php.old: 302 (BACKUP!)
+  /web.old: 302 (BACKUP!)
+  /www.old: 302 (BACKUP!)
+  /backup.old: 302 (BACKUP!)
+  /site.sql.old: 302 (BACKUP!)
+  /config.php.swp: 302 (BACKUP!)
+  /admin.php.swp: 302 (BACKUP!)
+  /index.php.swp: 302 (BACKUP!)
+  /db.php.swp: 302 (BACKUP!)
+  /database.php.swp: 302 (BACKUP!)
+  /web.swp: 302 (BACKUP!)
+  /www.swp: 302 (BACKUP!)
+  /backup.swp: 302 (BACKUP!)
+  /site.sql.swp: 302 (BACKUP!)
+  /config.php~: 403 (BACKUP!)
+  /admin.php~: 403 (BACKUP!)
+  /index.php~: 403 (BACKUP!)
+  /db.php~: 403 (BACKUP!)
+  /database.php~: 403 (BACKUP!)
+  /web~: 403 (BACKUP!)
+  /www~: 403 (BACKUP!)
+  /backup~: 403 (BACKUP!)
+  /site.sql~: 403 (BACKUP!)
+  /config.php.save: 302 (BACKUP!)
+  /admin.php.save: 302 (BACKUP!)
+  /index.php.save: 302 (BACKUP!)
+  /db.php.save: 302 (BACKUP!)
+  /database.php.save: 302 (BACKUP!)
+  /web.save: 302 (BACKUP!)
+  /www.save: 302 (BACKUP!)
+  /backup.save: 302 (BACKUP!)
+  /site.sql.save: 302 (BACKUP!)
+  /config.php.txt: 302 (BACKUP!)
+  /admin.php.txt: 302 (BACKUP!)
+  /index.php.txt: 302 (BACKUP!)
+  /db.php.txt: 302 (BACKUP!)
+  /database.php.txt: 302 (BACKUP!)
+  /web.txt: 302 (BACKUP!)
+  /www.txt: 302 (BACKUP!)
+  /backup.txt: 302 (BACKUP!)
+  /config.php.tar.gz: 302 (BACKUP!)
+  /admin.php.tar.gz: 302 (BACKUP!)
+  /index.php.tar.gz: 302 (BACKUP!)
+  /db.php.tar.gz: 302 (BACKUP!)
+  /database.php.tar.gz: 302 (BACKUP!)
+  /web.tar.gz: 302 (BACKUP!)
+  /www.tar.gz: 302 (BACKUP!)
+  /site.sql.tar.gz: 302 (BACKUP!)
+  /config.php.zip: 302 (BACKUP!)
+  /admin.php.zip: 302 (BACKUP!)
+  /index.php.zip: 302 (BACKUP!)
+  /db.php.zip: 302 (BACKUP!)
+  /database.php.zip: 302 (BACKUP!)
+  /web.zip: 302 (BACKUP!)
+  /www.zip: 302 (BACKUP!)
+  /backup.zip: 302 (BACKUP!)
+  /site.sql.zip: 302 (BACKUP!)
+  /config.php.sql: 302 (BACKUP!)
+  /admin.php.sql: 302 (BACKUP!)
+  /index.php.sql: 302 (BACKUP!)
+  /db.php.sql: 302 (BACKUP!)
+  /database.php.sql: 302 (BACKUP!)
+  /web.sql: 302 (BACKUP!)
+  /www.sql: 302 (BACKUP!)
+  /backup.sql: 302 (BACKUP!)
+  /site.sql.sql: 302 (BACKUP!)
+  /config.php.gz: 302 (BACKUP!)
+  /admin.php.gz: 302 (BACKUP!)
+  /index.php.gz: 302 (BACKUP!)
+  /db.php.gz: 302 (BACKUP!)
+  /database.php.gz: 302 (BACKUP!)
+  /web.gz: 302 (BACKUP!)
+  /www.gz: 302 (BACKUP!)
+  /backup.gz: 302 (BACKUP!)
+  /site.sql.gz: 302 (BACKUP!)
+
+========== xxzhihuo.com ==========
+HTTP: 200
+Server: Microsoft-IIS/7.5
+Title: 
+!! ThinkPHP 5.0.23 RCE VULNERABLE (captcha variant) !!
+!! phpinfo.php: PHPINFO EXPOSED !!
+  /admin: 301
+
+========== taiso.com.cn ==========
+HTTP: 200
+Server: wits/1.17
+Title: TDR阻抗测试仪_TDR阻抗测试配件_TDR半自动测试压台-昆山市玉山镇泰硕电子商行
+!! phpinfo.php: PHPINFO EXPOSED !!
+  /login.php: 200
+  /robots.txt: 200
+  /sitemap.xml: 200
+
+========== js-dd.cn ==========
+HTTP: 200
+Server: wts
+Title: 监理公司|造价公司|全过程咨询|江苏栋德工程管理有限公司
+!! phpinfo.php: PHPINFO EXPOSED !!
+  /.env: 403
+  /config.php: 200
+  /admin.php: 302
+  /robots.txt: 200
+  /config.php.bak: 403 (BACKUP!)
+  /admin.php.bak: 403 (BACKUP!)
+  /index.php.bak: 403 (BACKUP!)
+  /db.php.bak: 403 (BACKUP!)
+  /database.php.bak: 403 (BACKUP!)
+  /web.bak: 403 (BACKUP!)
+  /www.bak: 403 (BACKUP!)
+  /backup.bak: 403 (BACKUP!)
+  /site.sql.bak: 403 (BACKUP!)
+  /config.php.tar.gz: 403 (BACKUP!)
+  /admin.php.tar.gz: 403 (BACKUP!)
+  /index.php.tar.gz: 403 (BACKUP!)
+  /db.php.tar.gz: 403 (BACKUP!)
+  /database.php.tar.gz: 403 (BACKUP!)
+  /web.tar.gz: 403 (BACKUP!)
+  /www.tar.gz: 403 (BACKUP!)
+  /backup.tar.gz: 403 (BACKUP!)
+  /site.sql.tar.gz: 403 (BACKUP!)
+  /config.php.zip: 403 (BACKUP!)
+  /admin.php.zip: 403 (BACKUP!)
+  /index.php.zip: 403 (BACKUP!)
+  /db.php.zip: 403 (BACKUP!)
+  /database.php.zip: 403 (BACKUP!)
+  /web.zip: 403 (BACKUP!)
+  /www.zip: 403 (BACKUP!)
+  /backup.zip: 403 (BACKUP!)
+  /site.sql.zip: 403 (BACKUP!)
+  /config.php.gz: 403 (BACKUP!)
+  /admin.php.gz: 403 (BACKUP!)
+  /index.php.gz: 403 (BACKUP!)
+  /db.php.gz: 403 (BACKUP!)
+  /web.gz: 403 (BACKUP!)
+  /www.gz: 403 (BACKUP!)
+  /backup.gz: 403 (BACKUP!)
+  /site.sql.gz: 403 (BACKUP!)
+
+========== cos-pak.com ==========
+HTTP: 200
+Server: nginx
+Title: 国精产品一区一区三区有限在线_国精产品一区一区三区有限在线_91欧洲在线视精品在亚洲_欧美日韩综合_国产精品一区二区三区_一本清道av高清在线看_欧美日韩精品一区二区三区
+  /install.php: 200
+  /robots.txt: 200
+
+========== hkkanglilai.com ==========
+HTTP: 200
+Server: 
+Title: 涂料|海南康丽莱涂料有限公司|乳胶漆|亨宝斯|杜金|牛莱|腻子粉|801建筑胶水|香港康丽莱涂料集团有限公司| 德国杜金国际集团有限公司
+  /robots.txt: 200
+
+========== cotcchina.com ==========
+HTTP: 200
+Server: wts
+Title: 成都控之芯科技有限公司
+!! phpinfo.php: PHPINFO EXPOSED !!
+  /.env: 403
+  /admin.php: 302
+  /robots.txt: 200
+  /config.php.bak: 403 (BACKUP!)
+  /admin.php.bak: 403 (BACKUP!)
+  /index.php.bak: 403 (BACKUP!)
+  /db.php.bak: 403 (BACKUP!)
+  /database.php.bak: 403 (BACKUP!)
+  /web.bak: 403 (BACKUP!)
+  /www.bak: 403 (BACKUP!)
+  /backup.bak: 403 (BACKUP!)
+  /site.sql.bak: 403 (BACKUP!)
+  /config.php.tar.gz: 403 (BACKUP!)
+  /admin.php.tar.gz: 403 (BACKUP!)
+  /index.php.tar.gz: 403 (BACKUP!)
+  /db.php.tar.gz: 403 (BACKUP!)
+  /database.php.tar.gz: 403 (BACKUP!)
+  /www.tar.gz: 403 (BACKUP!)
+  /backup.tar.gz: 403 (BACKUP!)
+  /site.sql.tar.gz: 403 (BACKUP!)
+  /config.php.zip: 403 (BACKUP!)
+  /admin.php.zip: 403 (BACKUP!)
+  /index.php.zip: 403 (BACKUP!)
+  /db.php.zip: 403 (BACKUP!)
+  /database.php.zip: 403 (BACKUP!)
+  /web.zip: 403 (BACKUP!)
+  /www.zip: 403 (BACKUP!)
+  /backup.zip: 403 (BACKUP!)
+  /site.sql.zip: 403 (BACKUP!)
+  /config.php.gz: 403 (BACKUP!)
+  /admin.php.gz: 403 (BACKUP!)
+  /index.php.gz: 403 (BACKUP!)
+  /db.php.gz: 403 (BACKUP!)
+  /database.php.gz: 403 (BACKUP!)
+  /web.gz: 403 (BACKUP!)
+  /www.gz: 403 (BACKUP!)
+  /backup.gz: 403 (BACKUP!)
+  /site.sql.gz: 403 (BACKUP!)
+
+========== yingdatest.com ==========
+HTTP: 200
+Server: nginx
+Title: 英大检测技术（青岛）有限公司
+  /config.json: 301
+  /robots.txt: 200
+  /sitemap.xml: 200
+  /config.php.bak: 301 (BACKUP!)
+  /admin.php.bak: 301 (BACKUP!)
+  /db.php.bak: 301 (BACKUP!)
+  /database.php.bak: 301 (BACKUP!)
+  /web.bak: 301 (BACKUP!)
+  /www.bak: 301 (BACKUP!)
+  /backup.bak: 301 (BACKUP!)
+  /site.sql.bak: 301 (BACKUP!)
+  /config.php.old: 301 (BACKUP!)
+  /admin.php.old: 301 (BACKUP!)
+  /db.php.old: 301 (BACKUP!)
+  /database.php.old: 301 (BACKUP!)
+  /web.old: 301 (BACKUP!)
+  /www.old: 301 (BACKUP!)
+  /backup.old: 301 (BACKUP!)
+  /site.sql.old: 301 (BACKUP!)
+  /config.php.swp: 301 (BACKUP!)
+  /admin.php.swp: 301 (BACKUP!)
+  /db.php.swp: 301 (BACKUP!)
+  /database.php.swp: 301 (BACKUP!)
+  /web.swp: 301 (BACKUP!)
+  /www.swp: 301 (BACKUP!)
+  /backup.swp: 301 (BACKUP!)
+  /site.sql.swp: 301 (BACKUP!)
+  /config.php.save: 301 (BACKUP!)
+  /admin.php.save: 301 (BACKUP!)
+  /db.php.save: 301 (BACKUP!)
+  /database.php.save: 301 (BACKUP!)
+  /web.save: 301 (BACKUP!)
+  /www.save: 301 (BACKUP!)
+  /backup.save: 301 (BACKUP!)
+  /site.sql.save: 301 (BACKUP!)
+  /config.php.txt: 301 (BACKUP!)
+  /admin.php.txt: 301 (BACKUP!)
+  /db.php.txt: 301 (BACKUP!)
+  /database.php.txt: 301 (BACKUP!)
+  /web.txt: 301 (BACKUP!)
+  /www.txt: 301 (BACKUP!)
+  /backup.txt: 301 (BACKUP!)
+  /site.sql.txt: 301 (BACKUP!)
+  /config.php.tar.gz: 301 (BACKUP!)
+  /admin.php.tar.gz: 301 (BACKUP!)
+  /db.php.tar.gz: 301 (BACKUP!)
+  /database.php.tar.gz: 301 (BACKUP!)
+  /web.tar.gz: 301 (BACKUP!)
+  /www.tar.gz: 301 (BACKUP!)
+  /backup.tar.gz: 301 (BACKUP!)
+  /site.sql.tar.gz: 301 (BACKUP!)
+  /config.php.zip: 301 (BACKUP!)
+  /admin.php.zip: 301 (BACKUP!)
+  /db.php.zip: 301 (BACKUP!)
+  /database.php.zip: 301 (BACKUP!)
+  /web.zip: 301 (BACKUP!)
+  /www.zip: 301 (BACKUP!)
+  /backup.zip: 301 (BACKUP!)
+  /site.sql.zip: 301 (BACKUP!)
+  /config.php.sql: 301 (BACKUP!)
+  /admin.php.sql: 301 (BACKUP!)
+  /db.php.sql: 301 (BACKUP!)
+  /database.php.sql: 301 (BACKUP!)
+  /web.sql: 301 (BACKUP!)
+  /www.sql: 301 (BACKUP!)
+  /backup.sql: 301 (BACKUP!)
+  /site.sql.sql: 301 (BACKUP!)
+  /config.php.gz: 301 (BACKUP!)
+  /admin.php.gz: 301 (BACKUP!)
+  /db.php.gz: 301 (BACKUP!)
+  /database.php.gz: 301 (BACKUP!)
+  /web.gz: 301 (BACKUP!)
+  /www.gz: 301 (BACKUP!)
+  /backup.gz: 301 (BACKUP!)
+  /site.sql.gz: 301 (BACKUP!)
+
+========== gxdk.cn ==========
+HTTP: 200
+Server: Microsoft-IIS/7.5
+Title: &#x56FD;&#x4EA7;&#x65E5;&#x97E9;&#x4E00;&#x533A;&#x4E8C;&#x533A;&#x5728;&#x7EBF;,&#x7CBE;&#x54C1;&#x65E5;&#x97E9;&#x6B27;&#x7F8E;&#x4E00;&#x533A;&#x4E8C;&#x533A;&#x4E09;&#x533A;&#x5728;&#x7EBF;&#x64AD;&#x653E;,&#x6B27;&#x6D32;&#x4E9A;&#x6D32;&#x56FD;&#x4EA7;&#x4E00;&#x533A;&#x4E8C;&#x533A;&#x4E09;&#x533A;,&#x6B27;&#x7F8E;&#x5728;&#x7EBF;&#x4E0D;&#x5361;&#x4E00;&#x533A;,&#x9999;&#x8549;&#x4E45;&#x4E45;&#x4E00;&#x533A;&#x4E8C;&#x533A;&#x4E0D;&#x5361;&#x65E0;&#x6BD2;&#x5F71;&#x9662;,&#x4E9A;&#x6D32;&#x4F0A;&#x4EBA;&#x4E2D;&#x6587;&#x5B57;&#x5E55;
+  /.env: 200
+  /config.json: 200
+  /config.php: 200
+  /database.php: 200
+  /db.php: 200
+  /admin: 200
+  /admin.php: 200
+  /manager: 200
+  /login.php: 200
+  /setup.php: 200
+  /install.php: 200
+  /robots.txt: 200
+  /sitemap.xml: 200
+  /config.php.bak: 403 (BACKUP!)
+  /admin.php.bak: 403 (BACKUP!)
+  /index.php.bak: 403 (BACKUP!)
+  /db.php.bak: 403 (BACKUP!)
+  /database.php.bak: 403 (BACKUP!)
+  /web.bak: 403 (BACKUP!)
+  /www.bak: 403 (BACKUP!)
+  /backup.bak: 403 (BACKUP!)
+  /site.sql.bak: 403 (BACKUP!)
+  /config.php.old: 200 (BACKUP!)
+  /admin.php.old: 200 (BACKUP!)
+  /index.php.old: 200 (BACKUP!)
+  /db.php.old: 200 (BACKUP!)
+  /database.php.old: 200 (BACKUP!)
+  /web.old: 200 (BACKUP!)
+  /www.old: 200 (BACKUP!)
+  /backup.old: 200 (BACKUP!)
+  /site.sql.old: 200 (BACKUP!)
+  /config.php.swp: 200 (BACKUP!)
+  /admin.php.swp: 200 (BACKUP!)
+  /index.php.swp: 200 (BACKUP!)
+  /db.php.swp: 200 (BACKUP!)
+  /database.php.swp: 200 (BACKUP!)
+  /web.swp: 200 (BACKUP!)
+  /www.swp: 200 (BACKUP!)
+  /backup.swp: 200 (BACKUP!)
+  /site.sql.swp: 200 (BACKUP!)
+  /config.php~: 403 (BACKUP!)
+  /admin.php~: 403 (BACKUP!)
+  /index.php~: 403 (BACKUP!)
+  /db.php~: 403 (BACKUP!)
+  /database.php~: 403 (BACKUP!)
+  /web~: 403 (BACKUP!)
+  /www~: 403 (BACKUP!)
+  /backup~: 403 (BACKUP!)
+  /site.sql~: 403 (BACKUP!)
+  /config.php.save: 200 (BACKUP!)
+  /admin.php.save: 200 (BACKUP!)
+  /index.php.save: 200 (BACKUP!)
+  /db.php.save: 200 (BACKUP!)
+  /database.php.save: 200 (BACKUP!)
+  /web.save: 200 (BACKUP!)
+  /www.save: 200 (BACKUP!)
+  /backup.save: 200 (BACKUP!)
+  /site.sql.save: 200 (BACKUP!)
+  /config.php.txt: 200 (BACKUP!)
+  /admin.php.txt: 200 (BACKUP!)
+  /index.php.txt: 200 (BACKUP!)
+  /db.php.txt: 200 (BACKUP!)
+  /database.php.txt: 200 (BACKUP!)
+  /web.txt: 200 (BACKUP!)
+  /www.txt: 200 (BACKUP!)
+  /backup.txt: 200 (BACKUP!)
+  /site.sql.txt: 200 (BACKUP!)
+  /config.php.tar.gz: 200 (BACKUP!)
+  /admin.php.tar.gz: 200 (BACKUP!)
+  /index.php.tar.gz: 200 (BACKUP!)
+  /db.php.tar.gz: 200 (BACKUP!)
+  /database.php.tar.gz: 200 (BACKUP!)
+  /web.tar.gz: 200 (BACKUP!)
+  /www.tar.gz: 200 (BACKUP!)
+  /backup.tar.gz: 200 (BACKUP!)
+  /site.sql.tar.gz: 200 (BACKUP!)
+  /config.php.zip: 200 (BACKUP!)
+  /admin.php.zip: 200 (BACKUP!)
+  /index.php.zip: 200 (BACKUP!)
+  /db.php.zip: 200 (BACKUP!)
+  /database.php.zip: 200 (BACKUP!)
+  /web.zip: 200 (BACKUP!)
+  /www.zip: 200 (BACKUP!)
+  /backup.zip: 200 (BACKUP!)
+  /site.sql.zip: 200 (BACKUP!)
+  /config.php.sql: 200 (BACKUP!)
+  /admin.php.sql: 200 (BACKUP!)
+  /index.php.sql: 200 (BACKUP!)
+  /db.php.sql: 200 (BACKUP!)
+  /database.php.sql: 200 (BACKUP!)
+  /web.sql: 200 (BACKUP!)
+  /www.sql: 200 (BACKUP!)
+  /backup.sql: 200 (BACKUP!)
+  /site.sql.sql: 200 (BACKUP!)
+  /config.php.gz: 200 (BACKUP!)
+  /admin.php.gz: 200 (BACKUP!)
+  /index.php.gz: 200 (BACKUP!)
+  /db.php.gz: 200 (BACKUP!)
+  /database.php.gz: 200 (BACKUP!)
+  /web.gz: 200 (BACKUP!)
+  /www.gz: 200 (BACKUP!)
+  /backup.gz: 200 (BACKUP!)
+  /site.sql.gz: 200 (BACKUP!)
+
+========== szsssydxh.com ==========
+HTTP: 200
+Server: Microsoft-IIS/8.5
+Title: 深圳市水上运动协会
+  /config.php.bak: 403 (BACKUP!)
+  /admin.php.bak: 403 (BACKUP!)
+  /index.php.bak: 403 (BACKUP!)
+  /db.php.bak: 403 (BACKUP!)
+  /database.php.bak: 403 (BACKUP!)
+  /web.bak: 403 (BACKUP!)
+  /www.bak: 403 (BACKUP!)
+  /site.sql.bak: 403 (BACKUP!)
+  /admin.php~: 403 (BACKUP!)
+  /index.php~: 403 (BACKUP!)
+  /db.php~: 403 (BACKUP!)
+  /database.php~: 403 (BACKUP!)
+  /web~: 403 (BACKUP!)
+  /www~: 403 (BACKUP!)
+  /backup~: 403 (BACKUP!)
+  /site.sql~: 403 (BACKUP!)
+
+========== dashengjianshe.com ==========
+HTTP: 200
+Server: nginx
+Title: 毕节市新祥股份有限公司
+  /config.json: 200
+  /admin: 200
+  /manager: 200
+  /robots.txt: 200
+  /sitemap.xml: 200
+  /config.php.bak: 200 (BACKUP!)
+  /admin.php.bak: 200 (BACKUP!)
+  /index.php.bak: 200 (BACKUP!)
+  /db.php.bak: 200 (BACKUP!)
+  /database.php.bak: 200 (BACKUP!)
+  /web.bak: 200 (BACKUP!)
+  /www.bak: 200 (BACKUP!)
+  /backup.bak: 200 (BACKUP!)
+  /site.sql.bak: 200 (BACKUP!)
+  /config.php.old: 200 (BACKUP!)
+  /admin.php.old: 200 (BACKUP!)
+  /index.php.old: 200 (BACKUP!)
+  /db.php.old: 200 (BACKUP!)
+  /database.php.old: 200 (BACKUP!)
+  /web.old: 200 (BACKUP!)
+  /www.old: 200 (BACKUP!)
+  /backup.old: 200 (BACKUP!)
+  /site.sql.old: 200 (BACKUP!)
+  /config.php.swp: 200 (BACKUP!)
+  /admin.php.swp: 200 (BACKUP!)
+  /index.php.swp: 200 (BACKUP!)
+  /db.php.swp: 200 (BACKUP!)
+  /database.php.swp: 200 (BACKUP!)
+  /web.swp: 200 (BACKUP!)
+  /www.swp: 200 (BACKUP!)
+  /backup.swp: 200 (BACKUP!)
+  /site.sql.swp: 200 (BACKUP!)
+  /config.php~: 200 (BACKUP!)
+  /admin.php~: 200 (BACKUP!)
+  /index.php~: 200 (BACKUP!)
+  /db.php~: 200 (BACKUP!)
+  /database.php~: 200 (BACKUP!)
+  /web~: 200 (BACKUP!)
+  /www~: 200 (BACKUP!)
+  /backup~: 200 (BACKUP!)
+  /site.sql~: 200 (BACKUP!)
+  /config.php.save: 200 (BACKUP!)
+  /admin.php.save: 200 (BACKUP!)
+  /index.php.save: 200 (BACKUP!)
+  /db.php.save: 200 (BACKUP!)
+  /database.php.save: 200 (BACKUP!)
+  /web.save: 200 (BACKUP!)
+  /www.save: 200 (BACKUP!)
+  /backup.save: 200 (BACKUP!)
+  /site.sql.save: 200 (BACKUP!)
+  /config.php.txt: 200 (BACKUP!)
+  /admin.php.txt: 200 (BACKUP!)
+  /index.php.txt: 200 (BACKUP!)
+  /db.php.txt: 200 (BACKUP!)
+  /database.php.txt: 200 (BACKUP!)
+  /web.txt: 200 (BACKUP!)
+  /www.txt: 200 (BACKUP!)
+  /backup.txt: 200 (BACKUP!)
+  /site.sql.txt: 200 (BACKUP!)
+  /config.php.tar.gz: 200 (BACKUP!)
+  /admin.php.tar.gz: 200 (BACKUP!)
+  /index.php.tar.gz: 200 (BACKUP!)
+  /db.php.tar.gz: 200 (BACKUP!)
+  /database.php.tar.gz: 200 (BACKUP!)
+  /web.tar.gz: 200 (BACKUP!)
+  /www.tar.gz: 200 (BACKUP!)
+  /backup.tar.gz: 200 (BACKUP!)
+  /site.sql.tar.gz: 200 (BACKUP!)
+  /config.php.zip: 200 (BACKUP!)
+  /admin.php.zip: 200 (BACKUP!)
+  /index.php.zip: 200 (BACKUP!)
+  /db.php.zip: 200 (BACKUP!)
+  /database.php.zip: 200 (BACKUP!)
+  /web.zip: 200 (BACKUP!)
+  /www.zip: 200 (BACKUP!)
+  /backup.zip: 200 (BACKUP!)
+  /site.sql.zip: 200 (BACKUP!)
+  /config.php.sql: 200 (BACKUP!)
+  /admin.php.sql: 200 (BACKUP!)
+  /index.php.sql: 200 (BACKUP!)
+  /db.php.sql: 200 (BACKUP!)
+  /database.php.sql: 200 (BACKUP!)
+  /web.sql: 200 (BACKUP!)
+  /www.sql: 200 (BACKUP!)
+  /backup.sql: 200 (BACKUP!)
+  /site.sql.sql: 200 (BACKUP!)
+  /config.php.gz: 200 (BACKUP!)
+  /admin.php.gz: 200 (BACKUP!)
+  /index.php.gz: 200 (BACKUP!)
+  /db.php.gz: 200 (BACKUP!)
+  /database.php.gz: 200 (BACKUP!)
+  /web.gz: 200 (BACKUP!)
+  /www.gz: 200 (BACKUP!)
+  /backup.gz: 200 (BACKUP!)
+  /site.sql.gz: 200 (BACKUP!)
+
+========== meijialin.com.cn ==========
+HTTP: 444
+Server: nginx
+Title: 
+
+========== tianlinfeiye.com ==========
+HTTP: 444
+Server: nginx
+Title: 
+
+========== lisoexpo.com ==========
+HTTP: 403
+Server: nginx
+Title: 403 Forbidden
+  /config.json: 403
+  /admin: 403
+  /manager: 403
+  /robots.txt: 200
+  /sitemap.xml: 200
+  /config.php.bak: 403 (BACKUP!)
+  /admin.php.bak: 403 (BACKUP!)
+  /index.php.bak: 403 (BACKUP!)
+  /db.php.bak: 403 (BACKUP!)
+  /database.php.bak: 403 (BACKUP!)
+  /web.bak: 403 (BACKUP!)
+  /www.bak: 403 (BACKUP!)
+  /backup.bak: 403 (BACKUP!)
+  /site.sql.bak: 403 (BACKUP!)
+  /config.php.old: 403 (BACKUP!)
+  /admin.php.old: 403 (BACKUP!)
+  /index.php.old: 403 (BACKUP!)
+  /db.php.old: 403 (BACKUP!)
+  /database.php.old: 403 (BACKUP!)
+  /web.old: 403 (BACKUP!)
+  /www.old: 403 (BACKUP!)
+  /backup.old: 403 (BACKUP!)
+  /site.sql.old: 403 (BACKUP!)
+  /config.php.swp: 403 (BACKUP!)
+  /admin.php.swp: 403 (BACKUP!)
+  /index.php.swp: 403 (BACKUP!)
+  /db.php.swp: 403 (BACKUP!)
+  /database.php.swp: 403 (BACKUP!)
+  /web.swp: 403 (BACKUP!)
+  /www.swp: 403 (BACKUP!)
+  /backup.swp: 403 (BACKUP!)
+  /site.sql.swp: 403 (BACKUP!)
+  /config.php~: 403 (BACKUP!)
+  /admin.php~: 403 (BACKUP!)
+  /index.php~: 403 (BACKUP!)
+  /db.php~: 403 (BACKUP!)
+  /database.php~: 403 (BACKUP!)
+  /web~: 403 (BACKUP!)
+  /www~: 403 (BACKUP!)
+  /backup~: 403 (BACKUP!)
+  /site.sql~: 403 (BACKUP!)
+  /config.php.save: 403 (BACKUP!)
+  /admin.php.save: 403 (BACKUP!)
+  /index.php.save: 403 (BACKUP!)
+  /db.php.save: 403 (BACKUP!)
+  /database.php.save: 403 (BACKUP!)
+  /web.save: 403 (BACKUP!)
+  /www.save: 403 (BACKUP!)
+  /backup.save: 403 (BACKUP!)
+  /site.sql.save: 403 (BACKUP!)
+  /config.php.txt: 403 (BACKUP!)
+  /admin.php.txt: 403 (BACKUP!)
+  /index.php.txt: 403 (BACKUP!)
+  /db.php.txt: 403 (BACKUP!)
+  /database.php.txt: 403 (BACKUP!)
+  /web.txt: 403 (BACKUP!)
+  /www.txt: 403 (BACKUP!)
+  /backup.txt: 403 (BACKUP!)
+  /site.sql.txt: 403 (BACKUP!)
+  /config.php.tar.gz: 403 (BACKUP!)
+  /admin.php.tar.gz: 403 (BACKUP!)
+  /index.php.tar.gz: 403 (BACKUP!)
+  /db.php.tar.gz: 403 (BACKUP!)
+  /database.php.tar.gz: 403 (BACKUP!)
+  /web.tar.gz: 403 (BACKUP!)
+  /www.tar.gz: 403 (BACKUP!)
+  /backup.tar.gz: 403 (BACKUP!)
+  /site.sql.tar.gz: 403 (BACKUP!)
+  /config.php.zip: 403 (BACKUP!)
+  /admin.php.zip: 403 (BACKUP!)
+  /index.php.zip: 403 (BACKUP!)
+  /db.php.zip: 403 (BACKUP!)
+  /database.php.zip: 403 (BACKUP!)
+  /web.zip: 403 (BACKUP!)
+  /www.zip: 403 (BACKUP!)
+  /backup.zip: 403 (BACKUP!)
+  /site.sql.zip: 403 (BACKUP!)
+  /config.php.sql: 403 (BACKUP!)
+  /admin.php.sql: 403 (BACKUP!)
+  /index.php.sql: 403 (BACKUP!)
+  /db.php.sql: 403 (BACKUP!)
+  /database.php.sql: 403 (BACKUP!)
+  /web.sql: 403 (BACKUP!)
+  /www.sql: 403 (BACKUP!)
+  /backup.sql: 403 (BACKUP!)
+  /site.sql.sql: 403 (BACKUP!)
+  /config.php.gz: 403 (BACKUP!)
+  /admin.php.gz: 403 (BACKUP!)
+  /index.php.gz: 403 (BACKUP!)
+  /db.php.gz: 403 (BACKUP!)
+  /database.php.gz: 403 (BACKUP!)
+  /web.gz: 403 (BACKUP!)
+  /www.gz: 403 (BACKUP!)
+  /backup.gz: 403 (BACKUP!)
+  /site.sql.gz: 403 (BACKUP!)
+
+========== hefeishutong.cn ==========
+HTTP: 200
+Server: Microsoft-IIS/10.0
+Title: 
+
+========== baihaitun100.com.cn ==========
+HTTP: 200
+Server: nginx
+Title: 礼尚之家卫浴-白海豚卫浴-佛山市南海区白海豚卫浴有限公司
+  /.env: 417
+  /config.json: 403
+  /admin: 200
+  /admin.php: 200
+  /config.php.bak: 417 (BACKUP!)
+  /admin.php.bak: 200 (BACKUP!)
+  /index.php.bak: 417 (BACKUP!)
+  /db.php.bak: 417 (BACKUP!)
+  /database.php.bak: 417 (BACKUP!)
+  /web.bak: 417 (BACKUP!)
+  /www.bak: 417 (BACKUP!)
+  /backup.bak: 417 (BACKUP!)
+  /site.sql.bak: 417 (BACKUP!)
+  /config.php.old: 417 (BACKUP!)
+  /admin.php.old: 200 (BACKUP!)
+  /index.php.old: 417 (BACKUP!)
+  /db.php.old: 417 (BACKUP!)
+  /database.php.old: 417 (BACKUP!)
+  /web.old: 417 (BACKUP!)
+  /www.old: 417 (BACKUP!)
+  /backup.old: 417 (BACKUP!)
+  /site.sql.old: 417 (BACKUP!)
+  /config.php.swp: 417 (BACKUP!)
+  /admin.php.swp: 200 (BACKUP!)
+  /index.php.swp: 417 (BACKUP!)
+  /database.php.swp: 417 (BACKUP!)
+  /web.swp: 417 (BACKUP!)
+  /www.swp: 417 (BACKUP!)
+  /backup.swp: 417 (BACKUP!)
+  /site.sql.swp: 417 (BACKUP!)
+  /config.php~: 417 (BACKUP!)
+  /admin.php~: 200 (BACKUP!)
+  /index.php~: 417 (BACKUP!)
+  /db.php~: 417 (BACKUP!)
+  /database.php~: 417 (BACKUP!)
+  /site.sql~: 417 (BACKUP!)
+  /admin.php.save: 200 (BACKUP!)
+  /admin.php.zip: 200 (BACKUP!)
+  /config.php.sql: 417 (BACKUP!)
+  /admin.php.sql: 200 (BACKUP!)
+  /index.php.sql: 417 (BACKUP!)
+  /db.php.sql: 417 (BACKUP!)
+  /database.php.sql: 417 (BACKUP!)
+  /web.sql: 417 (BACKUP!)
+  /www.sql: 417 (BACKUP!)
+  /backup.sql: 417 (BACKUP!)
+  /site.sql.sql: 417 (BACKUP!)
+
+========== chengtech.com ==========
+HTTP: 200
+Server: nginx
+Title: 深圳承泰科技股份有限公司
+  /sitemap.xml: 200
+
+========== gshuayuan.com ==========
+HTTP: 200
+Server: Microsoft-IIS/8.5
+Title: 
+  /config.php: 200
+
+========== haixinjixie.com ==========
+HTTP: 200
+Server: Microsoft-IIS/10.0
+Title: 
+!! ThinkPHP 5.0.23 RCE VULNERABLE (captcha variant) !!
+!! phpinfo.php: PHPINFO EXPOSED !!
+
+========== hcz168.com ==========
+HTTP: 200
+Server: nginx
+Title: 建筑装饰材料,建筑材料,余干县合创展新型材料有限公司
+  /.env: 403
+  /robots.txt: 200
+  /config.php.bak: 403 (BACKUP!)
+  /admin.php.bak: 403 (BACKUP!)
+  /db.php.bak: 403 (BACKUP!)
+  /database.php.bak: 403 (BACKUP!)
+  /web.bak: 403 (BACKUP!)
+  /www.bak: 403 (BACKUP!)
+  /backup.bak: 403 (BACKUP!)
+  /site.sql.bak: 403 (BACKUP!)
+  /config.php.old: 403 (BACKUP!)
+
+========== horsa.org.cn ==========
+HTTP: 200
+Server: Microsoft-IIS/10.0
+Title: 黑龙江省欧美同学会（黑龙江省留学人员联谊会）
+  /admin: 301
+
+========== shqiguang.cn ==========
+HTTP: 200
+Server: Microsoft-IIS/10.0
+Title: 
+
+========== yurundianqi.com ==========
+HTTP: 200
+Server: nginx
+Title: 廊坊市宇润电气有限公司
+!! phpinfo.php: PHPINFO EXPOSED !!
+  /admin.php: 302
+
+========== zj-xgj.com ==========
+HTTP: 200
+Server: Apache
+Title: 浙江小工匠物联技术有限公司为工厂提供水电气能源管理一站式数字化平台
+  /.env: 301
+  /config.php: 301
+  /database.php: 301
+  /db.php: 301
+  /admin.php: 301
+  /login.php: 301
+  /setup.php: 301
+  /install.php: 301
+  /robots.txt: 200
+  /sitemap.xml: 200
+  /config.php.bak: 403 (BACKUP!)
+  /admin.php.bak: 403 (BACKUP!)
+  /db.php.bak: 403 (BACKUP!)
+  /database.php.bak: 403 (BACKUP!)
+  /web.bak: 403 (BACKUP!)
+  /www.bak: 403 (BACKUP!)
+  /backup.bak: 403 (BACKUP!)
+  /site.sql.bak: 416 (BACKUP!)
+  /config.php.old: 416 (BACKUP!)
+  /admin.php.old: 416 (BACKUP!)
+  /db.php.old: 416 (BACKUP!)
+  /database.php.old: 416 (BACKUP!)
+  /web.old: 416 (BACKUP!)
+  /www.old: 416 (BACKUP!)
+  /site.sql.old: 416 (BACKUP!)
+  /config.php.swp: 416 (BACKUP!)
+  /admin.php.swp: 416 (BACKUP!)
+  /db.php.swp: 416 (BACKUP!)
+  /database.php.swp: 416 (BACKUP!)
+  /web.swp: 416 (BACKUP!)
+  /www.swp: 416 (BACKUP!)
+  /backup.swp: 416 (BACKUP!)
+  /site.sql.swp: 416 (BACKUP!)
+  /config.php~: 416 (BACKUP!)
+  /admin.php~: 416 (BACKUP!)
+  /database.php~: 416 (BACKUP!)
+  /web~: 416 (BACKUP!)
+  /www~: 416 (BACKUP!)
+  /backup~: 416 (BACKUP!)
+  /site.sql~: 416 (BACKUP!)
+  /config.php.save: 416 (BACKUP!)
+  /admin.php.save: 416 (BACKUP!)
+  /database.php.save: 416 (BACKUP!)
+  /web.save: 416 (BACKUP!)
+  /www.save: 416 (BACKUP!)
+  /backup.save: 416 (BACKUP!)
+  /site.sql.save: 416 (BACKUP!)
+  /config.php.txt: 416 (BACKUP!)
+  /admin.php.txt: 416 (BACKUP!)
+  /db.php.txt: 416 (BACKUP!)
+  /database.php.txt: 416 (BACKUP!)
+  /web.txt: 416 (BACKUP!)
+  /www.txt: 416 (BACKUP!)
+  /backup.txt: 416 (BACKUP!)
+  /site.sql.txt: 416 (BACKUP!)
+  /admin.php.tar.gz: 416 (BACKUP!)
+  /db.php.tar.gz: 416 (BACKUP!)
+  /database.php.tar.gz: 416 (BACKUP!)
+  /web.tar.gz: 416 (BACKUP!)
+  /www.tar.gz: 416 (BACKUP!)
+  /backup.tar.gz: 416 (BACKUP!)
+  /site.sql.tar.gz: 416 (BACKUP!)
+  /config.php.zip: 416 (BACKUP!)
+  /admin.php.zip: 416 (BACKUP!)
+  /db.php.zip: 416 (BACKUP!)
+  /database.php.zip: 416 (BACKUP!)
+  /web.zip: 416 (BACKUP!)
+  /www.zip: 416 (BACKUP!)
+  /backup.zip: 416 (BACKUP!)
+  /site.sql.zip: 416 (BACKUP!)
+  /config.php.sql: 416 (BACKUP!)
+  /admin.php.sql: 416 (BACKUP!)
+  /db.php.sql: 416 (BACKUP!)
+  /database.php.sql: 416 (BACKUP!)
+  /web.sql: 416 (BACKUP!)
+  /www.sql: 416 (BACKUP!)
+  /backup.sql: 416 (BACKUP!)
+  /site.sql.sql: 416 (BACKUP!)
+  /config.php.gz: 416 (BACKUP!)
+  /admin.php.gz: 416 (BACKUP!)
+  /db.php.gz: 416 (BACKUP!)
+  /database.php.gz: 416 (BACKUP!)
+  /web.gz: 416 (BACKUP!)
+  /www.gz: 416 (BACKUP!)
+  /backup.gz: 416 (BACKUP!)
+  /site.sql.gz: 416 (BACKUP!)
+
+========== chinanaisi.com ==========
+HTTP: 200
+Server: nginx
+Title: 环保篷布_环保灯布_环保车贴-江苏耐斯数码科技股份有限公司
+!! ThinkPHP 5.0.23 RCE VULNERABLE (captcha variant) !!
+!! phpinfo.php: PHPINFO EXPOSED !!
+  /.env: 319
+  /config.php: 319
+  /database.php: 319
+  /db.php: 319
+  /admin: 301
+  /manager: 319
+  /login.php: 319
+  /setup.php: 319
+  /install.php: 319
+  /robots.txt: 200
+  /sitemap.xml: 319
+  /config.php.bak: 319 (BACKUP!)
+  /index.php.bak: 319 (BACKUP!)
+  /db.php.bak: 319 (BACKUP!)
+  /database.php.bak: 319 (BACKUP!)
+  /web.bak: 319 (BACKUP!)
+  /www.bak: 319 (BACKUP!)
+  /backup.bak: 319 (BACKUP!)
+  /site.sql.bak: 319 (BACKUP!)
+  /config.php.old: 319 (BACKUP!)
+  /index.php.old: 319 (BACKUP!)
+  /db.php.old: 319 (BACKUP!)
+  /database.php.old: 319 (BACKUP!)
+  /web.old: 319 (BACKUP!)
+  /www.old: 319 (BACKUP!)
+  /backup.old: 319 (BACKUP!)
+  /site.sql.old: 319 (BACKUP!)
+  /config.php.swp: 319 (BACKUP!)
+  /index.php.swp: 319 (BACKUP!)
+  /db.php.swp: 319 (BACKUP!)
+  /database.php.swp: 319 (BACKUP!)
+  /web.swp: 319 (BACKUP!)
+  /www.swp: 319 (BACKUP!)
+  /backup.swp: 319 (BACKUP!)
+  /site.sql.swp: 319 (BACKUP!)
+  /config.php~: 319 (BACKUP!)
+  /index.php~: 319 (BACKUP!)
+  /db.php~: 319 (BACKUP!)
+  /database.php~: 319 (BACKUP!)
+  /web~: 319 (BACKUP!)
+  /www~: 319 (BACKUP!)
+  /backup~: 319 (BACKUP!)
+  /site.sql~: 319 (BACKUP!)
+  /config.php.save: 319 (BACKUP!)
+  /index.php.save: 319 (BACKUP!)
+  /db.php.save: 319 (BACKUP!)
+  /database.php.save: 319 (BACKUP!)
+  /web.save: 319 (BACKUP!)
+  /www.save: 319 (BACKUP!)
+  /backup.save: 319 (BACKUP!)
+  /site.sql.save: 319 (BACKUP!)
+
+========== goglobalcn.com ==========
+HTTP: 200
+Server: nginx
+Title: goglobal-泰国走出去会计事务所|泰国财税筹划、泰国公司注册、泰国会计、泰国审计、泰国税务
+  /robots.txt: 200
+  /sitemap.xml: 200
+
+========== weipurenzheng.com ==========
+HTTP: 200
+Server: nginx
+Title: 上海微谱认证有限公司
+!! test.php: PHPINFO EXPOSED !!
+  /.env: 403
+  /config.php.bak: 403 (BACKUP!)
+  /admin.php.bak: 403 (BACKUP!)
+  /db.php.bak: 403 (BACKUP!)
+  /database.php.bak: 403 (BACKUP!)
+  /web.bak: 403 (BACKUP!)
+  /www.bak: 403 (BACKUP!)
+  /backup.bak: 403 (BACKUP!)
+  /site.sql.bak: 403 (BACKUP!)
+  /config.php.old: 403 (BACKUP!)
+
+========== yurenmed.com ==========
+HTTP: 200
+Server: nginx
+Title: 青岛钰仁医疗科技有限公司
+  /robots.txt: 200
+
+========== skxclean.com ==========
+HTTP: 200
+Server: nginx
+Title: 深圳市思科兴净化制品有限公司
+  /robots.txt: 200
+  /sitemap.xml: 200
+
+========== 51-wfhs.com ==========
+HTTP: 403
+Server: wts
+Title: WTS-WAF拦截提示
+  /.env: 403
+  /config.json: 403
+  /config.php: 403
+  /database.php: 403
+  /db.php: 403
+  /admin: 403
+  /admin.php: 403
+  /manager: 403
+  /login.php: 403
+  /setup.php: 403
+  /install.php: 403
+  /robots.txt: 403
+  /sitemap.xml: 403
+  /config.php.bak: 403 (BACKUP!)
+  /admin.php.bak: 403 (BACKUP!)
+  /index.php.bak: 403 (BACKUP!)
+  /db.php.bak: 403 (BACKUP!)
+  /database.php.bak: 403 (BACKUP!)
+  /web.bak: 403 (BACKUP!)
+  /www.bak: 403 (BACKUP!)
+  /backup.bak: 403 (BACKUP!)
+  /site.sql.bak: 403 (BACKUP!)
+  /config.php.old: 403 (BACKUP!)
+  /admin.php.old: 403 (BACKUP!)
+  /index.php.old: 403 (BACKUP!)
+  /db.php.old: 403 (BACKUP!)
+  /database.php.old: 403 (BACKUP!)
+  /web.old: 403 (BACKUP!)
+  /www.old: 403 (BACKUP!)
+  /backup.old: 403 (BACKUP!)
+  /site.sql.old: 403 (BACKUP!)
+  /config.php.swp: 403 (BACKUP!)
+  /admin.php.swp: 403 (BACKUP!)
+  /index.php.swp: 403 (BACKUP!)
+  /db.php.swp: 403 (BACKUP!)
+  /database.php.swp: 403 (BACKUP!)
+  /web.swp: 403 (BACKUP!)
+  /www.swp: 403 (BACKUP!)
+  /backup.swp: 403 (BACKUP!)
+  /site.sql.swp: 403 (BACKUP!)
+  /config.php~: 403 (BACKUP!)
+  /admin.php~: 403 (BACKUP!)
+  /index.php~: 403 (BACKUP!)
+  /db.php~: 403 (BACKUP!)
+  /database.php~: 403 (BACKUP!)
+  /web~: 403 (BACKUP!)
+  /www~: 403 (BACKUP!)
+  /backup~: 403 (BACKUP!)
+  /site.sql~: 403 (BACKUP!)
+  /config.php.save: 403 (BACKUP!)
+  /admin.php.save: 403 (BACKUP!)
+  /index.php.save: 403 (BACKUP!)
+  /db.php.save: 403 (BACKUP!)
+  /database.php.save: 403 (BACKUP!)
+  /www.save: 403 (BACKUP!)
+  /backup.save: 403 (BACKUP!)
+  /site.sql.save: 403 (BACKUP!)
+  /config.php.txt: 403 (BACKUP!)
+  /admin.php.txt: 403 (BACKUP!)
+  /index.php.txt: 403 (BACKUP!)
+  /db.php.txt: 403 (BACKUP!)
+  /database.php.txt: 403 (BACKUP!)
+  /web.txt: 403 (BACKUP!)
+  /www.txt: 403 (BACKUP!)
+  /backup.txt: 403 (BACKUP!)
+  /site.sql.txt: 403 (BACKUP!)
+  /config.php.tar.gz: 403 (BACKUP!)
+  /admin.php.tar.gz: 403 (BACKUP!)
+  /index.php.tar.gz: 403 (BACKUP!)
+  /db.php.tar.gz: 403 (BACKUP!)
+  /database.php.tar.gz: 403 (BACKUP!)
+  /web.tar.gz: 403 (BACKUP!)
+  /www.tar.gz: 403 (BACKUP!)
+  /backup.tar.gz: 403 (BACKUP!)
+  /site.sql.tar.gz: 403 (BACKUP!)
+  /config.php.zip: 403 (BACKUP!)
+  /admin.php.zip: 403 (BACKUP!)
+  /index.php.zip: 403 (BACKUP!)
+  /db.php.zip: 403 (BACKUP!)
+  /database.php.zip: 403 (BACKUP!)
+  /web.zip: 403 (BACKUP!)
+  /www.zip: 403 (BACKUP!)
+  /backup.zip: 403 (BACKUP!)
+  /site.sql.zip: 403 (BACKUP!)
+  /config.php.sql: 403 (BACKUP!)
+  /admin.php.sql: 403 (BACKUP!)
+  /index.php.sql: 403 (BACKUP!)
+  /db.php.sql: 403 (BACKUP!)
+  /database.php.sql: 403 (BACKUP!)
+  /web.sql: 403 (BACKUP!)
+  /www.sql: 403 (BACKUP!)
+  /backup.sql: 403 (BACKUP!)
+  /site.sql.sql: 403 (BACKUP!)
+  /config.php.gz: 403 (BACKUP!)
+  /admin.php.gz: 403 (BACKUP!)
+  /index.php.gz: 403 (BACKUP!)
+  /db.php.gz: 403 (BACKUP!)
+  /database.php.gz: 403 (BACKUP!)
+  /web.gz: 403 (BACKUP!)
+  /www.gz: 403 (BACKUP!)
+  /backup.gz: 403 (BACKUP!)
+  /site.sql.gz: 403 (BACKUP!)
+
+========== gzzqswkj.com ==========
+HTTP: 200
+Server: wts
+Title: 广州市妆泉生物科技有限公司
+  /.env: 403
+  /robots.txt: 200
+  /config.php.bak: 403 (BACKUP!)
+  /admin.php.bak: 403 (BACKUP!)
+  /index.php.bak: 403 (BACKUP!)
+  /db.php.bak: 403 (BACKUP!)
+  /database.php.bak: 403 (BACKUP!)
+  /web.bak: 403 (BACKUP!)
+  /www.bak: 403 (BACKUP!)
+  /backup.bak: 403 (BACKUP!)
+  /site.sql.bak: 403 (BACKUP!)
+  /config.php.tar.gz: 403 (BACKUP!)
+  /admin.php.tar.gz: 403 (BACKUP!)
+  /index.php.tar.gz: 403 (BACKUP!)
+  /db.php.tar.gz: 403 (BACKUP!)
+  /database.php.tar.gz: 403 (BACKUP!)
+  /web.tar.gz: 403 (BACKUP!)
+  /www.tar.gz: 403 (BACKUP!)
+  /backup.tar.gz: 403 (BACKUP!)
+  /site.sql.tar.gz: 403 (BACKUP!)
+  /config.php.zip: 403 (BACKUP!)
+  /admin.php.zip: 403 (BACKUP!)
+  /index.php.zip: 403 (BACKUP!)
+  /db.php.zip: 403 (BACKUP!)
+  /database.php.zip: 403 (BACKUP!)
+  /web.zip: 403 (BACKUP!)
+  /www.zip: 403 (BACKUP!)
+  /backup.zip: 403 (BACKUP!)
+  /site.sql.zip: 403 (BACKUP!)
+  /config.php.gz: 403 (BACKUP!)
+  /admin.php.gz: 403 (BACKUP!)
+  /index.php.gz: 403 (BACKUP!)
+  /db.php.gz: 403 (BACKUP!)
+  /database.php.gz: 403 (BACKUP!)
+  /web.gz: 403 (BACKUP!)
+  /www.gz: 403 (BACKUP!)
+  /backup.gz: 403 (BACKUP!)
+  /site.sql.gz: 403 (BACKUP!)
+
+========== zhongyazs8.com ==========
+HTTP: 200
+Server: nginx
+Title: 禁漫天堂漫_韩漫日漫国漫在线阅读_好看漫画每日更
+CMS: EmpireCMS
+  /db.php: 200
+  /admin: 200
+  /config.php.bak: 403 (BACKUP!)
+  /admin.php.bak: 403 (BACKUP!)
+  /index.php.bak: 403 (BACKUP!)
+  /db.php.bak: 403 (BACKUP!)
+  /database.php.bak: 403 (BACKUP!)
+  /web.bak: 403 (BACKUP!)
+  /www.bak: 403 (BACKUP!)
+  /backup.bak: 403 (BACKUP!)
+  /site.sql.bak: 403 (BACKUP!)
+  /config.php.sql: 403 (BACKUP!)
+  /admin.php.sql: 403 (BACKUP!)
+  /index.php.sql: 403 (BACKUP!)
+  /db.php.sql: 403 (BACKUP!)
+  /database.php.sql: 403 (BACKUP!)
+  /web.sql: 403 (BACKUP!)
+  /www.sql: 403 (BACKUP!)
+  /backup.sql: 403 (BACKUP!)
+  /site.sql.sql: 403 (BACKUP!)
+
+========== hr-times.com ==========
+HTTP: 200
+Server: Microsoft-IIS/10.0
+Title: 武汉宏瑞时代科技有限公司
+  /.env: 302
+  /config.json: 302
+  /config.php: 302
+  /database.php: 302
+  /db.php: 302
+  /admin: 302
+  /admin.php: 302
+  /manager: 302
+  /login.php: 302
+  /setup.php: 302
+  /install.php: 302
+  /robots.txt: 302
+  /sitemap.xml: 302
+  /config.php.bak: 403 (BACKUP!)
+  /admin.php.bak: 403 (BACKUP!)
+  /index.php.bak: 403 (BACKUP!)
+  /db.php.bak: 403 (BACKUP!)
+  /database.php.bak: 403 (BACKUP!)
+  /web.bak: 403 (BACKUP!)
+  /www.bak: 403 (BACKUP!)
+  /backup.bak: 403 (BACKUP!)
+  /site.sql.bak: 403 (BACKUP!)
+  /config.php.old: 302 (BACKUP!)
+  /admin.php.old: 302 (BACKUP!)
+  /index.php.old: 302 (BACKUP!)
+  /db.php.old: 302 (BACKUP!)
+  /database.php.old: 302 (BACKUP!)
+  /web.old: 302 (BACKUP!)
+  /www.old: 302 (BACKUP!)
+  /backup.old: 302 (BACKUP!)
+  /site.sql.old: 302 (BACKUP!)
+  /config.php.swp: 302 (BACKUP!)
+  /admin.php.swp: 302 (BACKUP!)
+  /index.php.swp: 302 (BACKUP!)
+  /db.php.swp: 302 (BACKUP!)
+  /database.php.swp: 302 (BACKUP!)
+  /web.swp: 302 (BACKUP!)
+  /www.swp: 302 (BACKUP!)
+  /backup.swp: 302 (BACKUP!)
+  /site.sql.swp: 302 (BACKUP!)
+  /config.php~: 403 (BACKUP!)
+  /admin.php~: 403 (BACKUP!)
+  /index.php~: 403 (BACKUP!)
+  /db.php~: 403 (BACKUP!)
+  /database.php~: 403 (BACKUP!)
+  /web~: 403 (BACKUP!)
+  /www~: 403 (BACKUP!)
+  /backup~: 403 (BACKUP!)
+  /site.sql~: 403 (BACKUP!)
+  /config.php.save: 302 (BACKUP!)
+  /admin.php.save: 302 (BACKUP!)
+  /index.php.save: 302 (BACKUP!)
+  /db.php.save: 302 (BACKUP!)
+  /database.php.save: 302 (BACKUP!)
+  /web.save: 302 (BACKUP!)
+  /www.save: 302 (BACKUP!)
+  /backup.save: 302 (BACKUP!)
+  /site.sql.save: 302 (BACKUP!)
+  /config.php.txt: 302 (BACKUP!)
+  /admin.php.txt: 302 (BACKUP!)
+  /index.php.txt: 302 (BACKUP!)
+  /db.php.txt: 302 (BACKUP!)
+  /database.php.txt: 302 (BACKUP!)
+  /web.txt: 302 (BACKUP!)
+  /www.txt: 302 (BACKUP!)
+  /backup.txt: 302 (BACKUP!)
+  /site.sql.txt: 302 (BACKUP!)
+  /config.php.tar.gz: 302 (BACKUP!)
+  /admin.php.tar.gz: 302 (BACKUP!)
+  /index.php.tar.gz: 302 (BACKUP!)
+  /db.php.tar.gz: 302 (BACKUP!)
+  /database.php.tar.gz: 302 (BACKUP!)
+  /web.tar.gz: 302 (BACKUP!)
+  /www.tar.gz: 302 (BACKUP!)
+  /backup.tar.gz: 302 (BACKUP!)
+  /site.sql.tar.gz: 302 (BACKUP!)
+  /config.php.zip: 302 (BACKUP!)
+  /admin.php.zip: 302 (BACKUP!)
+  /index.php.zip: 302 (BACKUP!)
+  /db.php.zip: 302 (BACKUP!)
+  /database.php.zip: 302 (BACKUP!)
+  /www.zip: 302 (BACKUP!)
+  /backup.zip: 302 (BACKUP!)
+  /site.sql.zip: 302 (BACKUP!)
+  /config.php.sql: 302 (BACKUP!)
+  /admin.php.sql: 302 (BACKUP!)
+  /index.php.sql: 302 (BACKUP!)
+  /db.php.sql: 302 (BACKUP!)
+  /database.php.sql: 302 (BACKUP!)
+  /web.sql: 302 (BACKUP!)
+  /www.sql: 302 (BACKUP!)
+  /backup.sql: 302 (BACKUP!)
+  /site.sql.sql: 302 (BACKUP!)
+  /config.php.gz: 302 (BACKUP!)
+  /admin.php.gz: 302 (BACKUP!)
+  /index.php.gz: 302 (BACKUP!)
+  /db.php.gz: 302 (BACKUP!)
+  /database.php.gz: 302 (BACKUP!)
+  /web.gz: 302 (BACKUP!)
+  /www.gz: 302 (BACKUP!)
+  /backup.gz: 302 (BACKUP!)
+  /site.sql.gz: 302 (BACKUP!)
+
+========== nasonic.com.cn ==========
+HTTP: 200
+Server: wits/1.17
+Title: 苏州纳森超声科技有限公司
+!! phpinfo.php: PHPINFO EXPOSED !!
+  /login.php: 200
+  /robots.txt: 200
+  /sitemap.xml: 200
+

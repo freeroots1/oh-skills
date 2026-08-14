@@ -1,0 +1,6 @@
+CAND|08-12 01:26|ADMIN-LOGIN|39.107.157.235:443|/admin/ -> https://www.byzhen.com/wp-login.php?redirect_to=https%3A%2F%2Fwww.byzhen.com%2Fwp-admin%2F&reauth=1 login page
+CAND|08-12 01:26|ADMIN-LOGIN|39.107.157.235:443|/wp-admin/ -> https://www.byzhen.com/wp-login.php?redirect_to=https%3A%2F%2F39.107.157.235%2Fwp-admin%2F&reauth=1 login page
+CAND|08-12 01:26|ADMIN-LOGIN|113.96.190.199:443|/admin.php -> https://113.96.190.199:443/admin.php/Auth/index.html login page
+CAND|08-12 01:27|ADMIN-LOGIN|121.41.78.71:443|/admin/ -> https://121.41.78.71:443/index.php?m=admin&c=public&a=login login page
+CAND|08-12 01:27|ADMIN-LOGIN|121.41.78.71:443|/manage/ -> https://121.41.78.71:443/index.php?m=manage&c=public&a=login login page
+CAND|08-12 01:27|ADMIN-LOGIN|139.196.199.221:443|/admin/ -> https://139.196.199.221:443/admin/ login page

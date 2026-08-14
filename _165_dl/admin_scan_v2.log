@@ -1,0 +1,128 @@
+[*] Scanning 88 enterprise sites
+[*] Paths: ['/admin', '/admin/login', '/login', '/admin.php', '/wp-admin']
+[*] Default creds: ['admin:admin', 'admin:123456', 'admin:admin123', 'admin:admin888']
+======================================================================
+[1/88] 51-wfhs.com (no panels)
+[2/88] bdfuyang.com (no panels)
+[3/88] canbe.com.cn (1 panels)
+[4/88] bjry168.com (no panels)
+[5/88] chinanaisi.com (2 panels, 1 login forms)
+[6/88] cos-pak.com (no panels)
+[7/88] ahcq-scm.com (5 panels)
+[8/88] baihaitun100.com.cn (8 panels)
+[9/88] chn-top.cn (2 panels, 2 login forms)
+[10/88] chengtech.com (no panels)
+[11/88] cotcchina.com (1 panels)
+[12/88] fenglanjs.com (no panels)
+[13/88] eleai.net (no panels)
+[14/88] goglobalcn.com (no panels)
+[15/88] gx-jx.com (no panels)
+[16/88] gzzqswkj.com (no panels)
+[17/88] gdrongda.com (no panels)
+[18/88] dashengjianshe.com (8 panels)
+[19/88] cn-hunters.com (1 panels, 1 login forms)
+[20/88] hfjh120.com (no panels)
+[21/88] hefu56.com (5 panels)
+[22/88] hkkanglilai.com (no panels)
+[23/88] hfjinggong.com (no panels)
+[24/88] hongguanjixie.com (no panels)
+[25/88] fzmetal.com (10 panels, 1 login forms)
+[26/88] hongshengss.cn (no panels)
+[27/88] hnhuawang.com (no panels)
+[28/88] hpyq.net (5 panels)
+[29/88] huanyouche.cn (4 panels)
+[30/88] jiandaoshi.com (no panels)
+[31/88] hubeijinheng.com (5 panels)
+[32/88] hzzlcn.com (no panels)
+[33/88] hr-times.com (5 panels)
+[34/88] jinhuaruitong.com (4 panels)
+[35/88] jnjzjg.com (no panels)
+[36/88] jmguoguo.com (no panels)
+[37/88] js-dd.cn (1 panels)
+[38/88] hcz168.com (no panels)
+[39/88] jtec.com.cn (1 panels)
+[40/88] link-in.com.cn (1 panels)
+[41/88] linkopto.com (no panels)
+[42/88] joyalltire.cn (2 panels, 2 login forms)
+[43/88] kbangbox.com (no panels)
+[44/88] kzjx8.com (no panels)
+[45/88] meijialin.com.cn (no panels)
+[46/88] lisoexpo.com (no panels)
+[47/88] longuang.ltd (no panels)
+[48/88] nasonic.com.cn (no panels)
+[49/88] post-harvest.com.cn (no panels)
+[50/88] mun17.com (2 panels, 2 login forms)
+[51/88] qdlidong.com (no panels)
+[52/88] qiaobenkeji.com (no panels)
+[53/88] qianliyu.com (no panels)
+[54/88] rifutaoci.com (1 panels)
+[55/88] sdmj.com.cn (4 panels, 4 login forms)
+[56/88] sdxtly.com (9 panels)
+[57/88] shicone.com (no panels)
+[58/88] shanguoying.com (1 panels)
+[59/88] bjhzsv.com (no panels)
+[60/88] shlonggang.com (no panels)
+[61/88] shzyjjzz.com (no panels)
+[62/88] silverplus-intl.com (no panels)
+[63/88] skxclean.com (no panels)
+[64/88] nbzhongxin.net (4 panels)
+[65/88] stad.wang (no panels)
+[66/88] cixingkeji.com (1 panels)
+[67/88] szxmx.net (1 panels)
+[68/88] tianlinfeiye.com (no panels)
+[69/88] taiaojituan.com (no panels)
+[70/88] taiso.com.cn (no panels)
+[71/88] wanzhengdq.com (no panels)
+[72/88] weipurenzheng.com (no panels)
+[73/88] tongde.sh.cn (no panels)
+[74/88] vktalent.com (no panels)
+[75/88] wuzizuifood.com (8 panels)
+[76/88] yurenmed.com (no panels)
+[77/88] yhhuixin.com (2 panels)
+[78/88] yingdatest.com (no panels)
+[79/88] joyalltire.com (2 panels, 2 login forms)
+[80/88] shimingchina.com (2 panels, 2 login forms)
+[81/88] zj-xgj.com (1 panels)
+[82/88] yurundianqi.com (6 panels, 2 login forms)
+[83/88] zonessoft.com (no panels)
+[84/88] lzjx.cn (4 panels)
+[85/88] silkmachine.cn (no panels)
+[86/88] 51huilife.com (no panels)
+[87/88] hebeihuajiu.com (2 panels, 2 login forms)
+[88/88] yz-li.com (no panels)
+
+======================================================================
+SCAN COMPLETE
+======================================================================
+Domains: 88
+Admin panels: 121
+Login forms: 21
+Login attempts: 24
+ACCESSIBLE PANELS: 0
+
+No admin panels accessible with default credentials.
+
+--- LOGIN FORMS FOUND ---
+  chinanaisi.com | http://chinanaisi.com/admin/login | HTTP 200 | field=?
+  chn-top.cn | http://chn-top.cn/admin | HTTP 302 | field=?
+  chn-top.cn | http://chn-top.cn/admin/login | HTTP 200 | field=?
+  cn-hunters.com | http://cn-hunters.com/admin.php | HTTP 200 | field=username [CAPTCHA] | PbootCMS管理中心-V3.1.2-20211028
+  fzmetal.com | http://fzmetal.com/admin | HTTP 200 | field=username | ¹ÜÀíµÇÂ¼
+  joyalltire.cn | http://joyalltire.cn/admin | HTTP 302 | field=?
+  joyalltire.cn | http://joyalltire.cn/login | HTTP 200 | field=?
+  mun17.com | http://mun17.com/admin | HTTP 302 | field=?
+  mun17.com | http://mun17.com/login | HTTP 200 | field=?
+  sdmj.com.cn | http://sdmj.com.cn/admin | HTTP 302 | field=?
+  sdmj.com.cn | http://sdmj.com.cn/login | HTTP 200 | field=?
+  sdmj.com.cn | https://sdmj.com.cn/admin | HTTP 302 | field=?
+  sdmj.com.cn | https://sdmj.com.cn/login | HTTP 200 | field=?
+  joyalltire.com | http://joyalltire.com/admin | HTTP 302 | field=?
+  joyalltire.com | http://joyalltire.com/login | HTTP 200 | field=?
+  shimingchina.com | http://shimingchina.com/admin | HTTP 301 | field=username [CAPTCHA] | ¿ÆÓòÍøÂçºóÌ¨¹ÜÀíÔ±µÇÂ¼
+  shimingchina.com | https://shimingchina.com/admin | HTTP 301 | field=username [CAPTCHA] | ¿ÆÓòÍøÂçºóÌ¨¹ÜÀíÔ±µÇÂ¼
+  yurundianqi.com | http://yurundianqi.com/admin.php | HTTP 302 | field=?
+  yurundianqi.com | https://yurundianqi.com/admin.php | HTTP 302 | field=?
+  hebeihuajiu.com | http://hebeihuajiu.com/admin | HTTP 301 | field=username | BOSSCMS-Free建站系统
+  hebeihuajiu.com | https://hebeihuajiu.com/admin | HTTP 301 | field=username | BOSSCMS-Free建站系统
+
+Results saved to: /tmp/admin_scan_results_v2.json

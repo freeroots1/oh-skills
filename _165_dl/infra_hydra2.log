@@ -1,0 +1,19 @@
+Hydra v9.2 (c) 2021 by van Hauser/THC & David Maciejak - Please do not use in military or secret service organizations, or for illegal purposes (this is non-binding, these *** ignore laws and ethics anyway).
+
+Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2026-08-12 04:40:42
+[DATA] max 4 tasks per 2 servers, overall 8 tasks, 450 login tries (l:9/p:50), ~113 tries per task
+[DATA] attacking ftp://(2 targets):21/
+[STATUS] 653.00 tries/min, 653 tries in 00:01h, 247 to do in 00:01h, 4 active
+2 of 2 targets completed, 0 valid password found
+Hydra (https://github.com/vanhauser-thc/thc-hydra) finished at 2026-08-12 04:42:23
+Hydra v9.2 (c) 2021 by van Hauser/THC & David Maciejak - Please do not use in military or secret service organizations, or for illegal purposes (this is non-binding, these *** ignore laws and ethics anyway).
+
+Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2026-08-12 04:42:23
+[DATA] max 4 tasks per 2 servers, overall 8 tasks, 450 login tries (l:9/p:50), ~113 tries per task
+[DATA] attacking ssh://(2 targets):22/
+[ERROR] could not connect to ssh://117.50.158.75:22 - Library not initialized.
+[STATUS] 68.00 tries/min, 68 tries in 00:01h, 832 to do in 00:13h, 4 active
+[STATUS] 63.67 tries/min, 191 tries in 00:03h, 709 to do in 00:12h, 4 active
+[STATUS] 63.43 tries/min, 444 tries in 00:07h, 456 to do in 00:08h, 4 active
+1 of 2 targets completed, 0 valid password found
+Hydra (https://github.com/vanhauser-thc/thc-hydra) finished at 2026-08-12 04:49:37

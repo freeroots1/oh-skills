@@ -1,0 +1,395 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>北京瀚特仕管理咨询有限公司</title>
+<meta name="keywords" content="瀚特仕,猎头,RPO,咨询">
+<meta name="description" content="北京瀚特仕管理咨询有限公司（简称：瀚特仕）是一家国内领先的专业招聘顾问公司，以猎头、RPO、咨询、背景调查等核心业务服务于国内各大企业。致力于为各类型企业提供高端人才信息收集、寻访推荐、背景调查、能力测评等方面服务，解决企业在人才开发与储备战略中所遇到的瓶劲难题。能根据企业特定的发展与经营战略，结合其管理理念及岗位需求，为其选择和推荐合适的精英人才。">
+<meta name="author" content="www.xiuzhanwang.com"/>
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<link rel="stylesheet" href="/style/css/style.css" />
+<link rel="stylesheet" href="/style/css/page.css" />
+<link rel="stylesheet" href="/style/css/aos.css" />
+<script type="text/javascript" src="/style/js/jquery.min.js"></script>
+</head>
+<body>
+
+<div id="header_main">
+  <div id="top" class="w1200">
+    <div id="nav" class="nav fr">
+      <ul class="navlist clearfix">
+        <li class="hover"><a href="/" >首　页</a></li>
+        
+        <li ><a href="/?pages_29/">高薪职位</a></li>
+        
+        <li ><a href="/?aboutus/">关于我们</a></li>
+        
+        <li ><a href="http://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/">资讯中心</a></li>
+        
+        <li ><a href="/?article_2/">加入瀚特仕</a></li>
+        
+      </ul>
+    </div>
+    <!--end nav-->
+    <div id="logo"> <a href="/" title="北京瀚特仕管理咨询有限公司"><img src="/static/upload/image/20231206/1701841528436513.jpg" alt="北京瀚特仕管理咨询有限公司" title="北京瀚特仕管理咨询有限公司" ></a> </div>
+    <!--end logo--> 
+  </div>
+  <!--end top--> 
+</div>
+<!--end header_main--> 
+ 
+<!--主体内容 start--> 
+<!--banner start-->
+<div id="banner_main">
+  <div id="banner" class="banner">
+    <ul class="list clearfix">
+      
+      <li><a href="" title="" target="_blank"><img src="/static/upload/image/20231208/1702024331435858.jpg" alt="" /></a></li>
+      
+      <li><a href="" title="" target="_blank"><img src="/static/upload/image/20231208/1702018054960131.jpg" alt="" /></a></li>
+      
+      <li><a href="" title="" target="_blank"><img src="/static/upload/image/20231208/1702020894101078.jpg" alt="" /></a></li>
+      
+      <li><a href="" title="" target="_blank"><img src="/static/upload/image/20231208/1702018072908977.jpg" alt="" /></a></li>
+      
+    </ul>
+    <div class="tip"></div>
+    <a href="javascript:;" id="btn_prev" class="icon"></a> <a href="javascript:;" id="btn_next" class="icon"></a> </div>
+</div>
+<!--banner end-->
+
+<div class="index">
+  <div class="floor_1_main">
+    <div class="floor_1 w1200 clearfix">
+      <div class="fuwu clearfix" aos="fade-up" aos-easing="ease" aos-duration="700">
+        <div class="title" >
+          <h3><strong>瀚特仕</strong><b>一站式服务</b></h3>
+          <h4>Service Process</h4>
+          <em class="icon"></em></div>
+      </div>
+      <!--end fuwu-->
+      <div class="item it1" aos="fade-up" aos-easing="ease" aos-duration="700" aos-delay="100"> <a class="trans clearfix" href="javascript:void(0);" title="风水调理"> <span class="ys_ico"></span>
+        <h3>客户需求访谈</h3>
+        <p>顾问进行客户需求访谈，了解公司业务、公司组织架构、公司价值与文化等，整理企业职位需求.</p>
+        <div class="xian"><em class="ys_ico"></em></div>
+        </a> </div>
+      <div class="item it2" aos="fade-up" aos-easing="ease" aos-duration="700" aos-delay="200"> <a class="trans clearfix" href="javascript:void(0);" title="空间设计"> <span class="ys_ico"></span>
+        <h3>项目启动分析</h3>
+        <p>项目团队进行行业、企业、职位等全方位分析后，按照职位要求及项目分析书，制作人才画像及寻访策略.</p>
+        <div class="xian"><em class="ys_ico"></em></div>
+        </a> </div>
+      <div class="item it3" aos="fade-up" aos-easing="ease" aos-duration="700" aos-delay="300"> <a class="trans clearfix" href="javascript:void(0);" title="品牌策划"> <span class="ys_ico"></span>
+        <h3>人选推荐</h3>
+        <p>每一位人选，我们都会提前进行一个全面而详尽的面试和初步的背景调查来确认人选的技术或软性实力.</p>
+        <div class="xian"><em class="ys_ico"></em></div>
+        </a> </div>
+      <div class="item it4" aos="fade-up" aos-easing="ease" aos-duration="700" aos-delay="400"> <a class="trans clearfix" href="javascript:void(0);" title="工程施工"> <span class="ys_ico"></span>
+        <h3>甄选与录用</h3>
+        <p>我们会协助安排人选的面试/谈薪等环节，在谈判的过程中，我们会尽一切能力保持公平公正，保证给双方传达的信息准确无误.</p>
+        <div class="xian"><em class="ys_ico"></em></div>
+        </a> </div>
+      <div class="item it5" aos="fade-up" aos-easing="ease" aos-duration="700" aos-delay="500"> <a class="trans clearfix" href="javascript:void(0);" title="设施配套"> <span class="ys_ico"></span>
+        <h3>到岗与后续服务</h3>
+        <p>人选顺利到岗后，我们将继续开展跟进式服务，对人才的后续工作情况跟踪评估及时反馈给客户.</p>
+        <div class="xian"><em class="ys_ico"></em></div>
+        </a> </div>
+      <div class="item it6" aos="fade-up" aos-easing="ease" aos-duration="700" aos-delay="600"> <a class="trans clearfix" href="javascript:void(0);" title="售后服务"> <span class="ys_ico"></span>
+        <h3>服务宗旨</h3>
+        <p>用专业成就人选，用实力服务客户。专注行业研究，实现精准高效的人才服务，持续为客户创造超值服务。</p>
+        <div class="xian"><em class="ys_ico"></em></div>
+        </a> </div>
+    </div>
+    <!--end floor_1--> 
+  </div>
+  <!--end floor_1_main-->
+  <div class="floor_2_main">
+    <div class="floor_2 w1200">
+      <div class="title" aos="fade-up" aos-easing="ease" aos-duration="700">
+        <h3>我们的<b>价值</b></h3>
+        <h4>our value</h4>
+        <em class="icon"></em></div>
+      <div class="youshi">
+        <ul class="list clearfix">
+          <li class="item"> <a class="transs" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes">
+            <div class="content transs"> <img class="sico-img" src="/style/images/3.png" alt="服务宗旨" />
+              <h3 class="tit">服务宗旨</h3>
+              <p class="desc transs">用专业成就人选，用实力服务客户。专注行业研究，实现精准高效的人才服务，以多赢思维和团队运作的方式，持续为客户创造超值服务。</p>
+              <span class="more1 transs">立即咨询</span> </div>
+            </a></li>
+          <li class="item"> <a class="transs" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes">
+            <div class="content transs"> <img class="sico-img" src="/style/images/2.png" alt="行业领域细分" />
+              <h3 class="tit">行业领域细分</h3>
+              <p class="desc transs">招聘顾问专注各自行业细分领域，并与行业领域的目标人才长期保持有效的合作，实时获取行业动态信息。</p>
+              <span class="more1 transs">立即咨询</span> </div>
+            </a></li>
+          <li class="item"> <a class="transs" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes">
+            <div class="content transs"> <img class="sico-img" src="/style/images/1.png" alt="专业化团队" />
+              <h3 class="tit">专业化团队</h3>
+              <p class="desc transs">招聘顾问均来自国内知名互联网大厂上市公司，拥有多年的企业人力资源招聘实战与管理经验，以保证更好的服务我们客户与经理人。</p>
+              <span class="more1 transs">立即咨询</span> </div>
+            </a></li>
+          <li class="item"> <a class="transs" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes">
+            <div class="content transs"> <img class="sico-img" src="/style/images/4.png" alt="个性化服务" />
+              <h3 class="tit">个性化服务</h3>
+              <p class="desc transs">根据企业招聘需求，提供更加适合客户发展的总体解决方案，包括为创业团队打造的人才招聘方案，股权解决方案等，也包括为成熟公司提供的专业领域的咨询服务。</p>
+              <span class="more1 transs">立即咨询</span> </div>
+            </a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--end floor_2_main-->
+  <!--<div class="floor_3_main">
+    <div class="floor_3 w1200">
+      <div class="title" aos="fade-up" aos-easing="ease" aos-duration="700">
+        <h3>工程<b>案例</b></h3>
+        <h4>our cases</h4>
+        <em class="icon"></em></div>
+      <div class="menu">  <a href="/?products_6/" title="现代简约"><em class="icon"></em>现代简约</a>  <a href="/?products_7/" title="自然田园"><em class="icon"></em>自然田园</a>  <a href="/?products_15/" title="中式风格"><em class="icon"></em>中式风格</a>  <a href="/?products_16/" title="北欧风格"><em class="icon"></em>北欧风格</a>  <a href="/?products_17/" title="美式风格"><em class="icon"></em>美式风格</a>  </div>
+      
+      <div class="icase">
+        <div class="smabox fl">
+        
+          <div class="item"> <a href="/?products_15/46.html" title="产品名称十八" target="_blank"> <img src="/static/upload/image/20210104/1609755866766310.jpg" title="产品名称十八" alt="产品名称十八">
+            <div class="txt"> <span class="icon transs"></span>
+              <h3 class="transs">产品名称十八</h3>
+            </div>
+            </a> </div>
+          
+          <div class="item"> <a href="/?products_15/45.html" title="产品名称十七" target="_blank"> <img src="/static/upload/image/20210104/1609755866174896.jpg" title="产品名称十七" alt="产品名称十七">
+            <div class="txt"> <span class="icon transs"></span>
+              <h3 class="transs">产品名称十七</h3>
+            </div>
+            </a> </div>
+          
+        </div>
+       
+        <div class="bigbox fl" id="picBox">
+          <div class="bd">
+            <ul>
+              
+              <li class="item"><a href="/?products_15/44.html" title="产品名称十六" target="_blank"> <img src="/static/upload/image/20210104/1609755865666487.jpg" title="产品名称十六" alt="产品名称十六">
+                <div class="txt"> <span class="icon transs"></span>
+                  <h3 class="transs">产品名称十六</h3>
+                </div>
+                </a> </li>
+              
+              <li class="item"><a href="/?products_15/43.html" title="产品名称十五" target="_blank"> <img src="/static/upload/image/20210104/1609755865672142.jpg" title="产品名称十五" alt="产品名称十五">
+                <div class="txt"> <span class="icon transs"></span>
+                  <h3 class="transs">产品名称十五</h3>
+                </div>
+                </a> </li>
+              
+              <li class="item"><a href="/?products_15/42.html" title="产品名称十四" target="_blank"> <img src="/static/upload/image/20210104/1609755883617014.jpg" title="产品名称十四" alt="产品名称十四">
+                <div class="txt"> <span class="icon transs"></span>
+                  <h3 class="transs">产品名称十四</h3>
+                </div>
+                </a> </li>
+              
+              <li class="item"><a href="/?products_6/32.html" title="产品名称十三" target="_blank"> <img src="/static/upload/image/20210104/1609755866766310.jpg" title="产品名称十三" alt="产品名称十三">
+                <div class="txt"> <span class="icon transs"></span>
+                  <h3 class="transs">产品名称十三</h3>
+                </div>
+                </a> </li>
+              
+              <li class="item"><a href="/?products_6/31.html" title="产品名称十二" target="_blank"> <img src="/static/upload/image/20210104/1609755866174896.jpg" title="产品名称十二" alt="产品名称十二">
+                <div class="txt"> <span class="icon transs"></span>
+                  <h3 class="transs">产品名称十二</h3>
+                </div>
+                </a> </li>
+              
+            </ul>
+          </div>
+          <div class="hd">
+            <ul>
+              
+              <li></li>
+              
+              <li></li>
+              
+              <li></li>
+              
+              <li></li>
+              
+              <li></li>
+              
+            </ul>
+          </div>
+        </div>
+        <div class="smabox fl"> 
+          <div class="item"> <a href="/?products_6/30.html" title="产品名称十一" target="_blank"> <img src="/static/upload/image/20210104/1609755865666487.jpg" title="产品名称十一" alt="产品名称十一">
+            <div class="txt"> <span class="icon transs"></span>
+              <h3 class="transs">产品名称十一</h3>
+            </div>
+            </a> </div>
+          
+          <div class="item"> <a href="/?products_6/29.html" title="产品名称十" target="_blank"> <img src="/static/upload/image/20210104/1609755865672142.jpg" title="产品名称十" alt="产品名称十">
+            <div class="txt"> <span class="icon transs"></span>
+              <h3 class="transs">产品名称十</h3>
+            </div>
+            </a> </div>
+           </div>
+       
+        
+      </div>
+    </div>
+
+  </div>-->
+  <!--end floor_3_main-->
+  <div class="floor_4_main">
+    <div class="floor_4 w1200">
+      <div class="title" aos="fade-up" aos-easing="ease" aos-duration="700">
+        <h3>加入<b>瀚特仕</b></h3>
+        <h4>Join Us</h4>
+        <em class="icon"></em></div>
+      <div class="textlist clearfix">
+        <ul class="list clearfix">
+          
+          <li class="item" aos="fade-up" aos-easing="ease" aos-delay="100"> <a href="/?article_3/23.html" title="TL/排名" target="_blank">
+            <div class="img"><img src="/static/upload/image/20231208/1702015664890877.jpg" title="TL/排名" alt="TL/排名"></div>
+            <h3>TL/排名</h3>
+            <p class="desc">这是我们最为宝贵的资产,也是我们送给所有员工的第一份礼物:一个良好的工作···..</p>
+            <span>2020-12-25</span> </a></li>
+          
+          <li class="item" aos="fade-up" aos-easing="ease" aos-delay="100"> <a href="/?article_3/8.html" title="猎头顾问" target="_blank">
+            <div class="img"><img src="/static/upload/image/20231208/1702015610775361.jpg" title="猎头顾问" alt="猎头顾问"></div>
+            <h3>猎头顾问</h3>
+            <p class="desc">又是寒风吹雨，呼呼叫个不停，又是细雨敲打窗棂，淅淅沥沥，一转眼，不知不觉···..</p>
+            <span>2020-12-25</span> </a></li>
+          
+          <li class="item" aos="fade-up" aos-easing="ease" aos-delay="100"> <a href="/?article_3/4.html" title="实习生" target="_blank">
+            <div class="img"><img src="/static/upload/image/20231208/1702015472874112.jpg" title="实习生" alt="实习生"></div>
+            <h3>实习生</h3>
+            <p class="desc">清晨的太阳悄悄的爬上了山岭，那晨晖散布，光环夺目，真是一个明媚的早上，经···..</p>
+            <span>2020-12-25</span> </a></li>
+          
+        </ul>
+      </div>
+     
+      <a class="more trans" href="/?article_2/">查看更多<span>&gt;&gt;</span></a> </div>
+   
+  </div>
+
+</div>
+<!--end index--> 
+<!--主体内容 end--> 
+<!--<table width="100%" border="0" height="50" bgcolor="#FFFFFF">
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>-->
+<!--网站底部 start-->
+
+<div id="footer_main">
+  <div id="footer" class="w1200 clearfix">
+    <div class="botleft fl">
+      <div class="botnav"> <a href="/" title="首页">首页</a>  <span>|</span><a href="/?pages_29/" title="高薪职位">高薪职位</a>  <span>|</span><a href="/?aboutus/" title="关于我们">关于我们</a>  <span>|</span><a href="http://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/" title="资讯中心">资讯中心</a>  <span>|</span><a href="/?article_2/" title="加入瀚特仕">加入瀚特仕</a>  </div>
+      <div class="copyright">  北京瀚特仕管理咨询有限公司   地址：北京市朝阳区望京园402号楼2705室，大连沙河口区中山路辰熙星海国际2609室，青岛城阳区小北曲391-1   <br><a href="https://beian.miit.gov.cn/" target="_blank">辽ICP备2024045421号</a> </div>
+    </div>
+    <div class="icontact fr"> <span class="icon fl"></span>
+      <h3><b>15904952599</b>24小时咨询热线</h3>
+    </div>
+  </div>
+  <!--end footer--> 
+</div>
+<!--end footer_main--> 
+
+<!--网站底部 end--> 
+
+<!--客服 start--> 
+<!--请不要手动修改此文件-->
+<!--<div class="bcts_bar">
+  <div class="box">
+    <div class="boxhid hidden">
+      <div class="item"> <a href="javascript:void(0);">
+        <p class="ico_fix bcts_weix"></p>
+        <div class="box poa"><span class="sjx ico_fix poa"></span><img src="" >
+          <h5>手机站二维码</h5>
+        </div>
+        </a> </div>
+      <div class="item"> <a href="http://wpa.qq.com/msgrd?v=3&uin=&menu=yes" target="_blank">
+        <p class="ico_fix bcts_qq"></p>
+        </a> </div>
+      <div class="item tel"> <a href="javascript:void(0);">
+        <p class="ico_fix bcts_tel"></p>
+        <div class="box poa">15904952599</div>
+        </a> </div>
+    </div>
+    <div class="item jia"> <a href="javascript:void(0);">
+      <p class="ico_fix bcts_jia"></p>
+      </a> </div>
+  </div>
+  <div class="item returnTop"> <a href="javascript:void(0);">
+    <p class="ico_fix bcts_top"></p>
+    </a> </div>
+</div>-->
+<!--客服 end--> 
+<script type="text/javascript" src="/style/js/jquery.superslide.js"></script> 
+<script type="text/javascript" src="/style/js/common.js" ></script> 
+<script type="text/javascript" src="/style/js/aos.js"></script> 
+<script type="text/javascript">   			
+		AOS.init({
+			easing: 'ease-out-back',
+			duration: 1000
+		});
+	</script> 
+<script type="text/javascript" src="/style/js/jquery.validator.js"></script> 
+<script type="text/javascript" src="/style/js/zh-CN.js"></script> 
+<script>
+	   	var inputVa = $(".formtx .txt").val();
+		$(".formtx .txt").focus(function() {
+			$(this).val("");
+		}).blur(function() {
+			if ($(this).val() == "") {
+				$(this).val(inputVa);
+			}
+		});
+        $('#myform').validator({
+            theme: 'alert',
+            timely: 0, //开启实时验证
+            stopOnError: true, //关闭在第一次错误时停止验证
+            rules: { //自定义规则
+                checkcodeRemote: function (element) {
+                    return $.get("/ajax/verifycheckcode", { value: element.value }, function (data) { });
+                }
+            },
+            fields: {
+            	field_area: { rule: '装修面积:required;integer(+);' },
+                username: { rule: '姓名:required;' },
+                tel: { rule: '电话:required;mobile;' }
+                
+            },
+            //验证成功
+            valid: function (form) {
+                //阻止表单重复提交
+                var me = this;
+                me.holdSubmit();
+
+                $.ajax({
+                    url: '/ajax/message/send',
+                    type: 'POST',
+                    data: $(form).serialize(),
+                    dataType: 'JSON',
+                    success: function (result) {
+                        me.holdSubmit(false);
+
+                        alert(result.msg);
+                        if (result.flag) {
+                            $('#myform')[0].reset();
+                        }
+                        $(".iform .item").find(".xt1").text("办公室装修");
+                        $(".iform .item").find(".xt2").text("装修风格");
+                    },
+                    error: function (xhr) {
+                        me.holdSubmit(false);
+                        alert(xhr.responseText);
+                    }
+                });
+            }
+        });
+    </script>
+ 
+<script src='/?Spider/&url=/' async='async'></script>
+</body>
+</html>

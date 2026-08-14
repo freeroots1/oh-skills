@@ -1,0 +1,6 @@
+[14:57:08:786] [2002137:2002138] [WARN][com.freerdp.core.nla] - SPNEGO received NTSTATUS: STATUS_LOGON_FAILURE [0xC000006D] from server
+[14:57:08:786] [2002137:2002138] [ERROR][com.freerdp.core] - nla_recv_pdu:freerdp_set_last_error_ex ERRCONNECT_LOGON_FAILURE [0x00020014]
+[14:57:08:786] [2002137:2002138] [ERROR][com.freerdp.core.rdp] - rdp_recv_callback: CONNECTION_STATE_NLA - nla_recv_pdu() fail
+[14:57:08:786] [2002137:2002138] [ERROR][com.freerdp.core.transport] - transport_check_fds: transport->ReceiveCallback() - -1
+[14:57:08:786] [2002137:2002138] [ERROR][com.freerdp.core] - Authentication only, exit status 1
+[14:57:07:888] [2002137:2002138] [INFO][com.freerdp.client.x11] - Authentication only. Don't connect to X.

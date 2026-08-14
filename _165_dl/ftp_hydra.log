@@ -1,0 +1,33 @@
+Hydra v9.2 (c) 2021 by van Hauser/THC & David Maciejak - Please do not use in military or secret service organizations, or for illegal purposes (this is non-binding, these *** ignore laws and ethics anyway).
+
+Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2026-08-12 02:16:48
+[WARNING] Restorefile (you have 10 seconds to abort... (use option -I to skip waiting)) from a previous session found, to prevent overwriting, ./hydra.restore
+[DATA] max 2 tasks per 30 servers, overall 60 tasks, 450 login tries (l:9/p:50), ~225 tries per task
+[DATA] attacking ftp://(30 targets):21/
+[STATUS] 1618.00 tries/min, 1618 tries in 00:01h, 12342 to do in 00:08h, 58 active
+[STATUS] 953.00 tries/min, 2859 tries in 00:03h, 12057 to do in 00:13h, 54 active
+[STATUS] 686.43 tries/min, 4805 tries in 00:07h, 11314 to do in 00:17h, 54 active
+[STATUS] 603.17 tries/min, 7238 tries in 00:12h, 9241 to do in 00:16h, 54 active
+[STATUS] 551.94 tries/min, 9383 tries in 00:17h, 7142 to do in 00:13h, 49 active
+[STATUS] 501.95 tries/min, 11043 tries in 00:22h, 5482 to do in 00:11h, 48 active
+[STATUS] 468.63 tries/min, 12653 tries in 00:27h, 3872 to do in 00:09h, 48 active
+[STATUS] 446.41 tries/min, 14285 tries in 00:32h, 2240 to do in 00:06h, 48 active
+[STATUS] 426.38 tries/min, 15776 tries in 00:37h, 749 to do in 00:02h, 37 active
+[STATUS] 421.63 tries/min, 16022 tries in 00:38h, 503 to do in 00:02h, 37 active
+[STATUS] 414.13 tries/min, 16151 tries in 00:39h, 374 to do in 00:01h, 17 active
+[STATUS] 405.50 tries/min, 16220 tries in 00:40h, 305 to do in 00:01h, 17 active
+[STATUS] 396.68 tries/min, 16264 tries in 00:41h, 261 to do in 00:01h, 13 active
+[STATUS] 388.12 tries/min, 16301 tries in 00:42h, 224 to do in 00:01h, 13 active
+[STATUS] 379.95 tries/min, 16338 tries in 00:43h, 187 to do in 00:01h, 13 active
+[STATUS] 372.16 tries/min, 16375 tries in 00:44h, 150 to do in 00:01h, 13 active
+[STATUS] 364.71 tries/min, 16412 tries in 00:45h, 113 to do in 00:01h, 13 active
+[STATUS] 357.57 tries/min, 16448 tries in 00:46h, 77 to do in 00:01h, 13 active
+[STATUS] 350.72 tries/min, 16484 tries in 00:47h, 41 to do in 00:01h, 12 active
+[STATUS] 343.73 tries/min, 16499 tries in 00:48h, 26 to do in 00:01h, 9 active
+[STATUS] 336.90 tries/min, 16508 tries in 00:49h, 17 to do in 00:01h, 9 active
+[STATUS] 330.34 tries/min, 16517 tries in 00:50h, 8 to do in 00:01h, 9 active
+30 of 30 targets completed, 0 valid password found
+[WARNING] Writing restore file because 8 final worker threads did not complete until end.
+[ERROR] 8 targets did not resolve or could not be connected
+[ERROR] 0 target did not complete
+Hydra (https://github.com/vanhauser-thc/thc-hydra) finished at 2026-08-12 03:07:55

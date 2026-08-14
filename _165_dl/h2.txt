@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: nginx/1.12.2
+Date: Tue, 04 Aug 2026 02:39:18 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding
+x-nextjs-cache: HIT
+x-nextjs-prerender: 1
+X-Powered-By: Next.js
+

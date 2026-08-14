@@ -1,0 +1,96 @@
+total: 13685 domains
+progress: 500/13685 hits=0
+LEAK: git-leak | enotica.net | /.git/config | [core] 	repositoryformatversion = 0 	filemode = true 	bare = false 	logallrefupdates = true [remote 
+progress: 1000/13685 hits=1
+LEAK: git-leak | bullheadgulch.com | /.git/config | [core] 	repositoryformatversion = 0 	filemode = false 	bare = false 	logallrefupdates = true 	symlin
+LEAK: git-leak | sos-bangladesh.org | /.git/config | [core] 	repositoryformatversion = 0 	filemode = true 	bare = false 	logallrefupdates = true [remote 
+LEAK: source-leak | email.vectorcode.net | /index.php | PHP源码泄露
+LEAK: git-leak | scfiretraining.com | /.git/config | [core] 	repositoryformatversion = 0 	filemode = true 	bare = false 	logallrefupdates = true [remote 
+progress: 1500/13685 hits=5
+LEAK: git-leak | mail.basaltdynamics.com | /.git/config | [core] 	repositoryformatversion = 0 	filemode = true 	bare = false 	logallrefupdates = true 	symlink
+progress: 2000/13685 hits=6
+LEAK: svn-leak | www.lumingled.com | /.svn/entries |   <a id="a-link" href="https://dev.g.alicdn.com/sd/punish/waf_block_deny.html?wh_ttid=pc&qrcode=IX
+LEAK: source-leak | particleadventure.org | /index.php | PHP源码泄露
+LEAK: source-leak | sparktonian.net | /plus/list.php | PHP源码泄露
+progress: 2500/13685 hits=9
+LEAK: db-backup | 1489204796.rsc.cdn77.org | /db.sql | -- MySQL dump 10.19  Distrib 10.3.36-MariaDB, for debian-linux-gnu (x86_64) -- -- Host: prd-db    Da
+LEAK: git-leak | dovizgrafik.com | /.git/config | [core] 	repositoryformatversion = 0 	filemode = true 	bare = false 	logallrefupdates = true [remote 
+progress: 3000/13685 hits=11
+LEAK: source-leak | chat.vectorcode.net | /index.php | PHP源码泄露
+LEAK: source-leak | jlmhk.com | /plus/list.php | PHP源码泄露
+LEAK: git-leak | number1alphard.com | /.git/config | [core] 	repositoryformatversion = 0 	filemode = true 	bare = false 	logallrefupdates = true [remote 
+LEAK: db-config | themeditest.com | /data/common.inc.php | <style> 	.d-md-block.bg-light.overflow-auto.sidebar.col-12.col-sm-12.col-md-1.col-lg-1.col-xl-1 {   
+LEAK: db-config | themeditest.com | /data/config.php | <style> 	.d-md-block.bg-light.overflow-auto.sidebar.col-12.col-sm-12.col-md-1.col-lg-1.col-xl-1 {   
+LEAK: git-leak | buzznext.com | /.git/config | [core] 	repositoryformatversion = 0 	filemode = false 	bare = false 	logallrefupdates = true [remote
+progress: 3500/13685 hits=17
+LEAK: db-backup | vjol.info | /database.sql | -- MariaDB dump 10.19  Distrib 10.6.23-MariaDB, for Linux (x86_64) -- -- Host: localhost    Database
+progress: 4000/13685 hits=18
+LEAK: git-leak | flipout.com | /.git/config | [core] 	repositoryformatversion = 0 	filemode = false 	bare = false 	logallrefupdates = true [remote
+LEAK: git-leak | nazhi.com | /.git/config | [core] 	repositoryformatversion = 0 	filemode = true 	bare = false 	logallrefupdates = true [remote 
+LEAK: git-leak | investor.starsmicro.com | /.git/config | [core] 	repositoryformatversion = 0 	filemode = true 	bare = false 	logallrefupdates = true 	sshComm
+progress: 4500/13685 hits=21
+LEAK: svn-leak | jianzhiwj.com | /.svn/entries | {"message":"No static resource .svn/entries.","code":500,"otherMessage":"","obj":null}<!--ʱ178668506
+LEAK: phpinfo | jianzhiwj.com | /phpinfo.php | {"message":"No static resource phpinfo.php.","code":500,"otherMessage":"","obj":null}<!--ʱ1786685075
+LEAK: git-leak | repuebla.me | /.git/config | [core] 	repositoryformatversion = 0 	filemode = true 	bare = false 	logallrefupdates = true [remote 
+progress: 5000/13685 hits=24
+LEAK: git-leak | www.chadhillary.com | /.git/config | [core] 	repositoryformatversion = 0 	filemode = false 	bare = false 	logallrefupdates = true 	symlin
+LEAK: svn-leak | efahealth.com | /.svn/entries | <!-- Start to build with ARC(inCore) R:5.2 B:5.2.1.3 << PID:4207-->                                 
+LEAK: git-leak | apps.itams.com | /.git/config | [core] 	repositoryformatversion = 0 	filemode = true 	bare = false 	logallrefupdates = true [remote 
+progress: 5500/13685 hits=27
+LEAK: source-leak | www.hslib.com.cn | /index.php | PHP源码泄露
+LEAK: git-leak | racingahead.net | /.git/config | [core] 	repositoryformatversion = 0 	filemode = true 	bare = false 	logallrefupdates = true [remote 
+Traceback (most recent call last):
+  File "/tmp/leak_scan.py", line 36, in fetch
+    r = urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=timeout, context=ctx)
+  File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.10/urllib/request.py", line 557, in error
+    result = self._call_chain(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 749, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.10/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/tmp/leak_scan.py", line 96, in <module>
+    main()
+  File "/tmp/leak_scan.py", line 85, in main
+    for r in fu.result():
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/tmp/leak_scan.py", line 47, in check_dom
+    st, b = fetch('http://'+dom+p)
+  File "/tmp/leak_scan.py", line 39, in fetch
+    return e.code, e.read(50000)
+  File "/usr/lib/python3.10/tempfile.py", line 638, in func_wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python3.10/http/client.py", line 465, in read
+    return self._read_chunked(amt)
+  File "/usr/lib/python3.10/http/client.py", line 597, in _read_chunked
+    value.append(self._safe_read(chunk_left))
+  File "/usr/lib/python3.10/http/client.py", line 637, in _safe_read
+    data = self.fp.read(cursize)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: timed out

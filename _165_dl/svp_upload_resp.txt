@@ -1,0 +1,1 @@
+<script type="text/javascript">alert('提交成功，感谢您的支持！');window.location.href='message.html';</script>

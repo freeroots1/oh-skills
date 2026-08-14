@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/html
+Server: Microsoft-IIS/8.5
+Set-Cookie: id=13; path=/
+Set-Cookie: admin=yes; path=/
+Set-Cookie: username=hack5; path=/
+Set-Cookie: qx=all; path=/
+Date: Thu, 30 Jul 2026 01:22:22 GMT
+Content-Length: 507
+

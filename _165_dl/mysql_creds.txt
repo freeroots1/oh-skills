@@ -1,0 +1,16 @@
+root:123456
+root:admin
+root:password
+root:mysql
+root:hnhuawang
+root:root
+root:admin888
+root:toor
+root:12345678
+root:hnhuawang123
+root:hnhw123
+root:1108812980
+admin:admin
+admin:123456
+admin:password
+admin:admin123

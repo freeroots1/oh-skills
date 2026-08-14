@@ -1,0 +1,89 @@
+2026/08/08 23:07:27.522586 [Debug] app/log: Logger started
+2026/08/08 23:07:27.522666 [Debug] app/proxyman/inbound: creating stream worker on 0.0.0.0:8443
+2026/08/08 23:07:27.522695 [Info] transport/internet/tcp: listening TCP on 0.0.0.0:8443
+2026/08/08 23:07:27.522708 [Warning] core: Xray 26.3.27 started
+2026/08/08 23:07:31.527564 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56500: handshake did not complete successfully
+2026/08/08 23:07:31.540790 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56502: handshake did not complete successfully
+2026/08/08 23:07:31.750890 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56504: handshake did not complete successfully
+2026/08/08 23:07:32.162445 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56506: handshake did not complete successfully
+2026/08/08 23:07:32.775841 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56508: handshake did not complete successfully
+2026/08/08 23:07:58.010212 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56512: authentication failed or validation criteria not met
+2026/08/08 23:08:53.527596 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56524: failed to read client hello
+2026/08/08 23:11:00.412802 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56558: handshake did not complete successfully
+2026/08/08 23:11:00.433938 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56560: handshake did not complete successfully
+2026/08/08 23:11:00.646288 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56562: handshake did not complete successfully
+2026/08/08 23:11:01.056818 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56564: handshake did not complete successfully
+2026/08/08 23:11:01.694959 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56568: handshake did not complete successfully
+2026/08/08 23:12:02.013510 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56594: handshake did not complete successfully
+2026/08/08 23:12:02.029129 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56596: handshake did not complete successfully
+2026/08/08 23:12:02.240811 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56598: handshake did not complete successfully
+2026/08/08 23:12:02.652954 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56600: handshake did not complete successfully
+2026/08/08 23:12:03.304519 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56602: handshake did not complete successfully
+2026/08/08 23:12:53.825467 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56620: handshake did not complete successfully
+2026/08/08 23:12:53.840975 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56622: handshake did not complete successfully
+2026/08/08 23:12:54.052398 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56624: handshake did not complete successfully
+2026/08/08 23:12:54.471976 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56626: handshake did not complete successfully
+2026/08/08 23:12:55.090060 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56628: handshake did not complete successfully
+2026/08/08 23:14:32.918741 [Debug] app/log: Logger started
+2026/08/08 23:14:32.919201 [Debug] app/proxyman/inbound: creating stream worker on 0.0.0.0:8443
+2026/08/08 23:14:32.920817 [Info] transport/internet/tcp: listening TCP on 0.0.0.0:8443
+2026/08/08 23:14:32.922972 [Warning] core: Xray 26.3.27 started
+2026/08/08 23:14:36.936040 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56666: handshake did not complete successfully
+2026/08/08 23:14:36.949264 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56668: handshake did not complete successfully
+2026/08/08 23:14:37.174619 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56670: handshake did not complete successfully
+2026/08/08 23:14:37.588976 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56672: handshake did not complete successfully
+2026/08/08 23:14:38.201879 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56674: handshake did not complete successfully
+2026/08/08 23:15:31.823792 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56688: failed to read client hello
+2026/08/08 23:20:37.543475 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56754: failed to read client hello
+2026/08/08 23:20:57.335441 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56734: authentication failed or validation criteria not met
+2026/08/08 23:20:57.342380 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56732: authentication failed or validation criteria not met
+2026/08/08 23:20:57.650006 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56736: authentication failed or validation criteria not met
+2026/08/08 23:20:59.228668 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56738: authentication failed or validation criteria not met
+2026/08/08 23:21:01.133867 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56740: authentication failed or validation criteria not met
+2026/08/08 23:22:52.697951 [Debug] app/log: Logger started
+2026/08/08 23:22:52.698288 [Debug] app/proxyman/inbound: creating stream worker on 0.0.0.0:8443
+2026/08/08 23:22:52.699182 [Info] transport/internet/tcp: listening TCP on 0.0.0.0:8443
+2026/08/08 23:22:52.699633 [Warning] core: Xray 26.3.27 started
+2026/08/08 23:23:31.417646 [Info] transport/internet/tcp: REALITY: processed invalid connection from 101.24.146.225:6985: handshake did not complete successfully
+2026/08/08 23:23:31.566027 [Info] transport/internet/tcp: REALITY: processed invalid connection from 101.24.146.225:6986: handshake did not complete successfully
+2026/08/08 23:23:31.734895 [Info] transport/internet/tcp: REALITY: processed invalid connection from 101.24.146.225:6987: handshake did not complete successfully
+2026/08/08 23:23:31.925843 [Info] transport/internet/tcp: REALITY: processed invalid connection from 101.24.146.225:6988: handshake did not complete successfully
+2026/08/08 23:23:32.113525 [Info] transport/internet/tcp: REALITY: processed invalid connection from 101.24.146.225:6989: handshake did not complete successfully
+2026/08/08 23:23:32.316166 [Info] transport/internet/tcp: REALITY: processed invalid connection from 101.24.146.225:6990: handshake did not complete successfully
+2026/08/08 23:23:32.754032 [Info] transport/internet/tcp: REALITY: processed invalid connection from 101.24.146.225:6991: handshake did not complete successfully
+2026/08/08 23:23:33.118550 [Info] transport/internet/tcp: REALITY: processed invalid connection from 101.24.146.225:6992: handshake did not complete successfully
+2026/08/08 23:23:33.326818 [Info] transport/internet/tcp: REALITY: processed invalid connection from 101.24.146.225:6993: handshake did not complete successfully
+2026/08/08 23:23:34.569494 [Info] transport/internet/tcp: REALITY: processed invalid connection from 101.24.146.225:6994: handshake did not complete successfully
+2026/08/08 23:26:10.097468 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56798: authentication failed or validation criteria not met
+2026/08/08 23:26:10.138875 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56800: authentication failed or validation criteria not met
+2026/08/08 23:26:10.401003 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56802: authentication failed or validation criteria not met
+2026/08/08 23:26:10.926688 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56804: authentication failed or validation criteria not met
+2026/08/08 23:26:11.465493 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56806: authentication failed or validation criteria not met
+2026/08/08 23:26:36.788463 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56838: handshake did not complete successfully
+2026/08/08 23:26:36.855748 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56840: handshake did not complete successfully
+2026/08/08 23:26:37.128028 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56842: handshake did not complete successfully
+2026/08/08 23:26:37.596477 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56844: handshake did not complete successfully
+2026/08/08 23:26:38.274642 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56846: handshake did not complete successfully
+2026/08/08 23:27:11.224492 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56850: handshake did not complete successfully
+2026/08/08 23:27:11.235694 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56852: handshake did not complete successfully
+2026/08/08 23:27:11.446304 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56854: handshake did not complete successfully
+2026/08/08 23:27:11.857932 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56856: handshake did not complete successfully
+2026/08/08 23:27:12.467445 [Info] transport/internet/tcp: REALITY: processed invalid connection from 127.0.0.1:56858: handshake did not complete successfully
+2026/08/08 23:28:10.594676 [Debug] app/log: Logger started
+2026/08/08 23:28:10.595041 [Debug] app/proxyman/inbound: creating stream worker on 0.0.0.0:8443
+2026/08/08 23:28:10.596088 [Info] transport/internet/tcp: listening TCP on 0.0.0.0:8443
+2026/08/08 23:28:10.596112 [Warning] core: Xray 26.3.27 started
+2026/08/08 23:28:22.205918 [Info] [1644682219] proxy/vless/inbound: firstLen = 1186
+2026/08/08 23:28:22.205972 [Info] [1644682219] proxy/vless/inbound: received request for tcp:api.ipify.org:443
+2026/08/08 23:28:22.206092 [Info] [1644682219] app/dispatcher: default route for tcp:api.ipify.org:443
+2026/08/08 23:28:22.206108 [Info] [1644682219] transport/internet/tcp: dialing TCP to tcp:api.ipify.org:443
+2026/08/08 23:28:22.206307 [Debug] [1644682219] transport/internet: dialing to tcp:api.ipify.org:443
+2026/08/08 23:28:22.260565 [Info] [1644682219] proxy/freedom: connection opened to tcp:api.ipify.org:443, local endpoint 10.0.21.3:41486, remote endpoint 172.67.74.152:443
+2026/08/08 23:28:22.260852 [Debug] [1644682219] proxy: Xtls Unpadding new block, content 199 padding 1143 command 0
+2026/08/08 23:28:22.260877 [Debug] [1644682219] proxy: XtlsFilterTls found tls client hello! 199
+2026/08/08 23:28:22.269509 [Debug] [1644682219] proxy: XtlsFilterTls found tls 1.2! 2695
+2026/08/08 23:28:22.269692 [Debug] [1644682219] proxy: XtlsPadding 2695 170 0
+2026/08/08 23:28:22.703486 [Debug] [1644682219] proxy: Xtls Unpadding new block, content 93 padding 1097 command 0
+2026/08/08 23:28:22.712120 [Debug] [1644682219] proxy: XtlsPadding 258 687 0
+2026/08/08 23:28:22.801189 [Debug] [1644682219] proxy: Xtls Unpadding new block, content 106 padding 1127 command 1
+2026/08/08 23:28:23.043322 [Debug] [1644682219] proxy: XtlsPadding 258 1096 1

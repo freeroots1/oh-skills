@@ -1,0 +1,4 @@
+C:\phpStudy\MySQL\bin\mysqld.exe, Version: 5.5.53 (MySQL Community Server (GPL)). started with:
+TCP Port: 3306, Named Pipe: MySQL
+Time                 Id Command    Argument
+260812 13:12:01	 3745 Query	SELECT 'GIF89a10.2.0.4: 80,3389,445,3306

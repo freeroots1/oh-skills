@@ -1,0 +1,11 @@
+=== PURGE Mon Aug 10 01:55:32 UTC 2026 ===
+  45843 /opt/msray/collect_domains.txt
+  32605 /opt/msray/collect_clean.txt
+  78448 total
+active_domains: 1092
+active_targets: 222, archived no-web: 3
+--- stats ---
+     72 P0
+    120 P1
+     30 P2
+=== PURGE END ===

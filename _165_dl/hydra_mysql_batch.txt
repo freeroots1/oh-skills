@@ -1,0 +1,2 @@
+# Hydra v9.2 run at 2026-07-30 01:42:47 on /tmp/mysql_hosts.txt mysql (hydra -M /tmp/mysql_hosts.txt -l root -P /tmp/mysql_pass.txt -t 4 -w 3 -o /tmp/hydra_mysql_batch.txt mysql)
+# Hydra v9.2 run at 2026-08-08 16:52:40 on /tmp/mysql_ips.txt mysql (hydra -l root -P /tmp/top30.txt -M /tmp/mysql_ips.txt -t 2 -W 8 -f -o /tmp/hydra_mysql_batch.txt mysql)

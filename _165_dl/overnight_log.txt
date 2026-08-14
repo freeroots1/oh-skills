@@ -1,0 +1,27 @@
+=== 通宵扫描开始: 208 域名 + 21 IP ===
+Thu Jul 30 16:47:14 2026
+>>> SQLi: ahcq-scm.com/news.asp?id= (diff: 35767B vs 2936B)
+>>> SQLi: ahcq-scm.com/product.asp?id= (diff: 35767B vs 2936B)
+>>> SQLi: ahcq-scm.com/products.asp?id= (diff: 35767B vs 2936B)
+>>> SQLi: canbe.com.cn/news.asp?id= (diff: 2863B vs 0B)
+>>> SQLi: canbe.com.cn/product.asp?id= (diff: 0B vs 2863B)
+>>> SQLi: cn-hunters.com/products.asp?id= (diff: 0B vs 520B)
+>>> SQLi: gdrongda.com/news.asp?id= (diff: 21544B vs 81B)
+>>> SQLi: gdrongda.com/product.asp?id= (diff: 21323B vs 21465B)
+>>> SQLi: gdrongda.com/products.asp?id= (diff: 21408B vs 22109B)
+>>> SQLi: hongguanjixie.com/product.asp?id= (diff: 1132B vs 0B)
+>>> SQLi: hongguanjixie.com/products.asp?id= (diff: 0B vs 1132B)
+>>> SQLi: tianjinshiyou.com/product.asp?id= (diff: 9997B vs 948B)
+>>> SQLi: tianjinwangluo.com/product.asp?id= (diff: 1638B vs 0B)
+>>> SQLi: wuxiyibiao.cn/news.asp?id= (diff: 22935B vs 224B)
+>>> SQLi: wuxiyibiao.com/news.asp?id= (diff: 31130B vs 220B)
+>>> SQLi: wuxiyibiao.cn/product.asp?id= (diff: 24589B vs 224B)
+>>> SQLi: wuxiyibiao.com/product.asp?id= (diff: 34676B vs 220B)
+>>> ADMIN: 121.196.221.1/admin (7239B)
+>>> SQLi: zj-xgj.com/news.asp?id= (diff: 479B vs 1203B)
+>>> ADMIN: 121.196.221.1/login (13229B)
+>>> SQLi: zj-xgj.com/product.asp?id= (diff: 479B vs 1203B)
+>>> SQLi: zj-xgj.com/products.asp?id= (diff: 479B vs 1203B)
+=== 扫描完成 ===
+Thu Jul 30 16:59:58 2026
+Total hits: -2

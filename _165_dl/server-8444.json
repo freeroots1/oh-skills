@@ -1,0 +1,31 @@
+{
+  "log": {"loglevel": "debug", "error": "/tmp/xray-8444.log"},
+  "inbounds": [
+    {
+      "listen": "0.0.0.0",
+      "port": 8444,
+      "protocol": "vless",
+      "settings": {
+        "clients": [
+          {"id": "a4727b2d-cf37-46b8-b588-c6cb0746d986", "flow": "xtls-rprx-vision"}
+        ],
+        "decryption": "none"
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "show": false,
+          "dest": "www.microsoft.com:443",
+          "xver": 0,
+          "serverNames": ["www.microsoft.com"],
+          "privateKey": "mHPX1VZrDHVCr9aM4Xk4Yk9afFN8duWyrF3LVYpXolg",
+          "shortIds": ["1a2b3c4d5e6f"]
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {"protocol": "freedom", "tag": "direct"}
+  ]
+}

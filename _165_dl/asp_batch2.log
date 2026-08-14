@@ -1,0 +1,29 @@
+=== www.aqsgpack.com ===
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/ddddocr/utils/image_io.py", line 97, in load_image_from_input
+    return Image.open(io.BytesIO(img_input))
+  File "/usr/local/lib/python3.10/dist-packages/PIL/Image.py", line 3715, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f97af5c3510>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/ddddocr/core/ocr_engine.py", line 130, in predict
+    pil_image = load_image_from_input(image)
+  File "/usr/local/lib/python3.10/dist-packages/ddddocr/utils/image_io.py", line 119, in load_image_from_input
+    raise ImageProcessError(f"图片加载失败: {str(e)}") from e
+ddddocr.utils.exceptions.ImageProcessError: 图片加载失败: cannot identify image file <_io.BytesIO object at 0x7f97af5c3510>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/asp_batch_bf2.py", line 95, in <module>
+    main()
+  File "/tmp/asp_batch_bf2.py", line 61, in main
+    c1 = ocr.classification(img)
+  File "/usr/local/lib/python3.10/dist-packages/ddddocr/compat/v1.py", line 121, in classification
+    return self.ocr_engine.predict(
+  File "/usr/local/lib/python3.10/dist-packages/ddddocr/core/ocr_engine.py", line 157, in predict
+    raise ImageProcessError(f"OCR识别失败: {str(e)}") from e
+ddddocr.utils.exceptions.ImageProcessError: OCR识别失败: 图片加载失败: cannot identify image file <_io.BytesIO object at 0x7f97af5c3510>

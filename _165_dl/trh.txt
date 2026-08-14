@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Date: Tue, 04 Aug 2026 15:51:16 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Location: https://tr.veichi.com/dede/login.php
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=oQaSMMOhjDEi7HalhftnJ3Ph9O7vQ2S5Tt7UhqqEyyEXFLtnqpQqE2XxildVW1Pw82Y7Jyrc1DwuwHjg8wbcuLY728%2BesfqfdgMeNDrmT8uRZPaGlH%2Fpk3oG6pGMo2Q%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: a25eb8f87eb126d1-HKG
+alt-svc: h3=":443"; ma=86400
+

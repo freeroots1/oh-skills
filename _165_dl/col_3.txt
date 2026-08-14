@@ -1,0 +1,143 @@
+<!--动态TKD只在列表类详细页使用-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="gb2312">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<title>1-联系我们-腾龙公司客服</title>
+<meta name="keywords" content="2,腾龙公司客服" />
+<meta name="description" content="3<br>
+腾龙公司官方客服中心【电话199-0888-8893微Q:同步官网提供7×24小时一站式服务】,腾龙官方客服热线、在线咨询、问题反馈等企业级服务,腾龙客服团队高效解决各类合作、<br>
+" />
+
+<meta name="robots" content="all" />
+<link rel="stylesheet" type="text/css" href="inc/css.css" />
+</head>
+<body style="background-image:url(images/bj/1.gif);background-attachment:fixed;" >
+
+<table width="100%" height="36" border="0" cellpadding="0" cellspacing="0">
+  <tr><td background="images/x1.jpg"><table width="1200" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="600" style="font-size:14px;color:#a9a9a9;">欢迎来到北京鸿作盛威科技有限公司官网</td>
+      <td width="100">&nbsp;</td>
+      <td width="100" class="menu31 jz"><a href="lm_contact.asp?id=518#mao1">在线留言</a></td>
+      <td width="400" class="jy"><form method="POST" action="a_search2.asp" target="_blank">
+        <table border="0" width="380" cellspacing="0" cellpadding="0" height="30">
+          <tr>
+            <td width="80" class="jz" style="color:#999999;">产品搜索:</td>
+            <td width="220"><input type="text" name="key" size="25" class="input"></td>
+            <td width="80" style="padding-top:4px;"><input name="image" type="image" src="images/other/search22.gif" width="56" height="25" border="0"></td>
+          </tr>
+        </table>
+      </form></td>
+    </tr>
+  </table></td></tr></table>
+
+<table width="1200" height="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="350"><a href="index.asp"><img src="images/logo.png" width="330" height="100" border="0"></a></td>
+    <td width="450" class="jzuo" style="color:#c1c1c1"><br><br>色谱分析、光谱分析及实验室耗材提供专业解决方案供应商</td>
+    <td width="400" class="jy"><img src="images/tel2.jpg" width="300" height="70" border="0"></td>
+  </tr>
+</table>
+<table width="100%" height="50" border="0" cellspacing="0" cellpadding="0" bgcolor="#4eb1fd">
+  <tr>
+    <td><table width="1200" height="40" border="0" cellpadding="0" cellspacing="0">
+      <tr class="menu">
+        <td width="200" class="jz" style="border-left:1px solid #539de4;border-right:1px solid #539de4;" onMouseOver="this.bgColor='#4593bc';" onMouseOut="this.bgColor='';"><a href="index.asp">网站首页</a></td>
+
+<td width="200" class="menu jz" style="border-right:1px solid #4593bc;" onMouseOver="this.bgColor='#539de4';mn.style.visibility='visible'" onMouseOut="this.bgColor='';mn.style.visibility='hidden'"><table id="mn" style="margin-top:25px;z-index:99999;VISIBILITY:hidden;POSITION:absolute;font-size:13px" bgcolor="#4eb1fd" width="200" cellspacing="0" cellpadding="0" border="0">
+<tr><td height="10"></td></tr>
+<tr><td height="1" bgcolor="#ffffff"></td></tr>
+
+<tr><td height="33" class="menu_xl jz" onMouseOver="this.bgColor='#5B618E';" onMouseOut="this.bgColor='';"><a href="class1_index.asp?id=4&amp;id2=气相色谱仪">气相色谱仪</a></td></tr>
+
+<tr><td height="33" class="menu_xl jz" onMouseOver="this.bgColor='#5B618E';" onMouseOut="this.bgColor='';"><a href="class1_index.asp?id=7&amp;id2=液相色谱仪">液相色谱仪</a></td></tr>
+
+<tr><td height="33" class="menu_xl jz" onMouseOver="this.bgColor='#5B618E';" onMouseOut="this.bgColor='';"><a href="class1_index.asp?id=8&amp;id2=原子荧光光谱仪">原子荧光光谱仪</a></td></tr>
+
+<tr><td height="33" class="menu_xl jz" onMouseOver="this.bgColor='#5B618E';" onMouseOut="this.bgColor='';"><a href="class1_index.asp?id=19&amp;id2=气相色谱仪质谱联用仪">气相色谱仪质谱联用仪</a></td></tr>
+
+<tr><td height="33" class="menu_xl jz" onMouseOver="this.bgColor='#5B618E';" onMouseOut="this.bgColor='';"><a href="class1_index.asp?id=9&amp;id2=原子吸收光谱仪">原子吸收光谱仪</a></td></tr>
+
+<tr><td height="33" class="menu_xl jz" onMouseOver="this.bgColor='#5B618E';" onMouseOut="this.bgColor='';"><a href="class1_index.asp?id=18&amp;id2=傅里叶红外光谱仪">傅里叶红外光谱仪</a></td></tr>
+
+<tr><td height="33" class="menu_xl jz" onMouseOver="this.bgColor='#5B618E';" onMouseOut="this.bgColor='';"><a href="class1_index.asp?id=10&amp;id2=离子迁移谱">离子迁移谱</a></td></tr>
+
+<tr><td height="33" class="menu_xl jz" onMouseOver="this.bgColor='#5B618E';" onMouseOut="this.bgColor='';"><a href="class1_index.asp?id=11&amp;id2=紫外分光光度计">紫外分光光度计</a></td></tr>
+
+<tr><td height="33" class="menu_xl jz" onMouseOver="this.bgColor='#5B618E';" onMouseOut="this.bgColor='';"><a href="class1_index.asp?id=12&amp;id2=全自动进样器">全自动进样器</a></td></tr>
+
+<tr><td height="33" class="menu_xl jz" onMouseOver="this.bgColor='#5B618E';" onMouseOut="this.bgColor='';"><a href="class1_index.asp?id=13&amp;id2=顶空进样器">顶空进样器</a></td></tr>
+
+<tr><td height="33" class="menu_xl jz" onMouseOver="this.bgColor='#5B618E';" onMouseOut="this.bgColor='';"><a href="class1_index.asp?id=14&amp;id2=热解析仪">热解析仪</a></td></tr>
+
+<tr><td height="33" class="menu_xl jz" onMouseOver="this.bgColor='#5B618E';" onMouseOut="this.bgColor='';"><a href="class1_index.asp?id=15&amp;id2=气体发生器">气体发生器</a></td></tr>
+
+<tr><td height="33" class="menu_xl jz" onMouseOver="this.bgColor='#5B618E';" onMouseOut="this.bgColor='';"><a href="class1_index.asp?id=16&amp;id2=色谱柱">色谱柱</a></td></tr>
+
+<tr><td height="33" class="menu_xl jz" onMouseOver="this.bgColor='#5B618E';" onMouseOut="this.bgColor='';"><a href="class1_index.asp?id=17&amp;id2=实验室台柜系列">实验室台柜系列</a></td></tr>
+
+<tr><td height="33" class="menu_xl jz" onMouseOver="this.bgColor='#5B618E';" onMouseOut="this.bgColor='';"><a href="class1_index.asp?id=20&amp;id2=实验室通用仪器">实验室通用仪器</a></td></tr>
+
+</table><a href="class1_index.asp?id=99999">产品介绍</a></td>
+
+
+        <td width="200" class="jz" style="border-right:1px solid #539de4;" onMouseOver="this.bgColor='#4593bc';" onMouseOut="this.bgColor='';"><a href="news21.asp?id=63&id2=技术资料">技术资料</a></td>
+        <td width="200" class="jz" style="border-right:1px solid #539de4;" onMouseOver="this.bgColor='#4593bc';" onMouseOut="this.bgColor='';"><a href="news11.asp">行业资讯</a></td>
+        <td width="200" class="jz" style="border-right:1px solid #539de4;" onMouseOver="this.bgColor='#4593bc';" onMouseOut="this.bgColor='';"><a href="lm_aboutus.asp?id=517&id2=公司简介">关于我们</a></td>
+        <td width="200" class="jz" style="border-right:1px solid #539de4;" onMouseOver="this.bgColor='#4593bc';" onMouseOut="this.bgColor='';"><a href="lm_contact.asp?id=518">联系我们</a></td>
+    </table></td>
+  </tr>
+</table>
+
+
+<table width="100%" height="1" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+<tr><td>
+</td></tr></table>
+
+
+
+<table width="100%" height="260" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+<tr><td width="1200" background="images/x10.jpg" style="background-repeat: no-repeat; background-position:center;">&nbsp;</td>
+  </tr>
+</table>
+
+<table width="1220" height="5" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+<tr><td></td></tr>
+</table>
+
+<table class="css2" cellpadding="0" cellspacing="0">
+<tr><td class="css1">&nbsp;</td>
+    <td class="css3" valign="top"><div class="left111">行业资讯</div><table class="left11" cellpadding="0" cellspacing="0">
+  <tr><td height="10"></td></tr>
+  <tr><td height="120" class="jz"><a href="lm_contact.asp?id=518"><img src="images/us.jpg" width="213" height="98" border="0" /></a></td></tr>
+  <tr><td height="178" class="jz"><img src="images/tel4.png" width="250" height="158" border="0" /></td></tr>
+</table></td>
+    <td class="css4" valign="top"> </td>
+    <td class="css5" valign="top">
+
+<table class="right11" cellpadding="0" cellspacing="0">
+<tr><td height="35" background="images/other/tiao.jpg">
+
+<table width="100%" cellspacing="0" cellpadding="0">
+<tr><td width="1"></td>
+    <td width="200"></td>
+    <td class="size1 size2 jy"><img src="images/icon/006.gif">&nbsp;您的位置：首页 - 行业资讯</td>
+    <td width="10">&nbsp;</td></tr>
+</table>
+
+</td></tr>
+<tr><td height="15" background="images/other/tiaodi.jpg"></td></tr>
+<tr><td height="7"></td></tr>
+<tr><td height="50">
+			
+<table width="100%" height="80" cellpadding="0" cellspacing="0">
+ <font face="Arial" size=2>
+<p>Microsoft JET Database Engine</font> <font face="Arial" size=2>错误 '80040e14'</font>
+<p>
+<font face="Arial" size=2>在联合查询中所选定的两个数据表或查询中的列数不匹配。</font>
+<p>
+<font face="Arial" size=2>/news11xx.asp</font><font face="Arial" size=2>，行 36</font> 

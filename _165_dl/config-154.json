@@ -1,0 +1,31 @@
+{
+  "log": {"loglevel": "warning"},
+  "inbounds": [
+    {
+      "listen": "0.0.0.0",
+      "port": 8443,
+      "protocol": "vless",
+      "settings": {
+        "clients": [
+          {"id": "f4f1bc68-cb18-4c65-8ce2-78142ece3440", "flow": "xtls-rprx-vision"}
+        ],
+        "decryption": "none"
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "show": false,
+          "dest": "www.apple.com:443",
+          "xver": 0,
+          "serverNames": ["www.apple.com"],
+          "privateKey": "GDO1zIoKrdNwUyrNbz81MXyNukKH6hxA4uVz4IF2VVQ",
+          "shortIds": ["9f8e7d6c5b4a3927"]
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {"protocol": "freedom", "tag": "direct"}
+  ]
+}

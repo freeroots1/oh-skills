@@ -1,0 +1,6 @@
+字典: 5012 密码
+--- user=admin ---
+--- user=showerlee ---
+--- user=sl ---
+--- user=admin1 ---
+DONE no hit

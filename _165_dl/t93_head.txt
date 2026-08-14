@@ -1,0 +1,15 @@
+HTTP/1.1 301 Moved Permanently
+Content-Type: text/html; charset=UTF-8
+Location: http://103.24.230.93/admin/
+Server: Microsoft-IIS/10.0
+Set-Cookie: _d_id=e3460764bf7d1f9c2609c8d393e6ed; Path=/; HttpOnly
+Date: Tue, 28 Jul 2026 06:23:52 GMT
+Content-Length: 150
+
+HTTP/1.1 403 Forbidden
+Content-Type: text/html
+Server: Microsoft-IIS/10.0
+Set-Cookie: _d_id=e3490764bf7d1f31d009c8d393e6ed; Path=/; HttpOnly
+Date: Tue, 28 Jul 2026 06:23:52 GMT
+Content-Length: 1157
+

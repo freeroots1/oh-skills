@@ -1,0 +1,91 @@
+SAME_IP: 124.156.190.61 | www.financial-advisors-19io33.asia,xmjb.asia,www.boat-rental.asia,1dwcp9yl.asia,www.driveway-gates50.asia,colin851.asia,walking-aids.asia,fpaypal.asia,car-quotes-1c922225.asia,yixuekeji.asia,zyou.asia,www.xjing.asia,2oc37-investment-management.asia,senior-apartments-202231575.asia,www.183193454-online-invest-money.asia
+SAME_IP: 39.100.235.233 | beta.yijuhome.com.cn,www.daonagou.com,100cqedu.com,100tjedu.com,www.360intedu.com,100kmedu.com,100soke.com,www.yijuhome.com.cn,100ndedu.com,guoji.tuqiba.com,tg.100guoji.com,www.eduwise.com.cn,100gjbedu.com,100hzedu.com,100bjedu.com
+PORTS: tuzhizhijia.com(218.25.106.230) | 8080(HTTP-8080) | nginx
+SAME_IP: 218.25.106.230 | DNS,records,found,A,No
+SAME_IP: 175.102.133.86 | celue.online,celue.fun,688niu.com,aniu.top,zfund.com,jira.aniu.so
+PORTS: kymjs.com(124.222.84.221) | 22(SSH) | nginx/1.18.0 (Ubuntu)
+SAME_IP: 124.222.84.221 | panel.kymjs.com,lilycat.kymjs.com,noteapi.kymjs.com,blog.kymjs.com,top.kymjs.com,1-0.top,www.1-0.top,note.kymjs.com
+PORTS: towelltech.com(124.223.104.52) | 3389(RDP) | nginx/1.21.6
+SAME_IP: 124.223.104.52 | app.towelltech.com
+SAME_IP: 115.236.20.203 | 12322app.com
+PASS: geindex.com|/login|admin|19899B
+SAME_IP: 152.136.238.15 | e7a8k93pwi1at.com,ixumorar.com,kaiyanchuangyi.com,sruzpkgz.com,xtkxypbgx.com,zcsemytak.com,yuqkvuzmi.com,ccko7wxst4ekif.com,carkcermo.com,mgvuyvda.com,tstwmect.com,irgotdgm.com,vksirdbv.com,kmzxggbt.com,uxuszdtt.com
+SAME_IP: 154.199.38.113 | m.gyshunsheng.com,www.automatic-weigh.com,hnzwhb.com,app.tangtang06.com,rsunfund.com,m.tangtang06.com,www.gyshunsheng.com,ajn.automatic-weigh.com,gzjhjxsb.com,quyangylds.com,9waub.automatic-weigh.com,0v2j3.automatic-weigh.com,fhr.automatic-weigh.com,k39.automatic-weigh.com,www.ebaoeasy.com
+PORTS: cqym120.com(211.149.245.231) | 21(FTP) | 
+SAME_IP: 211.149.245.231 | cqymyy.com,www.cqymyy.com,xcx.cqym120.com,cqxlyy.com,cs.cqym120.com,xcx.cqxlyy.com,shop.cqym120.com,www.cqxlyy.com,mini.cqym120.com
+PORTS: glcht.com(111.230.206.144) | 3306(MySQL) | nginx
+SAME_IP: 39.106.38.108 | www.tongdiao99.com,badajiaodai.com,bdhuaxu.com,www.bdhuaxu.com
+SAME_IP: 203.107.45.167 | ichen.cc,smsassist.biz,www.aiit.cc,hhtr.biz,youku.makerpanda.cc,jinyumi.cc,huoshan.cc,showdoc.cc,gdhj.cc,zgyc.cc,xsteach.biz,jiuhuashan.cc,usa.ufactory.cc,veerit.cc,www.jjdl.cc
+PORTS: gxlcgy.com(211.149.226.215) | 3306(MySQL),21(FTP) | wts
+SAME_IP: 211.149.226.215 | sqbhr.com,gdyqnd.com,bortec-est.com,sc.gaoshantravel.cn,campaign.executivecentre.com.cn,shuanghuahr.cn,www.tokdok.cn,quanzhou.doupin.com,ytyongjin.cn,www.usapeec.cn,zhihuiyuye.dhstech.cn,www.jxsjfloor.com,www.bszk.com.cn,www.good-biomed.com,www.dxyy.com
+SAME_IP: 81.69.154.183 | wenta.cn,sweeie.life,tiandong.life,www.9aoya.com,doudou.in,100bt.com,a0bi.com,www.hushuoapp.com,9aoqi.com,hushuoapp.com,www.baybaybear.com,9hello.com,9lds.com,www.9lds.com,www.7wenta.com
+SAME_IP: 122.114.46.112 | vh1037321.sudu-67ph.com,www.aigan.net.cn,ppdesigngallery.com,ansi.kuantianxia.com,bullfrog-home.com,www.yunhudong.net,sclcqj.com,www.dayong.name,t.neixiang114.com,520.shanxin99.com,vh1031740.sudu-by4e.com,paibrand.cn,bencotek.com,vast-union.com,www.wnsti.cn
+PORTS: beiyuwangxiao.com(43.226.53.31) | 3306(MySQL) | nginx
+SAME_IP: 123.60.223.236 | Increase,-,API,count,Quota,Membership,exceeded,with
+SAME_IP: 120.48.87.30 | Increase,-,API,count,Quota,Membership,exceeded,with
+SAME_IP: 183.61.189.213 | Increase,-,API,count,Quota,Membership,exceeded,with
+PORTS: ceacq.com(211.149.230.231) | 3306(MySQL) | wts
+SAME_IP: 211.149.230.231 | Increase,-,API,count,Quota,Membership,exceeded,with
+SAME_IP: 211.149.241.75 | Increase,-,API,count,Quota,Membership,exceeded,with
+PORTS: yfhospital.com(103.45.248.68) | 21(FTP) | nginx2018
+SAME_IP: 103.45.248.68 | Increase,-,API,count,Quota,Membership,exceeded,with
+SAME_IP: 123.57.70.53 | Increase,-,API,count,Quota,Membership,exceeded,with
+SAME_IP: 155.102.180.251 | Increase,-,API,count,Quota,Membership,exceeded,with
+PORTS: aoyunque.com(39.107.29.224) | 3389(RDP) | Microsoft-IIS/10.0
+SAME_IP: 39.107.29.224 | Increase,-,API,count,Quota,Membership,exceeded,with
+PORTS: gmaxbiopharm.com(139.144.224.212) | 22(SSH) | nginx/1.18.0
+SAME_IP: 139.144.224.212 | Increase,-,API,count,Quota,Membership,exceeded,with
+SAME_IP: 155.102.181.138 | Increase,-,API,count,Quota,Membership,exceeded,with
+SAME_IP: 161.189.239.95 | Increase,-,API,count,Quota,Membership,exceeded,with
+SAME_IP: 182.61.54.195 | Increase,-,API,count,Quota,Membership,exceeded,with
+PORTS: boyuanchemical.com(124.134.133.104) | 22(SSH) | nginx
+SAME_IP: 124.134.133.104 | Increase,-,API,count,Quota,Membership,exceeded,with
+SAME_IP: 116.142.81.234 | Increase,-,API,count,Quota,Membership,exceeded,with
+PORTS: hualong-sz.com(119.29.221.33) | 3389(RDP) | Microsoft-IIS/10.0
+SAME_IP: 119.29.221.33 | Increase,-,API,count,Quota,Membership,exceeded,with
+PORTS: fjsen.com(153.43.141.71) | 3306(MySQL),8080(HTTP-8080) | x-web
+SAME_IP: 153.43.141.71 | Increase,-,API,count,Quota,Membership,exceeded,with
+PORTS: peiyou.com(119.29.60.154) | 3306(MySQL) | nginx
+SAME_IP: 119.29.60.154 | Increase,-,API,count,Quota,Membership,exceeded,with
+PORTS: cvtapi.com(101.37.44.92) | 8080(HTTP-8080) | cagw
+SAME_IP: 101.37.44.92 | Increase,-,API,count,Quota,Membership,exceeded,with
+PORTS: nanjingyinuo.com(211.149.138.25) | 3306(MySQL),21(FTP) | Microsoft-IIS/10.0
+SAME_IP: 211.149.138.25 | Increase,-,API,count,Quota,Membership,exceeded,with
+SAME_IP: 43.135.137.172 | Increase,-,API,count,Quota,Membership,exceeded,with
+SAME_IP: 211.149.233.197 | Increase,-,API,count,Quota,Membership,exceeded,with
+SAME_IP: 82.157.246.211 | Increase,-,API,count,Quota,Membership,exceeded,with
+PORTS: gateface.com(59.36.98.72) | 3306(MySQL),3389(RDP) | 
+SAME_IP: 59.36.98.72 | Increase,-,API,count,Quota,Membership,exceeded,with
+PORTS: kfcrm.com(61.147.93.166) | 3306(MySQL),21(FTP) | nginx
+SAME_IP: 61.147.93.166 | Increase,-,API,count,Quota,Membership,exceeded,with
+PORTS: knownsec.com(112.84.222.33) | 3306(MySQL),6379(Redis),8080(HTTP-8080) | 
+SAME_IP: 112.84.222.33 | Increase,-,API,count,Quota,Membership,exceeded,with
+SAME_IP: 122.114.55.17 | Increase,-,API,count,Quota,Membership,exceeded,with
+PORTS: paixin.com(116.62.112.38) | 22(SSH),8080(HTTP-8080) | nginx
+SAME_IP: 116.62.112.38 | Increase,-,API,count,Quota,Membership,exceeded,with
+SAME_IP: 124.128.87.4 | Increase,-,API,count,Quota,Membership,exceeded,with
+SAME_IP: 1.117.137.6 | Increase,-,API,count,Quota,Membership,exceeded,with
+SAME_IP: 152.32.233.213 | Increase,-,API,count,Quota,Membership,exceeded,with
+PORTS: aipaiyinghua.com(211.149.233.76) | 3306(MySQL) | wts
+SAME_IP: 211.149.233.76 | Increase,-,API,count,Quota,Membership,exceeded,with
+PORTS: gdwbyq.com(211.149.241.43) | 3306(MySQL) | wts
+SAME_IP: 211.149.241.43 | Increase,-,API,count,Quota,Membership,exceeded,with
+SAME_IP: 156.247.69.14 | Increase,-,API,count,Quota,Membership,exceeded,with
+PORTS: gin-vue-admin.com(101.226.8.201) | 3306(MySQL),22(SSH) | nginx
+SAME_IP: 101.226.8.201 | Increase,-,API,count,Quota,Membership,exceeded,with
+PORTS: ppm-htv.com(43.134.178.121) | 22(SSH) | nginx
+SAME_IP: 43.134.178.121 | Increase,-,API,count,Quota,Membership,exceeded,with
+SAME_IP: 103.120.80.6 | Increase,-,API,count,Quota,Membership,exceeded,with
+PORTS: duliangaotu.com(211.149.231.162) | 3306(MySQL) | wts
+SAME_IP: 211.149.231.162 | Increase,-,API,count,Quota,Membership,exceeded,with
+PORTS: ahyqx.com(218.22.103.34) | 22(SSH) | nginx
+SAME_IP: 218.22.103.34 | Increase,-,API,count,Quota,Membership,exceeded,with
+SAME_IP: 185.199.110.153 | Increase,-,API,count,Quota,Membership,exceeded,with
+SAME_IP: 211.159.220.51 | Increase,-,API,count,Quota,Membership,exceeded,with
+PORTS: transduck.com(124.222.89.199) | 22(SSH),21(FTP) | nginx
+SAME_IP: 124.222.89.199 | Increase,-,API,count,Quota,Membership,exceeded,with
+PORTS: 5iexpress.com(8.219.55.218) | 3306(MySQL),22(SSH) | Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips
+SAME_IP: 8.219.55.218 | Increase,-,API,count,Quota,Membership,exceeded,with
+PORTS: zhujiwiki.com(104.21.34.246) | 8080(HTTP-8080) | cloudflare
+SAME_IP: 104.21.34.246 | Increase,-,API,count,Quota,Membership,exceeded,with
+PASS: zhujiwiki.com|/admin|admin|9704B

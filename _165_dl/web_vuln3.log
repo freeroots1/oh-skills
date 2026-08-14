@@ -1,0 +1,18 @@
+web_vuln3: 16105 targets, 20 workers
+  1000/16105 findings=51
+  2000/16105 findings=162
+  3000/16105 findings=258
+  4000/16105 findings=376
+  5000/16105 findings=493
+  6000/16105 findings=562
+  7000/16105 findings=662
+  8000/16105 findings=794
+  9000/16105 findings=898
+  10000/16105 findings=991
+  11000/16105 findings=1094
+  12000/16105 findings=1174
+  13000/16105 findings=1338
+  14000/16105 findings=1516
+  15000/16105 findings=1663
+  16000/16105 findings=1705
+web_vuln3 done: 1709 findings

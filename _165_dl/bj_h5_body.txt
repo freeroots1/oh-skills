@@ -1,0 +1,14 @@
+<script>parent.document.location.href='index.asp';</script><!DOCTYPE html>
+<html style="height:100%;">
+<head>
+<meta charset="gb2312">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>后台管理</title>
+<meta name="keywords" content="后台管理" />
+<meta name="description" content="后台管理" />
+<meta name="robots" content="none" />
+<link rel="stylesheet" type="text/css" href="a7css.css" />
+</head>
+<body>
+
+<script LANGUAGE='javascript'>alert('验证码错误！');history.go(-1);</script>

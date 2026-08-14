@@ -1,0 +1,14 @@
+HTTP/1.1 403 Forbidden
+Server: nginx
+Date: Tue, 04 Aug 2026 07:38:44 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Location: /notfound.html
+Cache-Control: max-age=0
+Vary: Accept-Encoding
+Ohc-Cache-HIT: cs5ct79 [1], fsix63 [1]
+X-Error-Info: Origin
+X-Cache-Status: MISS
+Access-Control-Allow-Origin: *
+

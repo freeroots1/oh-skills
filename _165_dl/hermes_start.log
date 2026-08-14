@@ -1,0 +1,7 @@
+Refusing to bind dashboard to 0.0.0.0 — the auth gate engages on non-loopback binds, but no auth providers are registered.
+
+Configure an auth provider before exposing the dashboard:
+  • Password: set dashboard.basic_auth.username + password_hash in config.yaml
+    (hash with: python -c "from plugins.dashboard_auth.basic import hash_password; print(hash_password('your-password'))")
+  • OAuth: run `hermes dashboard register` (Nous Portal) or install a DashboardAuthProvider plugin.
+There is no unauthenticated public-bind option — to keep it local, bind 127.0.0.1 and tunnel in (SSH / Tailscale).

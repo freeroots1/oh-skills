@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Mon, 03 Aug 2026 15:32:51 GMT
+Server: Apache
+Set-Cookie: PHPSESSID=5dtuobrcf45j8qf01d8860da87; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: private
+Pragma: no-cache
+X-Powered-By: ThinkPHP
+Vary: Accept-Encoding,User-Agent
+Content-Length: 1307
+Content-Type: text/html; charset=utf-8
+

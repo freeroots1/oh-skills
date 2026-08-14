@@ -1,0 +1,3 @@
+# Ncrack 0.7 scan initiated Thu Jul 30 00:32:44 2026 as: ncrack -p 3389 --user Administrator -P /tmp/rdp_short.txt -T2 -oN /tmp/ncrack_rdp.txt 8.218.243.29
+
+# Ncrack done at Thu Jul 30 00:34:04 2026 -- 1 service scanned in 80.04 seconds.

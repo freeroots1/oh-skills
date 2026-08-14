@@ -1,0 +1,6359 @@
+[
+  {
+    "domain": "bdsmhunters.com",
+    "type": "existing_shell",
+    "shell": "http://bdsmhunters.com/1.php"
+  },
+  {
+    "domain": "bdsmhunters.com",
+    "type": "existing_shell",
+    "shell": "http://bdsmhunters.com/shell.php"
+  },
+  {
+    "domain": "bdsmhunters.com",
+    "type": "existing_shell",
+    "shell": "http://bdsmhunters.com/cmd.php"
+  },
+  {
+    "domain": "bdsmhunters.com",
+    "type": "existing_shell",
+    "shell": "http://bdsmhunters.com/hunter_win.php"
+  },
+  {
+    "domain": "5165.org",
+    "type": "existing_shell",
+    "shell": "http://5165.org/1.php"
+  },
+  {
+    "domain": "5165.org",
+    "type": "existing_shell",
+    "shell": "http://5165.org/shell.php"
+  },
+  {
+    "domain": "5165.org",
+    "type": "existing_shell",
+    "shell": "http://5165.org/cmd.php"
+  },
+  {
+    "domain": "5165.org",
+    "type": "existing_shell",
+    "shell": "http://5165.org/hunter_win.php"
+  },
+  {
+    "domain": "jmguoguo.com",
+    "type": "existing_shell",
+    "shell": "http://jmguoguo.com/1.php"
+  },
+  {
+    "domain": "jmguoguo.com",
+    "type": "existing_shell",
+    "shell": "http://jmguoguo.com/shell.php"
+  },
+  {
+    "domain": "jmguoguo.com",
+    "type": "existing_shell",
+    "shell": "http://jmguoguo.com/cmd.php"
+  },
+  {
+    "domain": "jmguoguo.com",
+    "type": "existing_shell",
+    "shell": "http://jmguoguo.com/hunter_win.php"
+  },
+  {
+    "domain": "stad.wang",
+    "type": "existing_shell",
+    "shell": "http://stad.wang/1.php"
+  },
+  {
+    "domain": "stad.wang",
+    "type": "existing_shell",
+    "shell": "http://stad.wang/shell.php"
+  },
+  {
+    "domain": "stad.wang",
+    "type": "existing_shell",
+    "shell": "http://stad.wang/cmd.php"
+  },
+  {
+    "domain": "stad.wang",
+    "type": "existing_shell",
+    "shell": "http://stad.wang/hunter_win.php"
+  },
+  {
+    "domain": "hongguanjixie.com",
+    "type": "PbootCMS_shell",
+    "shell": "http://hongguanjixie.com/1.php",
+    "password": "c"
+  },
+  {
+    "domain": "hongguanjixie.com",
+    "type": "existing_shell",
+    "shell": "http://hongguanjixie.com/1.php"
+  },
+  {
+    "domain": "hongguanjixie.com",
+    "type": "existing_shell",
+    "shell": "http://hongguanjixie.com/shell.php"
+  },
+  {
+    "domain": "hongguanjixie.com",
+    "type": "existing_shell",
+    "shell": "http://hongguanjixie.com/cmd.php"
+  },
+  {
+    "domain": "hongguanjixie.com",
+    "type": "existing_shell",
+    "shell": "http://hongguanjixie.com/hunter_win.php"
+  },
+  {
+    "domain": "bjry168.com",
+    "type": "PbootCMS_shell",
+    "shell": "http://bjry168.com/1.php",
+    "password": "c"
+  },
+  {
+    "domain": "bjry168.com",
+    "type": "existing_shell",
+    "shell": "http://bjry168.com/1.php"
+  },
+  {
+    "domain": "bjry168.com",
+    "type": "existing_shell",
+    "shell": "http://bjry168.com/shell.php"
+  },
+  {
+    "domain": "bjry168.com",
+    "type": "existing_shell",
+    "shell": "http://bjry168.com/cmd.php"
+  },
+  {
+    "domain": "bjry168.com",
+    "type": "existing_shell",
+    "shell": "http://bjry168.com/hunter_win.php"
+  },
+  {
+    "domain": "bdfuyang.com",
+    "type": "existing_shell",
+    "shell": "http://bdfuyang.com/1.php"
+  },
+  {
+    "domain": "bdfuyang.com",
+    "type": "existing_shell",
+    "shell": "http://bdfuyang.com/shell.php"
+  },
+  {
+    "domain": "bdfuyang.com",
+    "type": "existing_shell",
+    "shell": "http://bdfuyang.com/cmd.php"
+  },
+  {
+    "domain": "bdfuyang.com",
+    "type": "existing_shell",
+    "shell": "http://bdfuyang.com/hunter_win.php"
+  },
+  {
+    "domain": "huanyouche.cn",
+    "type": "existing_shell",
+    "shell": "http://huanyouche.cn/1.php"
+  },
+  {
+    "domain": "huanyouche.cn",
+    "type": "existing_shell",
+    "shell": "http://huanyouche.cn/shell.php"
+  },
+  {
+    "domain": "huanyouche.cn",
+    "type": "existing_shell",
+    "shell": "http://huanyouche.cn/cmd.php"
+  },
+  {
+    "domain": "huanyouche.cn",
+    "type": "existing_shell",
+    "shell": "http://huanyouche.cn/hunter_win.php"
+  },
+  {
+    "domain": "shlonggang.com",
+    "type": "existing_shell",
+    "shell": "http://shlonggang.com/1.php"
+  },
+  {
+    "domain": "shlonggang.com",
+    "type": "existing_shell",
+    "shell": "http://shlonggang.com/shell.php"
+  },
+  {
+    "domain": "shlonggang.com",
+    "type": "existing_shell",
+    "shell": "http://shlonggang.com/cmd.php"
+  },
+  {
+    "domain": "shlonggang.com",
+    "type": "existing_shell",
+    "shell": "http://shlonggang.com/hunter_win.php"
+  },
+  {
+    "domain": "jtec.com.cn",
+    "type": "existing_shell",
+    "shell": "http://jtec.com.cn/1.php"
+  },
+  {
+    "domain": "jtec.com.cn",
+    "type": "existing_shell",
+    "shell": "http://jtec.com.cn/shell.php"
+  },
+  {
+    "domain": "jtec.com.cn",
+    "type": "existing_shell",
+    "shell": "http://jtec.com.cn/cmd.php"
+  },
+  {
+    "domain": "jtec.com.cn",
+    "type": "existing_shell",
+    "shell": "http://jtec.com.cn/hunter_win.php"
+  },
+  {
+    "domain": "taiaojituan.com",
+    "type": "existing_shell",
+    "shell": "http://taiaojituan.com/1.php"
+  },
+  {
+    "domain": "taiaojituan.com",
+    "type": "existing_shell",
+    "shell": "http://taiaojituan.com/shell.php"
+  },
+  {
+    "domain": "taiaojituan.com",
+    "type": "existing_shell",
+    "shell": "http://taiaojituan.com/cmd.php"
+  },
+  {
+    "domain": "taiaojituan.com",
+    "type": "existing_shell",
+    "shell": "http://taiaojituan.com/hunter_win.php"
+  },
+  {
+    "domain": "longuang.ltd",
+    "type": "existing_shell",
+    "shell": "http://longuang.ltd/1.php"
+  },
+  {
+    "domain": "longuang.ltd",
+    "type": "existing_shell",
+    "shell": "http://longuang.ltd/shell.php"
+  },
+  {
+    "domain": "longuang.ltd",
+    "type": "existing_shell",
+    "shell": "http://longuang.ltd/cmd.php"
+  },
+  {
+    "domain": "longuang.ltd",
+    "type": "existing_shell",
+    "shell": "http://longuang.ltd/hunter_win.php"
+  },
+  {
+    "domain": "kbangbox.com",
+    "type": "existing_shell",
+    "shell": "http://kbangbox.com/1.php"
+  },
+  {
+    "domain": "kbangbox.com",
+    "type": "existing_shell",
+    "shell": "http://kbangbox.com/shell.php"
+  },
+  {
+    "domain": "kbangbox.com",
+    "type": "existing_shell",
+    "shell": "http://kbangbox.com/cmd.php"
+  },
+  {
+    "domain": "kbangbox.com",
+    "type": "existing_shell",
+    "shell": "http://kbangbox.com/hunter_win.php"
+  },
+  {
+    "domain": "vktalent.com",
+    "type": "existing_shell",
+    "shell": "http://vktalent.com/1.php"
+  },
+  {
+    "domain": "vktalent.com",
+    "type": "existing_shell",
+    "shell": "http://vktalent.com/shell.php"
+  },
+  {
+    "domain": "vktalent.com",
+    "type": "existing_shell",
+    "shell": "http://vktalent.com/cmd.php"
+  },
+  {
+    "domain": "vktalent.com",
+    "type": "existing_shell",
+    "shell": "http://vktalent.com/hunter_win.php"
+  },
+  {
+    "domain": "shzyjjzz.com",
+    "type": "existing_shell",
+    "shell": "http://shzyjjzz.com/1.php"
+  },
+  {
+    "domain": "shzyjjzz.com",
+    "type": "existing_shell",
+    "shell": "http://shzyjjzz.com/shell.php"
+  },
+  {
+    "domain": "shzyjjzz.com",
+    "type": "existing_shell",
+    "shell": "http://shzyjjzz.com/cmd.php"
+  },
+  {
+    "domain": "shzyjjzz.com",
+    "type": "existing_shell",
+    "shell": "http://shzyjjzz.com/hunter_win.php"
+  },
+  {
+    "domain": "yz-li.com",
+    "type": "PbootCMS_shell",
+    "shell": "http://yz-li.com/1.php",
+    "password": "c"
+  },
+  {
+    "domain": "yz-li.com",
+    "type": "existing_shell",
+    "shell": "http://yz-li.com/1.php"
+  },
+  {
+    "domain": "yz-li.com",
+    "type": "existing_shell",
+    "shell": "http://yz-li.com/shell.php"
+  },
+  {
+    "domain": "yz-li.com",
+    "type": "existing_shell",
+    "shell": "http://yz-li.com/cmd.php"
+  },
+  {
+    "domain": "yz-li.com",
+    "type": "existing_shell",
+    "shell": "http://yz-li.com/hunter_win.php"
+  },
+  {
+    "domain": "106318b.com",
+    "type": "existing_shell",
+    "shell": "http://106318b.com/1.php"
+  },
+  {
+    "domain": "106318b.com",
+    "type": "existing_shell",
+    "shell": "http://106318b.com/shell.php"
+  },
+  {
+    "domain": "106318b.com",
+    "type": "existing_shell",
+    "shell": "http://106318b.com/cmd.php"
+  },
+  {
+    "domain": "106318b.com",
+    "type": "existing_shell",
+    "shell": "http://106318b.com/hunter_win.php"
+  },
+  {
+    "domain": "gdrongda.com",
+    "type": "existing_shell",
+    "shell": "http://gdrongda.com/cmd.php"
+  },
+  {
+    "domain": "gdrongda.com",
+    "type": "existing_shell",
+    "shell": "http://gdrongda.com/hunter_win.php"
+  },
+  {
+    "domain": "jinhuaruitong.com",
+    "type": "existing_shell",
+    "shell": "http://jinhuaruitong.com/1.php"
+  },
+  {
+    "domain": "jinhuaruitong.com",
+    "type": "existing_shell",
+    "shell": "http://jinhuaruitong.com/shell.php"
+  },
+  {
+    "domain": "jinhuaruitong.com",
+    "type": "existing_shell",
+    "shell": "http://jinhuaruitong.com/cmd.php"
+  },
+  {
+    "domain": "jinhuaruitong.com",
+    "type": "existing_shell",
+    "shell": "http://jinhuaruitong.com/hunter_win.php"
+  },
+  {
+    "domain": "hongshengss.cn",
+    "type": "PbootCMS_shell",
+    "shell": "http://hongshengss.cn/1.php",
+    "password": "c"
+  },
+  {
+    "domain": "hongshengss.cn",
+    "type": "existing_shell",
+    "shell": "http://hongshengss.cn/1.php"
+  },
+  {
+    "domain": "hongshengss.cn",
+    "type": "existing_shell",
+    "shell": "http://hongshengss.cn/shell.php"
+  },
+  {
+    "domain": "hongshengss.cn",
+    "type": "existing_shell",
+    "shell": "http://hongshengss.cn/cmd.php"
+  },
+  {
+    "domain": "hongshengss.cn",
+    "type": "existing_shell",
+    "shell": "http://hongshengss.cn/hunter_win.php"
+  },
+  {
+    "domain": "yhhuixin.com",
+    "type": "existing_shell",
+    "shell": "http://yhhuixin.com/1.php"
+  },
+  {
+    "domain": "yhhuixin.com",
+    "type": "existing_shell",
+    "shell": "http://yhhuixin.com/shell.php"
+  },
+  {
+    "domain": "yhhuixin.com",
+    "type": "existing_shell",
+    "shell": "http://yhhuixin.com/cmd.php"
+  },
+  {
+    "domain": "yhhuixin.com",
+    "type": "existing_shell",
+    "shell": "http://yhhuixin.com/hunter_win.php"
+  },
+  {
+    "domain": "hnks09.com",
+    "type": "existing_shell",
+    "shell": "http://hnks09.com/1.php"
+  },
+  {
+    "domain": "hnks09.com",
+    "type": "existing_shell",
+    "shell": "http://hnks09.com/shell.php"
+  },
+  {
+    "domain": "hnks09.com",
+    "type": "existing_shell",
+    "shell": "http://hnks09.com/cmd.php"
+  },
+  {
+    "domain": "hnks09.com",
+    "type": "existing_shell",
+    "shell": "http://hnks09.com/hunter_win.php"
+  },
+  {
+    "domain": "eleai.net",
+    "type": "existing_shell",
+    "shell": "http://eleai.net/1.php"
+  },
+  {
+    "domain": "eleai.net",
+    "type": "existing_shell",
+    "shell": "http://eleai.net/shell.php"
+  },
+  {
+    "domain": "eleai.net",
+    "type": "existing_shell",
+    "shell": "http://eleai.net/cmd.php"
+  },
+  {
+    "domain": "eleai.net",
+    "type": "existing_shell",
+    "shell": "http://eleai.net/hunter_win.php"
+  },
+  {
+    "domain": "51huilife.com",
+    "type": "existing_shell",
+    "shell": "http://51huilife.com/1.php"
+  },
+  {
+    "domain": "51huilife.com",
+    "type": "existing_shell",
+    "shell": "http://51huilife.com/shell.php"
+  },
+  {
+    "domain": "51huilife.com",
+    "type": "existing_shell",
+    "shell": "http://51huilife.com/cmd.php"
+  },
+  {
+    "domain": "51huilife.com",
+    "type": "existing_shell",
+    "shell": "http://51huilife.com/hunter_win.php"
+  },
+  {
+    "domain": "post-harvest.com.cn",
+    "type": "existing_shell",
+    "shell": "http://post-harvest.com.cn/1.php"
+  },
+  {
+    "domain": "post-harvest.com.cn",
+    "type": "existing_shell",
+    "shell": "http://post-harvest.com.cn/shell.php"
+  },
+  {
+    "domain": "post-harvest.com.cn",
+    "type": "existing_shell",
+    "shell": "http://post-harvest.com.cn/cmd.php"
+  },
+  {
+    "domain": "post-harvest.com.cn",
+    "type": "existing_shell",
+    "shell": "http://post-harvest.com.cn/hunter_win.php"
+  },
+  {
+    "domain": "hubeijinheng.com",
+    "type": "existing_shell",
+    "shell": "http://hubeijinheng.com/1.php"
+  },
+  {
+    "domain": "hubeijinheng.com",
+    "type": "existing_shell",
+    "shell": "http://hubeijinheng.com/shell.php"
+  },
+  {
+    "domain": "hubeijinheng.com",
+    "type": "existing_shell",
+    "shell": "http://hubeijinheng.com/cmd.php"
+  },
+  {
+    "domain": "hubeijinheng.com",
+    "type": "existing_shell",
+    "shell": "http://hubeijinheng.com/hunter_win.php"
+  },
+  {
+    "domain": "gipa.org.cn",
+    "type": "existing_shell",
+    "shell": "http://gipa.org.cn/1.php"
+  },
+  {
+    "domain": "gipa.org.cn",
+    "type": "existing_shell",
+    "shell": "http://gipa.org.cn/shell.php"
+  },
+  {
+    "domain": "gipa.org.cn",
+    "type": "existing_shell",
+    "shell": "http://gipa.org.cn/cmd.php"
+  },
+  {
+    "domain": "gipa.org.cn",
+    "type": "existing_shell",
+    "shell": "http://gipa.org.cn/hunter_win.php"
+  },
+  {
+    "domain": "hbsite.net",
+    "type": "existing_shell",
+    "shell": "http://hbsite.net/1.php"
+  },
+  {
+    "domain": "hbsite.net",
+    "type": "existing_shell",
+    "shell": "http://hbsite.net/shell.php"
+  },
+  {
+    "domain": "hbsite.net",
+    "type": "existing_shell",
+    "shell": "http://hbsite.net/cmd.php"
+  },
+  {
+    "domain": "hbsite.net",
+    "type": "existing_shell",
+    "shell": "http://hbsite.net/hunter_win.php"
+  },
+  {
+    "domain": "taiso.com.cn",
+    "type": "existing_shell",
+    "shell": "http://taiso.com.cn/1.php"
+  },
+  {
+    "domain": "taiso.com.cn",
+    "type": "existing_shell",
+    "shell": "http://taiso.com.cn/shell.php"
+  },
+  {
+    "domain": "taiso.com.cn",
+    "type": "existing_shell",
+    "shell": "http://taiso.com.cn/cmd.php"
+  },
+  {
+    "domain": "taiso.com.cn",
+    "type": "existing_shell",
+    "shell": "http://taiso.com.cn/hunter_win.php"
+  },
+  {
+    "domain": "js-dd.cn",
+    "type": "existing_shell",
+    "shell": "http://js-dd.cn/1.php"
+  },
+  {
+    "domain": "js-dd.cn",
+    "type": "existing_shell",
+    "shell": "http://js-dd.cn/shell.php"
+  },
+  {
+    "domain": "js-dd.cn",
+    "type": "existing_shell",
+    "shell": "http://js-dd.cn/cmd.php"
+  },
+  {
+    "domain": "js-dd.cn",
+    "type": "existing_shell",
+    "shell": "http://js-dd.cn/hunter_win.php"
+  },
+  {
+    "domain": "cotcchina.com",
+    "type": "existing_shell",
+    "shell": "http://cotcchina.com/1.php"
+  },
+  {
+    "domain": "cotcchina.com",
+    "type": "existing_shell",
+    "shell": "http://cotcchina.com/shell.php"
+  },
+  {
+    "domain": "cotcchina.com",
+    "type": "existing_shell",
+    "shell": "http://cotcchina.com/cmd.php"
+  },
+  {
+    "domain": "cotcchina.com",
+    "type": "existing_shell",
+    "shell": "http://cotcchina.com/hunter_win.php"
+  },
+  {
+    "domain": "dashengjianshe.com",
+    "type": "existing_shell",
+    "shell": "http://dashengjianshe.com/1.php"
+  },
+  {
+    "domain": "dashengjianshe.com",
+    "type": "existing_shell",
+    "shell": "http://dashengjianshe.com/shell.php"
+  },
+  {
+    "domain": "dashengjianshe.com",
+    "type": "existing_shell",
+    "shell": "http://dashengjianshe.com/cmd.php"
+  },
+  {
+    "domain": "dashengjianshe.com",
+    "type": "existing_shell",
+    "shell": "http://dashengjianshe.com/hunter_win.php"
+  },
+  {
+    "domain": "baihaitun100.com.cn",
+    "type": "existing_shell",
+    "shell": "http://baihaitun100.com.cn/1.php"
+  },
+  {
+    "domain": "baihaitun100.com.cn",
+    "type": "existing_shell",
+    "shell": "http://baihaitun100.com.cn/shell.php"
+  },
+  {
+    "domain": "baihaitun100.com.cn",
+    "type": "existing_shell",
+    "shell": "http://baihaitun100.com.cn/cmd.php"
+  },
+  {
+    "domain": "baihaitun100.com.cn",
+    "type": "existing_shell",
+    "shell": "http://baihaitun100.com.cn/hunter_win.php"
+  },
+  {
+    "domain": "horsa.org.cn",
+    "type": "existing_shell",
+    "shell": "http://horsa.org.cn/1.php"
+  },
+  {
+    "domain": "horsa.org.cn",
+    "type": "existing_shell",
+    "shell": "http://horsa.org.cn/shell.php"
+  },
+  {
+    "domain": "horsa.org.cn",
+    "type": "existing_shell",
+    "shell": "http://horsa.org.cn/cmd.php"
+  },
+  {
+    "domain": "horsa.org.cn",
+    "type": "existing_shell",
+    "shell": "http://horsa.org.cn/hunter_win.php"
+  },
+  {
+    "domain": "yurenmed.com",
+    "type": "PbootCMS_shell",
+    "shell": "http://yurenmed.com/1.php",
+    "password": "c"
+  },
+  {
+    "domain": "yurenmed.com",
+    "type": "existing_shell",
+    "shell": "http://yurenmed.com/1.php"
+  },
+  {
+    "domain": "yurenmed.com",
+    "type": "existing_shell",
+    "shell": "http://yurenmed.com/shell.php"
+  },
+  {
+    "domain": "yurenmed.com",
+    "type": "existing_shell",
+    "shell": "http://yurenmed.com/cmd.php"
+  },
+  {
+    "domain": "yurenmed.com",
+    "type": "existing_shell",
+    "shell": "http://yurenmed.com/hunter_win.php"
+  },
+  {
+    "domain": "51-wfhs.com",
+    "type": "existing_shell",
+    "shell": "http://51-wfhs.com/1.php"
+  },
+  {
+    "domain": "51-wfhs.com",
+    "type": "existing_shell",
+    "shell": "http://51-wfhs.com/shell.php"
+  },
+  {
+    "domain": "51-wfhs.com",
+    "type": "existing_shell",
+    "shell": "http://51-wfhs.com/cmd.php"
+  },
+  {
+    "domain": "51-wfhs.com",
+    "type": "existing_shell",
+    "shell": "http://51-wfhs.com/hunter_win.php"
+  },
+  {
+    "domain": "gzzqswkj.com",
+    "type": "PbootCMS_shell",
+    "shell": "http://gzzqswkj.com/1.php",
+    "password": "c"
+  },
+  {
+    "domain": "gzzqswkj.com",
+    "type": "existing_shell",
+    "shell": "http://gzzqswkj.com/1.php"
+  },
+  {
+    "domain": "gzzqswkj.com",
+    "type": "existing_shell",
+    "shell": "http://gzzqswkj.com/shell.php"
+  },
+  {
+    "domain": "gzzqswkj.com",
+    "type": "existing_shell",
+    "shell": "http://gzzqswkj.com/cmd.php"
+  },
+  {
+    "domain": "gzzqswkj.com",
+    "type": "existing_shell",
+    "shell": "http://gzzqswkj.com/hunter_win.php"
+  },
+  {
+    "domain": "zhongyazs8.com",
+    "type": "existing_shell",
+    "shell": "http://zhongyazs8.com/1.php"
+  },
+  {
+    "domain": "zhongyazs8.com",
+    "type": "existing_shell",
+    "shell": "http://zhongyazs8.com/shell.php"
+  },
+  {
+    "domain": "zhongyazs8.com",
+    "type": "existing_shell",
+    "shell": "http://zhongyazs8.com/cmd.php"
+  },
+  {
+    "domain": "zhongyazs8.com",
+    "type": "existing_shell",
+    "shell": "http://zhongyazs8.com/hunter_win.php"
+  },
+  {
+    "domain": "hr-times.com",
+    "type": "existing_shell",
+    "shell": "http://hr-times.com/1.php"
+  },
+  {
+    "domain": "hr-times.com",
+    "type": "existing_shell",
+    "shell": "http://hr-times.com/shell.php"
+  },
+  {
+    "domain": "hr-times.com",
+    "type": "existing_shell",
+    "shell": "http://hr-times.com/cmd.php"
+  },
+  {
+    "domain": "hr-times.com",
+    "type": "existing_shell",
+    "shell": "http://hr-times.com/hunter_win.php"
+  },
+  {
+    "domain": "nasonic.com.cn",
+    "type": "existing_shell",
+    "shell": "http://nasonic.com.cn/1.php"
+  },
+  {
+    "domain": "nasonic.com.cn",
+    "type": "existing_shell",
+    "shell": "http://nasonic.com.cn/shell.php"
+  },
+  {
+    "domain": "nasonic.com.cn",
+    "type": "existing_shell",
+    "shell": "http://nasonic.com.cn/cmd.php"
+  },
+  {
+    "domain": "nasonic.com.cn",
+    "type": "existing_shell",
+    "shell": "http://nasonic.com.cn/hunter_win.php"
+  },
+  {
+    "domain": "tianyou.net.cn",
+    "type": "existing_shell",
+    "shell": "http://tianyou.net.cn/1.php"
+  },
+  {
+    "domain": "tianyou.net.cn",
+    "type": "existing_shell",
+    "shell": "http://tianyou.net.cn/shell.php"
+  },
+  {
+    "domain": "tianyou.net.cn",
+    "type": "existing_shell",
+    "shell": "http://tianyou.net.cn/cmd.php"
+  },
+  {
+    "domain": "tianyou.net.cn",
+    "type": "existing_shell",
+    "shell": "http://tianyou.net.cn/hunter_win.php"
+  },
+  {
+    "domain": "xs5s.com",
+    "type": "existing_shell",
+    "shell": "http://xs5s.com/1.php"
+  },
+  {
+    "domain": "xs5s.com",
+    "type": "existing_shell",
+    "shell": "http://xs5s.com/shell.php"
+  },
+  {
+    "domain": "xs5s.com",
+    "type": "existing_shell",
+    "shell": "http://xs5s.com/cmd.php"
+  },
+  {
+    "domain": "xs5s.com",
+    "type": "existing_shell",
+    "shell": "http://xs5s.com/hunter_win.php"
+  },
+  {
+    "domain": "gdtailai.com",
+    "type": "existing_shell",
+    "shell": "http://gdtailai.com/1.php"
+  },
+  {
+    "domain": "gdtailai.com",
+    "type": "existing_shell",
+    "shell": "http://gdtailai.com/shell.php"
+  },
+  {
+    "domain": "gdtailai.com",
+    "type": "existing_shell",
+    "shell": "http://gdtailai.com/cmd.php"
+  },
+  {
+    "domain": "gdtailai.com",
+    "type": "existing_shell",
+    "shell": "http://gdtailai.com/hunter_win.php"
+  },
+  {
+    "domain": "exposewire.cloud",
+    "type": "existing_shell",
+    "shell": "http://exposewire.cloud/1.php"
+  },
+  {
+    "domain": "exposewire.cloud",
+    "type": "existing_shell",
+    "shell": "http://exposewire.cloud/shell.php"
+  },
+  {
+    "domain": "exposewire.cloud",
+    "type": "existing_shell",
+    "shell": "http://exposewire.cloud/cmd.php"
+  },
+  {
+    "domain": "exposewire.cloud",
+    "type": "existing_shell",
+    "shell": "http://exposewire.cloud/hunter_win.php"
+  },
+  {
+    "domain": "chaofandianjingweibo.com.cn",
+    "type": "existing_shell",
+    "shell": "http://chaofandianjingweibo.com.cn/1.php"
+  },
+  {
+    "domain": "chaofandianjingweibo.com.cn",
+    "type": "existing_shell",
+    "shell": "http://chaofandianjingweibo.com.cn/shell.php"
+  },
+  {
+    "domain": "chaofandianjingweibo.com.cn",
+    "type": "existing_shell",
+    "shell": "http://chaofandianjingweibo.com.cn/cmd.php"
+  },
+  {
+    "domain": "chaofandianjingweibo.com.cn",
+    "type": "existing_shell",
+    "shell": "http://chaofandianjingweibo.com.cn/hunter_win.php"
+  },
+  {
+    "domain": "hzzytq.cn",
+    "type": "existing_shell",
+    "shell": "http://hzzytq.cn/1.php"
+  },
+  {
+    "domain": "hzzytq.cn",
+    "type": "existing_shell",
+    "shell": "http://hzzytq.cn/shell.php"
+  },
+  {
+    "domain": "hzzytq.cn",
+    "type": "existing_shell",
+    "shell": "http://hzzytq.cn/cmd.php"
+  },
+  {
+    "domain": "hzzytq.cn",
+    "type": "existing_shell",
+    "shell": "http://hzzytq.cn/hunter_win.php"
+  },
+  {
+    "domain": "cuierxs.com",
+    "type": "existing_shell",
+    "shell": "http://cuierxs.com/1.php"
+  },
+  {
+    "domain": "cuierxs.com",
+    "type": "existing_shell",
+    "shell": "http://cuierxs.com/shell.php"
+  },
+  {
+    "domain": "cuierxs.com",
+    "type": "existing_shell",
+    "shell": "http://cuierxs.com/cmd.php"
+  },
+  {
+    "domain": "cuierxs.com",
+    "type": "existing_shell",
+    "shell": "http://cuierxs.com/hunter_win.php"
+  },
+  {
+    "domain": "4pig.cn",
+    "type": "existing_shell",
+    "shell": "http://4pig.cn/1.php"
+  },
+  {
+    "domain": "4pig.cn",
+    "type": "existing_shell",
+    "shell": "http://4pig.cn/shell.php"
+  },
+  {
+    "domain": "4pig.cn",
+    "type": "existing_shell",
+    "shell": "http://4pig.cn/cmd.php"
+  },
+  {
+    "domain": "4pig.cn",
+    "type": "existing_shell",
+    "shell": "http://4pig.cn/hunter_win.php"
+  },
+  {
+    "domain": "caijiaohui.net",
+    "type": "existing_shell",
+    "shell": "http://caijiaohui.net/1.php"
+  },
+  {
+    "domain": "caijiaohui.net",
+    "type": "existing_shell",
+    "shell": "http://caijiaohui.net/shell.php"
+  },
+  {
+    "domain": "caijiaohui.net",
+    "type": "existing_shell",
+    "shell": "http://caijiaohui.net/cmd.php"
+  },
+  {
+    "domain": "caijiaohui.net",
+    "type": "existing_shell",
+    "shell": "http://caijiaohui.net/hunter_win.php"
+  },
+  {
+    "domain": "deheglobal.cn",
+    "type": "existing_shell",
+    "shell": "http://deheglobal.cn/1.php"
+  },
+  {
+    "domain": "deheglobal.cn",
+    "type": "existing_shell",
+    "shell": "http://deheglobal.cn/shell.php"
+  },
+  {
+    "domain": "deheglobal.cn",
+    "type": "existing_shell",
+    "shell": "http://deheglobal.cn/cmd.php"
+  },
+  {
+    "domain": "deheglobal.cn",
+    "type": "existing_shell",
+    "shell": "http://deheglobal.cn/hunter_win.php"
+  },
+  {
+    "domain": "bieuc.cn",
+    "type": "existing_shell",
+    "shell": "http://bieuc.cn/1.php"
+  },
+  {
+    "domain": "bieuc.cn",
+    "type": "existing_shell",
+    "shell": "http://bieuc.cn/shell.php"
+  },
+  {
+    "domain": "bieuc.cn",
+    "type": "existing_shell",
+    "shell": "http://bieuc.cn/cmd.php"
+  },
+  {
+    "domain": "bieuc.cn",
+    "type": "existing_shell",
+    "shell": "http://bieuc.cn/hunter_win.php"
+  },
+  {
+    "domain": "codpt.com",
+    "type": "existing_shell",
+    "shell": "http://codpt.com/1.php"
+  },
+  {
+    "domain": "codpt.com",
+    "type": "existing_shell",
+    "shell": "http://codpt.com/shell.php"
+  },
+  {
+    "domain": "codpt.com",
+    "type": "existing_shell",
+    "shell": "http://codpt.com/cmd.php"
+  },
+  {
+    "domain": "codpt.com",
+    "type": "existing_shell",
+    "shell": "http://codpt.com/hunter_win.php"
+  },
+  {
+    "domain": "tiankongtiyukexinma.com.cn",
+    "type": "existing_shell",
+    "shell": "http://tiankongtiyukexinma.com.cn/1.php"
+  },
+  {
+    "domain": "tiankongtiyukexinma.com.cn",
+    "type": "existing_shell",
+    "shell": "http://tiankongtiyukexinma.com.cn/shell.php"
+  },
+  {
+    "domain": "tiankongtiyukexinma.com.cn",
+    "type": "existing_shell",
+    "shell": "http://tiankongtiyukexinma.com.cn/cmd.php"
+  },
+  {
+    "domain": "tiankongtiyukexinma.com.cn",
+    "type": "existing_shell",
+    "shell": "http://tiankongtiyukexinma.com.cn/hunter_win.php"
+  },
+  {
+    "domain": "laoshunxiang.com.cn",
+    "type": "existing_shell",
+    "shell": "http://laoshunxiang.com.cn/1.php"
+  },
+  {
+    "domain": "laoshunxiang.com.cn",
+    "type": "existing_shell",
+    "shell": "http://laoshunxiang.com.cn/shell.php"
+  },
+  {
+    "domain": "laoshunxiang.com.cn",
+    "type": "existing_shell",
+    "shell": "http://laoshunxiang.com.cn/cmd.php"
+  },
+  {
+    "domain": "laoshunxiang.com.cn",
+    "type": "existing_shell",
+    "shell": "http://laoshunxiang.com.cn/hunter_win.php"
+  },
+  {
+    "domain": "prhwj.com",
+    "type": "existing_shell",
+    "shell": "http://prhwj.com/1.php"
+  },
+  {
+    "domain": "prhwj.com",
+    "type": "existing_shell",
+    "shell": "http://prhwj.com/shell.php"
+  },
+  {
+    "domain": "prhwj.com",
+    "type": "existing_shell",
+    "shell": "http://prhwj.com/cmd.php"
+  },
+  {
+    "domain": "prhwj.com",
+    "type": "existing_shell",
+    "shell": "http://prhwj.com/hunter_win.php"
+  },
+  {
+    "domain": "yileisw.com",
+    "type": "existing_shell",
+    "shell": "http://yileisw.com/1.php"
+  },
+  {
+    "domain": "yileisw.com",
+    "type": "existing_shell",
+    "shell": "http://yileisw.com/shell.php"
+  },
+  {
+    "domain": "yileisw.com",
+    "type": "existing_shell",
+    "shell": "http://yileisw.com/cmd.php"
+  },
+  {
+    "domain": "yileisw.com",
+    "type": "existing_shell",
+    "shell": "http://yileisw.com/hunter_win.php"
+  },
+  {
+    "domain": "xzkrg.cn",
+    "type": "existing_shell",
+    "shell": "http://xzkrg.cn/1.php"
+  },
+  {
+    "domain": "xzkrg.cn",
+    "type": "existing_shell",
+    "shell": "http://xzkrg.cn/shell.php"
+  },
+  {
+    "domain": "xzkrg.cn",
+    "type": "existing_shell",
+    "shell": "http://xzkrg.cn/cmd.php"
+  },
+  {
+    "domain": "xzkrg.cn",
+    "type": "existing_shell",
+    "shell": "http://xzkrg.cn/hunter_win.php"
+  },
+  {
+    "domain": "jlshengda.cn",
+    "type": "existing_shell",
+    "shell": "http://jlshengda.cn/1.php"
+  },
+  {
+    "domain": "jlshengda.cn",
+    "type": "existing_shell",
+    "shell": "http://jlshengda.cn/shell.php"
+  },
+  {
+    "domain": "jlshengda.cn",
+    "type": "existing_shell",
+    "shell": "http://jlshengda.cn/cmd.php"
+  },
+  {
+    "domain": "jlshengda.cn",
+    "type": "existing_shell",
+    "shell": "http://jlshengda.cn/hunter_win.php"
+  },
+  {
+    "domain": "szpengjie.com",
+    "type": "existing_shell",
+    "shell": "http://szpengjie.com/1.php"
+  },
+  {
+    "domain": "szpengjie.com",
+    "type": "existing_shell",
+    "shell": "http://szpengjie.com/shell.php"
+  },
+  {
+    "domain": "szpengjie.com",
+    "type": "existing_shell",
+    "shell": "http://szpengjie.com/cmd.php"
+  },
+  {
+    "domain": "szpengjie.com",
+    "type": "existing_shell",
+    "shell": "http://szpengjie.com/hunter_win.php"
+  },
+  {
+    "domain": "9s01.cn",
+    "type": "existing_shell",
+    "shell": "http://9s01.cn/1.php"
+  },
+  {
+    "domain": "9s01.cn",
+    "type": "existing_shell",
+    "shell": "http://9s01.cn/shell.php"
+  },
+  {
+    "domain": "9s01.cn",
+    "type": "existing_shell",
+    "shell": "http://9s01.cn/cmd.php"
+  },
+  {
+    "domain": "9s01.cn",
+    "type": "existing_shell",
+    "shell": "http://9s01.cn/hunter_win.php"
+  },
+  {
+    "domain": "dlhuanhai.top",
+    "type": "existing_shell",
+    "shell": "http://dlhuanhai.top/1.php"
+  },
+  {
+    "domain": "dlhuanhai.top",
+    "type": "existing_shell",
+    "shell": "http://dlhuanhai.top/shell.php"
+  },
+  {
+    "domain": "dlhuanhai.top",
+    "type": "existing_shell",
+    "shell": "http://dlhuanhai.top/cmd.php"
+  },
+  {
+    "domain": "dlhuanhai.top",
+    "type": "existing_shell",
+    "shell": "http://dlhuanhai.top/hunter_win.php"
+  },
+  {
+    "domain": "quanhwangyebanmiaowan.com.cn",
+    "type": "existing_shell",
+    "shell": "http://quanhwangyebanmiaowan.com.cn/1.php"
+  },
+  {
+    "domain": "quanhwangyebanmiaowan.com.cn",
+    "type": "existing_shell",
+    "shell": "http://quanhwangyebanmiaowan.com.cn/shell.php"
+  },
+  {
+    "domain": "quanhwangyebanmiaowan.com.cn",
+    "type": "existing_shell",
+    "shell": "http://quanhwangyebanmiaowan.com.cn/cmd.php"
+  },
+  {
+    "domain": "quanhwangyebanmiaowan.com.cn",
+    "type": "existing_shell",
+    "shell": "http://quanhwangyebanmiaowan.com.cn/hunter_win.php"
+  },
+  {
+    "domain": "ziguxs.com",
+    "type": "existing_shell",
+    "shell": "http://ziguxs.com/1.php"
+  },
+  {
+    "domain": "ziguxs.com",
+    "type": "existing_shell",
+    "shell": "http://ziguxs.com/shell.php"
+  },
+  {
+    "domain": "ziguxs.com",
+    "type": "existing_shell",
+    "shell": "http://ziguxs.com/cmd.php"
+  },
+  {
+    "domain": "ziguxs.com",
+    "type": "existing_shell",
+    "shell": "http://ziguxs.com/hunter_win.php"
+  },
+  {
+    "domain": "106318b.com",
+    "type": "existing_shell",
+    "shell": "http://106318b.com/1.php"
+  },
+  {
+    "domain": "106318b.com",
+    "type": "existing_shell",
+    "shell": "http://106318b.com/shell.php"
+  },
+  {
+    "domain": "106318b.com",
+    "type": "existing_shell",
+    "shell": "http://106318b.com/cmd.php"
+  },
+  {
+    "domain": "106318b.com",
+    "type": "existing_shell",
+    "shell": "http://106318b.com/hunter_win.php"
+  },
+  {
+    "domain": "bususw.com",
+    "type": "existing_shell",
+    "shell": "http://bususw.com/1.php"
+  },
+  {
+    "domain": "bususw.com",
+    "type": "existing_shell",
+    "shell": "http://bususw.com/shell.php"
+  },
+  {
+    "domain": "bususw.com",
+    "type": "existing_shell",
+    "shell": "http://bususw.com/cmd.php"
+  },
+  {
+    "domain": "bususw.com",
+    "type": "existing_shell",
+    "shell": "http://bususw.com/hunter_win.php"
+  },
+  {
+    "domain": "aiceshus.com",
+    "type": "existing_shell",
+    "shell": "http://aiceshus.com/1.php"
+  },
+  {
+    "domain": "aiceshus.com",
+    "type": "existing_shell",
+    "shell": "http://aiceshus.com/shell.php"
+  },
+  {
+    "domain": "aiceshus.com",
+    "type": "existing_shell",
+    "shell": "http://aiceshus.com/cmd.php"
+  },
+  {
+    "domain": "aiceshus.com",
+    "type": "existing_shell",
+    "shell": "http://aiceshus.com/hunter_win.php"
+  },
+  {
+    "domain": "langfangzhuorui.cn",
+    "type": "existing_shell",
+    "shell": "http://langfangzhuorui.cn/1.php"
+  },
+  {
+    "domain": "langfangzhuorui.cn",
+    "type": "existing_shell",
+    "shell": "http://langfangzhuorui.cn/shell.php"
+  },
+  {
+    "domain": "langfangzhuorui.cn",
+    "type": "existing_shell",
+    "shell": "http://langfangzhuorui.cn/cmd.php"
+  },
+  {
+    "domain": "langfangzhuorui.cn",
+    "type": "existing_shell",
+    "shell": "http://langfangzhuorui.cn/hunter_win.php"
+  },
+  {
+    "domain": "yp2115.com",
+    "type": "existing_shell",
+    "shell": "http://yp2115.com/1.php"
+  },
+  {
+    "domain": "yp2115.com",
+    "type": "existing_shell",
+    "shell": "http://yp2115.com/shell.php"
+  },
+  {
+    "domain": "yp2115.com",
+    "type": "existing_shell",
+    "shell": "http://yp2115.com/cmd.php"
+  },
+  {
+    "domain": "yp2115.com",
+    "type": "existing_shell",
+    "shell": "http://yp2115.com/hunter_win.php"
+  },
+  {
+    "domain": "xuxinqjw.com",
+    "type": "existing_shell",
+    "shell": "http://xuxinqjw.com/1.php"
+  },
+  {
+    "domain": "xuxinqjw.com",
+    "type": "existing_shell",
+    "shell": "http://xuxinqjw.com/shell.php"
+  },
+  {
+    "domain": "xuxinqjw.com",
+    "type": "existing_shell",
+    "shell": "http://xuxinqjw.com/cmd.php"
+  },
+  {
+    "domain": "xuxinqjw.com",
+    "type": "existing_shell",
+    "shell": "http://xuxinqjw.com/hunter_win.php"
+  },
+  {
+    "domain": "sansan333.com",
+    "type": "existing_shell",
+    "shell": "http://sansan333.com/1.php"
+  },
+  {
+    "domain": "sansan333.com",
+    "type": "existing_shell",
+    "shell": "http://sansan333.com/shell.php"
+  },
+  {
+    "domain": "sansan333.com",
+    "type": "existing_shell",
+    "shell": "http://sansan333.com/cmd.php"
+  },
+  {
+    "domain": "sansan333.com",
+    "type": "existing_shell",
+    "shell": "http://sansan333.com/hunter_win.php"
+  },
+  {
+    "domain": "zhizhuxs.com",
+    "type": "existing_shell",
+    "shell": "http://zhizhuxs.com/1.php"
+  },
+  {
+    "domain": "zhizhuxs.com",
+    "type": "existing_shell",
+    "shell": "http://zhizhuxs.com/shell.php"
+  },
+  {
+    "domain": "zhizhuxs.com",
+    "type": "existing_shell",
+    "shell": "http://zhizhuxs.com/cmd.php"
+  },
+  {
+    "domain": "zhizhuxs.com",
+    "type": "existing_shell",
+    "shell": "http://zhizhuxs.com/hunter_win.php"
+  },
+  {
+    "domain": "aoaon.cn",
+    "type": "existing_shell",
+    "shell": "http://aoaon.cn/1.php"
+  },
+  {
+    "domain": "aoaon.cn",
+    "type": "existing_shell",
+    "shell": "http://aoaon.cn/shell.php"
+  },
+  {
+    "domain": "aoaon.cn",
+    "type": "existing_shell",
+    "shell": "http://aoaon.cn/cmd.php"
+  },
+  {
+    "domain": "aoaon.cn",
+    "type": "existing_shell",
+    "shell": "http://aoaon.cn/hunter_win.php"
+  },
+  {
+    "domain": "hntlx.com",
+    "type": "existing_shell",
+    "shell": "http://hntlx.com/1.php"
+  },
+  {
+    "domain": "hntlx.com",
+    "type": "existing_shell",
+    "shell": "http://hntlx.com/shell.php"
+  },
+  {
+    "domain": "hntlx.com",
+    "type": "existing_shell",
+    "shell": "http://hntlx.com/cmd.php"
+  },
+  {
+    "domain": "hntlx.com",
+    "type": "existing_shell",
+    "shell": "http://hntlx.com/hunter_win.php"
+  },
+  {
+    "domain": "xiaoyuanyihuoshejiao.club",
+    "type": "existing_shell",
+    "shell": "http://xiaoyuanyihuoshejiao.club/1.php"
+  },
+  {
+    "domain": "xiaoyuanyihuoshejiao.club",
+    "type": "existing_shell",
+    "shell": "http://xiaoyuanyihuoshejiao.club/shell.php"
+  },
+  {
+    "domain": "xiaoyuanyihuoshejiao.club",
+    "type": "existing_shell",
+    "shell": "http://xiaoyuanyihuoshejiao.club/cmd.php"
+  },
+  {
+    "domain": "xiaoyuanyihuoshejiao.club",
+    "type": "existing_shell",
+    "shell": "http://xiaoyuanyihuoshejiao.club/hunter_win.php"
+  },
+  {
+    "domain": "pmqimam.cn",
+    "type": "existing_shell",
+    "shell": "http://pmqimam.cn/1.php"
+  },
+  {
+    "domain": "pmqimam.cn",
+    "type": "existing_shell",
+    "shell": "http://pmqimam.cn/shell.php"
+  },
+  {
+    "domain": "pmqimam.cn",
+    "type": "existing_shell",
+    "shell": "http://pmqimam.cn/cmd.php"
+  },
+  {
+    "domain": "pmqimam.cn",
+    "type": "existing_shell",
+    "shell": "http://pmqimam.cn/hunter_win.php"
+  },
+  {
+    "domain": "zhongyazs8.com",
+    "type": "existing_shell",
+    "shell": "http://zhongyazs8.com/1.php"
+  },
+  {
+    "domain": "zhongyazs8.com",
+    "type": "existing_shell",
+    "shell": "http://zhongyazs8.com/shell.php"
+  },
+  {
+    "domain": "zhongyazs8.com",
+    "type": "existing_shell",
+    "shell": "http://zhongyazs8.com/cmd.php"
+  },
+  {
+    "domain": "zhongyazs8.com",
+    "type": "existing_shell",
+    "shell": "http://zhongyazs8.com/hunter_win.php"
+  },
+  {
+    "domain": "caixuesw.com",
+    "type": "existing_shell",
+    "shell": "http://caixuesw.com/1.php"
+  },
+  {
+    "domain": "caixuesw.com",
+    "type": "existing_shell",
+    "shell": "http://caixuesw.com/shell.php"
+  },
+  {
+    "domain": "caixuesw.com",
+    "type": "existing_shell",
+    "shell": "http://caixuesw.com/cmd.php"
+  },
+  {
+    "domain": "caixuesw.com",
+    "type": "existing_shell",
+    "shell": "http://caixuesw.com/hunter_win.php"
+  },
+  {
+    "domain": "hsaxnt.cn",
+    "type": "existing_shell",
+    "shell": "http://hsaxnt.cn/1.php"
+  },
+  {
+    "domain": "hsaxnt.cn",
+    "type": "existing_shell",
+    "shell": "http://hsaxnt.cn/shell.php"
+  },
+  {
+    "domain": "hsaxnt.cn",
+    "type": "existing_shell",
+    "shell": "http://hsaxnt.cn/cmd.php"
+  },
+  {
+    "domain": "hsaxnt.cn",
+    "type": "existing_shell",
+    "shell": "http://hsaxnt.cn/hunter_win.php"
+  },
+  {
+    "domain": "lvpkaty.cn",
+    "type": "existing_shell",
+    "shell": "http://lvpkaty.cn/1.php"
+  },
+  {
+    "domain": "lvpkaty.cn",
+    "type": "existing_shell",
+    "shell": "http://lvpkaty.cn/shell.php"
+  },
+  {
+    "domain": "lvpkaty.cn",
+    "type": "existing_shell",
+    "shell": "http://lvpkaty.cn/cmd.php"
+  },
+  {
+    "domain": "lvpkaty.cn",
+    "type": "existing_shell",
+    "shell": "http://lvpkaty.cn/hunter_win.php"
+  },
+  {
+    "domain": "zucairenjiuzhongjiangguize.com.cn",
+    "type": "existing_shell",
+    "shell": "http://zucairenjiuzhongjiangguize.com.cn/1.php"
+  },
+  {
+    "domain": "zucairenjiuzhongjiangguize.com.cn",
+    "type": "existing_shell",
+    "shell": "http://zucairenjiuzhongjiangguize.com.cn/shell.php"
+  },
+  {
+    "domain": "zucairenjiuzhongjiangguize.com.cn",
+    "type": "existing_shell",
+    "shell": "http://zucairenjiuzhongjiangguize.com.cn/cmd.php"
+  },
+  {
+    "domain": "zucairenjiuzhongjiangguize.com.cn",
+    "type": "existing_shell",
+    "shell": "http://zucairenjiuzhongjiangguize.com.cn/hunter_win.php"
+  },
+  {
+    "domain": "4kxxxporn.com",
+    "type": "existing_shell",
+    "shell": "http://4kxxxporn.com/1.php"
+  },
+  {
+    "domain": "4kxxxporn.com",
+    "type": "existing_shell",
+    "shell": "http://4kxxxporn.com/shell.php"
+  },
+  {
+    "domain": "4kxxxporn.com",
+    "type": "existing_shell",
+    "shell": "http://4kxxxporn.com/cmd.php"
+  },
+  {
+    "domain": "4kxxxporn.com",
+    "type": "existing_shell",
+    "shell": "http://4kxxxporn.com/hunter_win.php"
+  },
+  {
+    "domain": "sxzxdz.com",
+    "type": "existing_shell",
+    "shell": "http://sxzxdz.com/1.php"
+  },
+  {
+    "domain": "sxzxdz.com",
+    "type": "existing_shell",
+    "shell": "http://sxzxdz.com/hunter_win.php"
+  },
+  {
+    "domain": "2015ha.com",
+    "type": "existing_shell",
+    "shell": "http://2015ha.com/1.php"
+  },
+  {
+    "domain": "2015ha.com",
+    "type": "existing_shell",
+    "shell": "http://2015ha.com/shell.php"
+  },
+  {
+    "domain": "2015ha.com",
+    "type": "existing_shell",
+    "shell": "http://2015ha.com/cmd.php"
+  },
+  {
+    "domain": "2015ha.com",
+    "type": "existing_shell",
+    "shell": "http://2015ha.com/hunter_win.php"
+  },
+  {
+    "domain": "bpxgz.cn",
+    "type": "existing_shell",
+    "shell": "http://bpxgz.cn/1.php"
+  },
+  {
+    "domain": "bpxgz.cn",
+    "type": "existing_shell",
+    "shell": "http://bpxgz.cn/shell.php"
+  },
+  {
+    "domain": "bpxgz.cn",
+    "type": "existing_shell",
+    "shell": "http://bpxgz.cn/cmd.php"
+  },
+  {
+    "domain": "bpxgz.cn",
+    "type": "existing_shell",
+    "shell": "http://bpxgz.cn/hunter_win.php"
+  },
+  {
+    "domain": "smhulan.cn",
+    "type": "existing_shell",
+    "shell": "http://smhulan.cn/1.php"
+  },
+  {
+    "domain": "smhulan.cn",
+    "type": "existing_shell",
+    "shell": "http://smhulan.cn/shell.php"
+  },
+  {
+    "domain": "smhulan.cn",
+    "type": "existing_shell",
+    "shell": "http://smhulan.cn/cmd.php"
+  },
+  {
+    "domain": "smhulan.cn",
+    "type": "existing_shell",
+    "shell": "http://smhulan.cn/hunter_win.php"
+  },
+  {
+    "domain": "fsltjx.cn",
+    "type": "existing_shell",
+    "shell": "http://fsltjx.cn/1.php"
+  },
+  {
+    "domain": "fsltjx.cn",
+    "type": "existing_shell",
+    "shell": "http://fsltjx.cn/shell.php"
+  },
+  {
+    "domain": "fsltjx.cn",
+    "type": "existing_shell",
+    "shell": "http://fsltjx.cn/cmd.php"
+  },
+  {
+    "domain": "fsltjx.cn",
+    "type": "existing_shell",
+    "shell": "http://fsltjx.cn/hunter_win.php"
+  },
+  {
+    "domain": "nasonic.com.cn",
+    "type": "existing_shell",
+    "shell": "http://nasonic.com.cn/1.php"
+  },
+  {
+    "domain": "nasonic.com.cn",
+    "type": "existing_shell",
+    "shell": "http://nasonic.com.cn/shell.php"
+  },
+  {
+    "domain": "nasonic.com.cn",
+    "type": "existing_shell",
+    "shell": "http://nasonic.com.cn/cmd.php"
+  },
+  {
+    "domain": "wuxilk.cn",
+    "type": "existing_shell",
+    "shell": "http://wuxilk.cn/1.php"
+  },
+  {
+    "domain": "wuxilk.cn",
+    "type": "existing_shell",
+    "shell": "http://wuxilk.cn/shell.php"
+  },
+  {
+    "domain": "wuxilk.cn",
+    "type": "existing_shell",
+    "shell": "http://wuxilk.cn/cmd.php"
+  },
+  {
+    "domain": "wuxilk.cn",
+    "type": "existing_shell",
+    "shell": "http://wuxilk.cn/hunter_win.php"
+  },
+  {
+    "domain": "nlxgdx.cn",
+    "type": "existing_shell",
+    "shell": "http://nlxgdx.cn/1.php"
+  },
+  {
+    "domain": "nlxgdx.cn",
+    "type": "existing_shell",
+    "shell": "http://nlxgdx.cn/shell.php"
+  },
+  {
+    "domain": "nlxgdx.cn",
+    "type": "existing_shell",
+    "shell": "http://nlxgdx.cn/cmd.php"
+  },
+  {
+    "domain": "nlxgdx.cn",
+    "type": "existing_shell",
+    "shell": "http://nlxgdx.cn/hunter_win.php"
+  },
+  {
+    "domain": "kquzhiboxiazai.com.cn",
+    "type": "existing_shell",
+    "shell": "http://kquzhiboxiazai.com.cn/1.php"
+  },
+  {
+    "domain": "kquzhiboxiazai.com.cn",
+    "type": "existing_shell",
+    "shell": "http://kquzhiboxiazai.com.cn/shell.php"
+  },
+  {
+    "domain": "kquzhiboxiazai.com.cn",
+    "type": "existing_shell",
+    "shell": "http://kquzhiboxiazai.com.cn/cmd.php"
+  },
+  {
+    "domain": "kquzhiboxiazai.com.cn",
+    "type": "existing_shell",
+    "shell": "http://kquzhiboxiazai.com.cn/hunter_win.php"
+  },
+  {
+    "domain": "sbyuedu.com",
+    "type": "existing_shell",
+    "shell": "http://sbyuedu.com/1.php"
+  },
+  {
+    "domain": "sbyuedu.com",
+    "type": "existing_shell",
+    "shell": "http://sbyuedu.com/shell.php"
+  },
+  {
+    "domain": "sbyuedu.com",
+    "type": "existing_shell",
+    "shell": "http://sbyuedu.com/cmd.php"
+  },
+  {
+    "domain": "sbyuedu.com",
+    "type": "existing_shell",
+    "shell": "http://sbyuedu.com/hunter_win.php"
+  },
+  {
+    "domain": "jiubiji.com",
+    "type": "existing_shell",
+    "shell": "http://jiubiji.com/1.php"
+  },
+  {
+    "domain": "jiubiji.com",
+    "type": "existing_shell",
+    "shell": "http://jiubiji.com/shell.php"
+  },
+  {
+    "domain": "jiubiji.com",
+    "type": "existing_shell",
+    "shell": "http://jiubiji.com/cmd.php"
+  },
+  {
+    "domain": "jiubiji.com",
+    "type": "existing_shell",
+    "shell": "http://jiubiji.com/hunter_win.php"
+  },
+  {
+    "domain": "ishangpu.cn",
+    "type": "existing_shell",
+    "shell": "http://ishangpu.cn/1.php"
+  },
+  {
+    "domain": "ishangpu.cn",
+    "type": "existing_shell",
+    "shell": "http://ishangpu.cn/shell.php"
+  },
+  {
+    "domain": "ishangpu.cn",
+    "type": "existing_shell",
+    "shell": "http://ishangpu.cn/cmd.php"
+  },
+  {
+    "domain": "ishangpu.cn",
+    "type": "existing_shell",
+    "shell": "http://ishangpu.cn/hunter_win.php"
+  },
+  {
+    "domain": "tashuge.com",
+    "type": "existing_shell",
+    "shell": "http://tashuge.com/1.php"
+  },
+  {
+    "domain": "tashuge.com",
+    "type": "existing_shell",
+    "shell": "http://tashuge.com/shell.php"
+  },
+  {
+    "domain": "tashuge.com",
+    "type": "existing_shell",
+    "shell": "http://tashuge.com/cmd.php"
+  },
+  {
+    "domain": "tashuge.com",
+    "type": "existing_shell",
+    "shell": "http://tashuge.com/hunter_win.php"
+  },
+  {
+    "domain": "topimagejewellery.com",
+    "type": "existing_shell",
+    "shell": "http://topimagejewellery.com/1.php"
+  },
+  {
+    "domain": "topimagejewellery.com",
+    "type": "existing_shell",
+    "shell": "http://topimagejewellery.com/shell.php"
+  },
+  {
+    "domain": "topimagejewellery.com",
+    "type": "existing_shell",
+    "shell": "http://topimagejewellery.com/cmd.php"
+  },
+  {
+    "domain": "topimagejewellery.com",
+    "type": "existing_shell",
+    "shell": "http://topimagejewellery.com/hunter_win.php"
+  },
+  {
+    "domain": "ktzsn.cn",
+    "type": "existing_shell",
+    "shell": "http://ktzsn.cn/1.php"
+  },
+  {
+    "domain": "ktzsn.cn",
+    "type": "existing_shell",
+    "shell": "http://ktzsn.cn/shell.php"
+  },
+  {
+    "domain": "ktzsn.cn",
+    "type": "existing_shell",
+    "shell": "http://ktzsn.cn/cmd.php"
+  },
+  {
+    "domain": "ktzsn.cn",
+    "type": "existing_shell",
+    "shell": "http://ktzsn.cn/hunter_win.php"
+  },
+  {
+    "domain": "shpump.cn",
+    "type": "existing_shell",
+    "shell": "http://shpump.cn/1.php"
+  },
+  {
+    "domain": "shpump.cn",
+    "type": "existing_shell",
+    "shell": "http://shpump.cn/shell.php"
+  },
+  {
+    "domain": "shpump.cn",
+    "type": "existing_shell",
+    "shell": "http://shpump.cn/cmd.php"
+  },
+  {
+    "domain": "shpump.cn",
+    "type": "existing_shell",
+    "shell": "http://shpump.cn/hunter_win.php"
+  },
+  {
+    "domain": "aimei99.cn",
+    "type": "existing_shell",
+    "shell": "http://aimei99.cn/shell.php"
+  },
+  {
+    "domain": "82003080.com",
+    "type": "existing_shell",
+    "shell": "http://82003080.com/1.php"
+  },
+  {
+    "domain": "82003080.com",
+    "type": "existing_shell",
+    "shell": "http://82003080.com/shell.php"
+  },
+  {
+    "domain": "82003080.com",
+    "type": "existing_shell",
+    "shell": "http://82003080.com/cmd.php"
+  },
+  {
+    "domain": "82003080.com",
+    "type": "existing_shell",
+    "shell": "http://82003080.com/hunter_win.php"
+  },
+  {
+    "domain": "wucai8.com",
+    "type": "existing_shell",
+    "shell": "http://wucai8.com/1.php"
+  },
+  {
+    "domain": "wucai8.com",
+    "type": "existing_shell",
+    "shell": "http://wucai8.com/shell.php"
+  },
+  {
+    "domain": "wucai8.com",
+    "type": "existing_shell",
+    "shell": "http://wucai8.com/cmd.php"
+  },
+  {
+    "domain": "wucai8.com",
+    "type": "existing_shell",
+    "shell": "http://wucai8.com/hunter_win.php"
+  },
+  {
+    "domain": "pandunmenchuang.com",
+    "type": "existing_shell",
+    "shell": "http://pandunmenchuang.com/1.php"
+  },
+  {
+    "domain": "pandunmenchuang.com",
+    "type": "existing_shell",
+    "shell": "http://pandunmenchuang.com/shell.php"
+  },
+  {
+    "domain": "pandunmenchuang.com",
+    "type": "existing_shell",
+    "shell": "http://pandunmenchuang.com/cmd.php"
+  },
+  {
+    "domain": "pandunmenchuang.com",
+    "type": "existing_shell",
+    "shell": "http://pandunmenchuang.com/hunter_win.php"
+  },
+  {
+    "domain": "fjijkz.com",
+    "type": "existing_shell",
+    "shell": "http://fjijkz.com/1.php"
+  },
+  {
+    "domain": "fjijkz.com",
+    "type": "existing_shell",
+    "shell": "http://fjijkz.com/shell.php"
+  },
+  {
+    "domain": "fjijkz.com",
+    "type": "existing_shell",
+    "shell": "http://fjijkz.com/cmd.php"
+  },
+  {
+    "domain": "fjijkz.com",
+    "type": "existing_shell",
+    "shell": "http://fjijkz.com/hunter_win.php"
+  },
+  {
+    "domain": "hcwvahq.cn",
+    "type": "existing_shell",
+    "shell": "http://hcwvahq.cn/1.php"
+  },
+  {
+    "domain": "hcwvahq.cn",
+    "type": "existing_shell",
+    "shell": "http://hcwvahq.cn/shell.php"
+  },
+  {
+    "domain": "hcwvahq.cn",
+    "type": "existing_shell",
+    "shell": "http://hcwvahq.cn/cmd.php"
+  },
+  {
+    "domain": "hcwvahq.cn",
+    "type": "existing_shell",
+    "shell": "http://hcwvahq.cn/hunter_win.php"
+  },
+  {
+    "domain": "mq-zone.com",
+    "type": "existing_shell",
+    "shell": "http://mq-zone.com/1.php"
+  },
+  {
+    "domain": "mq-zone.com",
+    "type": "existing_shell",
+    "shell": "http://mq-zone.com/shell.php"
+  },
+  {
+    "domain": "mq-zone.com",
+    "type": "existing_shell",
+    "shell": "http://mq-zone.com/cmd.php"
+  },
+  {
+    "domain": "mq-zone.com",
+    "type": "existing_shell",
+    "shell": "http://mq-zone.com/hunter_win.php"
+  },
+  {
+    "domain": "bjlemmen.cn",
+    "type": "existing_shell",
+    "shell": "http://bjlemmen.cn/1.php"
+  },
+  {
+    "domain": "bjlemmen.cn",
+    "type": "existing_shell",
+    "shell": "http://bjlemmen.cn/shell.php"
+  },
+  {
+    "domain": "bjlemmen.cn",
+    "type": "existing_shell",
+    "shell": "http://bjlemmen.cn/cmd.php"
+  },
+  {
+    "domain": "bjlemmen.cn",
+    "type": "existing_shell",
+    "shell": "http://bjlemmen.cn/hunter_win.php"
+  },
+  {
+    "domain": "shengxuxu.com",
+    "type": "existing_shell",
+    "shell": "http://shengxuxu.com/1.php"
+  },
+  {
+    "domain": "shengxuxu.com",
+    "type": "existing_shell",
+    "shell": "http://shengxuxu.com/shell.php"
+  },
+  {
+    "domain": "shengxuxu.com",
+    "type": "existing_shell",
+    "shell": "http://shengxuxu.com/cmd.php"
+  },
+  {
+    "domain": "shengxuxu.com",
+    "type": "existing_shell",
+    "shell": "http://shengxuxu.com/hunter_win.php"
+  },
+  {
+    "domain": "uhute.cn",
+    "type": "existing_shell",
+    "shell": "http://uhute.cn/1.php"
+  },
+  {
+    "domain": "uhute.cn",
+    "type": "existing_shell",
+    "shell": "http://uhute.cn/shell.php"
+  },
+  {
+    "domain": "uhute.cn",
+    "type": "existing_shell",
+    "shell": "http://uhute.cn/cmd.php"
+  },
+  {
+    "domain": "uhute.cn",
+    "type": "existing_shell",
+    "shell": "http://uhute.cn/hunter_win.php"
+  },
+  {
+    "domain": "csjchb.com.cn",
+    "type": "existing_shell",
+    "shell": "http://csjchb.com.cn/1.php"
+  },
+  {
+    "domain": "csjchb.com.cn",
+    "type": "existing_shell",
+    "shell": "http://csjchb.com.cn/shell.php"
+  },
+  {
+    "domain": "csjchb.com.cn",
+    "type": "existing_shell",
+    "shell": "http://csjchb.com.cn/cmd.php"
+  },
+  {
+    "domain": "csjchb.com.cn",
+    "type": "existing_shell",
+    "shell": "http://csjchb.com.cn/hunter_win.php"
+  },
+  {
+    "domain": "ximai168.com",
+    "type": "existing_shell",
+    "shell": "http://ximai168.com/1.php"
+  },
+  {
+    "domain": "ximai168.com",
+    "type": "existing_shell",
+    "shell": "http://ximai168.com/shell.php"
+  },
+  {
+    "domain": "ximai168.com",
+    "type": "existing_shell",
+    "shell": "http://ximai168.com/cmd.php"
+  },
+  {
+    "domain": "ximai168.com",
+    "type": "existing_shell",
+    "shell": "http://ximai168.com/hunter_win.php"
+  },
+  {
+    "domain": "wipeweedsout.com",
+    "type": "existing_shell",
+    "shell": "http://wipeweedsout.com/1.php"
+  },
+  {
+    "domain": "wipeweedsout.com",
+    "type": "existing_shell",
+    "shell": "http://wipeweedsout.com/shell.php"
+  },
+  {
+    "domain": "wipeweedsout.com",
+    "type": "existing_shell",
+    "shell": "http://wipeweedsout.com/cmd.php"
+  },
+  {
+    "domain": "wipeweedsout.com",
+    "type": "existing_shell",
+    "shell": "http://wipeweedsout.com/hunter_win.php"
+  },
+  {
+    "domain": "shtianhebz.com",
+    "type": "existing_shell",
+    "shell": "http://shtianhebz.com/1.php"
+  },
+  {
+    "domain": "shtianhebz.com",
+    "type": "existing_shell",
+    "shell": "http://shtianhebz.com/shell.php"
+  },
+  {
+    "domain": "shtianhebz.com",
+    "type": "existing_shell",
+    "shell": "http://shtianhebz.com/cmd.php"
+  },
+  {
+    "domain": "shtianhebz.com",
+    "type": "existing_shell",
+    "shell": "http://shtianhebz.com/hunter_win.php"
+  },
+  {
+    "domain": "meinvbb.com.cn",
+    "type": "existing_shell",
+    "shell": "http://meinvbb.com.cn/1.php"
+  },
+  {
+    "domain": "meinvbb.com.cn",
+    "type": "existing_shell",
+    "shell": "http://meinvbb.com.cn/shell.php"
+  },
+  {
+    "domain": "meinvbb.com.cn",
+    "type": "existing_shell",
+    "shell": "http://meinvbb.com.cn/cmd.php"
+  },
+  {
+    "domain": "meinvbb.com.cn",
+    "type": "existing_shell",
+    "shell": "http://meinvbb.com.cn/hunter_win.php"
+  },
+  {
+    "domain": "sulayman.com.cn",
+    "type": "existing_shell",
+    "shell": "http://sulayman.com.cn/1.php"
+  },
+  {
+    "domain": "sulayman.com.cn",
+    "type": "existing_shell",
+    "shell": "http://sulayman.com.cn/shell.php"
+  },
+  {
+    "domain": "sulayman.com.cn",
+    "type": "existing_shell",
+    "shell": "http://sulayman.com.cn/cmd.php"
+  },
+  {
+    "domain": "sulayman.com.cn",
+    "type": "existing_shell",
+    "shell": "http://sulayman.com.cn/hunter_win.php"
+  },
+  {
+    "domain": "csxs2.com",
+    "type": "existing_shell",
+    "shell": "http://csxs2.com/1.php"
+  },
+  {
+    "domain": "csxs2.com",
+    "type": "existing_shell",
+    "shell": "http://csxs2.com/shell.php"
+  },
+  {
+    "domain": "csxs2.com",
+    "type": "existing_shell",
+    "shell": "http://csxs2.com/cmd.php"
+  },
+  {
+    "domain": "csxs2.com",
+    "type": "existing_shell",
+    "shell": "http://csxs2.com/hunter_win.php"
+  },
+  {
+    "domain": "oclcpky.com",
+    "type": "existing_shell",
+    "shell": "http://oclcpky.com/1.php"
+  },
+  {
+    "domain": "oclcpky.com",
+    "type": "existing_shell",
+    "shell": "http://oclcpky.com/shell.php"
+  },
+  {
+    "domain": "oclcpky.com",
+    "type": "existing_shell",
+    "shell": "http://oclcpky.com/cmd.php"
+  },
+  {
+    "domain": "oclcpky.com",
+    "type": "existing_shell",
+    "shell": "http://oclcpky.com/hunter_win.php"
+  },
+  {
+    "domain": "skywzb.com",
+    "type": "existing_shell",
+    "shell": "http://skywzb.com/1.php"
+  },
+  {
+    "domain": "skywzb.com",
+    "type": "existing_shell",
+    "shell": "http://skywzb.com/shell.php"
+  },
+  {
+    "domain": "skywzb.com",
+    "type": "existing_shell",
+    "shell": "http://skywzb.com/cmd.php"
+  },
+  {
+    "domain": "skywzb.com",
+    "type": "existing_shell",
+    "shell": "http://skywzb.com/hunter_win.php"
+  },
+  {
+    "domain": "ychbao.cn",
+    "type": "existing_shell",
+    "shell": "http://ychbao.cn/1.php"
+  },
+  {
+    "domain": "ychbao.cn",
+    "type": "existing_shell",
+    "shell": "http://ychbao.cn/shell.php"
+  },
+  {
+    "domain": "ychbao.cn",
+    "type": "existing_shell",
+    "shell": "http://ychbao.cn/cmd.php"
+  },
+  {
+    "domain": "ychbao.cn",
+    "type": "existing_shell",
+    "shell": "http://ychbao.cn/hunter_win.php"
+  },
+  {
+    "domain": "ipinshu.info",
+    "type": "existing_shell",
+    "shell": "http://ipinshu.info/1.php"
+  },
+  {
+    "domain": "ipinshu.info",
+    "type": "existing_shell",
+    "shell": "http://ipinshu.info/shell.php"
+  },
+  {
+    "domain": "ipinshu.info",
+    "type": "existing_shell",
+    "shell": "http://ipinshu.info/cmd.php"
+  },
+  {
+    "domain": "ipinshu.info",
+    "type": "existing_shell",
+    "shell": "http://ipinshu.info/hunter_win.php"
+  },
+  {
+    "domain": "puou9.com",
+    "type": "existing_shell",
+    "shell": "http://puou9.com/1.php"
+  },
+  {
+    "domain": "puou9.com",
+    "type": "existing_shell",
+    "shell": "http://puou9.com/shell.php"
+  },
+  {
+    "domain": "puou9.com",
+    "type": "existing_shell",
+    "shell": "http://puou9.com/cmd.php"
+  },
+  {
+    "domain": "puou9.com",
+    "type": "existing_shell",
+    "shell": "http://puou9.com/hunter_win.php"
+  },
+  {
+    "domain": "tzlianl.com",
+    "type": "existing_shell",
+    "shell": "http://tzlianl.com/1.php"
+  },
+  {
+    "domain": "tzlianl.com",
+    "type": "existing_shell",
+    "shell": "http://tzlianl.com/shell.php"
+  },
+  {
+    "domain": "tzlianl.com",
+    "type": "existing_shell",
+    "shell": "http://tzlianl.com/cmd.php"
+  },
+  {
+    "domain": "tzlianl.com",
+    "type": "existing_shell",
+    "shell": "http://tzlianl.com/hunter_win.php"
+  },
+  {
+    "domain": "lnhdzj.com",
+    "type": "existing_shell",
+    "shell": "http://lnhdzj.com/1.php"
+  },
+  {
+    "domain": "lnhdzj.com",
+    "type": "existing_shell",
+    "shell": "http://lnhdzj.com/shell.php"
+  },
+  {
+    "domain": "lnhdzj.com",
+    "type": "existing_shell",
+    "shell": "http://lnhdzj.com/cmd.php"
+  },
+  {
+    "domain": "lnhdzj.com",
+    "type": "existing_shell",
+    "shell": "http://lnhdzj.com/hunter_win.php"
+  },
+  {
+    "domain": "topzxj.com",
+    "type": "existing_shell",
+    "shell": "http://topzxj.com/1.php"
+  },
+  {
+    "domain": "topzxj.com",
+    "type": "existing_shell",
+    "shell": "http://topzxj.com/shell.php"
+  },
+  {
+    "domain": "topzxj.com",
+    "type": "existing_shell",
+    "shell": "http://topzxj.com/cmd.php"
+  },
+  {
+    "domain": "topzxj.com",
+    "type": "existing_shell",
+    "shell": "http://topzxj.com/hunter_win.php"
+  },
+  {
+    "domain": "anlvxs.com",
+    "type": "existing_shell",
+    "shell": "http://anlvxs.com/1.php"
+  },
+  {
+    "domain": "anlvxs.com",
+    "type": "existing_shell",
+    "shell": "http://anlvxs.com/shell.php"
+  },
+  {
+    "domain": "anlvxs.com",
+    "type": "existing_shell",
+    "shell": "http://anlvxs.com/cmd.php"
+  },
+  {
+    "domain": "anlvxs.com",
+    "type": "existing_shell",
+    "shell": "http://anlvxs.com/hunter_win.php"
+  },
+  {
+    "domain": "meiyee.cc",
+    "type": "existing_shell",
+    "shell": "http://meiyee.cc/1.php"
+  },
+  {
+    "domain": "meiyee.cc",
+    "type": "existing_shell",
+    "shell": "http://meiyee.cc/shell.php"
+  },
+  {
+    "domain": "meiyee.cc",
+    "type": "existing_shell",
+    "shell": "http://meiyee.cc/cmd.php"
+  },
+  {
+    "domain": "meiyee.cc",
+    "type": "existing_shell",
+    "shell": "http://meiyee.cc/hunter_win.php"
+  },
+  {
+    "domain": "chinu99999.com",
+    "type": "existing_shell",
+    "shell": "http://chinu99999.com/1.php"
+  },
+  {
+    "domain": "chinu99999.com",
+    "type": "existing_shell",
+    "shell": "http://chinu99999.com/shell.php"
+  },
+  {
+    "domain": "chinu99999.com",
+    "type": "existing_shell",
+    "shell": "http://chinu99999.com/cmd.php"
+  },
+  {
+    "domain": "chinu99999.com",
+    "type": "existing_shell",
+    "shell": "http://chinu99999.com/hunter_win.php"
+  },
+  {
+    "domain": "xinghuag.com",
+    "type": "existing_shell",
+    "shell": "http://xinghuag.com/1.php"
+  },
+  {
+    "domain": "xinghuag.com",
+    "type": "existing_shell",
+    "shell": "http://xinghuag.com/shell.php"
+  },
+  {
+    "domain": "xinghuag.com",
+    "type": "existing_shell",
+    "shell": "http://xinghuag.com/cmd.php"
+  },
+  {
+    "domain": "xinghuag.com",
+    "type": "existing_shell",
+    "shell": "http://xinghuag.com/hunter_win.php"
+  },
+  {
+    "domain": "absu.net",
+    "type": "existing_shell",
+    "shell": "http://absu.net/1.php"
+  },
+  {
+    "domain": "absu.net",
+    "type": "existing_shell",
+    "shell": "http://absu.net/shell.php"
+  },
+  {
+    "domain": "absu.net",
+    "type": "existing_shell",
+    "shell": "http://absu.net/cmd.php"
+  },
+  {
+    "domain": "absu.net",
+    "type": "existing_shell",
+    "shell": "http://absu.net/hunter_win.php"
+  },
+  {
+    "domain": "1do.org",
+    "type": "existing_shell",
+    "shell": "http://1do.org/1.php"
+  },
+  {
+    "domain": "1do.org",
+    "type": "existing_shell",
+    "shell": "http://1do.org/shell.php"
+  },
+  {
+    "domain": "1do.org",
+    "type": "existing_shell",
+    "shell": "http://1do.org/cmd.php"
+  },
+  {
+    "domain": "1do.org",
+    "type": "existing_shell",
+    "shell": "http://1do.org/hunter_win.php"
+  },
+  {
+    "domain": "njhas.cn",
+    "type": "existing_shell",
+    "shell": "http://njhas.cn/1.php"
+  },
+  {
+    "domain": "njhas.cn",
+    "type": "existing_shell",
+    "shell": "http://njhas.cn/shell.php"
+  },
+  {
+    "domain": "njhas.cn",
+    "type": "existing_shell",
+    "shell": "http://njhas.cn/cmd.php"
+  },
+  {
+    "domain": "njhas.cn",
+    "type": "existing_shell",
+    "shell": "http://njhas.cn/hunter_win.php"
+  },
+  {
+    "domain": "bingxisuanqi.com",
+    "type": "existing_shell",
+    "shell": "http://bingxisuanqi.com/1.php"
+  },
+  {
+    "domain": "bingxisuanqi.com",
+    "type": "existing_shell",
+    "shell": "http://bingxisuanqi.com/shell.php"
+  },
+  {
+    "domain": "bingxisuanqi.com",
+    "type": "existing_shell",
+    "shell": "http://bingxisuanqi.com/cmd.php"
+  },
+  {
+    "domain": "bingxisuanqi.com",
+    "type": "existing_shell",
+    "shell": "http://bingxisuanqi.com/hunter_win.php"
+  },
+  {
+    "domain": "55zhibo4.com.cn",
+    "type": "existing_shell",
+    "shell": "http://55zhibo4.com.cn/1.php"
+  },
+  {
+    "domain": "55zhibo4.com.cn",
+    "type": "existing_shell",
+    "shell": "http://55zhibo4.com.cn/shell.php"
+  },
+  {
+    "domain": "55zhibo4.com.cn",
+    "type": "existing_shell",
+    "shell": "http://55zhibo4.com.cn/cmd.php"
+  },
+  {
+    "domain": "55zhibo4.com.cn",
+    "type": "existing_shell",
+    "shell": "http://55zhibo4.com.cn/hunter_win.php"
+  },
+  {
+    "domain": "wapacc.com",
+    "type": "existing_shell",
+    "shell": "http://wapacc.com/1.php"
+  },
+  {
+    "domain": "wapacc.com",
+    "type": "existing_shell",
+    "shell": "http://wapacc.com/shell.php"
+  },
+  {
+    "domain": "wapacc.com",
+    "type": "existing_shell",
+    "shell": "http://wapacc.com/cmd.php"
+  },
+  {
+    "domain": "wapacc.com",
+    "type": "existing_shell",
+    "shell": "http://wapacc.com/hunter_win.php"
+  },
+  {
+    "domain": "guangzhouchengyue.com",
+    "type": "existing_shell",
+    "shell": "http://guangzhouchengyue.com/1.php"
+  },
+  {
+    "domain": "guangzhouchengyue.com",
+    "type": "existing_shell",
+    "shell": "http://guangzhouchengyue.com/shell.php"
+  },
+  {
+    "domain": "guangzhouchengyue.com",
+    "type": "existing_shell",
+    "shell": "http://guangzhouchengyue.com/cmd.php"
+  },
+  {
+    "domain": "guangzhouchengyue.com",
+    "type": "existing_shell",
+    "shell": "http://guangzhouchengyue.com/hunter_win.php"
+  },
+  {
+    "domain": "zswfggc.com",
+    "type": "existing_shell",
+    "shell": "http://zswfggc.com/1.php"
+  },
+  {
+    "domain": "zswfggc.com",
+    "type": "existing_shell",
+    "shell": "http://zswfggc.com/shell.php"
+  },
+  {
+    "domain": "zswfggc.com",
+    "type": "existing_shell",
+    "shell": "http://zswfggc.com/cmd.php"
+  },
+  {
+    "domain": "zswfggc.com",
+    "type": "existing_shell",
+    "shell": "http://zswfggc.com/hunter_win.php"
+  },
+  {
+    "domain": "021mmw.com",
+    "type": "existing_shell",
+    "shell": "http://021mmw.com/1.php"
+  },
+  {
+    "domain": "021mmw.com",
+    "type": "existing_shell",
+    "shell": "http://021mmw.com/shell.php"
+  },
+  {
+    "domain": "021mmw.com",
+    "type": "existing_shell",
+    "shell": "http://021mmw.com/cmd.php"
+  },
+  {
+    "domain": "021mmw.com",
+    "type": "existing_shell",
+    "shell": "http://021mmw.com/hunter_win.php"
+  },
+  {
+    "domain": "shengjianggroup.com",
+    "type": "existing_shell",
+    "shell": "http://shengjianggroup.com/1.php"
+  },
+  {
+    "domain": "shengjianggroup.com",
+    "type": "existing_shell",
+    "shell": "http://shengjianggroup.com/shell.php"
+  },
+  {
+    "domain": "shengjianggroup.com",
+    "type": "existing_shell",
+    "shell": "http://shengjianggroup.com/cmd.php"
+  },
+  {
+    "domain": "shengjianggroup.com",
+    "type": "existing_shell",
+    "shell": "http://shengjianggroup.com/hunter_win.php"
+  },
+  {
+    "domain": "le-xuan.net",
+    "type": "existing_shell",
+    "shell": "http://le-xuan.net/1.php"
+  },
+  {
+    "domain": "le-xuan.net",
+    "type": "existing_shell",
+    "shell": "http://le-xuan.net/shell.php"
+  },
+  {
+    "domain": "le-xuan.net",
+    "type": "existing_shell",
+    "shell": "http://le-xuan.net/cmd.php"
+  },
+  {
+    "domain": "le-xuan.net",
+    "type": "existing_shell",
+    "shell": "http://le-xuan.net/hunter_win.php"
+  },
+  {
+    "domain": "shuowens.com",
+    "type": "existing_shell",
+    "shell": "http://shuowens.com/1.php"
+  },
+  {
+    "domain": "shuowens.com",
+    "type": "existing_shell",
+    "shell": "http://shuowens.com/shell.php"
+  },
+  {
+    "domain": "shuowens.com",
+    "type": "existing_shell",
+    "shell": "http://shuowens.com/cmd.php"
+  },
+  {
+    "domain": "shuowens.com",
+    "type": "existing_shell",
+    "shell": "http://shuowens.com/hunter_win.php"
+  },
+  {
+    "domain": "hz566.cn",
+    "type": "existing_shell",
+    "shell": "http://hz566.cn/1.php"
+  },
+  {
+    "domain": "hz566.cn",
+    "type": "existing_shell",
+    "shell": "http://hz566.cn/shell.php"
+  },
+  {
+    "domain": "hz566.cn",
+    "type": "existing_shell",
+    "shell": "http://hz566.cn/cmd.php"
+  },
+  {
+    "domain": "hz566.cn",
+    "type": "existing_shell",
+    "shell": "http://hz566.cn/hunter_win.php"
+  },
+  {
+    "domain": "398dsj.cn",
+    "type": "existing_shell",
+    "shell": "http://398dsj.cn/1.php"
+  },
+  {
+    "domain": "398dsj.cn",
+    "type": "existing_shell",
+    "shell": "http://398dsj.cn/shell.php"
+  },
+  {
+    "domain": "398dsj.cn",
+    "type": "existing_shell",
+    "shell": "http://398dsj.cn/cmd.php"
+  },
+  {
+    "domain": "398dsj.cn",
+    "type": "existing_shell",
+    "shell": "http://398dsj.cn/hunter_win.php"
+  },
+  {
+    "domain": "spring72.com",
+    "type": "existing_shell",
+    "shell": "http://spring72.com/1.php"
+  },
+  {
+    "domain": "spring72.com",
+    "type": "existing_shell",
+    "shell": "http://spring72.com/shell.php"
+  },
+  {
+    "domain": "spring72.com",
+    "type": "existing_shell",
+    "shell": "http://spring72.com/cmd.php"
+  },
+  {
+    "domain": "spring72.com",
+    "type": "existing_shell",
+    "shell": "http://spring72.com/hunter_win.php"
+  },
+  {
+    "domain": "ln1688.com",
+    "type": "existing_shell",
+    "shell": "http://ln1688.com/1.php"
+  },
+  {
+    "domain": "ln1688.com",
+    "type": "existing_shell",
+    "shell": "http://ln1688.com/shell.php"
+  },
+  {
+    "domain": "ln1688.com",
+    "type": "existing_shell",
+    "shell": "http://ln1688.com/cmd.php"
+  },
+  {
+    "domain": "ln1688.com",
+    "type": "existing_shell",
+    "shell": "http://ln1688.com/hunter_win.php"
+  },
+  {
+    "domain": "zwshuku.info",
+    "type": "existing_shell",
+    "shell": "http://zwshuku.info/1.php"
+  },
+  {
+    "domain": "zwshuku.info",
+    "type": "existing_shell",
+    "shell": "http://zwshuku.info/shell.php"
+  },
+  {
+    "domain": "zwshuku.info",
+    "type": "existing_shell",
+    "shell": "http://zwshuku.info/cmd.php"
+  },
+  {
+    "domain": "zwshuku.info",
+    "type": "existing_shell",
+    "shell": "http://zwshuku.info/hunter_win.php"
+  },
+  {
+    "domain": "temolin.cn",
+    "type": "existing_shell",
+    "shell": "http://temolin.cn/1.php"
+  },
+  {
+    "domain": "temolin.cn",
+    "type": "existing_shell",
+    "shell": "http://temolin.cn/shell.php"
+  },
+  {
+    "domain": "temolin.cn",
+    "type": "existing_shell",
+    "shell": "http://temolin.cn/cmd.php"
+  },
+  {
+    "domain": "temolin.cn",
+    "type": "existing_shell",
+    "shell": "http://temolin.cn/hunter_win.php"
+  },
+  {
+    "domain": "jxans.com",
+    "type": "existing_shell",
+    "shell": "http://jxans.com/1.php"
+  },
+  {
+    "domain": "jxans.com",
+    "type": "existing_shell",
+    "shell": "http://jxans.com/shell.php"
+  },
+  {
+    "domain": "jxans.com",
+    "type": "existing_shell",
+    "shell": "http://jxans.com/cmd.php"
+  },
+  {
+    "domain": "jxans.com",
+    "type": "existing_shell",
+    "shell": "http://jxans.com/hunter_win.php"
+  },
+  {
+    "domain": "milace.cn",
+    "type": "existing_shell",
+    "shell": "http://milace.cn/1.php"
+  },
+  {
+    "domain": "milace.cn",
+    "type": "existing_shell",
+    "shell": "http://milace.cn/shell.php"
+  },
+  {
+    "domain": "milace.cn",
+    "type": "existing_shell",
+    "shell": "http://milace.cn/cmd.php"
+  },
+  {
+    "domain": "milace.cn",
+    "type": "existing_shell",
+    "shell": "http://milace.cn/hunter_win.php"
+  },
+  {
+    "domain": "aieshus.com",
+    "type": "existing_shell",
+    "shell": "http://aieshus.com/1.php"
+  },
+  {
+    "domain": "aieshus.com",
+    "type": "existing_shell",
+    "shell": "http://aieshus.com/shell.php"
+  },
+  {
+    "domain": "aieshus.com",
+    "type": "existing_shell",
+    "shell": "http://aieshus.com/cmd.php"
+  },
+  {
+    "domain": "aieshus.com",
+    "type": "existing_shell",
+    "shell": "http://aieshus.com/hunter_win.php"
+  },
+  {
+    "domain": "njxs8.cc",
+    "type": "existing_shell",
+    "shell": "http://njxs8.cc/1.php"
+  },
+  {
+    "domain": "njxs8.cc",
+    "type": "existing_shell",
+    "shell": "http://njxs8.cc/shell.php"
+  },
+  {
+    "domain": "njxs8.cc",
+    "type": "existing_shell",
+    "shell": "http://njxs8.cc/cmd.php"
+  },
+  {
+    "domain": "njxs8.cc",
+    "type": "existing_shell",
+    "shell": "http://njxs8.cc/hunter_win.php"
+  },
+  {
+    "domain": "bim.gd.cn",
+    "type": "existing_shell",
+    "shell": "http://bim.gd.cn/1.php"
+  },
+  {
+    "domain": "bim.gd.cn",
+    "type": "existing_shell",
+    "shell": "http://bim.gd.cn/shell.php"
+  },
+  {
+    "domain": "bim.gd.cn",
+    "type": "existing_shell",
+    "shell": "http://bim.gd.cn/cmd.php"
+  },
+  {
+    "domain": "bim.gd.cn",
+    "type": "existing_shell",
+    "shell": "http://bim.gd.cn/hunter_win.php"
+  },
+  {
+    "domain": "ycbox.cn",
+    "type": "existing_shell",
+    "shell": "http://ycbox.cn/shell.php"
+  },
+  {
+    "domain": "jlshhzs.com",
+    "type": "existing_shell",
+    "shell": "http://jlshhzs.com/1.php"
+  },
+  {
+    "domain": "jlshhzs.com",
+    "type": "existing_shell",
+    "shell": "http://jlshhzs.com/shell.php"
+  },
+  {
+    "domain": "jlshhzs.com",
+    "type": "existing_shell",
+    "shell": "http://jlshhzs.com/cmd.php"
+  },
+  {
+    "domain": "jlshhzs.com",
+    "type": "existing_shell",
+    "shell": "http://jlshhzs.com/hunter_win.php"
+  },
+  {
+    "domain": "hntaiguo.cn",
+    "type": "existing_shell",
+    "shell": "http://hntaiguo.cn/1.php"
+  },
+  {
+    "domain": "hntaiguo.cn",
+    "type": "existing_shell",
+    "shell": "http://hntaiguo.cn/shell.php"
+  },
+  {
+    "domain": "hntaiguo.cn",
+    "type": "existing_shell",
+    "shell": "http://hntaiguo.cn/cmd.php"
+  },
+  {
+    "domain": "hntaiguo.cn",
+    "type": "existing_shell",
+    "shell": "http://hntaiguo.cn/hunter_win.php"
+  },
+  {
+    "domain": "notes8.cn",
+    "type": "existing_shell",
+    "shell": "http://notes8.cn/1.php"
+  },
+  {
+    "domain": "notes8.cn",
+    "type": "existing_shell",
+    "shell": "http://notes8.cn/shell.php"
+  },
+  {
+    "domain": "notes8.cn",
+    "type": "existing_shell",
+    "shell": "http://notes8.cn/cmd.php"
+  },
+  {
+    "domain": "notes8.cn",
+    "type": "existing_shell",
+    "shell": "http://notes8.cn/hunter_win.php"
+  },
+  {
+    "domain": "qhhlgk.cn",
+    "type": "existing_shell",
+    "shell": "http://qhhlgk.cn/1.php"
+  },
+  {
+    "domain": "qhhlgk.cn",
+    "type": "existing_shell",
+    "shell": "http://qhhlgk.cn/shell.php"
+  },
+  {
+    "domain": "qhhlgk.cn",
+    "type": "existing_shell",
+    "shell": "http://qhhlgk.cn/cmd.php"
+  },
+  {
+    "domain": "qhhlgk.cn",
+    "type": "existing_shell",
+    "shell": "http://qhhlgk.cn/hunter_win.php"
+  },
+  {
+    "domain": "mianfeidianwanzhibobofangpiandapian.com.cn",
+    "type": "existing_shell",
+    "shell": "http://mianfeidianwanzhibobofangpiandapian.com.cn/1.php"
+  },
+  {
+    "domain": "mianfeidianwanzhibobofangpiandapian.com.cn",
+    "type": "existing_shell",
+    "shell": "http://mianfeidianwanzhibobofangpiandapian.com.cn/shell.php"
+  },
+  {
+    "domain": "mianfeidianwanzhibobofangpiandapian.com.cn",
+    "type": "existing_shell",
+    "shell": "http://mianfeidianwanzhibobofangpiandapian.com.cn/cmd.php"
+  },
+  {
+    "domain": "mianfeidianwanzhibobofangpiandapian.com.cn",
+    "type": "existing_shell",
+    "shell": "http://mianfeidianwanzhibobofangpiandapian.com.cn/hunter_win.php"
+  },
+  {
+    "domain": "npota.com",
+    "type": "existing_shell",
+    "shell": "http://npota.com/1.php"
+  },
+  {
+    "domain": "npota.com",
+    "type": "existing_shell",
+    "shell": "http://npota.com/shell.php"
+  },
+  {
+    "domain": "npota.com",
+    "type": "existing_shell",
+    "shell": "http://npota.com/cmd.php"
+  },
+  {
+    "domain": "npota.com",
+    "type": "existing_shell",
+    "shell": "http://npota.com/hunter_win.php"
+  },
+  {
+    "domain": "pvubwwk.com",
+    "type": "existing_shell",
+    "shell": "http://pvubwwk.com/1.php"
+  },
+  {
+    "domain": "pvubwwk.com",
+    "type": "existing_shell",
+    "shell": "http://pvubwwk.com/shell.php"
+  },
+  {
+    "domain": "pvubwwk.com",
+    "type": "existing_shell",
+    "shell": "http://pvubwwk.com/cmd.php"
+  },
+  {
+    "domain": "pvubwwk.com",
+    "type": "existing_shell",
+    "shell": "http://pvubwwk.com/hunter_win.php"
+  },
+  {
+    "domain": "eqdyc.cn",
+    "type": "existing_shell",
+    "shell": "http://eqdyc.cn/1.php"
+  },
+  {
+    "domain": "eqdyc.cn",
+    "type": "existing_shell",
+    "shell": "http://eqdyc.cn/shell.php"
+  },
+  {
+    "domain": "eqdyc.cn",
+    "type": "existing_shell",
+    "shell": "http://eqdyc.cn/cmd.php"
+  },
+  {
+    "domain": "eqdyc.cn",
+    "type": "existing_shell",
+    "shell": "http://eqdyc.cn/hunter_win.php"
+  },
+  {
+    "domain": "zlwens.com",
+    "type": "existing_shell",
+    "shell": "http://zlwens.com/1.php"
+  },
+  {
+    "domain": "zlwens.com",
+    "type": "existing_shell",
+    "shell": "http://zlwens.com/shell.php"
+  },
+  {
+    "domain": "zlwens.com",
+    "type": "existing_shell",
+    "shell": "http://zlwens.com/cmd.php"
+  },
+  {
+    "domain": "zlwens.com",
+    "type": "existing_shell",
+    "shell": "http://zlwens.com/hunter_win.php"
+  },
+  {
+    "domain": "zishabuy.com",
+    "type": "existing_shell",
+    "shell": "http://zishabuy.com/1.php"
+  },
+  {
+    "domain": "zishabuy.com",
+    "type": "existing_shell",
+    "shell": "http://zishabuy.com/shell.php"
+  },
+  {
+    "domain": "zishabuy.com",
+    "type": "existing_shell",
+    "shell": "http://zishabuy.com/cmd.php"
+  },
+  {
+    "domain": "zishabuy.com",
+    "type": "existing_shell",
+    "shell": "http://zishabuy.com/hunter_win.php"
+  },
+  {
+    "domain": "fcwx.cc",
+    "type": "existing_shell",
+    "shell": "http://fcwx.cc/1.php"
+  },
+  {
+    "domain": "fcwx.cc",
+    "type": "existing_shell",
+    "shell": "http://fcwx.cc/shell.php"
+  },
+  {
+    "domain": "fcwx.cc",
+    "type": "existing_shell",
+    "shell": "http://fcwx.cc/cmd.php"
+  },
+  {
+    "domain": "fcwx.cc",
+    "type": "existing_shell",
+    "shell": "http://fcwx.cc/hunter_win.php"
+  },
+  {
+    "domain": "vsppw.cn",
+    "type": "existing_shell",
+    "shell": "http://vsppw.cn/1.php"
+  },
+  {
+    "domain": "vsppw.cn",
+    "type": "existing_shell",
+    "shell": "http://vsppw.cn/shell.php"
+  },
+  {
+    "domain": "vsppw.cn",
+    "type": "existing_shell",
+    "shell": "http://vsppw.cn/cmd.php"
+  },
+  {
+    "domain": "vsppw.cn",
+    "type": "existing_shell",
+    "shell": "http://vsppw.cn/hunter_win.php"
+  },
+  {
+    "domain": "cdtzy.cn",
+    "type": "existing_shell",
+    "shell": "http://cdtzy.cn/1.php"
+  },
+  {
+    "domain": "cdtzy.cn",
+    "type": "existing_shell",
+    "shell": "http://cdtzy.cn/shell.php"
+  },
+  {
+    "domain": "cdtzy.cn",
+    "type": "existing_shell",
+    "shell": "http://cdtzy.cn/cmd.php"
+  },
+  {
+    "domain": "cdtzy.cn",
+    "type": "existing_shell",
+    "shell": "http://cdtzy.cn/hunter_win.php"
+  },
+  {
+    "domain": "bygdnm.com",
+    "type": "existing_shell",
+    "shell": "http://bygdnm.com/shell.php"
+  },
+  {
+    "domain": "bygdnm.com",
+    "type": "existing_shell",
+    "shell": "http://bygdnm.com/hunter_win.php"
+  },
+  {
+    "domain": "hunanyuxun.com",
+    "type": "existing_shell",
+    "shell": "http://hunanyuxun.com/1.php"
+  },
+  {
+    "domain": "hunanyuxun.com",
+    "type": "existing_shell",
+    "shell": "http://hunanyuxun.com/shell.php"
+  },
+  {
+    "domain": "hunanyuxun.com",
+    "type": "existing_shell",
+    "shell": "http://hunanyuxun.com/cmd.php"
+  },
+  {
+    "domain": "hunanyuxun.com",
+    "type": "existing_shell",
+    "shell": "http://hunanyuxun.com/hunter_win.php"
+  },
+  {
+    "domain": "entuw.com",
+    "type": "existing_shell",
+    "shell": "http://entuw.com/1.php"
+  },
+  {
+    "domain": "entuw.com",
+    "type": "existing_shell",
+    "shell": "http://entuw.com/shell.php"
+  },
+  {
+    "domain": "entuw.com",
+    "type": "existing_shell",
+    "shell": "http://entuw.com/cmd.php"
+  },
+  {
+    "domain": "entuw.com",
+    "type": "existing_shell",
+    "shell": "http://entuw.com/hunter_win.php"
+  },
+  {
+    "domain": "xmjmly.com",
+    "type": "existing_shell",
+    "shell": "http://xmjmly.com/1.php"
+  },
+  {
+    "domain": "xmjmly.com",
+    "type": "existing_shell",
+    "shell": "http://xmjmly.com/shell.php"
+  },
+  {
+    "domain": "xmjmly.com",
+    "type": "existing_shell",
+    "shell": "http://xmjmly.com/cmd.php"
+  },
+  {
+    "domain": "xmjmly.com",
+    "type": "existing_shell",
+    "shell": "http://xmjmly.com/hunter_win.php"
+  },
+  {
+    "domain": "yjkuajing.com",
+    "type": "existing_shell",
+    "shell": "http://yjkuajing.com/1.php"
+  },
+  {
+    "domain": "yjkuajing.com",
+    "type": "existing_shell",
+    "shell": "http://yjkuajing.com/shell.php"
+  },
+  {
+    "domain": "yjkuajing.com",
+    "type": "existing_shell",
+    "shell": "http://yjkuajing.com/cmd.php"
+  },
+  {
+    "domain": "yjkuajing.com",
+    "type": "existing_shell",
+    "shell": "http://yjkuajing.com/hunter_win.php"
+  },
+  {
+    "domain": "nudecamboys.com",
+    "type": "existing_shell",
+    "shell": "http://nudecamboys.com/1.php"
+  },
+  {
+    "domain": "nudecamboys.com",
+    "type": "existing_shell",
+    "shell": "http://nudecamboys.com/shell.php"
+  },
+  {
+    "domain": "nudecamboys.com",
+    "type": "existing_shell",
+    "shell": "http://nudecamboys.com/cmd.php"
+  },
+  {
+    "domain": "nudecamboys.com",
+    "type": "existing_shell",
+    "shell": "http://nudecamboys.com/hunter_win.php"
+  },
+  {
+    "domain": "rasfxc.com",
+    "type": "existing_shell",
+    "shell": "http://rasfxc.com/1.php"
+  },
+  {
+    "domain": "rasfxc.com",
+    "type": "existing_shell",
+    "shell": "http://rasfxc.com/shell.php"
+  },
+  {
+    "domain": "rasfxc.com",
+    "type": "existing_shell",
+    "shell": "http://rasfxc.com/cmd.php"
+  },
+  {
+    "domain": "rasfxc.com",
+    "type": "existing_shell",
+    "shell": "http://rasfxc.com/hunter_win.php"
+  },
+  {
+    "domain": "tiantaibrew.cn",
+    "type": "existing_shell",
+    "shell": "http://tiantaibrew.cn/1.php"
+  },
+  {
+    "domain": "tiantaibrew.cn",
+    "type": "existing_shell",
+    "shell": "http://tiantaibrew.cn/shell.php"
+  },
+  {
+    "domain": "tiantaibrew.cn",
+    "type": "existing_shell",
+    "shell": "http://tiantaibrew.cn/cmd.php"
+  },
+  {
+    "domain": "tiantaibrew.cn",
+    "type": "existing_shell",
+    "shell": "http://tiantaibrew.cn/hunter_win.php"
+  },
+  {
+    "domain": "wanxiangland.com",
+    "type": "existing_shell",
+    "shell": "http://wanxiangland.com/1.php"
+  },
+  {
+    "domain": "wanxiangland.com",
+    "type": "existing_shell",
+    "shell": "http://wanxiangland.com/shell.php"
+  },
+  {
+    "domain": "wanxiangland.com",
+    "type": "existing_shell",
+    "shell": "http://wanxiangland.com/cmd.php"
+  },
+  {
+    "domain": "wanxiangland.com",
+    "type": "existing_shell",
+    "shell": "http://wanxiangland.com/hunter_win.php"
+  },
+  {
+    "domain": "alsoniao.com",
+    "type": "existing_shell",
+    "shell": "http://alsoniao.com/1.php"
+  },
+  {
+    "domain": "alsoniao.com",
+    "type": "existing_shell",
+    "shell": "http://alsoniao.com/shell.php"
+  },
+  {
+    "domain": "alsoniao.com",
+    "type": "existing_shell",
+    "shell": "http://alsoniao.com/cmd.php"
+  },
+  {
+    "domain": "alsoniao.com",
+    "type": "existing_shell",
+    "shell": "http://alsoniao.com/hunter_win.php"
+  },
+  {
+    "domain": "ikanxs.la",
+    "type": "existing_shell",
+    "shell": "http://ikanxs.la/1.php"
+  },
+  {
+    "domain": "ikanxs.la",
+    "type": "existing_shell",
+    "shell": "http://ikanxs.la/shell.php"
+  },
+  {
+    "domain": "ikanxs.la",
+    "type": "existing_shell",
+    "shell": "http://ikanxs.la/cmd.php"
+  },
+  {
+    "domain": "ikanxs.la",
+    "type": "existing_shell",
+    "shell": "http://ikanxs.la/hunter_win.php"
+  },
+  {
+    "domain": "afshu.com",
+    "type": "existing_shell",
+    "shell": "http://afshu.com/1.php"
+  },
+  {
+    "domain": "afshu.com",
+    "type": "existing_shell",
+    "shell": "http://afshu.com/shell.php"
+  },
+  {
+    "domain": "afshu.com",
+    "type": "existing_shell",
+    "shell": "http://afshu.com/cmd.php"
+  },
+  {
+    "domain": "afshu.com",
+    "type": "existing_shell",
+    "shell": "http://afshu.com/hunter_win.php"
+  },
+  {
+    "domain": "the-halo-effect.com",
+    "type": "existing_shell",
+    "shell": "http://the-halo-effect.com/1.php"
+  },
+  {
+    "domain": "the-halo-effect.com",
+    "type": "existing_shell",
+    "shell": "http://the-halo-effect.com/shell.php"
+  },
+  {
+    "domain": "the-halo-effect.com",
+    "type": "existing_shell",
+    "shell": "http://the-halo-effect.com/cmd.php"
+  },
+  {
+    "domain": "the-halo-effect.com",
+    "type": "existing_shell",
+    "shell": "http://the-halo-effect.com/hunter_win.php"
+  },
+  {
+    "domain": "jiaohuweike.online",
+    "type": "existing_shell",
+    "shell": "http://jiaohuweike.online/1.php"
+  },
+  {
+    "domain": "jiaohuweike.online",
+    "type": "existing_shell",
+    "shell": "http://jiaohuweike.online/shell.php"
+  },
+  {
+    "domain": "jiaohuweike.online",
+    "type": "existing_shell",
+    "shell": "http://jiaohuweike.online/cmd.php"
+  },
+  {
+    "domain": "jiaohuweike.online",
+    "type": "existing_shell",
+    "shell": "http://jiaohuweike.online/hunter_win.php"
+  },
+  {
+    "domain": "galdh.com",
+    "type": "existing_shell",
+    "shell": "http://galdh.com/1.php"
+  },
+  {
+    "domain": "galdh.com",
+    "type": "existing_shell",
+    "shell": "http://galdh.com/shell.php"
+  },
+  {
+    "domain": "galdh.com",
+    "type": "existing_shell",
+    "shell": "http://galdh.com/cmd.php"
+  },
+  {
+    "domain": "galdh.com",
+    "type": "existing_shell",
+    "shell": "http://galdh.com/hunter_win.php"
+  },
+  {
+    "domain": "banquanchangzuijiamaifahejiqiao.com.cn",
+    "type": "existing_shell",
+    "shell": "http://banquanchangzuijiamaifahejiqiao.com.cn/1.php"
+  },
+  {
+    "domain": "banquanchangzuijiamaifahejiqiao.com.cn",
+    "type": "existing_shell",
+    "shell": "http://banquanchangzuijiamaifahejiqiao.com.cn/shell.php"
+  },
+  {
+    "domain": "banquanchangzuijiamaifahejiqiao.com.cn",
+    "type": "existing_shell",
+    "shell": "http://banquanchangzuijiamaifahejiqiao.com.cn/cmd.php"
+  },
+  {
+    "domain": "banquanchangzuijiamaifahejiqiao.com.cn",
+    "type": "existing_shell",
+    "shell": "http://banquanchangzuijiamaifahejiqiao.com.cn/hunter_win.php"
+  },
+  {
+    "domain": "jsbaoruijx.com",
+    "type": "existing_shell",
+    "shell": "http://jsbaoruijx.com/1.php"
+  },
+  {
+    "domain": "jsbaoruijx.com",
+    "type": "existing_shell",
+    "shell": "http://jsbaoruijx.com/shell.php"
+  },
+  {
+    "domain": "jsbaoruijx.com",
+    "type": "existing_shell",
+    "shell": "http://jsbaoruijx.com/cmd.php"
+  },
+  {
+    "domain": "jsbaoruijx.com",
+    "type": "existing_shell",
+    "shell": "http://jsbaoruijx.com/hunter_win.php"
+  },
+  {
+    "domain": "supergoodcode.com",
+    "type": "existing_shell",
+    "shell": "http://supergoodcode.com/1.php"
+  },
+  {
+    "domain": "supergoodcode.com",
+    "type": "existing_shell",
+    "shell": "http://supergoodcode.com/shell.php"
+  },
+  {
+    "domain": "supergoodcode.com",
+    "type": "existing_shell",
+    "shell": "http://supergoodcode.com/cmd.php"
+  },
+  {
+    "domain": "supergoodcode.com",
+    "type": "existing_shell",
+    "shell": "http://supergoodcode.com/hunter_win.php"
+  },
+  {
+    "domain": "ictk-china.com",
+    "type": "existing_shell",
+    "shell": "http://ictk-china.com/1.php"
+  },
+  {
+    "domain": "ictk-china.com",
+    "type": "existing_shell",
+    "shell": "http://ictk-china.com/shell.php"
+  },
+  {
+    "domain": "ictk-china.com",
+    "type": "existing_shell",
+    "shell": "http://ictk-china.com/cmd.php"
+  },
+  {
+    "domain": "ictk-china.com",
+    "type": "existing_shell",
+    "shell": "http://ictk-china.com/hunter_win.php"
+  },
+  {
+    "domain": "bidawx.com",
+    "type": "existing_shell",
+    "shell": "http://bidawx.com/1.php"
+  },
+  {
+    "domain": "bidawx.com",
+    "type": "existing_shell",
+    "shell": "http://bidawx.com/shell.php"
+  },
+  {
+    "domain": "bidawx.com",
+    "type": "existing_shell",
+    "shell": "http://bidawx.com/cmd.php"
+  },
+  {
+    "domain": "bidawx.com",
+    "type": "existing_shell",
+    "shell": "http://bidawx.com/hunter_win.php"
+  },
+  {
+    "domain": "osslksm.com",
+    "type": "existing_shell",
+    "shell": "http://osslksm.com/1.php"
+  },
+  {
+    "domain": "osslksm.com",
+    "type": "existing_shell",
+    "shell": "http://osslksm.com/shell.php"
+  },
+  {
+    "domain": "osslksm.com",
+    "type": "existing_shell",
+    "shell": "http://osslksm.com/cmd.php"
+  },
+  {
+    "domain": "osslksm.com",
+    "type": "existing_shell",
+    "shell": "http://osslksm.com/hunter_win.php"
+  },
+  {
+    "domain": "anerxs.com",
+    "type": "existing_shell",
+    "shell": "http://anerxs.com/1.php"
+  },
+  {
+    "domain": "anerxs.com",
+    "type": "existing_shell",
+    "shell": "http://anerxs.com/shell.php"
+  },
+  {
+    "domain": "anerxs.com",
+    "type": "existing_shell",
+    "shell": "http://anerxs.com/cmd.php"
+  },
+  {
+    "domain": "anerxs.com",
+    "type": "existing_shell",
+    "shell": "http://anerxs.com/hunter_win.php"
+  },
+  {
+    "domain": "gcvtc.com",
+    "type": "existing_shell",
+    "shell": "http://gcvtc.com/1.php"
+  },
+  {
+    "domain": "gcvtc.com",
+    "type": "existing_shell",
+    "shell": "http://gcvtc.com/shell.php"
+  },
+  {
+    "domain": "gcvtc.com",
+    "type": "existing_shell",
+    "shell": "http://gcvtc.com/cmd.php"
+  },
+  {
+    "domain": "gcvtc.com",
+    "type": "existing_shell",
+    "shell": "http://gcvtc.com/hunter_win.php"
+  },
+  {
+    "domain": "z-byte.com",
+    "type": "existing_shell",
+    "shell": "http://z-byte.com/1.php"
+  },
+  {
+    "domain": "z-byte.com",
+    "type": "existing_shell",
+    "shell": "http://z-byte.com/shell.php"
+  },
+  {
+    "domain": "z-byte.com",
+    "type": "existing_shell",
+    "shell": "http://z-byte.com/cmd.php"
+  },
+  {
+    "domain": "z-byte.com",
+    "type": "existing_shell",
+    "shell": "http://z-byte.com/hunter_win.php"
+  },
+  {
+    "domain": "haojiehua.fun",
+    "type": "existing_shell",
+    "shell": "http://haojiehua.fun/1.php"
+  },
+  {
+    "domain": "haojiehua.fun",
+    "type": "existing_shell",
+    "shell": "http://haojiehua.fun/shell.php"
+  },
+  {
+    "domain": "haojiehua.fun",
+    "type": "existing_shell",
+    "shell": "http://haojiehua.fun/cmd.php"
+  },
+  {
+    "domain": "haojiehua.fun",
+    "type": "existing_shell",
+    "shell": "http://haojiehua.fun/hunter_win.php"
+  },
+  {
+    "domain": "yanhongxinxi.cn",
+    "type": "existing_shell",
+    "shell": "http://yanhongxinxi.cn/1.php"
+  },
+  {
+    "domain": "yanhongxinxi.cn",
+    "type": "existing_shell",
+    "shell": "http://yanhongxinxi.cn/shell.php"
+  },
+  {
+    "domain": "yanhongxinxi.cn",
+    "type": "existing_shell",
+    "shell": "http://yanhongxinxi.cn/cmd.php"
+  },
+  {
+    "domain": "yanhongxinxi.cn",
+    "type": "existing_shell",
+    "shell": "http://yanhongxinxi.cn/hunter_win.php"
+  },
+  {
+    "domain": "kktiyuzhibot.com.cn",
+    "type": "existing_shell",
+    "shell": "http://kktiyuzhibot.com.cn/1.php"
+  },
+  {
+    "domain": "kktiyuzhibot.com.cn",
+    "type": "existing_shell",
+    "shell": "http://kktiyuzhibot.com.cn/shell.php"
+  },
+  {
+    "domain": "kktiyuzhibot.com.cn",
+    "type": "existing_shell",
+    "shell": "http://kktiyuzhibot.com.cn/cmd.php"
+  },
+  {
+    "domain": "kktiyuzhibot.com.cn",
+    "type": "existing_shell",
+    "shell": "http://kktiyuzhibot.com.cn/hunter_win.php"
+  },
+  {
+    "domain": "lipin55.cn",
+    "type": "existing_shell",
+    "shell": "http://lipin55.cn/1.php"
+  },
+  {
+    "domain": "lipin55.cn",
+    "type": "existing_shell",
+    "shell": "http://lipin55.cn/shell.php"
+  },
+  {
+    "domain": "lipin55.cn",
+    "type": "existing_shell",
+    "shell": "http://lipin55.cn/cmd.php"
+  },
+  {
+    "domain": "lipin55.cn",
+    "type": "existing_shell",
+    "shell": "http://lipin55.cn/hunter_win.php"
+  },
+  {
+    "domain": "jnzsws.cn",
+    "type": "existing_shell",
+    "shell": "http://jnzsws.cn/1.php"
+  },
+  {
+    "domain": "jnzsws.cn",
+    "type": "existing_shell",
+    "shell": "http://jnzsws.cn/shell.php"
+  },
+  {
+    "domain": "jnzsws.cn",
+    "type": "existing_shell",
+    "shell": "http://jnzsws.cn/cmd.php"
+  },
+  {
+    "domain": "jnzsws.cn",
+    "type": "existing_shell",
+    "shell": "http://jnzsws.cn/hunter_win.php"
+  },
+  {
+    "domain": "oivpa.cn",
+    "type": "existing_shell",
+    "shell": "http://oivpa.cn/1.php"
+  },
+  {
+    "domain": "oivpa.cn",
+    "type": "existing_shell",
+    "shell": "http://oivpa.cn/shell.php"
+  },
+  {
+    "domain": "oivpa.cn",
+    "type": "existing_shell",
+    "shell": "http://oivpa.cn/cmd.php"
+  },
+  {
+    "domain": "oivpa.cn",
+    "type": "existing_shell",
+    "shell": "http://oivpa.cn/hunter_win.php"
+  },
+  {
+    "domain": "odsxmjj.cn",
+    "type": "existing_shell",
+    "shell": "http://odsxmjj.cn/1.php"
+  },
+  {
+    "domain": "odsxmjj.cn",
+    "type": "existing_shell",
+    "shell": "http://odsxmjj.cn/shell.php"
+  },
+  {
+    "domain": "odsxmjj.cn",
+    "type": "existing_shell",
+    "shell": "http://odsxmjj.cn/cmd.php"
+  },
+  {
+    "domain": "odsxmjj.cn",
+    "type": "existing_shell",
+    "shell": "http://odsxmjj.cn/hunter_win.php"
+  },
+  {
+    "domain": "chinacasement.com",
+    "type": "existing_shell",
+    "shell": "http://chinacasement.com/1.php"
+  },
+  {
+    "domain": "chinacasement.com",
+    "type": "existing_shell",
+    "shell": "http://chinacasement.com/shell.php"
+  },
+  {
+    "domain": "chinacasement.com",
+    "type": "existing_shell",
+    "shell": "http://chinacasement.com/cmd.php"
+  },
+  {
+    "domain": "chinacasement.com",
+    "type": "existing_shell",
+    "shell": "http://chinacasement.com/hunter_win.php"
+  },
+  {
+    "domain": "hnks09.com",
+    "type": "existing_shell",
+    "shell": "http://hnks09.com/1.php"
+  },
+  {
+    "domain": "hnks09.com",
+    "type": "existing_shell",
+    "shell": "http://hnks09.com/shell.php"
+  },
+  {
+    "domain": "hnks09.com",
+    "type": "existing_shell",
+    "shell": "http://hnks09.com/cmd.php"
+  },
+  {
+    "domain": "hnks09.com",
+    "type": "existing_shell",
+    "shell": "http://hnks09.com/hunter_win.php"
+  },
+  {
+    "domain": "videobebin.com",
+    "type": "existing_shell",
+    "shell": "http://videobebin.com/1.php"
+  },
+  {
+    "domain": "videobebin.com",
+    "type": "existing_shell",
+    "shell": "http://videobebin.com/shell.php"
+  },
+  {
+    "domain": "videobebin.com",
+    "type": "existing_shell",
+    "shell": "http://videobebin.com/cmd.php"
+  },
+  {
+    "domain": "videobebin.com",
+    "type": "existing_shell",
+    "shell": "http://videobebin.com/hunter_win.php"
+  },
+  {
+    "domain": "gzsuandezhun.cn",
+    "type": "existing_shell",
+    "shell": "http://gzsuandezhun.cn/1.php"
+  },
+  {
+    "domain": "gzsuandezhun.cn",
+    "type": "existing_shell",
+    "shell": "http://gzsuandezhun.cn/shell.php"
+  },
+  {
+    "domain": "gzsuandezhun.cn",
+    "type": "existing_shell",
+    "shell": "http://gzsuandezhun.cn/cmd.php"
+  },
+  {
+    "domain": "gzsuandezhun.cn",
+    "type": "existing_shell",
+    "shell": "http://gzsuandezhun.cn/hunter_win.php"
+  },
+  {
+    "domain": "ydcfo.net.cn",
+    "type": "existing_shell",
+    "shell": "http://ydcfo.net.cn/1.php"
+  },
+  {
+    "domain": "ydcfo.net.cn",
+    "type": "existing_shell",
+    "shell": "http://ydcfo.net.cn/shell.php"
+  },
+  {
+    "domain": "ydcfo.net.cn",
+    "type": "existing_shell",
+    "shell": "http://ydcfo.net.cn/cmd.php"
+  },
+  {
+    "domain": "ydcfo.net.cn",
+    "type": "existing_shell",
+    "shell": "http://ydcfo.net.cn/hunter_win.php"
+  },
+  {
+    "domain": "rtpfz.cn",
+    "type": "existing_shell",
+    "shell": "http://rtpfz.cn/1.php"
+  },
+  {
+    "domain": "rtpfz.cn",
+    "type": "existing_shell",
+    "shell": "http://rtpfz.cn/shell.php"
+  },
+  {
+    "domain": "rtpfz.cn",
+    "type": "existing_shell",
+    "shell": "http://rtpfz.cn/cmd.php"
+  },
+  {
+    "domain": "rtpfz.cn",
+    "type": "existing_shell",
+    "shell": "http://rtpfz.cn/hunter_win.php"
+  },
+  {
+    "domain": "ehtwx.cn",
+    "type": "existing_shell",
+    "shell": "http://ehtwx.cn/1.php"
+  },
+  {
+    "domain": "ehtwx.cn",
+    "type": "existing_shell",
+    "shell": "http://ehtwx.cn/shell.php"
+  },
+  {
+    "domain": "ehtwx.cn",
+    "type": "existing_shell",
+    "shell": "http://ehtwx.cn/cmd.php"
+  },
+  {
+    "domain": "ehtwx.cn",
+    "type": "existing_shell",
+    "shell": "http://ehtwx.cn/hunter_win.php"
+  },
+  {
+    "domain": "xxs710.com",
+    "type": "existing_shell",
+    "shell": "http://xxs710.com/1.php"
+  },
+  {
+    "domain": "xxs710.com",
+    "type": "existing_shell",
+    "shell": "http://xxs710.com/shell.php"
+  },
+  {
+    "domain": "xxs710.com",
+    "type": "existing_shell",
+    "shell": "http://xxs710.com/cmd.php"
+  },
+  {
+    "domain": "xxs710.com",
+    "type": "existing_shell",
+    "shell": "http://xxs710.com/hunter_win.php"
+  },
+  {
+    "domain": "yiesj.com",
+    "type": "existing_shell",
+    "shell": "http://yiesj.com/1.php"
+  },
+  {
+    "domain": "yiesj.com",
+    "type": "existing_shell",
+    "shell": "http://yiesj.com/shell.php"
+  },
+  {
+    "domain": "yiesj.com",
+    "type": "existing_shell",
+    "shell": "http://yiesj.com/cmd.php"
+  },
+  {
+    "domain": "yiesj.com",
+    "type": "existing_shell",
+    "shell": "http://yiesj.com/hunter_win.php"
+  },
+  {
+    "domain": "xintianyouba.com",
+    "type": "existing_shell",
+    "shell": "http://xintianyouba.com/1.php"
+  },
+  {
+    "domain": "xintianyouba.com",
+    "type": "existing_shell",
+    "shell": "http://xintianyouba.com/shell.php"
+  },
+  {
+    "domain": "xintianyouba.com",
+    "type": "existing_shell",
+    "shell": "http://xintianyouba.com/cmd.php"
+  },
+  {
+    "domain": "xintianyouba.com",
+    "type": "existing_shell",
+    "shell": "http://xintianyouba.com/hunter_win.php"
+  },
+  {
+    "domain": "wtdzyqj.com",
+    "type": "existing_shell",
+    "shell": "http://wtdzyqj.com/1.php"
+  },
+  {
+    "domain": "wtdzyqj.com",
+    "type": "existing_shell",
+    "shell": "http://wtdzyqj.com/shell.php"
+  },
+  {
+    "domain": "wtdzyqj.com",
+    "type": "existing_shell",
+    "shell": "http://wtdzyqj.com/cmd.php"
+  },
+  {
+    "domain": "wtdzyqj.com",
+    "type": "existing_shell",
+    "shell": "http://wtdzyqj.com/hunter_win.php"
+  },
+  {
+    "domain": "hwdell.com",
+    "type": "existing_shell",
+    "shell": "http://hwdell.com/1.php"
+  },
+  {
+    "domain": "hwdell.com",
+    "type": "existing_shell",
+    "shell": "http://hwdell.com/shell.php"
+  },
+  {
+    "domain": "hwdell.com",
+    "type": "existing_shell",
+    "shell": "http://hwdell.com/cmd.php"
+  },
+  {
+    "domain": "hwdell.com",
+    "type": "existing_shell",
+    "shell": "http://hwdell.com/hunter_win.php"
+  },
+  {
+    "domain": "dgyfcc.com",
+    "type": "existing_shell",
+    "shell": "http://dgyfcc.com/1.php"
+  },
+  {
+    "domain": "dgyfcc.com",
+    "type": "existing_shell",
+    "shell": "http://dgyfcc.com/shell.php"
+  },
+  {
+    "domain": "dgyfcc.com",
+    "type": "existing_shell",
+    "shell": "http://dgyfcc.com/cmd.php"
+  },
+  {
+    "domain": "dgyfcc.com",
+    "type": "existing_shell",
+    "shell": "http://dgyfcc.com/hunter_win.php"
+  },
+  {
+    "domain": "bet8217.com",
+    "type": "existing_shell",
+    "shell": "http://bet8217.com/1.php"
+  },
+  {
+    "domain": "bet8217.com",
+    "type": "existing_shell",
+    "shell": "http://bet8217.com/shell.php"
+  },
+  {
+    "domain": "bet8217.com",
+    "type": "existing_shell",
+    "shell": "http://bet8217.com/cmd.php"
+  },
+  {
+    "domain": "bet8217.com",
+    "type": "existing_shell",
+    "shell": "http://bet8217.com/hunter_win.php"
+  },
+  {
+    "domain": "pyvely.cn",
+    "type": "existing_shell",
+    "shell": "http://pyvely.cn/1.php"
+  },
+  {
+    "domain": "pyvely.cn",
+    "type": "existing_shell",
+    "shell": "http://pyvely.cn/shell.php"
+  },
+  {
+    "domain": "pyvely.cn",
+    "type": "existing_shell",
+    "shell": "http://pyvely.cn/cmd.php"
+  },
+  {
+    "domain": "pyvely.cn",
+    "type": "existing_shell",
+    "shell": "http://pyvely.cn/hunter_win.php"
+  },
+  {
+    "domain": "goldenshowerpower.com",
+    "type": "existing_shell",
+    "shell": "http://goldenshowerpower.com/1.php"
+  },
+  {
+    "domain": "goldenshowerpower.com",
+    "type": "existing_shell",
+    "shell": "http://goldenshowerpower.com/shell.php"
+  },
+  {
+    "domain": "goldenshowerpower.com",
+    "type": "existing_shell",
+    "shell": "http://goldenshowerpower.com/cmd.php"
+  },
+  {
+    "domain": "goldenshowerpower.com",
+    "type": "existing_shell",
+    "shell": "http://goldenshowerpower.com/hunter_win.php"
+  },
+  {
+    "domain": "zuqiuzhibo24xiaoshimianfeiguankan.com.cn",
+    "type": "existing_shell",
+    "shell": "http://zuqiuzhibo24xiaoshimianfeiguankan.com.cn/1.php"
+  },
+  {
+    "domain": "zuqiuzhibo24xiaoshimianfeiguankan.com.cn",
+    "type": "existing_shell",
+    "shell": "http://zuqiuzhibo24xiaoshimianfeiguankan.com.cn/shell.php"
+  },
+  {
+    "domain": "zuqiuzhibo24xiaoshimianfeiguankan.com.cn",
+    "type": "existing_shell",
+    "shell": "http://zuqiuzhibo24xiaoshimianfeiguankan.com.cn/cmd.php"
+  },
+  {
+    "domain": "zuqiuzhibo24xiaoshimianfeiguankan.com.cn",
+    "type": "existing_shell",
+    "shell": "http://zuqiuzhibo24xiaoshimianfeiguankan.com.cn/hunter_win.php"
+  },
+  {
+    "domain": "tangguopt.cn",
+    "type": "existing_shell",
+    "shell": "http://tangguopt.cn/1.php"
+  },
+  {
+    "domain": "tangguopt.cn",
+    "type": "existing_shell",
+    "shell": "http://tangguopt.cn/shell.php"
+  },
+  {
+    "domain": "tangguopt.cn",
+    "type": "existing_shell",
+    "shell": "http://tangguopt.cn/cmd.php"
+  },
+  {
+    "domain": "tangguopt.cn",
+    "type": "existing_shell",
+    "shell": "http://tangguopt.cn/hunter_win.php"
+  },
+  {
+    "domain": "fzyzc.com",
+    "type": "existing_shell",
+    "shell": "http://fzyzc.com/1.php"
+  },
+  {
+    "domain": "fzyzc.com",
+    "type": "existing_shell",
+    "shell": "http://fzyzc.com/shell.php"
+  },
+  {
+    "domain": "fzyzc.com",
+    "type": "existing_shell",
+    "shell": "http://fzyzc.com/cmd.php"
+  },
+  {
+    "domain": "fzyzc.com",
+    "type": "existing_shell",
+    "shell": "http://fzyzc.com/hunter_win.php"
+  },
+  {
+    "domain": "zzaha.com",
+    "type": "existing_shell",
+    "shell": "http://zzaha.com/1.php"
+  },
+  {
+    "domain": "zzaha.com",
+    "type": "existing_shell",
+    "shell": "http://zzaha.com/shell.php"
+  },
+  {
+    "domain": "zzaha.com",
+    "type": "existing_shell",
+    "shell": "http://zzaha.com/cmd.php"
+  },
+  {
+    "domain": "zzaha.com",
+    "type": "existing_shell",
+    "shell": "http://zzaha.com/hunter_win.php"
+  },
+  {
+    "domain": "wl66.com.cn",
+    "type": "existing_shell",
+    "shell": "http://wl66.com.cn/1.php"
+  },
+  {
+    "domain": "wl66.com.cn",
+    "type": "existing_shell",
+    "shell": "http://wl66.com.cn/shell.php"
+  },
+  {
+    "domain": "wl66.com.cn",
+    "type": "existing_shell",
+    "shell": "http://wl66.com.cn/cmd.php"
+  },
+  {
+    "domain": "wl66.com.cn",
+    "type": "existing_shell",
+    "shell": "http://wl66.com.cn/hunter_win.php"
+  },
+  {
+    "domain": "xtpz4tq.cn",
+    "type": "existing_shell",
+    "shell": "http://xtpz4tq.cn/1.php"
+  },
+  {
+    "domain": "xtpz4tq.cn",
+    "type": "existing_shell",
+    "shell": "http://xtpz4tq.cn/shell.php"
+  },
+  {
+    "domain": "xtpz4tq.cn",
+    "type": "existing_shell",
+    "shell": "http://xtpz4tq.cn/cmd.php"
+  },
+  {
+    "domain": "xtpz4tq.cn",
+    "type": "existing_shell",
+    "shell": "http://xtpz4tq.cn/hunter_win.php"
+  },
+  {
+    "domain": "mblaceg.cn",
+    "type": "existing_shell",
+    "shell": "http://mblaceg.cn/1.php"
+  },
+  {
+    "domain": "mblaceg.cn",
+    "type": "existing_shell",
+    "shell": "http://mblaceg.cn/shell.php"
+  },
+  {
+    "domain": "mblaceg.cn",
+    "type": "existing_shell",
+    "shell": "http://mblaceg.cn/cmd.php"
+  },
+  {
+    "domain": "mblaceg.cn",
+    "type": "existing_shell",
+    "shell": "http://mblaceg.cn/hunter_win.php"
+  },
+  {
+    "domain": "sjztytech.cn",
+    "type": "existing_shell",
+    "shell": "http://sjztytech.cn/1.php"
+  },
+  {
+    "domain": "sjztytech.cn",
+    "type": "existing_shell",
+    "shell": "http://sjztytech.cn/shell.php"
+  },
+  {
+    "domain": "sjztytech.cn",
+    "type": "existing_shell",
+    "shell": "http://sjztytech.cn/cmd.php"
+  },
+  {
+    "domain": "sjztytech.cn",
+    "type": "existing_shell",
+    "shell": "http://sjztytech.cn/hunter_win.php"
+  },
+  {
+    "domain": "ciaizw.com",
+    "type": "existing_shell",
+    "shell": "http://ciaizw.com/1.php"
+  },
+  {
+    "domain": "ciaizw.com",
+    "type": "existing_shell",
+    "shell": "http://ciaizw.com/shell.php"
+  },
+  {
+    "domain": "ciaizw.com",
+    "type": "existing_shell",
+    "shell": "http://ciaizw.com/cmd.php"
+  },
+  {
+    "domain": "ciaizw.com",
+    "type": "existing_shell",
+    "shell": "http://ciaizw.com/hunter_win.php"
+  },
+  {
+    "domain": "huochaipro.com",
+    "type": "existing_shell",
+    "shell": "http://huochaipro.com/1.php"
+  },
+  {
+    "domain": "huochaipro.com",
+    "type": "existing_shell",
+    "shell": "http://huochaipro.com/shell.php"
+  },
+  {
+    "domain": "huochaipro.com",
+    "type": "existing_shell",
+    "shell": "http://huochaipro.com/cmd.php"
+  },
+  {
+    "domain": "huochaipro.com",
+    "type": "existing_shell",
+    "shell": "http://huochaipro.com/hunter_win.php"
+  },
+  {
+    "domain": "renjiaview.com",
+    "type": "existing_shell",
+    "shell": "http://renjiaview.com/1.php"
+  },
+  {
+    "domain": "renjiaview.com",
+    "type": "existing_shell",
+    "shell": "http://renjiaview.com/shell.php"
+  },
+  {
+    "domain": "renjiaview.com",
+    "type": "existing_shell",
+    "shell": "http://renjiaview.com/cmd.php"
+  },
+  {
+    "domain": "renjiaview.com",
+    "type": "existing_shell",
+    "shell": "http://renjiaview.com/hunter_win.php"
+  },
+  {
+    "domain": "cuaoxs.com",
+    "type": "existing_shell",
+    "shell": "http://cuaoxs.com/1.php"
+  },
+  {
+    "domain": "cuaoxs.com",
+    "type": "existing_shell",
+    "shell": "http://cuaoxs.com/shell.php"
+  },
+  {
+    "domain": "cuaoxs.com",
+    "type": "existing_shell",
+    "shell": "http://cuaoxs.com/cmd.php"
+  },
+  {
+    "domain": "cuaoxs.com",
+    "type": "existing_shell",
+    "shell": "http://cuaoxs.com/hunter_win.php"
+  },
+  {
+    "domain": "snhutong.com",
+    "type": "existing_shell",
+    "shell": "http://snhutong.com/1.php"
+  },
+  {
+    "domain": "snhutong.com",
+    "type": "existing_shell",
+    "shell": "http://snhutong.com/shell.php"
+  },
+  {
+    "domain": "snhutong.com",
+    "type": "existing_shell",
+    "shell": "http://snhutong.com/cmd.php"
+  },
+  {
+    "domain": "snhutong.com",
+    "type": "existing_shell",
+    "shell": "http://snhutong.com/hunter_win.php"
+  },
+  {
+    "domain": "kys0760.com",
+    "type": "existing_shell",
+    "shell": "http://kys0760.com/1.php"
+  },
+  {
+    "domain": "kys0760.com",
+    "type": "existing_shell",
+    "shell": "http://kys0760.com/shell.php"
+  },
+  {
+    "domain": "kys0760.com",
+    "type": "existing_shell",
+    "shell": "http://kys0760.com/cmd.php"
+  },
+  {
+    "domain": "kys0760.com",
+    "type": "existing_shell",
+    "shell": "http://kys0760.com/hunter_win.php"
+  },
+  {
+    "domain": "shrzjmjx.com",
+    "type": "existing_shell",
+    "shell": "http://shrzjmjx.com/1.php"
+  },
+  {
+    "domain": "shrzjmjx.com",
+    "type": "existing_shell",
+    "shell": "http://shrzjmjx.com/shell.php"
+  },
+  {
+    "domain": "shrzjmjx.com",
+    "type": "existing_shell",
+    "shell": "http://shrzjmjx.com/cmd.php"
+  },
+  {
+    "domain": "qinghuacm.cn",
+    "type": "existing_shell",
+    "shell": "http://qinghuacm.cn/1.php"
+  },
+  {
+    "domain": "qinghuacm.cn",
+    "type": "existing_shell",
+    "shell": "http://qinghuacm.cn/shell.php"
+  },
+  {
+    "domain": "qinghuacm.cn",
+    "type": "existing_shell",
+    "shell": "http://qinghuacm.cn/cmd.php"
+  },
+  {
+    "domain": "qinghuacm.cn",
+    "type": "existing_shell",
+    "shell": "http://qinghuacm.cn/hunter_win.php"
+  },
+  {
+    "domain": "rourouwu.vip",
+    "type": "existing_shell",
+    "shell": "http://rourouwu.vip/1.php"
+  },
+  {
+    "domain": "rourouwu.vip",
+    "type": "existing_shell",
+    "shell": "http://rourouwu.vip/shell.php"
+  },
+  {
+    "domain": "rourouwu.vip",
+    "type": "existing_shell",
+    "shell": "http://rourouwu.vip/cmd.php"
+  },
+  {
+    "domain": "rourouwu.vip",
+    "type": "existing_shell",
+    "shell": "http://rourouwu.vip/hunter_win.php"
+  },
+  {
+    "domain": "keep2porn.com",
+    "type": "existing_shell",
+    "shell": "http://keep2porn.com/1.php"
+  },
+  {
+    "domain": "keep2porn.com",
+    "type": "existing_shell",
+    "shell": "http://keep2porn.com/shell.php"
+  },
+  {
+    "domain": "keep2porn.com",
+    "type": "existing_shell",
+    "shell": "http://keep2porn.com/cmd.php"
+  },
+  {
+    "domain": "keep2porn.com",
+    "type": "existing_shell",
+    "shell": "http://keep2porn.com/hunter_win.php"
+  },
+  {
+    "domain": "gfnong.cn",
+    "type": "existing_shell",
+    "shell": "http://gfnong.cn/1.php"
+  },
+  {
+    "domain": "gfnong.cn",
+    "type": "existing_shell",
+    "shell": "http://gfnong.cn/shell.php"
+  },
+  {
+    "domain": "gfnong.cn",
+    "type": "existing_shell",
+    "shell": "http://gfnong.cn/cmd.php"
+  },
+  {
+    "domain": "gfnong.cn",
+    "type": "existing_shell",
+    "shell": "http://gfnong.cn/hunter_win.php"
+  },
+  {
+    "domain": "banfasb.com",
+    "type": "existing_shell",
+    "shell": "http://banfasb.com/1.php"
+  },
+  {
+    "domain": "banfasb.com",
+    "type": "existing_shell",
+    "shell": "http://banfasb.com/shell.php"
+  },
+  {
+    "domain": "banfasb.com",
+    "type": "existing_shell",
+    "shell": "http://banfasb.com/cmd.php"
+  },
+  {
+    "domain": "banfasb.com",
+    "type": "existing_shell",
+    "shell": "http://banfasb.com/hunter_win.php"
+  },
+  {
+    "domain": "dawenxue.la",
+    "type": "existing_shell",
+    "shell": "http://dawenxue.la/1.php"
+  },
+  {
+    "domain": "dawenxue.la",
+    "type": "existing_shell",
+    "shell": "http://dawenxue.la/shell.php"
+  },
+  {
+    "domain": "dawenxue.la",
+    "type": "existing_shell",
+    "shell": "http://dawenxue.la/cmd.php"
+  },
+  {
+    "domain": "dawenxue.la",
+    "type": "existing_shell",
+    "shell": "http://dawenxue.la/hunter_win.php"
+  },
+  {
+    "domain": "trvsmd.cn",
+    "type": "existing_shell",
+    "shell": "http://trvsmd.cn/1.php"
+  },
+  {
+    "domain": "trvsmd.cn",
+    "type": "existing_shell",
+    "shell": "http://trvsmd.cn/shell.php"
+  },
+  {
+    "domain": "trvsmd.cn",
+    "type": "existing_shell",
+    "shell": "http://trvsmd.cn/cmd.php"
+  },
+  {
+    "domain": "trvsmd.cn",
+    "type": "existing_shell",
+    "shell": "http://trvsmd.cn/hunter_win.php"
+  },
+  {
+    "domain": "gntgxxyey.cn",
+    "type": "existing_shell",
+    "shell": "http://gntgxxyey.cn/1.php"
+  },
+  {
+    "domain": "gntgxxyey.cn",
+    "type": "existing_shell",
+    "shell": "http://gntgxxyey.cn/shell.php"
+  },
+  {
+    "domain": "gntgxxyey.cn",
+    "type": "existing_shell",
+    "shell": "http://gntgxxyey.cn/cmd.php"
+  },
+  {
+    "domain": "gntgxxyey.cn",
+    "type": "existing_shell",
+    "shell": "http://gntgxxyey.cn/hunter_win.php"
+  },
+  {
+    "domain": "molusxs.com",
+    "type": "existing_shell",
+    "shell": "http://molusxs.com/1.php"
+  },
+  {
+    "domain": "molusxs.com",
+    "type": "existing_shell",
+    "shell": "http://molusxs.com/shell.php"
+  },
+  {
+    "domain": "molusxs.com",
+    "type": "existing_shell",
+    "shell": "http://molusxs.com/cmd.php"
+  },
+  {
+    "domain": "molusxs.com",
+    "type": "existing_shell",
+    "shell": "http://molusxs.com/hunter_win.php"
+  },
+  {
+    "domain": "mimuxs.com",
+    "type": "existing_shell",
+    "shell": "http://mimuxs.com/1.php"
+  },
+  {
+    "domain": "mimuxs.com",
+    "type": "existing_shell",
+    "shell": "http://mimuxs.com/shell.php"
+  },
+  {
+    "domain": "mimuxs.com",
+    "type": "existing_shell",
+    "shell": "http://mimuxs.com/cmd.php"
+  },
+  {
+    "domain": "mimuxs.com",
+    "type": "existing_shell",
+    "shell": "http://mimuxs.com/hunter_win.php"
+  },
+  {
+    "domain": "cqsyxx.cn",
+    "type": "existing_shell",
+    "shell": "http://cqsyxx.cn/1.php"
+  },
+  {
+    "domain": "cqsyxx.cn",
+    "type": "existing_shell",
+    "shell": "http://cqsyxx.cn/shell.php"
+  },
+  {
+    "domain": "cqsyxx.cn",
+    "type": "existing_shell",
+    "shell": "http://cqsyxx.cn/cmd.php"
+  },
+  {
+    "domain": "cqsyxx.cn",
+    "type": "existing_shell",
+    "shell": "http://cqsyxx.cn/hunter_win.php"
+  },
+  {
+    "domain": "vpznk.cn",
+    "type": "existing_shell",
+    "shell": "http://vpznk.cn/1.php"
+  },
+  {
+    "domain": "vpznk.cn",
+    "type": "existing_shell",
+    "shell": "http://vpznk.cn/shell.php"
+  },
+  {
+    "domain": "vpznk.cn",
+    "type": "existing_shell",
+    "shell": "http://vpznk.cn/cmd.php"
+  },
+  {
+    "domain": "vpznk.cn",
+    "type": "existing_shell",
+    "shell": "http://vpznk.cn/hunter_win.php"
+  },
+  {
+    "domain": "cloudcompany.com.cn",
+    "type": "existing_shell",
+    "shell": "http://cloudcompany.com.cn/1.php"
+  },
+  {
+    "domain": "cloudcompany.com.cn",
+    "type": "existing_shell",
+    "shell": "http://cloudcompany.com.cn/shell.php"
+  },
+  {
+    "domain": "cloudcompany.com.cn",
+    "type": "existing_shell",
+    "shell": "http://cloudcompany.com.cn/cmd.php"
+  },
+  {
+    "domain": "cloudcompany.com.cn",
+    "type": "existing_shell",
+    "shell": "http://cloudcompany.com.cn/hunter_win.php"
+  },
+  {
+    "domain": "ddgdf.cn",
+    "type": "existing_shell",
+    "shell": "http://ddgdf.cn/1.php"
+  },
+  {
+    "domain": "ddgdf.cn",
+    "type": "existing_shell",
+    "shell": "http://ddgdf.cn/shell.php"
+  },
+  {
+    "domain": "ddgdf.cn",
+    "type": "existing_shell",
+    "shell": "http://ddgdf.cn/cmd.php"
+  },
+  {
+    "domain": "ddgdf.cn",
+    "type": "existing_shell",
+    "shell": "http://ddgdf.cn/hunter_win.php"
+  },
+  {
+    "domain": "mm51-l1366.cc",
+    "type": "existing_shell",
+    "shell": "http://mm51-l1366.cc/1.php"
+  },
+  {
+    "domain": "mm51-l1366.cc",
+    "type": "existing_shell",
+    "shell": "http://mm51-l1366.cc/shell.php"
+  },
+  {
+    "domain": "mm51-l1366.cc",
+    "type": "existing_shell",
+    "shell": "http://mm51-l1366.cc/cmd.php"
+  },
+  {
+    "domain": "mm51-l1366.cc",
+    "type": "existing_shell",
+    "shell": "http://mm51-l1366.cc/hunter_win.php"
+  },
+  {
+    "domain": "visitqz.cn",
+    "type": "existing_shell",
+    "shell": "http://visitqz.cn/1.php"
+  },
+  {
+    "domain": "visitqz.cn",
+    "type": "existing_shell",
+    "shell": "http://visitqz.cn/shell.php"
+  },
+  {
+    "domain": "visitqz.cn",
+    "type": "existing_shell",
+    "shell": "http://visitqz.cn/cmd.php"
+  },
+  {
+    "domain": "visitqz.cn",
+    "type": "existing_shell",
+    "shell": "http://visitqz.cn/hunter_win.php"
+  },
+  {
+    "domain": "baguaxs.com",
+    "type": "existing_shell",
+    "shell": "http://baguaxs.com/1.php"
+  },
+  {
+    "domain": "baguaxs.com",
+    "type": "existing_shell",
+    "shell": "http://baguaxs.com/shell.php"
+  },
+  {
+    "domain": "baguaxs.com",
+    "type": "existing_shell",
+    "shell": "http://baguaxs.com/cmd.php"
+  },
+  {
+    "domain": "baguaxs.com",
+    "type": "existing_shell",
+    "shell": "http://baguaxs.com/hunter_win.php"
+  },
+  {
+    "domain": "guizhijia.com",
+    "type": "existing_shell",
+    "shell": "http://guizhijia.com/1.php"
+  },
+  {
+    "domain": "guizhijia.com",
+    "type": "existing_shell",
+    "shell": "http://guizhijia.com/shell.php"
+  },
+  {
+    "domain": "guizhijia.com",
+    "type": "existing_shell",
+    "shell": "http://guizhijia.com/cmd.php"
+  },
+  {
+    "domain": "guizhijia.com",
+    "type": "existing_shell",
+    "shell": "http://guizhijia.com/hunter_win.php"
+  },
+  {
+    "domain": "yaboxs.com",
+    "type": "existing_shell",
+    "shell": "http://yaboxs.com/1.php"
+  },
+  {
+    "domain": "yaboxs.com",
+    "type": "existing_shell",
+    "shell": "http://yaboxs.com/shell.php"
+  },
+  {
+    "domain": "yaboxs.com",
+    "type": "existing_shell",
+    "shell": "http://yaboxs.com/cmd.php"
+  },
+  {
+    "domain": "yaboxs.com",
+    "type": "existing_shell",
+    "shell": "http://yaboxs.com/hunter_win.php"
+  },
+  {
+    "domain": "shningjia.com",
+    "type": "existing_shell",
+    "shell": "http://shningjia.com/1.php"
+  },
+  {
+    "domain": "shningjia.com",
+    "type": "existing_shell",
+    "shell": "http://shningjia.com/shell.php"
+  },
+  {
+    "domain": "shningjia.com",
+    "type": "existing_shell",
+    "shell": "http://shningjia.com/cmd.php"
+  },
+  {
+    "domain": "shningjia.com",
+    "type": "existing_shell",
+    "shell": "http://shningjia.com/hunter_win.php"
+  },
+  {
+    "domain": "syeewnr.cn",
+    "type": "existing_shell",
+    "shell": "http://syeewnr.cn/1.php"
+  },
+  {
+    "domain": "syeewnr.cn",
+    "type": "existing_shell",
+    "shell": "http://syeewnr.cn/shell.php"
+  },
+  {
+    "domain": "syeewnr.cn",
+    "type": "existing_shell",
+    "shell": "http://syeewnr.cn/cmd.php"
+  },
+  {
+    "domain": "syeewnr.cn",
+    "type": "existing_shell",
+    "shell": "http://syeewnr.cn/hunter_win.php"
+  },
+  {
+    "domain": "55zhiboa.com.cn",
+    "type": "existing_shell",
+    "shell": "http://55zhiboa.com.cn/1.php"
+  },
+  {
+    "domain": "55zhiboa.com.cn",
+    "type": "existing_shell",
+    "shell": "http://55zhiboa.com.cn/shell.php"
+  },
+  {
+    "domain": "55zhiboa.com.cn",
+    "type": "existing_shell",
+    "shell": "http://55zhiboa.com.cn/cmd.php"
+  },
+  {
+    "domain": "55zhiboa.com.cn",
+    "type": "existing_shell",
+    "shell": "http://55zhiboa.com.cn/hunter_win.php"
+  },
+  {
+    "domain": "ghoststory9pm.com",
+    "type": "existing_shell",
+    "shell": "http://ghoststory9pm.com/1.php"
+  },
+  {
+    "domain": "ghoststory9pm.com",
+    "type": "existing_shell",
+    "shell": "http://ghoststory9pm.com/shell.php"
+  },
+  {
+    "domain": "ghoststory9pm.com",
+    "type": "existing_shell",
+    "shell": "http://ghoststory9pm.com/cmd.php"
+  },
+  {
+    "domain": "ghoststory9pm.com",
+    "type": "existing_shell",
+    "shell": "http://ghoststory9pm.com/hunter_win.php"
+  },
+  {
+    "domain": "oduid.com",
+    "type": "existing_shell",
+    "shell": "http://oduid.com/1.php"
+  },
+  {
+    "domain": "oduid.com",
+    "type": "existing_shell",
+    "shell": "http://oduid.com/shell.php"
+  },
+  {
+    "domain": "oduid.com",
+    "type": "existing_shell",
+    "shell": "http://oduid.com/cmd.php"
+  },
+  {
+    "domain": "oduid.com",
+    "type": "existing_shell",
+    "shell": "http://oduid.com/hunter_win.php"
+  },
+  {
+    "domain": "hvpqj.cn",
+    "type": "existing_shell",
+    "shell": "http://hvpqj.cn/1.php"
+  },
+  {
+    "domain": "hvpqj.cn",
+    "type": "existing_shell",
+    "shell": "http://hvpqj.cn/shell.php"
+  },
+  {
+    "domain": "hvpqj.cn",
+    "type": "existing_shell",
+    "shell": "http://hvpqj.cn/cmd.php"
+  },
+  {
+    "domain": "hvpqj.cn",
+    "type": "existing_shell",
+    "shell": "http://hvpqj.cn/hunter_win.php"
+  },
+  {
+    "domain": "dxymall.cn",
+    "type": "existing_shell",
+    "shell": "http://dxymall.cn/1.php"
+  },
+  {
+    "domain": "dxymall.cn",
+    "type": "existing_shell",
+    "shell": "http://dxymall.cn/shell.php"
+  },
+  {
+    "domain": "dxymall.cn",
+    "type": "existing_shell",
+    "shell": "http://dxymall.cn/cmd.php"
+  },
+  {
+    "domain": "dxymall.cn",
+    "type": "existing_shell",
+    "shell": "http://dxymall.cn/hunter_win.php"
+  },
+  {
+    "domain": "3stories.cn",
+    "type": "existing_shell",
+    "shell": "http://3stories.cn/1.php"
+  },
+  {
+    "domain": "3stories.cn",
+    "type": "existing_shell",
+    "shell": "http://3stories.cn/shell.php"
+  },
+  {
+    "domain": "3stories.cn",
+    "type": "existing_shell",
+    "shell": "http://3stories.cn/cmd.php"
+  },
+  {
+    "domain": "3stories.cn",
+    "type": "existing_shell",
+    "shell": "http://3stories.cn/hunter_win.php"
+  },
+  {
+    "domain": "dwvnk.cn",
+    "type": "existing_shell",
+    "shell": "http://dwvnk.cn/1.php"
+  },
+  {
+    "domain": "dwvnk.cn",
+    "type": "existing_shell",
+    "shell": "http://dwvnk.cn/shell.php"
+  },
+  {
+    "domain": "dwvnk.cn",
+    "type": "existing_shell",
+    "shell": "http://dwvnk.cn/cmd.php"
+  },
+  {
+    "domain": "dwvnk.cn",
+    "type": "existing_shell",
+    "shell": "http://dwvnk.cn/hunter_win.php"
+  },
+  {
+    "domain": "ichuangrong.cn",
+    "type": "existing_shell",
+    "shell": "http://ichuangrong.cn/1.php"
+  },
+  {
+    "domain": "ichuangrong.cn",
+    "type": "existing_shell",
+    "shell": "http://ichuangrong.cn/shell.php"
+  },
+  {
+    "domain": "ichuangrong.cn",
+    "type": "existing_shell",
+    "shell": "http://ichuangrong.cn/cmd.php"
+  },
+  {
+    "domain": "ichuangrong.cn",
+    "type": "existing_shell",
+    "shell": "http://ichuangrong.cn/hunter_win.php"
+  },
+  {
+    "domain": "apkct.com",
+    "type": "existing_shell",
+    "shell": "http://apkct.com/1.php"
+  },
+  {
+    "domain": "apkct.com",
+    "type": "existing_shell",
+    "shell": "http://apkct.com/shell.php"
+  },
+  {
+    "domain": "apkct.com",
+    "type": "existing_shell",
+    "shell": "http://apkct.com/cmd.php"
+  },
+  {
+    "domain": "apkct.com",
+    "type": "existing_shell",
+    "shell": "http://apkct.com/hunter_win.php"
+  },
+  {
+    "domain": "nanzhaochi.shop",
+    "type": "existing_shell",
+    "shell": "http://nanzhaochi.shop/1.php"
+  },
+  {
+    "domain": "nanzhaochi.shop",
+    "type": "existing_shell",
+    "shell": "http://nanzhaochi.shop/shell.php"
+  },
+  {
+    "domain": "nanzhaochi.shop",
+    "type": "existing_shell",
+    "shell": "http://nanzhaochi.shop/cmd.php"
+  },
+  {
+    "domain": "nanzhaochi.shop",
+    "type": "existing_shell",
+    "shell": "http://nanzhaochi.shop/hunter_win.php"
+  },
+  {
+    "domain": "alhdz.com",
+    "type": "existing_shell",
+    "shell": "http://alhdz.com/1.php"
+  },
+  {
+    "domain": "alhdz.com",
+    "type": "existing_shell",
+    "shell": "http://alhdz.com/shell.php"
+  },
+  {
+    "domain": "alhdz.com",
+    "type": "existing_shell",
+    "shell": "http://alhdz.com/cmd.php"
+  },
+  {
+    "domain": "alhdz.com",
+    "type": "existing_shell",
+    "shell": "http://alhdz.com/hunter_win.php"
+  },
+  {
+    "domain": "shengfu14changjiangjin.com.cn",
+    "type": "existing_shell",
+    "shell": "http://shengfu14changjiangjin.com.cn/1.php"
+  },
+  {
+    "domain": "shengfu14changjiangjin.com.cn",
+    "type": "existing_shell",
+    "shell": "http://shengfu14changjiangjin.com.cn/shell.php"
+  },
+  {
+    "domain": "shengfu14changjiangjin.com.cn",
+    "type": "existing_shell",
+    "shell": "http://shengfu14changjiangjin.com.cn/cmd.php"
+  },
+  {
+    "domain": "shengfu14changjiangjin.com.cn",
+    "type": "existing_shell",
+    "shell": "http://shengfu14changjiangjin.com.cn/hunter_win.php"
+  },
+  {
+    "domain": "m6xx.com",
+    "type": "existing_shell",
+    "shell": "http://m6xx.com/1.php"
+  },
+  {
+    "domain": "m6xx.com",
+    "type": "existing_shell",
+    "shell": "http://m6xx.com/shell.php"
+  },
+  {
+    "domain": "m6xx.com",
+    "type": "existing_shell",
+    "shell": "http://m6xx.com/cmd.php"
+  },
+  {
+    "domain": "m6xx.com",
+    "type": "existing_shell",
+    "shell": "http://m6xx.com/hunter_win.php"
+  },
+  {
+    "domain": "cexitxt.com",
+    "type": "existing_shell",
+    "shell": "http://cexitxt.com/1.php"
+  },
+  {
+    "domain": "cexitxt.com",
+    "type": "existing_shell",
+    "shell": "http://cexitxt.com/shell.php"
+  },
+  {
+    "domain": "cexitxt.com",
+    "type": "existing_shell",
+    "shell": "http://cexitxt.com/cmd.php"
+  },
+  {
+    "domain": "cexitxt.com",
+    "type": "existing_shell",
+    "shell": "http://cexitxt.com/hunter_win.php"
+  },
+  {
+    "domain": "hyjjwx.cn",
+    "type": "existing_shell",
+    "shell": "http://hyjjwx.cn/1.php"
+  },
+  {
+    "domain": "hyjjwx.cn",
+    "type": "existing_shell",
+    "shell": "http://hyjjwx.cn/shell.php"
+  },
+  {
+    "domain": "hyjjwx.cn",
+    "type": "existing_shell",
+    "shell": "http://hyjjwx.cn/cmd.php"
+  },
+  {
+    "domain": "hyjjwx.cn",
+    "type": "existing_shell",
+    "shell": "http://hyjjwx.cn/hunter_win.php"
+  },
+  {
+    "domain": "ikimuyz.cn",
+    "type": "existing_shell",
+    "shell": "http://ikimuyz.cn/1.php"
+  },
+  {
+    "domain": "ikimuyz.cn",
+    "type": "existing_shell",
+    "shell": "http://ikimuyz.cn/shell.php"
+  },
+  {
+    "domain": "ikimuyz.cn",
+    "type": "existing_shell",
+    "shell": "http://ikimuyz.cn/cmd.php"
+  },
+  {
+    "domain": "ikimuyz.cn",
+    "type": "existing_shell",
+    "shell": "http://ikimuyz.cn/hunter_win.php"
+  },
+  {
+    "domain": "yeyuxs.com",
+    "type": "existing_shell",
+    "shell": "http://yeyuxs.com/1.php"
+  },
+  {
+    "domain": "yeyuxs.com",
+    "type": "existing_shell",
+    "shell": "http://yeyuxs.com/shell.php"
+  },
+  {
+    "domain": "yeyuxs.com",
+    "type": "existing_shell",
+    "shell": "http://yeyuxs.com/cmd.php"
+  },
+  {
+    "domain": "yeyuxs.com",
+    "type": "existing_shell",
+    "shell": "http://yeyuxs.com/hunter_win.php"
+  },
+  {
+    "domain": "our0816.com",
+    "type": "existing_shell",
+    "shell": "http://our0816.com/1.php"
+  },
+  {
+    "domain": "our0816.com",
+    "type": "existing_shell",
+    "shell": "http://our0816.com/shell.php"
+  },
+  {
+    "domain": "our0816.com",
+    "type": "existing_shell",
+    "shell": "http://our0816.com/cmd.php"
+  },
+  {
+    "domain": "our0816.com",
+    "type": "existing_shell",
+    "shell": "http://our0816.com/hunter_win.php"
+  },
+  {
+    "domain": "sxymzm.cn",
+    "type": "existing_shell",
+    "shell": "http://sxymzm.cn/1.php"
+  },
+  {
+    "domain": "sxymzm.cn",
+    "type": "existing_shell",
+    "shell": "http://sxymzm.cn/shell.php"
+  },
+  {
+    "domain": "sxymzm.cn",
+    "type": "existing_shell",
+    "shell": "http://sxymzm.cn/cmd.php"
+  },
+  {
+    "domain": "sxymzm.cn",
+    "type": "existing_shell",
+    "shell": "http://sxymzm.cn/hunter_win.php"
+  },
+  {
+    "domain": "fuzhuxs.com",
+    "type": "existing_shell",
+    "shell": "http://fuzhuxs.com/1.php"
+  },
+  {
+    "domain": "fuzhuxs.com",
+    "type": "existing_shell",
+    "shell": "http://fuzhuxs.com/shell.php"
+  },
+  {
+    "domain": "fuzhuxs.com",
+    "type": "existing_shell",
+    "shell": "http://fuzhuxs.com/cmd.php"
+  },
+  {
+    "domain": "fuzhuxs.com",
+    "type": "existing_shell",
+    "shell": "http://fuzhuxs.com/hunter_win.php"
+  },
+  {
+    "domain": "nmpos360.com",
+    "type": "existing_shell",
+    "shell": "http://nmpos360.com/1.php"
+  },
+  {
+    "domain": "nmpos360.com",
+    "type": "existing_shell",
+    "shell": "http://nmpos360.com/shell.php"
+  },
+  {
+    "domain": "nmpos360.com",
+    "type": "existing_shell",
+    "shell": "http://nmpos360.com/cmd.php"
+  },
+  {
+    "domain": "nmpos360.com",
+    "type": "existing_shell",
+    "shell": "http://nmpos360.com/hunter_win.php"
+  },
+  {
+    "domain": "jiabangjh.com",
+    "type": "existing_shell",
+    "shell": "http://jiabangjh.com/1.php"
+  },
+  {
+    "domain": "jiabangjh.com",
+    "type": "existing_shell",
+    "shell": "http://jiabangjh.com/shell.php"
+  },
+  {
+    "domain": "jiabangjh.com",
+    "type": "existing_shell",
+    "shell": "http://jiabangjh.com/cmd.php"
+  },
+  {
+    "domain": "jiabangjh.com",
+    "type": "existing_shell",
+    "shell": "http://jiabangjh.com/hunter_win.php"
+  },
+  {
+    "domain": "ciaibook.com",
+    "type": "existing_shell",
+    "shell": "http://ciaibook.com/1.php"
+  },
+  {
+    "domain": "ciaibook.com",
+    "type": "existing_shell",
+    "shell": "http://ciaibook.com/shell.php"
+  },
+  {
+    "domain": "ciaibook.com",
+    "type": "existing_shell",
+    "shell": "http://ciaibook.com/cmd.php"
+  },
+  {
+    "domain": "ciaibook.com",
+    "type": "existing_shell",
+    "shell": "http://ciaibook.com/hunter_win.php"
+  },
+  {
+    "domain": "hdrbd.cn",
+    "type": "existing_shell",
+    "shell": "http://hdrbd.cn/1.php"
+  },
+  {
+    "domain": "hdrbd.cn",
+    "type": "existing_shell",
+    "shell": "http://hdrbd.cn/shell.php"
+  },
+  {
+    "domain": "hdrbd.cn",
+    "type": "existing_shell",
+    "shell": "http://hdrbd.cn/cmd.php"
+  },
+  {
+    "domain": "hdrbd.cn",
+    "type": "existing_shell",
+    "shell": "http://hdrbd.cn/hunter_win.php"
+  },
+  {
+    "domain": "qiiirr.cn",
+    "type": "existing_shell",
+    "shell": "http://qiiirr.cn/1.php"
+  },
+  {
+    "domain": "qiiirr.cn",
+    "type": "existing_shell",
+    "shell": "http://qiiirr.cn/shell.php"
+  },
+  {
+    "domain": "qiiirr.cn",
+    "type": "existing_shell",
+    "shell": "http://qiiirr.cn/cmd.php"
+  },
+  {
+    "domain": "qiiirr.cn",
+    "type": "existing_shell",
+    "shell": "http://qiiirr.cn/hunter_win.php"
+  },
+  {
+    "domain": "agjx.com.cn",
+    "type": "existing_shell",
+    "shell": "http://agjx.com.cn/1.php"
+  },
+  {
+    "domain": "agjx.com.cn",
+    "type": "existing_shell",
+    "shell": "http://agjx.com.cn/shell.php"
+  },
+  {
+    "domain": "agjx.com.cn",
+    "type": "existing_shell",
+    "shell": "http://agjx.com.cn/cmd.php"
+  },
+  {
+    "domain": "agjx.com.cn",
+    "type": "existing_shell",
+    "shell": "http://agjx.com.cn/hunter_win.php"
+  },
+  {
+    "domain": "hnzcw.com",
+    "type": "existing_shell",
+    "shell": "http://hnzcw.com/1.php"
+  },
+  {
+    "domain": "hnzcw.com",
+    "type": "existing_shell",
+    "shell": "http://hnzcw.com/shell.php"
+  },
+  {
+    "domain": "hnzcw.com",
+    "type": "existing_shell",
+    "shell": "http://hnzcw.com/cmd.php"
+  },
+  {
+    "domain": "hnzcw.com",
+    "type": "existing_shell",
+    "shell": "http://hnzcw.com/hunter_win.php"
+  },
+  {
+    "domain": "qiutanbifenwangjishibifenzgjingcaiwang.com.cn",
+    "type": "existing_shell",
+    "shell": "http://qiutanbifenwangjishibifenzgjingcaiwang.com.cn/1.php"
+  },
+  {
+    "domain": "qiutanbifenwangjishibifenzgjingcaiwang.com.cn",
+    "type": "existing_shell",
+    "shell": "http://qiutanbifenwangjishibifenzgjingcaiwang.com.cn/shell.php"
+  },
+  {
+    "domain": "qiutanbifenwangjishibifenzgjingcaiwang.com.cn",
+    "type": "existing_shell",
+    "shell": "http://qiutanbifenwangjishibifenzgjingcaiwang.com.cn/cmd.php"
+  },
+  {
+    "domain": "qiutanbifenwangjishibifenzgjingcaiwang.com.cn",
+    "type": "existing_shell",
+    "shell": "http://qiutanbifenwangjishibifenzgjingcaiwang.com.cn/hunter_win.php"
+  },
+  {
+    "domain": "haobixs.com",
+    "type": "existing_shell",
+    "shell": "http://haobixs.com/1.php"
+  },
+  {
+    "domain": "haobixs.com",
+    "type": "existing_shell",
+    "shell": "http://haobixs.com/shell.php"
+  },
+  {
+    "domain": "haobixs.com",
+    "type": "existing_shell",
+    "shell": "http://haobixs.com/cmd.php"
+  },
+  {
+    "domain": "haobixs.com",
+    "type": "existing_shell",
+    "shell": "http://haobixs.com/hunter_win.php"
+  },
+  {
+    "domain": "91licheng.cn",
+    "type": "existing_shell",
+    "shell": "http://91licheng.cn/shell.php"
+  },
+  {
+    "domain": "fbzhibo12138.com",
+    "type": "existing_shell",
+    "shell": "http://fbzhibo12138.com/1.php"
+  },
+  {
+    "domain": "fbzhibo12138.com",
+    "type": "existing_shell",
+    "shell": "http://fbzhibo12138.com/shell.php"
+  },
+  {
+    "domain": "fbzhibo12138.com",
+    "type": "existing_shell",
+    "shell": "http://fbzhibo12138.com/cmd.php"
+  },
+  {
+    "domain": "fbzhibo12138.com",
+    "type": "existing_shell",
+    "shell": "http://fbzhibo12138.com/hunter_win.php"
+  },
+  {
+    "domain": "jfyin.cn",
+    "type": "existing_shell",
+    "shell": "http://jfyin.cn/1.php"
+  },
+  {
+    "domain": "jfyin.cn",
+    "type": "existing_shell",
+    "shell": "http://jfyin.cn/shell.php"
+  },
+  {
+    "domain": "jfyin.cn",
+    "type": "existing_shell",
+    "shell": "http://jfyin.cn/cmd.php"
+  },
+  {
+    "domain": "jfyin.cn",
+    "type": "existing_shell",
+    "shell": "http://jfyin.cn/hunter_win.php"
+  },
+  {
+    "domain": "obkhz.cn",
+    "type": "existing_shell",
+    "shell": "http://obkhz.cn/1.php"
+  },
+  {
+    "domain": "obkhz.cn",
+    "type": "existing_shell",
+    "shell": "http://obkhz.cn/shell.php"
+  },
+  {
+    "domain": "obkhz.cn",
+    "type": "existing_shell",
+    "shell": "http://obkhz.cn/cmd.php"
+  },
+  {
+    "domain": "obkhz.cn",
+    "type": "existing_shell",
+    "shell": "http://obkhz.cn/hunter_win.php"
+  },
+  {
+    "domain": "levole.cn",
+    "type": "existing_shell",
+    "shell": "http://levole.cn/1.php"
+  },
+  {
+    "domain": "levole.cn",
+    "type": "existing_shell",
+    "shell": "http://levole.cn/shell.php"
+  },
+  {
+    "domain": "levole.cn",
+    "type": "existing_shell",
+    "shell": "http://levole.cn/cmd.php"
+  },
+  {
+    "domain": "levole.cn",
+    "type": "existing_shell",
+    "shell": "http://levole.cn/hunter_win.php"
+  },
+  {
+    "domain": "aidaxs.com",
+    "type": "existing_shell",
+    "shell": "http://aidaxs.com/1.php"
+  },
+  {
+    "domain": "aidaxs.com",
+    "type": "existing_shell",
+    "shell": "http://aidaxs.com/shell.php"
+  },
+  {
+    "domain": "aidaxs.com",
+    "type": "existing_shell",
+    "shell": "http://aidaxs.com/cmd.php"
+  },
+  {
+    "domain": "aidaxs.com",
+    "type": "existing_shell",
+    "shell": "http://aidaxs.com/hunter_win.php"
+  },
+  {
+    "domain": "szjskj.top",
+    "type": "existing_shell",
+    "shell": "http://szjskj.top/1.php"
+  },
+  {
+    "domain": "szjskj.top",
+    "type": "existing_shell",
+    "shell": "http://szjskj.top/shell.php"
+  },
+  {
+    "domain": "szjskj.top",
+    "type": "existing_shell",
+    "shell": "http://szjskj.top/cmd.php"
+  },
+  {
+    "domain": "szjskj.top",
+    "type": "existing_shell",
+    "shell": "http://szjskj.top/hunter_win.php"
+  },
+  {
+    "domain": "360zhibomfzuquzhibopingtair.com.cn",
+    "type": "existing_shell",
+    "shell": "http://360zhibomfzuquzhibopingtair.com.cn/1.php"
+  },
+  {
+    "domain": "360zhibomfzuquzhibopingtair.com.cn",
+    "type": "existing_shell",
+    "shell": "http://360zhibomfzuquzhibopingtair.com.cn/shell.php"
+  },
+  {
+    "domain": "360zhibomfzuquzhibopingtair.com.cn",
+    "type": "existing_shell",
+    "shell": "http://360zhibomfzuquzhibopingtair.com.cn/cmd.php"
+  },
+  {
+    "domain": "360zhibomfzuquzhibopingtair.com.cn",
+    "type": "existing_shell",
+    "shell": "http://360zhibomfzuquzhibopingtair.com.cn/hunter_win.php"
+  },
+  {
+    "domain": "123yuzhaiwu.com",
+    "type": "existing_shell",
+    "shell": "http://123yuzhaiwu.com/1.php"
+  },
+  {
+    "domain": "123yuzhaiwu.com",
+    "type": "existing_shell",
+    "shell": "http://123yuzhaiwu.com/shell.php"
+  },
+  {
+    "domain": "123yuzhaiwu.com",
+    "type": "existing_shell",
+    "shell": "http://123yuzhaiwu.com/cmd.php"
+  },
+  {
+    "domain": "123yuzhaiwu.com",
+    "type": "existing_shell",
+    "shell": "http://123yuzhaiwu.com/hunter_win.php"
+  },
+  {
+    "domain": "i-ortho.cn",
+    "type": "existing_shell",
+    "shell": "http://i-ortho.cn/1.php"
+  },
+  {
+    "domain": "i-ortho.cn",
+    "type": "existing_shell",
+    "shell": "http://i-ortho.cn/shell.php"
+  },
+  {
+    "domain": "i-ortho.cn",
+    "type": "existing_shell",
+    "shell": "http://i-ortho.cn/cmd.php"
+  },
+  {
+    "domain": "i-ortho.cn",
+    "type": "existing_shell",
+    "shell": "http://i-ortho.cn/hunter_win.php"
+  },
+  {
+    "domain": "renjsb.cn",
+    "type": "existing_shell",
+    "shell": "http://renjsb.cn/1.php"
+  },
+  {
+    "domain": "renjsb.cn",
+    "type": "existing_shell",
+    "shell": "http://renjsb.cn/shell.php"
+  },
+  {
+    "domain": "renjsb.cn",
+    "type": "existing_shell",
+    "shell": "http://renjsb.cn/cmd.php"
+  },
+  {
+    "domain": "renjsb.cn",
+    "type": "existing_shell",
+    "shell": "http://renjsb.cn/hunter_win.php"
+  },
+  {
+    "domain": "aituks.com",
+    "type": "existing_shell",
+    "shell": "http://aituks.com/1.php"
+  },
+  {
+    "domain": "aituks.com",
+    "type": "existing_shell",
+    "shell": "http://aituks.com/shell.php"
+  },
+  {
+    "domain": "aituks.com",
+    "type": "existing_shell",
+    "shell": "http://aituks.com/cmd.php"
+  },
+  {
+    "domain": "aituks.com",
+    "type": "existing_shell",
+    "shell": "http://aituks.com/hunter_win.php"
+  },
+  {
+    "domain": "njsvb.cn",
+    "type": "existing_shell",
+    "shell": "http://njsvb.cn/1.php"
+  },
+  {
+    "domain": "njsvb.cn",
+    "type": "existing_shell",
+    "shell": "http://njsvb.cn/shell.php"
+  },
+  {
+    "domain": "njsvb.cn",
+    "type": "existing_shell",
+    "shell": "http://njsvb.cn/cmd.php"
+  },
+  {
+    "domain": "njsvb.cn",
+    "type": "existing_shell",
+    "shell": "http://njsvb.cn/hunter_win.php"
+  },
+  {
+    "domain": "myexgirlfriendstube.com",
+    "type": "existing_shell",
+    "shell": "http://myexgirlfriendstube.com/1.php"
+  },
+  {
+    "domain": "myexgirlfriendstube.com",
+    "type": "existing_shell",
+    "shell": "http://myexgirlfriendstube.com/shell.php"
+  },
+  {
+    "domain": "myexgirlfriendstube.com",
+    "type": "existing_shell",
+    "shell": "http://myexgirlfriendstube.com/cmd.php"
+  },
+  {
+    "domain": "myexgirlfriendstube.com",
+    "type": "existing_shell",
+    "shell": "http://myexgirlfriendstube.com/hunter_win.php"
+  },
+  {
+    "domain": "yatianli.com",
+    "type": "existing_shell",
+    "shell": "http://yatianli.com/1.php"
+  },
+  {
+    "domain": "yatianli.com",
+    "type": "existing_shell",
+    "shell": "http://yatianli.com/shell.php"
+  },
+  {
+    "domain": "yatianli.com",
+    "type": "existing_shell",
+    "shell": "http://yatianli.com/cmd.php"
+  },
+  {
+    "domain": "yatianli.com",
+    "type": "existing_shell",
+    "shell": "http://yatianli.com/hunter_win.php"
+  },
+  {
+    "domain": "vegamall.net",
+    "type": "existing_shell",
+    "shell": "http://vegamall.net/1.php"
+  },
+  {
+    "domain": "vegamall.net",
+    "type": "existing_shell",
+    "shell": "http://vegamall.net/shell.php"
+  },
+  {
+    "domain": "vegamall.net",
+    "type": "existing_shell",
+    "shell": "http://vegamall.net/cmd.php"
+  },
+  {
+    "domain": "vegamall.net",
+    "type": "existing_shell",
+    "shell": "http://vegamall.net/hunter_win.php"
+  },
+  {
+    "domain": "dnsthy.com",
+    "type": "existing_shell",
+    "shell": "http://dnsthy.com/1.php"
+  },
+  {
+    "domain": "dnsthy.com",
+    "type": "existing_shell",
+    "shell": "http://dnsthy.com/shell.php"
+  },
+  {
+    "domain": "dnsthy.com",
+    "type": "existing_shell",
+    "shell": "http://dnsthy.com/cmd.php"
+  },
+  {
+    "domain": "dnsthy.com",
+    "type": "existing_shell",
+    "shell": "http://dnsthy.com/hunter_win.php"
+  },
+  {
+    "domain": "cgy.life",
+    "type": "existing_shell",
+    "shell": "http://cgy.life/1.php"
+  },
+  {
+    "domain": "cgy.life",
+    "type": "existing_shell",
+    "shell": "http://cgy.life/shell.php"
+  },
+  {
+    "domain": "cgy.life",
+    "type": "existing_shell",
+    "shell": "http://cgy.life/cmd.php"
+  },
+  {
+    "domain": "cgy.life",
+    "type": "existing_shell",
+    "shell": "http://cgy.life/hunter_win.php"
+  },
+  {
+    "domain": "sxgsjj.com",
+    "type": "existing_shell",
+    "shell": "http://sxgsjj.com/1.php"
+  },
+  {
+    "domain": "sxgsjj.com",
+    "type": "existing_shell",
+    "shell": "http://sxgsjj.com/shell.php"
+  },
+  {
+    "domain": "sxgsjj.com",
+    "type": "existing_shell",
+    "shell": "http://sxgsjj.com/cmd.php"
+  },
+  {
+    "domain": "sxgsjj.com",
+    "type": "existing_shell",
+    "shell": "http://sxgsjj.com/hunter_win.php"
+  },
+  {
+    "domain": "storehtml.com",
+    "type": "existing_shell",
+    "shell": "http://storehtml.com/1.php"
+  },
+  {
+    "domain": "storehtml.com",
+    "type": "existing_shell",
+    "shell": "http://storehtml.com/shell.php"
+  },
+  {
+    "domain": "storehtml.com",
+    "type": "existing_shell",
+    "shell": "http://storehtml.com/cmd.php"
+  },
+  {
+    "domain": "storehtml.com",
+    "type": "existing_shell",
+    "shell": "http://storehtml.com/hunter_win.php"
+  },
+  {
+    "domain": "girldh.com",
+    "type": "existing_shell",
+    "shell": "http://girldh.com/1.php"
+  },
+  {
+    "domain": "girldh.com",
+    "type": "existing_shell",
+    "shell": "http://girldh.com/shell.php"
+  },
+  {
+    "domain": "girldh.com",
+    "type": "existing_shell",
+    "shell": "http://girldh.com/cmd.php"
+  },
+  {
+    "domain": "girldh.com",
+    "type": "existing_shell",
+    "shell": "http://girldh.com/hunter_win.php"
+  },
+  {
+    "domain": "ptrkj.cn",
+    "type": "existing_shell",
+    "shell": "http://ptrkj.cn/1.php"
+  },
+  {
+    "domain": "ptrkj.cn",
+    "type": "existing_shell",
+    "shell": "http://ptrkj.cn/shell.php"
+  },
+  {
+    "domain": "ptrkj.cn",
+    "type": "existing_shell",
+    "shell": "http://ptrkj.cn/cmd.php"
+  },
+  {
+    "domain": "ptrkj.cn",
+    "type": "existing_shell",
+    "shell": "http://ptrkj.cn/hunter_win.php"
+  },
+  {
+    "domain": "gzykhj.com",
+    "type": "existing_shell",
+    "shell": "http://gzykhj.com/1.php"
+  },
+  {
+    "domain": "gzykhj.com",
+    "type": "existing_shell",
+    "shell": "http://gzykhj.com/shell.php"
+  },
+  {
+    "domain": "gzykhj.com",
+    "type": "existing_shell",
+    "shell": "http://gzykhj.com/cmd.php"
+  },
+  {
+    "domain": "gzykhj.com",
+    "type": "existing_shell",
+    "shell": "http://gzykhj.com/hunter_win.php"
+  },
+  {
+    "domain": "yurenmed.com",
+    "type": "PbootCMS_shell",
+    "shell": "http://yurenmed.com/1.php",
+    "password": "c"
+  },
+  {
+    "domain": "yurenmed.com",
+    "type": "existing_shell",
+    "shell": "http://yurenmed.com/1.php"
+  },
+  {
+    "domain": "yurenmed.com",
+    "type": "existing_shell",
+    "shell": "http://yurenmed.com/shell.php"
+  },
+  {
+    "domain": "yurenmed.com",
+    "type": "existing_shell",
+    "shell": "http://yurenmed.com/cmd.php"
+  },
+  {
+    "domain": "yurenmed.com",
+    "type": "existing_shell",
+    "shell": "http://yurenmed.com/hunter_win.php"
+  },
+  {
+    "domain": "tk-english.com.cn",
+    "type": "existing_shell",
+    "shell": "http://tk-english.com.cn/1.php"
+  },
+  {
+    "domain": "tk-english.com.cn",
+    "type": "existing_shell",
+    "shell": "http://tk-english.com.cn/shell.php"
+  },
+  {
+    "domain": "tk-english.com.cn",
+    "type": "existing_shell",
+    "shell": "http://tk-english.com.cn/cmd.php"
+  },
+  {
+    "domain": "tk-english.com.cn",
+    "type": "existing_shell",
+    "shell": "http://tk-english.com.cn/hunter_win.php"
+  },
+  {
+    "domain": "ofrgylpvh.com",
+    "type": "existing_shell",
+    "shell": "http://ofrgylpvh.com/1.php"
+  },
+  {
+    "domain": "ofrgylpvh.com",
+    "type": "existing_shell",
+    "shell": "http://ofrgylpvh.com/shell.php"
+  },
+  {
+    "domain": "ofrgylpvh.com",
+    "type": "existing_shell",
+    "shell": "http://ofrgylpvh.com/cmd.php"
+  },
+  {
+    "domain": "ofrgylpvh.com",
+    "type": "existing_shell",
+    "shell": "http://ofrgylpvh.com/hunter_win.php"
+  },
+  {
+    "domain": "gipa.org.cn",
+    "type": "existing_shell",
+    "shell": "http://gipa.org.cn/1.php"
+  },
+  {
+    "domain": "gipa.org.cn",
+    "type": "existing_shell",
+    "shell": "http://gipa.org.cn/shell.php"
+  },
+  {
+    "domain": "gipa.org.cn",
+    "type": "existing_shell",
+    "shell": "http://gipa.org.cn/cmd.php"
+  },
+  {
+    "domain": "gipa.org.cn",
+    "type": "existing_shell",
+    "shell": "http://gipa.org.cn/hunter_win.php"
+  },
+  {
+    "domain": "ybhsdp.com",
+    "type": "existing_shell",
+    "shell": "http://ybhsdp.com/1.php"
+  },
+  {
+    "domain": "ybhsdp.com",
+    "type": "existing_shell",
+    "shell": "http://ybhsdp.com/shell.php"
+  },
+  {
+    "domain": "ybhsdp.com",
+    "type": "existing_shell",
+    "shell": "http://ybhsdp.com/cmd.php"
+  },
+  {
+    "domain": "ybhsdp.com",
+    "type": "existing_shell",
+    "shell": "http://ybhsdp.com/hunter_win.php"
+  },
+  {
+    "domain": "nbvdsdsa.cn",
+    "type": "existing_shell",
+    "shell": "http://nbvdsdsa.cn/1.php"
+  },
+  {
+    "domain": "nbvdsdsa.cn",
+    "type": "existing_shell",
+    "shell": "http://nbvdsdsa.cn/shell.php"
+  },
+  {
+    "domain": "nbvdsdsa.cn",
+    "type": "existing_shell",
+    "shell": "http://nbvdsdsa.cn/cmd.php"
+  },
+  {
+    "domain": "nbvdsdsa.cn",
+    "type": "existing_shell",
+    "shell": "http://nbvdsdsa.cn/hunter_win.php"
+  },
+  {
+    "domain": "xafbcmy.cn",
+    "type": "existing_shell",
+    "shell": "http://xafbcmy.cn/1.php"
+  },
+  {
+    "domain": "xafbcmy.cn",
+    "type": "existing_shell",
+    "shell": "http://xafbcmy.cn/shell.php"
+  },
+  {
+    "domain": "xafbcmy.cn",
+    "type": "existing_shell",
+    "shell": "http://xafbcmy.cn/cmd.php"
+  },
+  {
+    "domain": "xafbcmy.cn",
+    "type": "existing_shell",
+    "shell": "http://xafbcmy.cn/hunter_win.php"
+  },
+  {
+    "domain": "fukeshu.com",
+    "type": "existing_shell",
+    "shell": "http://fukeshu.com/1.php"
+  },
+  {
+    "domain": "fukeshu.com",
+    "type": "existing_shell",
+    "shell": "http://fukeshu.com/shell.php"
+  },
+  {
+    "domain": "fukeshu.com",
+    "type": "existing_shell",
+    "shell": "http://fukeshu.com/cmd.php"
+  },
+  {
+    "domain": "fukeshu.com",
+    "type": "existing_shell",
+    "shell": "http://fukeshu.com/hunter_win.php"
+  },
+  {
+    "domain": "qwahg.cn",
+    "type": "existing_shell",
+    "shell": "http://qwahg.cn/1.php"
+  },
+  {
+    "domain": "qwahg.cn",
+    "type": "existing_shell",
+    "shell": "http://qwahg.cn/shell.php"
+  },
+  {
+    "domain": "qwahg.cn",
+    "type": "existing_shell",
+    "shell": "http://qwahg.cn/cmd.php"
+  },
+  {
+    "domain": "qwahg.cn",
+    "type": "existing_shell",
+    "shell": "http://qwahg.cn/hunter_win.php"
+  },
+  {
+    "domain": "nykzu.com",
+    "type": "existing_shell",
+    "shell": "http://nykzu.com/1.php"
+  },
+  {
+    "domain": "nykzu.com",
+    "type": "existing_shell",
+    "shell": "http://nykzu.com/shell.php"
+  },
+  {
+    "domain": "nykzu.com",
+    "type": "existing_shell",
+    "shell": "http://nykzu.com/cmd.php"
+  },
+  {
+    "domain": "nykzu.com",
+    "type": "existing_shell",
+    "shell": "http://nykzu.com/hunter_win.php"
+  },
+  {
+    "domain": "dachun-sh.cn",
+    "type": "existing_shell",
+    "shell": "http://dachun-sh.cn/1.php"
+  },
+  {
+    "domain": "dachun-sh.cn",
+    "type": "existing_shell",
+    "shell": "http://dachun-sh.cn/shell.php"
+  },
+  {
+    "domain": "dachun-sh.cn",
+    "type": "existing_shell",
+    "shell": "http://dachun-sh.cn/cmd.php"
+  },
+  {
+    "domain": "dachun-sh.cn",
+    "type": "existing_shell",
+    "shell": "http://dachun-sh.cn/hunter_win.php"
+  },
+  {
+    "domain": "jsdyjy.org",
+    "type": "existing_shell",
+    "shell": "http://jsdyjy.org/1.php"
+  },
+  {
+    "domain": "jsdyjy.org",
+    "type": "existing_shell",
+    "shell": "http://jsdyjy.org/shell.php"
+  },
+  {
+    "domain": "jsdyjy.org",
+    "type": "existing_shell",
+    "shell": "http://jsdyjy.org/cmd.php"
+  },
+  {
+    "domain": "jsdyjy.org",
+    "type": "existing_shell",
+    "shell": "http://jsdyjy.org/hunter_win.php"
+  },
+  {
+    "domain": "kquzhiboappgfxiazaiy.com.cn",
+    "type": "existing_shell",
+    "shell": "http://kquzhiboappgfxiazaiy.com.cn/1.php"
+  },
+  {
+    "domain": "kquzhiboappgfxiazaiy.com.cn",
+    "type": "existing_shell",
+    "shell": "http://kquzhiboappgfxiazaiy.com.cn/shell.php"
+  },
+  {
+    "domain": "kquzhiboappgfxiazaiy.com.cn",
+    "type": "existing_shell",
+    "shell": "http://kquzhiboappgfxiazaiy.com.cn/cmd.php"
+  },
+  {
+    "domain": "kquzhiboappgfxiazaiy.com.cn",
+    "type": "existing_shell",
+    "shell": "http://kquzhiboappgfxiazaiy.com.cn/hunter_win.php"
+  },
+  {
+    "domain": "aihushus.com",
+    "type": "existing_shell",
+    "shell": "http://aihushus.com/1.php"
+  },
+  {
+    "domain": "aihushus.com",
+    "type": "existing_shell",
+    "shell": "http://aihushus.com/shell.php"
+  },
+  {
+    "domain": "aihushus.com",
+    "type": "existing_shell",
+    "shell": "http://aihushus.com/cmd.php"
+  },
+  {
+    "domain": "aihushus.com",
+    "type": "existing_shell",
+    "shell": "http://aihushus.com/hunter_win.php"
+  },
+  {
+    "domain": "iewens.com",
+    "type": "existing_shell",
+    "shell": "http://iewens.com/1.php"
+  },
+  {
+    "domain": "iewens.com",
+    "type": "existing_shell",
+    "shell": "http://iewens.com/shell.php"
+  },
+  {
+    "domain": "iewens.com",
+    "type": "existing_shell",
+    "shell": "http://iewens.com/cmd.php"
+  },
+  {
+    "domain": "iewens.com",
+    "type": "existing_shell",
+    "shell": "http://iewens.com/hunter_win.php"
+  },
+  {
+    "domain": "yiqinfang.cn",
+    "type": "existing_shell",
+    "shell": "http://yiqinfang.cn/1.php"
+  },
+  {
+    "domain": "yiqinfang.cn",
+    "type": "existing_shell",
+    "shell": "http://yiqinfang.cn/shell.php"
+  },
+  {
+    "domain": "yiqinfang.cn",
+    "type": "existing_shell",
+    "shell": "http://yiqinfang.cn/cmd.php"
+  },
+  {
+    "domain": "yiqinfang.cn",
+    "type": "existing_shell",
+    "shell": "http://yiqinfang.cn/hunter_win.php"
+  },
+  {
+    "domain": "huoluxs.com",
+    "type": "existing_shell",
+    "shell": "http://huoluxs.com/1.php"
+  },
+  {
+    "domain": "huoluxs.com",
+    "type": "existing_shell",
+    "shell": "http://huoluxs.com/shell.php"
+  },
+  {
+    "domain": "huoluxs.com",
+    "type": "existing_shell",
+    "shell": "http://huoluxs.com/cmd.php"
+  },
+  {
+    "domain": "huoluxs.com",
+    "type": "existing_shell",
+    "shell": "http://huoluxs.com/hunter_win.php"
+  },
+  {
+    "domain": "295wj.cn",
+    "type": "existing_shell",
+    "shell": "http://295wj.cn/1.php"
+  },
+  {
+    "domain": "295wj.cn",
+    "type": "existing_shell",
+    "shell": "http://295wj.cn/shell.php"
+  },
+  {
+    "domain": "295wj.cn",
+    "type": "existing_shell",
+    "shell": "http://295wj.cn/cmd.php"
+  },
+  {
+    "domain": "295wj.cn",
+    "type": "existing_shell",
+    "shell": "http://295wj.cn/hunter_win.php"
+  },
+  {
+    "domain": "hengfamaojin.com",
+    "type": "existing_shell",
+    "shell": "http://hengfamaojin.com/1.php"
+  },
+  {
+    "domain": "hengfamaojin.com",
+    "type": "existing_shell",
+    "shell": "http://hengfamaojin.com/shell.php"
+  },
+  {
+    "domain": "hengfamaojin.com",
+    "type": "existing_shell",
+    "shell": "http://hengfamaojin.com/cmd.php"
+  },
+  {
+    "domain": "hengfamaojin.com",
+    "type": "existing_shell",
+    "shell": "http://hengfamaojin.com/hunter_win.php"
+  },
+  {
+    "domain": "ff-wyf.com",
+    "type": "existing_shell",
+    "shell": "http://ff-wyf.com/1.php"
+  },
+  {
+    "domain": "ff-wyf.com",
+    "type": "existing_shell",
+    "shell": "http://ff-wyf.com/shell.php"
+  },
+  {
+    "domain": "ff-wyf.com",
+    "type": "existing_shell",
+    "shell": "http://ff-wyf.com/cmd.php"
+  },
+  {
+    "domain": "ff-wyf.com",
+    "type": "existing_shell",
+    "shell": "http://ff-wyf.com/hunter_win.php"
+  },
+  {
+    "domain": "zhoushus.com",
+    "type": "existing_shell",
+    "shell": "http://zhoushus.com/1.php"
+  },
+  {
+    "domain": "zhoushus.com",
+    "type": "existing_shell",
+    "shell": "http://zhoushus.com/shell.php"
+  },
+  {
+    "domain": "zhoushus.com",
+    "type": "existing_shell",
+    "shell": "http://zhoushus.com/cmd.php"
+  },
+  {
+    "domain": "zhoushus.com",
+    "type": "existing_shell",
+    "shell": "http://zhoushus.com/hunter_win.php"
+  },
+  {
+    "domain": "hupcy.cn",
+    "type": "existing_shell",
+    "shell": "http://hupcy.cn/1.php"
+  },
+  {
+    "domain": "hupcy.cn",
+    "type": "existing_shell",
+    "shell": "http://hupcy.cn/shell.php"
+  },
+  {
+    "domain": "hupcy.cn",
+    "type": "existing_shell",
+    "shell": "http://hupcy.cn/cmd.php"
+  },
+  {
+    "domain": "hupcy.cn",
+    "type": "existing_shell",
+    "shell": "http://hupcy.cn/hunter_win.php"
+  }
+]

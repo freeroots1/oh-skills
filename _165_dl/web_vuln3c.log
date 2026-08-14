@@ -1,0 +1,27 @@
+web_vuln3: 25819 targets, 20 workers
+  1000/25819 findings=24
+  2000/25819 findings=173
+  3000/25819 findings=278
+  4000/25819 findings=397
+  5000/25819 findings=482
+  6000/25819 findings=601
+  7000/25819 findings=743
+  8000/25819 findings=898
+  9000/25819 findings=949
+  10000/25819 findings=1064
+  11000/25819 findings=1175
+  12000/25819 findings=1296
+  13000/25819 findings=1414
+  14000/25819 findings=1513
+  15000/25819 findings=1626
+  16000/25819 findings=1759
+  17000/25819 findings=1864
+  18000/25819 findings=1978
+  19000/25819 findings=2088
+  20000/25819 findings=2177
+  21000/25819 findings=2340
+  22000/25819 findings=2514
+  23000/25819 findings=2697
+  24000/25819 findings=2819
+  25000/25819 findings=2883
+web_vuln3 done: 2925 findings

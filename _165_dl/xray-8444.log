@@ -1,0 +1,14 @@
+2026/08/08 23:11:16 [Debug] app/log: Logger started
+2026/08/08 23:11:16 [Debug] app/proxyman/inbound: creating stream worker on 0.0.0.0:8444
+2026/08/08 23:11:16 [Info] transport/internet/tcp: listening TCP on 0.0.0.0:8444
+2026/08/08 23:11:16 [Warning] core: Xray 1.8.24 started
+2026/08/08 23:11:20 [Info] transport/internet/tcp: REALITY: processed invalid connection
+2026/08/08 23:11:20 [Info] transport/internet/tcp: REALITY: processed invalid connection
+2026/08/08 23:11:21 [Info] transport/internet/tcp: REALITY: processed invalid connection
+2026/08/08 23:11:21 [Info] transport/internet/tcp: REALITY: processed invalid connection
+2026/08/08 23:11:22 [Info] transport/internet/tcp: REALITY: processed invalid connection
+2026/08/08 23:23:00 [Info] transport/internet/tcp: REALITY: processed invalid connection
+2026/08/08 23:23:00 [Info] transport/internet/tcp: REALITY: processed invalid connection
+2026/08/08 23:23:01 [Info] transport/internet/tcp: REALITY: processed invalid connection
+2026/08/08 23:23:01 [Info] transport/internet/tcp: REALITY: processed invalid connection
+2026/08/08 23:23:02 [Info] transport/internet/tcp: REALITY: processed invalid connection

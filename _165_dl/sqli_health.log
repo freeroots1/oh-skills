@@ -1,0 +1,8 @@
+[2026-08-11 04:42:40] yijingweb: BLOCKED/ERR code=200
+[2026-08-11 04:42:40] zagroup: BLOCKED/ERR code=200
+[2026-08-11 04:48:13] yijingweb: BLOCKED/ERR code=200
+[2026-08-11 04:48:13] zagroup: BLOCKED/ERR code=200
+[2026-08-11 04:48:44] yijingweb: BLOCKED/ERR code=200
+[2026-08-11 04:48:44] zagroup: BLOCKED/ERR code=200
+[2026-08-11 04:50:26] yijingweb: INJECTION ALIVE! SQL=select * from hxz_webmall_spool where id='686'' PATH=/home/yijingwebty5iuj0iunegvw1enb/wwwroot/includes/db.inc.ph
+[2026-08-11 04:50:26] zagroup: normal=5132B arith(259-0)=4660B diff=+472 inject=ALIVE

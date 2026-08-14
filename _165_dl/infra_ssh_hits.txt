@@ -1,0 +1,1 @@
+# Hydra v9.2 run at 2026-08-12 04:42:23 on infra_targets.txt ssh (hydra -I -L users_small.txt -P pw_common.txt -M infra_targets.txt -t 4 -w 10 -f -o /tmp/infra_ssh_hits.txt ssh)

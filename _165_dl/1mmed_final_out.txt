@@ -1,0 +1,7 @@
+用户admin 密码数=106
+[20] 到 shanghai123
+[40] 到 Admin@123
+[60] 到 yimu@123
+[80] 到 asdf1234
+[100] 到 shanghai2020
+DONE

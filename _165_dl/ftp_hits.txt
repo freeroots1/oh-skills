@@ -1,0 +1,2 @@
+# Hydra v9.2 run at 2026-08-12 02:08:20 on ftp_targets.txt ftp (hydra -L users_small.txt -P pw_common.txt -M ftp_targets.txt -t 4 -w 8 -f -o /tmp/ftp_hits.txt ftp)
+# Hydra v9.2 run at 2026-08-12 02:16:58 on ftp_targets.txt ftp (hydra -L users_small.txt -P pw_common.txt -M ftp_targets.txt -t 4 -w 8 -f -o /tmp/ftp_hits.txt ftp)

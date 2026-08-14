@@ -1,0 +1,37 @@
+验证 43 个 auth 目标...
+[REAL] 11ban.top /admin/ 200 form=True marks=4 -> https://www.11ban.top/admin/login.php?referer=https%3A%2F%2Fwww.11ban.top%2Fadmin%2F
+[REAL] admin-dashboard.pagsmile.com /admin/ 200 form=False marks=3 -> https://xcloudone.cloudflareaccess.com/cdn-cgi/access/login/admin-dashboard.pagsmile.com?kid=29e3df50207a11d5355fe3b0d2a24bfd0c085ee8b3c94fab20b76216dcbea2c8&meta=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImJkZWNlMDBlMWRkNjVhNzI1YTIyYTdlYjFhNWRlMmE5Y2M4YjRlYzRlNThiNWQzNmYzMDE2NzMxNThhYzFmY2MifQ.eyJ0eXBlIjoibWV0YSIsImF1ZCI6IjI5ZTNkZjUwMjA3YTExZDUzNTVmZTNiMGQyYTI0YmZkMGMwODVlZThiM2M5NGZhYjIwYjc2MjE2ZGNiZWEyYzgiLCJob3N0bmFtZSI6ImFkbWluLWRhc2hib2FyZC5wYWdzbWlsZS5jb20iLCJyZWRpcmVjdF91cmwiOiIvYWRtaW4vIiwic2VydmljZV90b2tlbl9zdGF0dXMiOmZhbHNlLCJpc193YXJwIjpmYWxzZSwiaXNfZ2F0ZXdheSI6ZmFsc2UsImV4cCI6MTc4NjUzMDkyMiwibmJmIjoxNzg2NTMwNjIyLCJpYXQiOjE3ODY1MzA2MjIsImF1dGhfc3RhdHVzIjoiTk9ORSIsIm10bHNfYXV0aCI6eyJjZXJ0X2lzc3Vlcl9kbiI6IiIsImNlcnRfc2VyaWFsIjoiIiwiY2VydF9pc3N1ZXJfc2tpIjoiIiwiY2VydF9wcmVzZW50ZWQiOmZhbHNlLCJjb21tb25fbmFtZSI6IiIsImF1dGhfc3RhdHVzIjoiTk9ORSJ9LCJyZWFsX2NvdW50cnkiOiJISyIsImFwcF9zZXNzaW9uX2hhc2giOiI4OWU2NzY3ZWZlYzM4MDk0OGZlOGRjMDg0M2NmOWViOGY3NzVhMzg2YzRjOGY1NDg4NWI4YWQyMGM2MTM3NjgwIn0.BhkJZ87f-imEtfODHcMpUK9sT9Bs0OJGoMLaQv7TpRJyZNK7j8KuuYupBmzYm3WOJ1juJfS2_bJo1oSK2AijhpqSzgdoHUeUHnI4t7SFJ3soJvhSSxhl2qgW-0dxsqCQFwkYtLMC8v0JB8oG2iYPb2x8IJZX82ttKwB6HGguOcDZYIUtfQSb7hmtGuEtbZQ6BOo2rgjJ8CqvPm5g_Tg8q9CnABd_Vh7Ob6TWcopZaE0ApAtk4w5K7LvzCwRBYS8XDKuZ02FV_EeYyOqCpWQUAiUc4TiTApxonrmccCeqA7qYkCo1on0qBLwK9ZWmz1fOaumQoAFpq_A_G-go6cDpOQ&redirect_url=%2Fadmin%2F
+[REAL] agence-uni.com /admin/ 200 form=True marks=3 -> https://agence-uni.com/wp-login.php?redirect_to=https%3A%2F%2Fagence-uni.com%2Fwp-admin%2F&reauth=1
+[REAL] anshig.com /admin/login.php 200 form=True marks=6 -> http://anshig.com/admin/login.php
+[REAL] apollosuite.com /admin/ 200 form=True marks=3 -> https://apollosuite.com/wp-login.php?redirect_to=https%3A%2F%2Fapollosuite.com%2Fwp-admin%2F&reauth=1
+[REAL] armord-alloy.com /admin/login.php 200 form=True marks=6 -> http://armord-alloy.com/admin/login.php
+[REAL] athdf.com /admin/login.php 200 form=True marks=6 -> http://athdf.com/admin/login.php
+[REAL] auncel.com.cn /admin/login.php 200 form=True marks=6 -> http://auncel.com.cn/admin/login.php
+[REAL] bensonic-china.cn /admin/login.php 200 form=True marks=6 -> http://bensonic-china.cn/admin/login.php
+[REAL] besttc.net /admin/login.php 200 form=True marks=6 -> http://besttc.net/admin/login.php
+[REAL] cepn.cn /admin/login.php 200 form=False marks=4 -> http://cepn.cn/admin/login.php
+[REAL] collectionsites.cannamm.com /admin/ 200 form=True marks=3 -> https://collectionsites.cannamm.com/wp-login.php?redirect_to=https%3A%2F%2Fcollectionsites.cannamm.com%2Fwp-admin%2F&reauth=1
+[REAL] cordeiroesaraiva.com /admin/ 200 form=True marks=2 -> http://cordeiroesaraiva.com/admin/
+[REAL] encuentraempleord.com /login.php 200 form=True marks=4 -> https://encuentraempleord.com/wp-login.php
+[REAL] evenement.otrement.info /admin/login.php 200 form=False marks=2 -> https://evenement.otrement.info/admin/login.php
+... 20/43
+[REAL] gz-dichuan.com /admin/ 200 form=True marks=5 -> http://gz-dichuan.com/index.php?m=admin&c=login&a=index
+[REAL] iitang.com /admin/ 200 form=True marks=4 -> https://iitang.com/login/?redirect_to=https://iitang.com/wp-admin/
+[REAL] kirinmach.com /manage/ 200 form=True marks=1 -> http://kirinmach.com/manage/
+[REAL] lamoo.cn /admin/ 200 form=True marks=6 -> http://lamoo.cn/Admin/Signin.aspx?returnURL=%2fadmin%2fdefault.aspx
+[REAL] lsks.org.cn /admin/ 200 form=True marks=7 -> https://lsks.org.cn/admin/
+[REAL] naukrigov.com /login.php 200 form=True marks=3 -> https://naukrigov.com/wp-login.php
+[REAL] swedx.com /admin/login.php 200 form=False marks=2 -> http://swedx.com/admin/login.php
+[REAL] wallpic.cn /admin/ 200 form=True marks=4 -> https://www.wallpic.cn/user-sign?tab=signin&redirect_to=https%3A%2F%2Fwww.wallpic.cn%2Fwp-admin%2F
+[REAL] www.atlashomehealth.com /admin/login.php 200 form=False marks=2 -> http://www.atlashomehealth.com/admin/login.php
+[REAL] www.cloudanswers.com /admin/ 200 form=True marks=3 -> https://cloudanswers.com/wp-login.php?redirect_to=https%3A%2F%2Fcloudanswers.com%2Fwp-admin%2F&reauth=1
+[REAL] www.eltoutcomes.com /admin/ 200 form=False marks=2 -> https://www.eltoutcomes.com/user/login?destination=admin
+[REAL] www.escoladolouvor.com /admin/ 200 form=True marks=3 -> https://escoladolouvor.com/wp-login.php?redirect_to=https%3A%2F%2Fescoladolouvor.com%2Fwp-admin%2F&reauth=1
+[REAL] www.g-gmakine.com /admin/ 200 form=True marks=4 -> https://www.g-gmakine.com/Admin/SignIn.aspx?ReturnUrl=%2fadmin%2f
+[REAL] www.jointherivercoalition.org /admin/ 200 form=True marks=5 -> https://jointherivercoalition.org/wp-login.php?redirect_to=https%3A%2F%2Fjointherivercoalition.org%2Fwp-admin%2F&reauth=1
+... 40/43
+[REAL] www.lamoo.cn /admin/ 200 form=True marks=6 -> http://www.lamoo.cn/Admin/Signin.aspx?returnURL=%2fadmin%2fdefault.aspx
+[REAL] www.mingyangshijia.cn /admin/ 200 form=True marks=5 -> http://www.mingyangshijia.cn/admin/
+[REAL] www.qjsgf.com /admin/ 200 form=True marks=3 -> http://www.qjsgf.com/admin/login.html
+
+完成: REAL=32 DEAD=11

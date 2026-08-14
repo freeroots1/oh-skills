@@ -1,0 +1,14 @@
+HTTP/1.1 302 Moved Temporarily
+Server: nginx
+Date: Tue, 04 Aug 2026 03:06:02 GMT
+Content-Type: text/html
+Content-Length: 154
+Connection: keep-alive
+Set-Cookie: route=2d98db9f4f1b450fe5124a16d954836e; Path=/
+Set-Cookie: route=e384b5fe7b7771d3f650d3e156801b2b; Path=/; Secure; HttpOnly
+Location: /
+Expires: Wed, 05 Aug 2026 03:08:59 GMT
+Cache-Control: max-age=86400
+X-Xss-Protection: 1
+X-Content-Type-Options: nosniff
+

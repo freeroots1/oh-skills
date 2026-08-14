@@ -1,0 +1,130 @@
+[adminscan8] 29532 targets, 30 threads
+progress: 300/29532 hits=375
+progress: 600/29532 hits=651
+progress: 900/29532 hits=856
+progress: 1200/29532 hits=1264
+progress: 1500/29532 hits=1699
+progress: 1800/29532 hits=2010
+progress: 2100/29532 hits=2432
+progress: 2400/29532 hits=2790
+progress: 2700/29532 hits=3063
+progress: 3000/29532 hits=3472
+progress: 3300/29532 hits=3854
+progress: 3600/29532 hits=4233
+progress: 3900/29532 hits=4577
+progress: 4200/29532 hits=4793
+progress: 4500/29532 hits=5168
+progress: 4800/29532 hits=5610
+progress: 5100/29532 hits=6021
+progress: 5400/29532 hits=6402
+progress: 5700/29532 hits=6703
+progress: 6000/29532 hits=7050
+progress: 6300/29532 hits=7359
+progress: 6600/29532 hits=7664
+progress: 6900/29532 hits=7965
+progress: 7200/29532 hits=8305
+progress: 7500/29532 hits=8649
+progress: 7800/29532 hits=8935
+progress: 8100/29532 hits=9381
+progress: 8400/29532 hits=9745
+progress: 8700/29532 hits=10129
+progress: 9000/29532 hits=10441
+progress: 9300/29532 hits=10686
+progress: 9600/29532 hits=10981
+progress: 9900/29532 hits=11072
+progress: 10200/29532 hits=11493
+progress: 10500/29532 hits=11902
+progress: 10800/29532 hits=12257
+progress: 11100/29532 hits=12540
+progress: 11400/29532 hits=12866
+progress: 11700/29532 hits=13248
+progress: 12000/29532 hits=13632
+progress: 12300/29532 hits=14000
+progress: 12600/29532 hits=14391
+progress: 12900/29532 hits=14732
+progress: 13200/29532 hits=15176
+progress: 13500/29532 hits=15660
+progress: 13800/29532 hits=16030
+progress: 14100/29532 hits=16417
+progress: 14400/29532 hits=16684
+progress: 14700/29532 hits=16990
+progress: 15000/29532 hits=17416
+progress: 15300/29532 hits=17716
+progress: 15600/29532 hits=18047
+progress: 15900/29532 hits=18372
+progress: 16200/29532 hits=18731
+progress: 16500/29532 hits=19096
+progress: 16800/29532 hits=19535
+progress: 17100/29532 hits=19902
+progress: 17400/29532 hits=20240
+progress: 17700/29532 hits=20626
+progress: 18000/29532 hits=20861
+progress: 18300/29532 hits=21203
+progress: 18600/29532 hits=21564
+progress: 18900/29532 hits=21885
+progress: 19200/29532 hits=22299
+progress: 19500/29532 hits=22554
+progress: 19800/29532 hits=22943
+progress: 20100/29532 hits=23342
+progress: 20400/29532 hits=23739
+progress: 20700/29532 hits=24123
+progress: 21000/29532 hits=24496
+progress: 21300/29532 hits=24865
+progress: 21600/29532 hits=25219
+progress: 21900/29532 hits=25621
+progress: 22200/29532 hits=25950
+progress: 22500/29532 hits=26350
+progress: 22800/29532 hits=26626
+progress: 23100/29532 hits=26872
+progress: 23400/29532 hits=27226
+progress: 23700/29532 hits=27638
+progress: 24000/29532 hits=27932
+progress: 24300/29532 hits=28339
+progress: 24600/29532 hits=28782
+progress: 24900/29532 hits=29113
+progress: 25200/29532 hits=29493
+progress: 25500/29532 hits=29865
+progress: 25800/29532 hits=30209
+progress: 26100/29532 hits=30578
+progress: 26400/29532 hits=31019
+progress: 26700/29532 hits=31375
+progress: 27000/29532 hits=31974
+progress: 27300/29532 hits=32562
+progress: 27600/29532 hits=33149
+progress: 27900/29532 hits=33712
+progress: 28200/29532 hits=34074
+progress: 28500/29532 hits=34528
+progress: 28800/29532 hits=34953
+progress: 29100/29532 hits=35260
+progress: 29400/29532 hits=35573
+[adminscan8 done] 11649 real hits (35783 raw)
+HIT: 000win345.com	/admin/	114
+HIT: 000win345.com	/manage/	114
+HIT: 000win345.com	/admin/login.asp	114
+HIT: 000win345.com	/admin/index.asp	114
+HIT: 000win345.com	/houtai/	114
+HIT: 000win345.com	/admin/login	114
+HIT: 000win345.com	/dede/	114
+HIT: 1148d2.com	/admin/	2031
+HIT: 1148d2.com	/manage/	2031
+HIT: 1148d2.com	/houtai/	2031
+HIT: 1148d2.com	/admin/login	2031
+HIT: 1148d2.com	/dede/	2031
+HIT: 1148d6.com	/admin/	2031
+HIT: 1148d6.com	/manage/	2031
+HIT: 1148d6.com	/houtai/	2031
+HIT: 1148d6.com	/admin/login	2031
+HIT: 1148d6.com	/dede/	2031
+HIT: 1148d7.com	/admin/	2031
+HIT: 1148d7.com	/manage/	2031
+HIT: 1148d7.com	/houtai/	2031
+HIT: 1148d7.com	/admin/login	2031
+HIT: 1148d7.com	/dede/	2031
+HIT: 1148d8.com	/admin/	2031
+HIT: 1148d8.com	/manage/	2031
+HIT: 1148d8.com	/houtai/	2031
+HIT: 1148d8.com	/admin/login	2031
+HIT: 1148d8.com	/dede/	2031
+HIT: 1148h6.com	/admin/	2031
+HIT: 1148h6.com	/manage/	2031
+HIT: 1148h6.com	/houtai/	2031

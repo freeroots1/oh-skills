@@ -1,0 +1,16 @@
+!!! FORM_HIT cordeiroesaraiva.com /admin/ admin/admin123 -> http://cordeiroesaraiva.com/admin/Entrada/principal
+!!! FORM_HIT agence-uni.com /login.php admin/admin123 [body-mark]
+!!! FORM_HIT evenement.otrement.info /login.php admin/admin123 [body-mark]
+!!! FORM_HIT 11ban.top /admin/index.php admin/admin123 -> https://www.11ban.top/
+!!! FORM_HIT idx.1strealtyrangewide.com /admin/ admin/admin123 [body-mark]
+!!! FORM_HIT lamoo.cn /admin/ admin/admin123 -> http://lamoo.cn/Admin/Signin.aspx?returnURL=%2fadmin%2fdefault.aspx
+!!! FORM_HIT swedx.com /login.php admin/admin123 [body-mark]
+!!! FORM_HIT szwd3d.com /admin/ admin/abc123456 -> http://stopinfo.vhostgo.com/info7.php?data=041052045044049055038050043044041050045036042047041044041050049044042049040044044053030051043055049053044055041055
+!!! FORM_HIT szxinjiyou.com /admin/ admin/123321 -> http://stopinfo.vhostgo.com/info7.php?data=041052045044049055038050043044041050045036042047041044041050049044042049040044044053030051043055049053044055041055
+!!! FORM_HIT www.atlashomehealth.com /login.php admin/admin123 [body-mark]
+!!! FORM_HIT www.elbuzondejoseba.org /login.php admin/admin123 [body-mark]
+!!! FORM_HIT www.g-gmakine.com /admin/ admin/admin123 -> https://www.g-gmakine.com/admin/SignIn.aspx?ReturnUrl=%2fadmin%2f
+!!! FORM_HIT www.escoladolouvor.com /login.php admin/admin123 [body-mark]
+!!! FORM_HIT www.jointherivercoalition.org /login.php admin/admin123 [body-mark]
+!!! FORM_HIT www.mingyangshijia.cn /admin/ admin/admin123456 -> http://stopinfo.vhostgo.com/info7.php?data=041052045044049055038050043044041050045036042047041044041050049044041049041044041054041036045049049055047050049047049
+!!! FORM_HIT www.lamoo.cn /admin/ admin/admin123 -> http://www.lamoo.cn/Admin/Signin.aspx?returnURL=%2fadmin%2fdefault.aspx

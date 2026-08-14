@@ -1,0 +1,8 @@
+=== RESTART SERVE Sun Aug  9 01:02:16 UTC 2026 ===
+serve stopped: 0
+key check: sk-ad71f...
+serve running: 1
+LISTEN 0      2048         0.0.0.0:9119       0.0.0.0:*    users:(("hermes",pid=902259,fd=8))         
+health http: 200
+{"ok":true,"version":"0.19.0","auth_required":true}
+=== END Sun Aug  9 01:02:35 UTC 2026 ===

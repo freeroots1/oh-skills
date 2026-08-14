@@ -1,0 +1,413 @@
+========== QUICK SCAN START Mon Jul 27 07:42:22 UTC 2026 ==========
+
+=== sbhud.cn ===
+[1] HTTP HEAD check...
+HTTP_CODE: 000
+REDIRECT: 
+TIME: 15.002576s
+
+[2] Info leaks...
+
+[3] ThinkPHP RCE probes...
+
+[4] Body snippet (first 500 chars):
+
+
+---
+
+=== kjbqb.com ===
+[1] HTTP HEAD check...
+HTTP_CODE: 000
+REDIRECT: 
+TIME: 0.112856s
+
+[2] Info leaks...
+
+[3] ThinkPHP RCE probes...
+
+[4] Body snippet (first 500 chars):
+
+
+---
+
+=== 0898nkfk.com ===
+[1] HTTP HEAD check...
+HTTP_CODE: 400
+REDIRECT: 
+TIME: 0.462032s
+HTTP/1.1 400 Bad Request
+Server: nginx
+Date: Mon, 27 Jul 2026 07:44:10 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+
+
+[2] Info leaks...
+  /phpinfo.php -> 502
+  /info.php -> 502
+  /.env -> 502
+  /adminer.php -> 502
+  /phpmyadmin/ -> 502
+  /test.php -> 502
+
+[3] ThinkPHP RCE probes...
+
+[4] Body snippet (first 500 chars):
+<!DOCTYPE html>
+<html>
+<head>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?de9f26d1d004c602d2a2707b2b47b151";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+<body>
+<iframe src="http://qs88.hbeyuee.cn/5.html" style=
+---
+
+=== charley-slater.com ===
+[1] HTTP HEAD check...
+HTTP_CODE: 200
+REDIRECT: 
+TIME: 0.936182s
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Mon, 27 Jul 2026 07:44:15 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://charley-slater.com/
+Strict-Transport-Security: max-age=31536000
+Alt-Svc: quic=":443"; h3=":443"; h3-29=":443"; h3-27=":443";h3-25=":443"; h3-T050=":443"; h3-Q050=":443";h3-Q049=":443";h3-Q048=":443"; h3-Q046=":443"; h3-Q043=":443"
+
+
+[2] Info leaks...
+  /phpinfo.php -> 301
+  /info.php -> 301
+  /.env -> 301
+  /adminer.php -> 301
+  /phpmyadmin/ -> 301
+  /test.php -> 301
+
+[3] ThinkPHP RCE probes...
+
+[4] Body snippet (first 500 chars):
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+---
+
+=== zhimoquan.com ===
+[1] HTTP HEAD check...
+HTTP_CODE: 000
+REDIRECT: 
+TIME: 0.380185s
+
+[2] Info leaks...
+
+[3] ThinkPHP RCE probes...
+
+[4] Body snippet (first 500 chars):
+
+
+---
+
+=== gxzxin.com ===
+[1] HTTP HEAD check...
+HTTP_CODE: 000
+REDIRECT: 
+TIME: 1.791110s
+
+[2] Info leaks...
+
+[3] ThinkPHP RCE probes...
+
+[4] Body snippet (first 500 chars):
+
+
+---
+
+=== kjianfeiwl.com ===
+[1] HTTP HEAD check...
+HTTP_CODE: 200
+REDIRECT: 
+TIME: 0.304507s
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Mon, 27 Jul 2026 07:44:35 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://www.kjianfeiwl.com/
+Set-Cookie: server_session_31ef9731=0f6cb7d3a66c50ad7e815585c752d14b; Max-Age=864000; httponly; path=/
+Strict-Transport-Security: max-age=31536000
+
+
+[2] Info leaks...
+  /phpinfo.php -> 301
+  /info.php -> 301
+  /.env -> 301
+  /adminer.php -> 301
+  /phpmyadmin/ -> 301
+  /test.php -> 301
+
+[3] ThinkPHP RCE probes...
+
+[4] Body snippet (first 500 chars):
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+---
+
+=== runkeda-group.com ===
+[1] HTTP HEAD check...
+HTTP_CODE: 000
+REDIRECT: 
+TIME: 0.077883s
+
+[2] Info leaks...
+
+[3] ThinkPHP RCE probes...
+
+[4] Body snippet (first 500 chars):
+
+
+---
+
+=== amenxs.com ===
+[1] HTTP HEAD check...
+HTTP_CODE: 401
+REDIRECT: 
+TIME: 0.376051s
+HTTP/1.1 401 Unauthorized
+Date: Mon, 27 Jul 2026 07:44:37 GMT
+Content-Type: text/html;charset=utf-8
+Connection: keep-alive
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: _wa_=1785138277_dd6dadc4fc4caaed69c847ea69f74f3b; path=/; Max-Age=30; httponly
+Server: JSP/qy1
+
+
+[2] Info leaks...
+  /phpinfo.php -> 401
+  /info.php -> 401
+  /adminer.php -> 401
+  /test.php -> 401
+
+[3] ThinkPHP RCE probes...
+
+[4] Body snippet (first 500 chars):
+<meta http-equiv=refresh content=0>
+
+---
+
+=== 0576z.net ===
+[1] HTTP HEAD check...
+HTTP_CODE: 000
+REDIRECT: 
+TIME: 8.001288s
+
+[2] Info leaks...
+
+[3] ThinkPHP RCE probes...
+
+[4] Body snippet (first 500 chars):
+
+
+---
+
+=== ofrgylpvh.com ===
+[1] HTTP HEAD check...
+HTTP_CODE: 403
+REDIRECT: 
+TIME: 0.661176s
+HTTP/1.1 403 Forbidden
+Server: nginx
+Date: Mon, 27 Jul 2026 07:45:35 GMT
+Content-Type: text/html
+Content-Length: 146
+Connection: keep-alive
+
+
+[2] Info leaks...
+  /phpinfo.php -> 403
+  /info.php -> 403
+  /.env -> 403
+  /adminer.php -> 403
+  /phpmyadmin/ -> 403
+  /test.php -> 403
+
+[3] ThinkPHP RCE probes...
+
+[4] Body snippet (first 500 chars):
+<html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+---
+
+=== youshengpiao.com ===
+[1] HTTP HEAD check...
+HTTP_CODE: 400
+REDIRECT: 
+TIME: 0.101364s
+HTTP/1.1 400 Bad Request
+Server: nginx
+Date: Mon, 27 Jul 2026 07:45:39 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+
+
+[2] Info leaks...
+  /phpinfo.php -> 502
+  /info.php -> 502
+  /.env -> 502
+  /adminer.php -> 502
+  /phpmyadmin/ -> 502
+  /test.php -> 502
+
+[3] ThinkPHP RCE probes...
+
+[4] Body snippet (first 500 chars):
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>安全检测</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        body {
+            width: 100%;
+            height: 100vh;
+        }
+        .main {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background: #000;
+            display: flex;
+
+---
+
+=== canbe.com.cn ===
+[1] HTTP HEAD check...
+HTTP_CODE: 200
+REDIRECT: 
+TIME: 1.216923s
+HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 27 Jul 2026 07:45:43 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Set-Cookie: home_lang=cn; path=/
+Set-Cookie: admin_lang=cn; path=/
+Set-Cookie: PHPSESSID=vf8j7583fqto9revf82f28bn1h; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+Cache-control: private
+Set-Cookie: site_info=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/
+
+
+[2] Info leaks...
+  /phpinfo.php -> 404
+  /info.php -> 404
+  /.env -> 404
+  /adminer.php -> 404
+  /phpmyadmin/ -> 404
+  /test.php -> 404
+
+[3] ThinkPHP RCE probes...
+
+[4] Body snippet (first 500 chars):
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>广东广碧环保科技有限公司</title>
+    <meta name="description" content="广东广碧环保科技有限公司—专业提供土壤污染状况调查、河涌治理、污染修复、市政污水河道治理等服务。" />
+    <meta name="keywords" content="佛山环保公司,河道治理,场地调查,土壤调查,广碧环保,污水处理,污水处理工程,环保�
+---
+
+=== jxsyyb.com ===
+[1] HTTP HEAD check...
+HTTP_CODE: 403
+REDIRECT: 
+TIME: 0.375331s
+HTTP/1.1 403 Forbidden
+Server: nginx
+Date: Mon, 27 Jul 2026 07:45:58 GMT
+Content-Type: text/html
+Content-Length: 146
+Connection: keep-alive
+
+
+[2] Info leaks...
+  /phpinfo.php -> 403
+  /info.php -> 403
+  /.env -> 403
+  /adminer.php -> 403
+  /phpmyadmin/ -> 403
+  /test.php -> 403
+
+[3] ThinkPHP RCE probes...
+
+[4] Body snippet (first 500 chars):
+<html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+---
+
+=== hlrtqm.cn ===
+[1] HTTP HEAD check...
+HTTP_CODE: 000
+REDIRECT: 
+TIME: 0.729605s
+
+[2] Info leaks...
+
+[3] ThinkPHP RCE probes...
+
+[4] Body snippet (first 500 chars):
+
+
+---
+
+========== SCAN COMPLETE Mon Jul 27 07:46:08 UTC 2026 ==========

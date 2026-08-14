@@ -1,0 +1,9 @@
+=== 重启全量通宵 ===
+活站: 216
+PMA: 15
+=== 新RDP ===
+jiehua-chem.com (121.41.0.118)
+kmlcl.com (nsa083ccda.a.yxydns.com.)
+RDP started
+v7: 3057111
+ALL RUNNING

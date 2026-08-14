@@ -1,0 +1,14 @@
+wmbluegame.com|129.204.72.107|MySQL,RDP,FTP
+baizhanke.com|123.206.224.148|MySQL,SSH,Redis
+shkm.com|150.158.112.25|MySQL,SSH,FTP,8080
+swceb.com|120.79.150.103|MySQL,SSH,FTP
+imshusheng.com|175.24.174.28|MySQL,SSH
+lzyd.com|114.215.105.174|MySQL,SSH
+nw0898.com|47.120.63.67|MySQL
+bigddg.com|211.149.239.226|MySQL
+guimamuye.com|211.149.228.173|MySQL
+gxzyhb.com|211.149.229.52|MySQL,FTP
+qinggonggroup.com|211.149.230.231|MySQL
+e2say.com|120.55.92.21|RDP
+guoxuedashi.com|39.100.109.144|RDP
+dcccji.com|152.136.46.163|RDP

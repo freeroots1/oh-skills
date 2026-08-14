@@ -1,0 +1,3 @@
+./nuclei_4cat_scan.sh: line 11: 1923264 Killed                  nuclei -l cms_domains.txt -tags "$TAGS" -c 60 -timeout 8 -retries 1 -silent -o /tmp/nuclei_cms_hits.txt >> $LOG 2>&1
+./nuclei_4cat_scan.sh: line 16: 1929677 Killed                  nuclei -l p01_ips.txt -tags "$TAGS" -c 40 -timeout 8 -retries 1 -silent -o /tmp/nuclei_p01_hits.txt >> $LOG 2>&1
+Terminated

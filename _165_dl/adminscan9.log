@@ -1,0 +1,86 @@
+[adminscan8] 16317 targets, 30 threads
+progress: 300/16317 hits=413
+progress: 600/16317 hits=618
+progress: 900/16317 hits=1139
+progress: 1200/16317 hits=1523
+progress: 1500/16317 hits=1993
+progress: 1800/16317 hits=2397
+progress: 2100/16317 hits=2857
+progress: 2400/16317 hits=3238
+progress: 2700/16317 hits=3795
+progress: 3000/16317 hits=4423
+progress: 3300/16317 hits=4889
+progress: 3600/16317 hits=5189
+progress: 3900/16317 hits=5655
+progress: 4200/16317 hits=6151
+progress: 4500/16317 hits=6588
+progress: 4800/16317 hits=7047
+progress: 5100/16317 hits=7374
+progress: 5400/16317 hits=7798
+progress: 5700/16317 hits=8281
+progress: 6000/16317 hits=8657
+progress: 6300/16317 hits=9052
+progress: 6600/16317 hits=9496
+progress: 6900/16317 hits=9868
+progress: 7200/16317 hits=10428
+progress: 7500/16317 hits=11045
+progress: 7800/16317 hits=11437
+progress: 8100/16317 hits=11898
+progress: 8400/16317 hits=12354
+progress: 8700/16317 hits=12723
+progress: 9000/16317 hits=13226
+progress: 9300/16317 hits=13696
+progress: 9600/16317 hits=14083
+progress: 9900/16317 hits=14527
+progress: 10200/16317 hits=15012
+progress: 10500/16317 hits=15466
+progress: 10800/16317 hits=15961
+progress: 11100/16317 hits=16468
+progress: 11400/16317 hits=17027
+progress: 11700/16317 hits=17430
+progress: 12000/16317 hits=17944
+progress: 12300/16317 hits=18361
+progress: 12600/16317 hits=18668
+progress: 12900/16317 hits=19122
+progress: 13200/16317 hits=19670
+progress: 13500/16317 hits=20287
+progress: 13800/16317 hits=20781
+progress: 14100/16317 hits=21329
+progress: 14400/16317 hits=22052
+progress: 14700/16317 hits=22612
+progress: 15000/16317 hits=23378
+progress: 15300/16317 hits=24008
+progress: 15600/16317 hits=24418
+progress: 15900/16317 hits=24977
+progress: 16200/16317 hits=25297
+[adminscan8 done] 6085 real hits (25493 raw)
+HIT: 000win345.com	/admin/	114
+HIT: 000win345.com	/manage/	114
+HIT: 000win345.com	/admin/login.asp	114
+HIT: 000win345.com	/admin/index.asp	114
+HIT: 000win345.com	/houtai/	114
+HIT: 000win345.com	/admin/login	114
+HIT: 000win345.com	/dede/	114
+HIT: 177-210-157-110.user3g.veloxzone.com	/admin/	114
+HIT: 177-210-157-110.user3g.veloxzone.com	/manage/	114
+HIT: 177-210-157-110.user3g.veloxzone.com	/admin/login.asp	114
+HIT: 177-210-157-110.user3g.veloxzone.com	/admin/index.asp	114
+HIT: 177-210-157-110.user3g.veloxzone.com	/houtai/	114
+HIT: 177-210-157-110.user3g.veloxzone.com	/admin/login	114
+HIT: 177-210-157-110.user3g.veloxzone.com	/dede/	114
+HIT: 177-211-78-41.user3g.veloxzone.com	/admin/	114
+HIT: 177-211-78-41.user3g.veloxzone.com	/manage/	114
+HIT: 177-211-78-41.user3g.veloxzone.com	/admin/login.asp	114
+HIT: 177-211-78-41.user3g.veloxzone.com	/admin/index.asp	114
+HIT: 177-211-78-41.user3g.veloxzone.com	/houtai/	114
+HIT: 177-211-78-41.user3g.veloxzone.com	/admin/login	114
+HIT: 177-211-78-41.user3g.veloxzone.com	/dede/	114
+HIT: 186-244-6-206.user.veloxzone.com	/admin/	114
+HIT: 186-244-6-206.user.veloxzone.com	/manage/	114
+HIT: 186-244-6-206.user.veloxzone.com	/admin/login.asp	114
+HIT: 186-244-6-206.user.veloxzone.com	/admin/index.asp	114
+HIT: 186-244-6-206.user.veloxzone.com	/houtai/	114
+HIT: 186-244-6-206.user.veloxzone.com	/admin/login	114
+HIT: 186-244-6-206.user.veloxzone.com	/dede/	114
+HIT: 180zhanshenhejiwang.99999g.com	/admin/	114
+HIT: 180zhanshenhejiwang.99999g.com	/manage/	114

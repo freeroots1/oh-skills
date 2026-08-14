@@ -1,0 +1,24 @@
+[*] Passwords file: /tmp/pwds.txt
+[*] Password count: 10
+[*] Codes per password: 500
+[*] Total attempts: 5000
+[*] Captcha API: https://api.myxypt.com/captcha?width=140&height=48
+[*] Login URL: http://chinanaisi.com/admin/login.php
+[*] Username: admin
+[*] Starting...
+
+[*] PW[1/10]: admin | UUID: 7118d481-18ba-4931-bfa0-f8a125d4d27b
+
+
+
+
+
+
+
+
+
+
+
+
+
+

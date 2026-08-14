@@ -1,0 +1,3 @@
+[3389][rdp] host: 113.113.81.253   login: administrator   password: 100206
+[3389][rdp] host: 117.50.115.224   login: administrator   password: Ahcq-scm
+[3389][rdp] host: 123.57.180.20   login: administrator   password: Cixingkeji

@@ -1,0 +1,3 @@
+DONE	gdcq119.com	/admin/login.asp	captcha
+DONE	szsadwj.com	/admin/login.asp	captcha
+HIT	www.yangsha.com	/admin/login.asp	admin	admin	302

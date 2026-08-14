@@ -1,0 +1,17 @@
+Hydra v9.2 (c) 2021 by van Hauser/THC & David Maciejak - Please do not use in military or secret service organizations, or for illegal purposes (this is non-binding, these *** ignore laws and ethics anyway).
+
+Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2026-07-30 02:55:17
+[DATA] max 4 tasks per 11 servers, overall 44 tasks, 201612 login tries (l:2/p:100806), ~50403 tries per task
+[DATA] attacking ssh://(11 targets):22/
+[ERROR] could not connect to ssh://120.78.12.36:22 - Library not initialized.
+[ERROR] could not connect to ssh://120.79.25.110:22 - Library not initialized.
+[ERROR] could not connect to ssh://123.56.153.233:22 - Library not initialized.
+[ERROR] could not connect to ssh://211.149.134.208:22 - Library not initialized.
+[ERROR] could not connect to ssh://221.231.138.20:22 - Library not initialized.
+[ERROR] could not connect to ssh://39.105.214.62:22 - Library not initialized.
+[ERROR] could not connect to ssh://39.107.121.176:22 - Library not initialized.
+[ERROR] could not connect to ssh://47.92.148.167:22 - Library not initialized.
+[ERROR] could not connect to ssh://8.140.56.65:22 - Library not initialized.
+[ERROR] could not connect to ssh://8.163.125.53:22 - Library not initialized.
+[STATUS] 44.00 tries/min, 44 tries in 00:01h, 2217688 to do in 840:03h, 4 active
+The session file ./hydra.restore was written. Type "hydra -R" to resume session.
