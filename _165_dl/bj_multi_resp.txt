@@ -4,9 +4,15 @@
 <meta charset="gb2312">
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <<<<<<< ours
+<<<<<<< ours
 <title>后台管理</title>
 <meta name="keywords" content="后台管理" />
 <meta name="description" content="后台管理" />
+=======
+<title>锟斤拷台锟斤拷锟斤拷</title>
+<meta name="keywords" content="锟斤拷台锟斤拷锟斤拷" />
+<meta name="description" content="锟斤拷台锟斤拷锟斤拷" />
+>>>>>>> theirs
 =======
 <title>锟斤拷台锟斤拷锟斤拷</title>
 <meta name="keywords" content="锟斤拷台锟斤拷锟斤拷" />
@@ -18,7 +24,11 @@
 <body>
 
 <<<<<<< ours
+<<<<<<< ours
 <script>alert('密码错误!');history.go(-1);</script>
+=======
+<script>alert('锟斤拷锟斤拷锟斤拷锟�!');history.go(-1);</script>
+>>>>>>> theirs
 =======
 <script>alert('锟斤拷锟斤拷锟斤拷锟�!');history.go(-1);</script>
 >>>>>>> theirs

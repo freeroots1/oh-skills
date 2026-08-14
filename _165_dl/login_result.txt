@@ -1,5 +1,9 @@
 <<<<<<< ours
+<<<<<<< ours
 ﻿<!DOCTYPE html>
+=======
+<!DOCTYPE html>
+>>>>>>> theirs
 =======
 <!DOCTYPE html>
 >>>>>>> theirs

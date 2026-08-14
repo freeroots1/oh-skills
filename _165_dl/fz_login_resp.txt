@@ -3,7 +3,11 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gbk2312" />
 <<<<<<< ours
+<<<<<<< ours
 <title>Ќш’ЊЈјїр«љ</title>
+=======
+<title>пњљпњљ’Њпњљпњљпњљпњљ«љ</title>
+>>>>>>> theirs
 =======
 <title>пњљпњљ’Њпњљпњљпњљпњљ«љ</title>
 >>>>>>> theirs
@@ -16,7 +20,11 @@ ul{ list-style-type:none;}
 li{ list-style-type:none;}
 </style>
 <<<<<<< ours
+<<<<<<< ours
 <body style=" padding:0; margin:0; font:14px/1.5 Microsoft Yahei, Ћќће,sans-serif; color:#555;">
+=======
+<body style=" padding:0; margin:0; font:14px/1.5 Microsoft Yahei, пњљпњљпњљпњљ,sans-serif; color:#555;">
+>>>>>>> theirs
 =======
 <body style=" padding:0; margin:0; font:14px/1.5 Microsoft Yahei, пњљпњљпњљпњљ,sans-serif; color:#555;">
 >>>>>>> theirs
@@ -25,6 +33,7 @@ li{ list-style-type:none;}
   <div style="width:300px; float:left; height:200px; background:url(http://404.safedog.cn/images/safedogsite/broswer_logo.jpg) no-repeat 100px 60px;"></div>
   
   <div style="width:600px; float:left;">
+<<<<<<< ours
 <<<<<<< ours
     <div style=" height:40px; line-height:40px; color:#fff; font-size:16px; overflow:hidden; background:#6bb3f6; padding-left:20px;">Ќш’ЊЈјїр«љ </div>
     <div style="border:1px dashed #cdcece; border-top:none; font-size:14px; background:#fff; color:#555; line-height:24px; height:220px; padding:20px 20px 0 20px; overflow-y:auto;background:#f3f7f9;">
@@ -35,6 +44,8 @@ li{ list-style-type:none;}
 <li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">2£©»зЌш’ЊЌ–є№£ђ«лЅ™ѕµњ’Љдћбє©…ћ£ї</li>
 <li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">3£©∆’Ќ®Ќш’ЊЈ√њЌ£ђ«ејндѓјј∆чCookie÷ЃЇу÷Ў–¬Ј√ќ £ђїт÷±љ”Ѕ™ѕµЌш’Њє№јн‘±£ї</li></ul>
 =======
+=======
+>>>>>>> theirs
     <div style=" height:40px; line-height:40px; color:#fff; font-size:16px; overflow:hidden; background:#6bb3f6; padding-left:20px;">пњљпњљ’Њпњљпњљпњљпњљ«љ </div>
     <div style="border:1px dashed #cdcece; border-top:none; font-size:14px; background:#fff; color:#555; line-height:24px; height:220px; padding:20px 20px 0 20px; overflow-y:auto;background:#f3f7f9;">
       <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600; color:#fc4f03;">пњљпњљпњљпњљпњљпњљпњљпњљпњљпњљпњљ∆µпњљпњљпњљпњљпњљ—±пњљпњљпњљ’Њпњљпњљпњљпњљ‘±пњљпњљпњљпњљпњљпњљпњљЎ£пњљ</span></p>
@@ -43,6 +54,9 @@ li{ list-style-type:none;}
 <ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">1пњљпњљпњљ‘µпњљ“їпњљпњљ ±пњљпњљпњљпњљпњљ¬Јпњљпњљ £пњљ</li>
 <li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">2пњљпњљпњљпњљпњљпњљ’Њпњљ–є№£пњљпњљпњљпњљпњљѕµпњљ’Љпњљпњљбє©пњљћ£пњљ</li>
 <li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">3пњљпњљпњљпњљЌ®пњљпњљ’Њпњљ√њЌ£пњљпњљпњљпњљпњљпњљпњљпњљпњљпњљCookie÷Ѓпњљпњљпњљпњљпњљ¬Јпњљпњљ £пњљпњљпњљ÷±пњљпњљпњљпњљѕµпњљпњљ’Њпњљпњљпњљпњљ‘±пњљпњљ</li></ul>
+<<<<<<< ours
+>>>>>>> theirs
+=======
 >>>>>>> theirs
     </div>
     
@@ -51,7 +65,11 @@ li{ list-style-type:none;}
   </div>
 
 <<<<<<< ours
+<<<<<<< ours
  <div style="width:900px; margin:0 auto; text-align:right; padding-right:100px; padding-top:10px;"><a href="http://bbs.safedog.cn/thread-59182-1-1.html?from=sitedog" style="color:#268ae7; text-decoration:none; padding-right:20px;">∆дЋы»Ћ‘х√іЋµ£њ</a><a href="http://www.safedog.cn/?from=sitedog" style="color:#268ae7; text-decoration:none;">∞≤»ЂєЈ-Ќш’Њ∞≤»Ђ„®Љ“</a></div>   
+=======
+ <div style="width:900px; margin:0 auto; text-align:right; padding-right:100px; padding-top:10px;"><a href="http://bbs.safedog.cn/thread-59182-1-1.html?from=sitedog" style="color:#268ae7; text-decoration:none; padding-right:20px;">пњљпњљпњљпњљпњљпњљпњљпњљ√іЋµпњљпњљ</a><a href="http://www.safedog.cn/?from=sitedog" style="color:#268ae7; text-decoration:none;">пњљпњљ»Ђпњљпњљ-пњљпњљ’Њпњљпњљ»Ђ„®пњљпњљ</a></div>   
+>>>>>>> theirs
 =======
  <div style="width:900px; margin:0 auto; text-align:right; padding-right:100px; padding-top:10px;"><a href="http://bbs.safedog.cn/thread-59182-1-1.html?from=sitedog" style="color:#268ae7; text-decoration:none; padding-right:20px;">пњљпњљпњљпњљпњљпњљпњљпњљ√іЋµпњљпњљ</a><a href="http://www.safedog.cn/?from=sitedog" style="color:#268ae7; text-decoration:none;">пњљпњљ»Ђпњљпњљ-пњљпњљ’Њпњљпњљ»Ђ„®пњљпњљ</a></div>   
 >>>>>>> theirs

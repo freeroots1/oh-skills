@@ -6,8 +6,13 @@
 </head>
 
 <<<<<<< ours
+<<<<<<< ours
 <body style="   padding:0; margin:0; font:14px/1.5 Microsoft Yahei, ËÎ
 Ìå,sans-serif; color:#555;">
+=======
+<body style="   padding:0; margin:0; font:14px/1.5 Microsoft Yahei, ï¿½ï¿½
+ï¿½ï¿½,sans-serif; color:#555;">
+>>>>>>> theirs
 =======
 <body style="   padding:0; margin:0; font:14px/1.5 Microsoft Yahei, ï¿½ï¿½
 ï¿½ï¿½,sans-serif; color:#555;">
@@ -19,15 +24,21 @@
       	</div>
       	<div style="float:right;width:430px;height:100px;padding-top:90px;padding-right:90px;font-size:22px;">
 <<<<<<< ours
+<<<<<<< ours
       		<p id="error_code_p"><a  id="eCode">404</a>´íÎó<span style="font-size:16px;padding-left:15px;">(¿ÉÔÚ·þÎñÆ÷ÉÏ²é¿´¾ßÌå´íÎóÐÅÏ¢)</span></p>
       		<p id="eMsg"></p>
       	<a href="http://bbs.safedog.cn/thread-60693-1-1.html?from=stat" target="_blank" style="color:#139ff8; font-size:16px; text-decoration:none">Õ¾³¤Çëµã»÷</a>
 	      <a href="#" onclick="redirectToHost();" style="color:#139ff8; font-size:16px; text-decoration:none;padding-left: 20px;">·µ»ØÉÏÒ»¼¶>></a>
 =======
+=======
+>>>>>>> theirs
       		<p id="error_code_p"><a  id="eCode">404</a>ï¿½ï¿½ï¿½ï¿½<span style="font-size:16px;padding-left:15px;">(ï¿½ï¿½ï¿½Ú·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï²é¿´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢)</span></p>
       		<p id="eMsg"></p>
       	<a href="http://bbs.safedog.cn/thread-60693-1-1.html?from=stat" target="_blank" style="color:#139ff8; font-size:16px; text-decoration:none">Õ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</a>
 	      <a href="#" onclick="redirectToHost();" style="color:#139ff8; font-size:16px; text-decoration:none;padding-left: 20px;">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½>></a>
+<<<<<<< ours
+>>>>>>> theirs
+=======
 >>>>>>> theirs
       	</div>
       </div>	
@@ -54,6 +65,7 @@ function redirectToHost(){
 
 
 var errorMsgData = {
+<<<<<<< ours
 <<<<<<< ours
 	"400":"ÇëÇó³öÏÖÓï·¨´íÎó",
 	"401":"Ã»ÓÐ·ÃÎÊÈ¨ÏÞ",
@@ -93,6 +105,8 @@ var errorMsgData = {
 	"-350":"ÊÕµ½ÁËÀ´×Ô·þÎñÆ÷µÄÖØ¸´±êÍ·",
 	"-118":"Á¬½Ó³¬Ê±"
 =======
+=======
+>>>>>>> theirs
 	"400":"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï·¨ï¿½ï¿½ï¿½ï¿½",
 	"401":"Ã»ï¿½Ð·ï¿½ï¿½ï¿½È¨ï¿½ï¿½",
 	"403":"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü¾ï¿½Ö´ï¿½Ð¸ï¿½ï¿½ï¿½ï¿½ï¿½",
@@ -130,6 +144,9 @@ var errorMsgData = {
 	"-349":"ï¿½Õµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø¸ï¿½ï¿½ï¿½Í·",
 	"-350":"ï¿½Õµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø¸ï¿½ï¿½ï¿½Í·",
 	"-118":"ï¿½ï¿½ï¿½Ó³ï¿½Ê±"
+<<<<<<< ours
+>>>>>>> theirs
+=======
 >>>>>>> theirs
 };
 
