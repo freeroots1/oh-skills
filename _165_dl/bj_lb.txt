@@ -6,9 +6,15 @@
 <<<<<<< ours
 <<<<<<< ours
 <<<<<<< ours
+<<<<<<< ours
 <title>后台管理</title>
 <meta name="keywords" content="后台管理" />
 <meta name="description" content="后台管理" />
+=======
+<title>锟斤拷台锟斤拷锟斤拷</title>
+<meta name="keywords" content="锟斤拷台锟斤拷锟斤拷" />
+<meta name="description" content="锟斤拷台锟斤拷锟斤拷" />
+>>>>>>> theirs
 =======
 <title>锟斤拷台锟斤拷锟斤拷</title>
 <meta name="keywords" content="锟斤拷台锟斤拷锟斤拷" />
@@ -32,7 +38,11 @@
 <<<<<<< ours
 <<<<<<< ours
 <<<<<<< ours
+<<<<<<< ours
 <script>alert('用户名、密码、验证码都要填写！');history.go(-1);</script>
+=======
+<script>alert('锟矫伙拷锟斤拷锟斤拷锟斤拷锟诫、锟斤拷证锟诫都要锟斤拷写锟斤拷');history.go(-1);</script>
+>>>>>>> theirs
 =======
 <script>alert('锟矫伙拷锟斤拷锟斤拷锟斤拷锟诫、锟斤拷证锟诫都要锟斤拷写锟斤拷');history.go(-1);</script>
 >>>>>>> theirs

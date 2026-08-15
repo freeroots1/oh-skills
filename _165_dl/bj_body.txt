@@ -6,9 +6,15 @@
 <<<<<<< ours
 <<<<<<< ours
 <<<<<<< ours
+<<<<<<< ours
 <title>║є╠и╣▄└э</title>
 <meta name="keywords" content="║є╠и╣▄└э" />
 <meta name="description" content="║є╠и╣▄└э" />
+=======
+<title>я┐╜я┐╜╠ия┐╜я┐╜я┐╜я┐╜</title>
+<meta name="keywords" content="я┐╜я┐╜╠ия┐╜я┐╜я┐╜я┐╜" />
+<meta name="description" content="я┐╜я┐╜╠ия┐╜я┐╜я┐╜я┐╜" />
+>>>>>>> theirs
 =======
 <title>я┐╜я┐╜╠ия┐╜я┐╜я┐╜я┐╜</title>
 <meta name="keywords" content="я┐╜я┐╜╠ия┐╜я┐╜я┐╜я┐╜" />
@@ -32,7 +38,11 @@
 <<<<<<< ours
 <<<<<<< ours
 <<<<<<< ours
+<<<<<<< ours
 <script>alert('├▄┬ы┤э╬є!');history.go(-1);</script>
+=======
+<script>alert('я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜!');history.go(-1);</script>
+>>>>>>> theirs
 =======
 <script>alert('я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜!');history.go(-1);</script>
 >>>>>>> theirs

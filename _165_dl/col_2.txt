@@ -1,6 +1,7 @@
 <<<<<<< ours
 <<<<<<< ours
 <<<<<<< ours
+<<<<<<< ours
 <!--¶¯Ì¬TKDÖ»ÔÚÁÐ±íÀàÏêÏ¸Ò³Ê¹ÓÃ-->
  <font face="Arial" size=2>
 <p>Microsoft JET Database Engine</font> <font face="Arial" size=2>´íÎó '80040e14'</font>
@@ -13,6 +14,8 @@
 >>>>>>> theirs
 =======
 >>>>>>> theirs
+=======
+>>>>>>> theirs
 <!--ï¿½ï¿½Ì¬TKDÖ»ï¿½ï¿½ï¿½Ð±ï¿½ï¿½ï¿½ï¿½ï¿½Ï¸Ò³Ê¹ï¿½ï¿½-->
  <font face="Arial" size=2>
 <p>Microsoft JET Database Engine</font> <font face="Arial" size=2>ï¿½ï¿½ï¿½ï¿½ '80040e14'</font>
@@ -21,6 +24,10 @@
 <p>
 <<<<<<< ours
 <<<<<<< ours
+<<<<<<< ours
+<font face="Arial" size=2>/inc/inhead2.asp</font><font face="Arial" size=2>ï¿½ï¿½ï¿½ï¿½ 4</font> 
+>>>>>>> theirs
+=======
 <font face="Arial" size=2>/inc/inhead2.asp</font><font face="Arial" size=2>ï¿½ï¿½ï¿½ï¿½ 4</font> 
 >>>>>>> theirs
 =======

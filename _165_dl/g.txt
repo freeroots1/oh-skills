@@ -8,8 +8,13 @@
 <<<<<<< ours
 <<<<<<< ours
 <<<<<<< ours
+<<<<<<< ours
 <body style="   padding:0; margin:0; font:14px/1.5 Microsoft Yahei, ËÎ
 Ìå,sans-serif; color:#555;">
+=======
+<body style="   padding:0; margin:0; font:14px/1.5 Microsoft Yahei, ï¿½ï¿½
+ï¿½ï¿½,sans-serif; color:#555;">
+>>>>>>> theirs
 =======
 <body style="   padding:0; margin:0; font:14px/1.5 Microsoft Yahei, ï¿½ï¿½
 ï¿½ï¿½,sans-serif; color:#555;">
@@ -31,11 +36,14 @@
 <<<<<<< ours
 <<<<<<< ours
 <<<<<<< ours
+<<<<<<< ours
       		<p id="error_code_p"><a  id="eCode">404</a>´íÎó<span style="font-size:16px;padding-left:15px;">(¿ÉÔÚ·þÎñÆ÷ÉÏ²é¿´¾ßÌå´íÎóÐÅÏ¢)</span></p>
       		<p id="eMsg"></p>
       	<a href="http://bbs.safedog.cn/thread-60693-1-1.html?from=stat" target="_blank" style="color:#139ff8; font-size:16px; text-decoration:none">Õ¾³¤Çëµã»÷</a>
 	      <a href="#" onclick="redirectToHost();" style="color:#139ff8; font-size:16px; text-decoration:none;padding-left: 20px;">·µ»ØÉÏÒ»¼¶>></a>
 =======
+=======
+>>>>>>> theirs
 =======
 >>>>>>> theirs
 =======
@@ -46,6 +54,9 @@
 	      <a href="#" onclick="redirectToHost();" style="color:#139ff8; font-size:16px; text-decoration:none;padding-left: 20px;">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½>></a>
 <<<<<<< ours
 <<<<<<< ours
+<<<<<<< ours
+>>>>>>> theirs
+=======
 >>>>>>> theirs
 =======
 >>>>>>> theirs
@@ -76,6 +87,7 @@ function redirectToHost(){
 
 
 var errorMsgData = {
+<<<<<<< ours
 <<<<<<< ours
 <<<<<<< ours
 <<<<<<< ours
@@ -121,6 +133,8 @@ var errorMsgData = {
 >>>>>>> theirs
 =======
 >>>>>>> theirs
+=======
+>>>>>>> theirs
 	"400":"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï·¨ï¿½ï¿½ï¿½ï¿½",
 	"401":"Ã»ï¿½Ð·ï¿½ï¿½ï¿½È¨ï¿½ï¿½",
 	"403":"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü¾ï¿½Ö´ï¿½Ð¸ï¿½ï¿½ï¿½ï¿½ï¿½",
@@ -160,6 +174,9 @@ var errorMsgData = {
 	"-118":"ï¿½ï¿½ï¿½Ó³ï¿½Ê±"
 <<<<<<< ours
 <<<<<<< ours
+<<<<<<< ours
+>>>>>>> theirs
+=======
 >>>>>>> theirs
 =======
 >>>>>>> theirs

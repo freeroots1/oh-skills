@@ -6,9 +6,15 @@
 <<<<<<< ours
 <<<<<<< ours
 <<<<<<< ours
+<<<<<<< ours
 <title>ºóÌ¨¹ÜÀí</title>
 <meta name="keywords" content="ºóÌ¨¹ÜÀí" />
 <meta name="description" content="ºóÌ¨¹ÜÀí" />
+=======
+<title>ï¿½ï¿½Ì¨ï¿½ï¿½ï¿½ï¿½</title>
+<meta name="keywords" content="ï¿½ï¿½Ì¨ï¿½ï¿½ï¿½ï¿½" />
+<meta name="description" content="ï¿½ï¿½Ì¨ï¿½ï¿½ï¿½ï¿½" />
+>>>>>>> theirs
 =======
 <title>ï¿½ï¿½Ì¨ï¿½ï¿½ï¿½ï¿½</title>
 <meta name="keywords" content="ï¿½ï¿½Ì¨ï¿½ï¿½ï¿½ï¿½" />
@@ -32,7 +38,11 @@
 <<<<<<< ours
 <<<<<<< ours
 <<<<<<< ours
+<<<<<<< ours
 <script LANGUAGE='javascript'>alert('ÑéÖ¤Âë´íÎó£¡');history.go(-1);</script>
+=======
+<script LANGUAGE='javascript'>alert('ï¿½ï¿½Ö¤ï¿½ï¿½ï¿½ï¿½ï¿½');history.go(-1);</script>
+>>>>>>> theirs
 =======
 <script LANGUAGE='javascript'>alert('ï¿½ï¿½Ö¤ï¿½ï¿½ï¿½ï¿½ï¿½');history.go(-1);</script>
 >>>>>>> theirs

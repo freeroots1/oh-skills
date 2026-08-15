@@ -5,7 +5,11 @@
 <<<<<<< ours
 <<<<<<< ours
 <<<<<<< ours
+<<<<<<< ours
 <title>网站防火墙</title>
+=======
+<title>锟斤拷站锟斤拷锟斤拷墙</title>
+>>>>>>> theirs
 =======
 <title>锟斤拷站锟斤拷锟斤拷墙</title>
 >>>>>>> theirs
@@ -26,7 +30,11 @@ li{ list-style-type:none;}
 <<<<<<< ours
 <<<<<<< ours
 <<<<<<< ours
+<<<<<<< ours
 <body style=" padding:0; margin:0; font:14px/1.5 Microsoft Yahei, 宋体,sans-serif; color:#555;">
+=======
+<body style=" padding:0; margin:0; font:14px/1.5 Microsoft Yahei, 锟斤拷锟斤拷,sans-serif; color:#555;">
+>>>>>>> theirs
 =======
 <body style=" padding:0; margin:0; font:14px/1.5 Microsoft Yahei, 锟斤拷锟斤拷,sans-serif; color:#555;">
 >>>>>>> theirs
@@ -44,6 +52,7 @@ li{ list-style-type:none;}
 <<<<<<< ours
 <<<<<<< ours
 <<<<<<< ours
+<<<<<<< ours
     <div style=" height:40px; line-height:40px; color:#fff; font-size:16px; overflow:hidden; background:#6bb3f6; padding-left:20px;">网站防火墙 </div>
     <div style="border:1px dashed #cdcece; border-top:none; font-size:14px; background:#fff; color:#555; line-height:24px; height:220px; padding:20px 20px 0 20px; overflow-y:auto;background:#f3f7f9;">
       <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600; color:#fc4f03;">您的请求过于频繁，已被网站管理员设置拦截！</span></p>
@@ -53,6 +62,8 @@ li{ list-style-type:none;}
 <li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">2）如网站托管，请联系空间提供商；</li>
 <li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">3）普通网站访客，清理浏览器Cookie之后重新访问，或直接联系网站管理员；</li></ul>
 =======
+=======
+>>>>>>> theirs
 =======
 >>>>>>> theirs
 =======
@@ -67,6 +78,9 @@ li{ list-style-type:none;}
 <li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">3锟斤拷锟斤拷通锟斤拷站锟矫客ｏ拷锟斤拷锟斤拷锟斤拷锟斤拷锟紺ookie之锟斤拷锟斤拷锟铰凤拷锟绞ｏ拷锟斤拷直锟斤拷锟斤拷系锟斤拷站锟斤拷锟斤拷员锟斤拷</li></ul>
 <<<<<<< ours
 <<<<<<< ours
+<<<<<<< ours
+>>>>>>> theirs
+=======
 >>>>>>> theirs
 =======
 >>>>>>> theirs
@@ -81,7 +95,11 @@ li{ list-style-type:none;}
 <<<<<<< ours
 <<<<<<< ours
 <<<<<<< ours
+<<<<<<< ours
  <div style="width:900px; margin:0 auto; text-align:right; padding-right:100px; padding-top:10px;"><a href="http://bbs.safedog.cn/thread-59182-1-1.html?from=sitedog" style="color:#268ae7; text-decoration:none; padding-right:20px;">其他人怎么说？</a><a href="http://www.safedog.cn/?from=sitedog" style="color:#268ae7; text-decoration:none;">安全狗-网站安全专家</a></div>   
+=======
+ <div style="width:900px; margin:0 auto; text-align:right; padding-right:100px; padding-top:10px;"><a href="http://bbs.safedog.cn/thread-59182-1-1.html?from=sitedog" style="color:#268ae7; text-decoration:none; padding-right:20px;">锟斤拷锟斤拷锟斤拷锟斤拷么说锟斤拷</a><a href="http://www.safedog.cn/?from=sitedog" style="color:#268ae7; text-decoration:none;">锟斤拷全锟斤拷-锟斤拷站锟斤拷全专锟斤拷</a></div>   
+>>>>>>> theirs
 =======
  <div style="width:900px; margin:0 auto; text-align:right; padding-right:100px; padding-top:10px;"><a href="http://bbs.safedog.cn/thread-59182-1-1.html?from=sitedog" style="color:#268ae7; text-decoration:none; padding-right:20px;">锟斤拷锟斤拷锟斤拷锟斤拷么说锟斤拷</a><a href="http://www.safedog.cn/?from=sitedog" style="color:#268ae7; text-decoration:none;">锟斤拷全锟斤拷-锟斤拷站锟斤拷全专锟斤拷</a></div>   
 >>>>>>> theirs
