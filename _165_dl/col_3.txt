@@ -1,6 +1,10 @@
 <<<<<<< ours
 <<<<<<< ours
+<<<<<<< ours
 <!--¶¯Ì¬TKDÖ»ÔÚÁÐ±íÀàÏêÏ¸Ò³Ê¹ÓÃ-->
+=======
+<!--ï¿½ï¿½Ì¬TKDÖ»ï¿½ï¿½ï¿½Ð±ï¿½ï¿½ï¿½ï¿½ï¿½Ï¸Ò³Ê¹ï¿½ï¿½-->
+>>>>>>> theirs
 =======
 <!--ï¿½ï¿½Ì¬TKDÖ»ï¿½ï¿½ï¿½Ð±ï¿½ï¿½ï¿½ï¿½ï¿½Ï¸Ò³Ê¹ï¿½ï¿½-->
 >>>>>>> theirs
@@ -16,6 +20,7 @@
 
 <<<<<<< ours
 <<<<<<< ours
+<<<<<<< ours
 <title>1-ÁªÏµÎÒÃÇ-ÌÚÁú¹«Ë¾¿Í·þ</title>
 <meta name="keywords" content="2,ÌÚÁú¹«Ë¾¿Í·þ" />
 <meta name="description" content="3<br>
@@ -23,11 +28,16 @@
 =======
 =======
 >>>>>>> theirs
+=======
+>>>>>>> theirs
 <title>1-ï¿½ï¿½Ïµï¿½ï¿½ï¿½ï¿½-ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¾ï¿½Í·ï¿½</title>
 <meta name="keywords" content="2,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¾ï¿½Í·ï¿½" />
 <meta name="description" content="3<br>
 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¾ï¿½Ù·ï¿½ï¿½Í·ï¿½ï¿½ï¿½ï¿½Ä¡ï¿½ï¿½ç»°199-0888-8893Î¢Q:Í¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½á¹©7ï¿½ï¿½24Ð¡Ê±Ò»Õ¾Ê½ï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½ï¿½Ù·ï¿½ï¿½Í·ï¿½ï¿½ï¿½ï¿½ß¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¯ï¿½ï¿½ï¿½ï¿½ï¿½â·´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½ï¿½Í·ï¿½ï¿½Å¶Ó¸ï¿½Ð§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½<br>
 <<<<<<< ours
+<<<<<<< ours
+>>>>>>> theirs
+=======
 >>>>>>> theirs
 =======
 >>>>>>> theirs
@@ -43,6 +53,7 @@
     <tr>
 <<<<<<< ours
 <<<<<<< ours
+<<<<<<< ours
       <td width="600" style="font-size:14px;color:#a9a9a9;">»¶Ó­À´µ½±±¾©ºè×÷Ê¢Íþ¿Æ¼¼ÓÐÏÞ¹«Ë¾¹ÙÍø</td>
       <td width="100">&nbsp;</td>
       <td width="100" class="menu31 jz"><a href="lm_contact.asp?id=518#mao1">ÔÚÏßÁôÑÔ</a></td>
@@ -53,6 +64,8 @@
 =======
 =======
 >>>>>>> theirs
+=======
+>>>>>>> theirs
       <td width="600" style="font-size:14px;color:#a9a9a9;">ï¿½ï¿½Ó­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¢ï¿½ï¿½ï¿½Æ¼ï¿½ï¿½ï¿½ï¿½Þ¹ï¿½Ë¾ï¿½ï¿½ï¿½ï¿½</td>
       <td width="100">&nbsp;</td>
       <td width="100" class="menu31 jz"><a href="lm_contact.asp?id=518#mao1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</a></td>
@@ -61,6 +74,9 @@
           <tr>
             <td width="80" class="jz" style="color:#999999;">ï¿½ï¿½Æ·ï¿½ï¿½ï¿½ï¿½:</td>
 <<<<<<< ours
+<<<<<<< ours
+>>>>>>> theirs
+=======
 >>>>>>> theirs
 =======
 >>>>>>> theirs
@@ -77,7 +93,11 @@
     <td width="350"><a href="index.asp"><img src="images/logo.png" width="330" height="100" border="0"></a></td>
 <<<<<<< ours
 <<<<<<< ours
+<<<<<<< ours
     <td width="450" class="jzuo" style="color:#c1c1c1"><br><br>É«Æ×·ÖÎö¡¢¹âÆ×·ÖÎö¼°ÊµÑéÊÒºÄ²ÄÌá¹©×¨Òµ½â¾ö·½°¸¹©Ó¦ÉÌ</td>
+=======
+    <td width="450" class="jzuo" style="color:#c1c1c1"><br><br>É«ï¿½×·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×·ï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½ï¿½ÒºÄ²ï¿½ï¿½á¹©×¨Òµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¦ï¿½ï¿½</td>
+>>>>>>> theirs
 =======
     <td width="450" class="jzuo" style="color:#c1c1c1"><br><br>É«ï¿½×·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×·ï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½ï¿½ÒºÄ²ï¿½ï¿½á¹©×¨Òµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¦ï¿½ï¿½</td>
 >>>>>>> theirs
@@ -93,7 +113,11 @@
       <tr class="menu">
 <<<<<<< ours
 <<<<<<< ours
+<<<<<<< ours
         <td width="200" class="jz" style="border-left:1px solid #539de4;border-right:1px solid #539de4;" onMouseOver="this.bgColor='#4593bc';" onMouseOut="this.bgColor='';"><a href="index.asp">ÍøÕ¾Ê×Ò³</a></td>
+=======
+        <td width="200" class="jz" style="border-left:1px solid #539de4;border-right:1px solid #539de4;" onMouseOver="this.bgColor='#4593bc';" onMouseOut="this.bgColor='';"><a href="index.asp">ï¿½ï¿½Õ¾ï¿½ï¿½Ò³</a></td>
+>>>>>>> theirs
 =======
         <td width="200" class="jz" style="border-left:1px solid #539de4;border-right:1px solid #539de4;" onMouseOver="this.bgColor='#4593bc';" onMouseOut="this.bgColor='';"><a href="index.asp">ï¿½ï¿½Õ¾ï¿½ï¿½Ò³</a></td>
 >>>>>>> theirs
@@ -105,6 +129,7 @@
 <tr><td height="10"></td></tr>
 <tr><td height="1" bgcolor="#ffffff"></td></tr>
 
+<<<<<<< ours
 <<<<<<< ours
 <<<<<<< ours
 <tr><td height="33" class="menu_xl jz" onMouseOver="this.bgColor='#5B618E';" onMouseOut="this.bgColor='';"><a href="class1_index.asp?id=4&amp;id2=ÆøÏàÉ«Æ×ÒÇ">ÆøÏàÉ«Æ×ÒÇ</a></td></tr>
@@ -147,6 +172,8 @@
 =======
 =======
 >>>>>>> theirs
+=======
+>>>>>>> theirs
 <tr><td height="33" class="menu_xl jz" onMouseOver="this.bgColor='#5B618E';" onMouseOut="this.bgColor='';"><a href="class1_index.asp?id=4&amp;id2=ï¿½ï¿½ï¿½ï¿½É«ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½É«ï¿½ï¿½ï¿½ï¿½</a></td></tr>
 
 <tr><td height="33" class="menu_xl jz" onMouseOver="this.bgColor='#5B618E';" onMouseOut="this.bgColor='';"><a href="class1_index.asp?id=7&amp;id2=Òºï¿½ï¿½É«ï¿½ï¿½ï¿½ï¿½">Òºï¿½ï¿½É«ï¿½ï¿½ï¿½ï¿½</a></td></tr>
@@ -185,6 +212,9 @@
         <td width="200" class="jz" style="border-right:1px solid #539de4;" onMouseOver="this.bgColor='#4593bc';" onMouseOut="this.bgColor='';"><a href="lm_aboutus.asp?id=517&id2=ï¿½ï¿½Ë¾ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</a></td>
         <td width="200" class="jz" style="border-right:1px solid #539de4;" onMouseOver="this.bgColor='#4593bc';" onMouseOut="this.bgColor='';"><a href="lm_contact.asp?id=518">ï¿½ï¿½Ïµï¿½ï¿½ï¿½ï¿½</a></td>
 <<<<<<< ours
+<<<<<<< ours
+>>>>>>> theirs
+=======
 >>>>>>> theirs
 =======
 >>>>>>> theirs
@@ -212,7 +242,11 @@
 <tr><td class="css1">&nbsp;</td>
 <<<<<<< ours
 <<<<<<< ours
+<<<<<<< ours
     <td class="css3" valign="top"><div class="left111">ÐÐÒµ×ÊÑ¶</div><table class="left11" cellpadding="0" cellspacing="0">
+=======
+    <td class="css3" valign="top"><div class="left111">ï¿½ï¿½Òµï¿½ï¿½Ñ¶</div><table class="left11" cellpadding="0" cellspacing="0">
+>>>>>>> theirs
 =======
     <td class="css3" valign="top"><div class="left111">ï¿½ï¿½Òµï¿½ï¿½Ñ¶</div><table class="left11" cellpadding="0" cellspacing="0">
 >>>>>>> theirs
@@ -234,7 +268,11 @@
     <td width="200"></td>
 <<<<<<< ours
 <<<<<<< ours
+<<<<<<< ours
     <td class="size1 size2 jy"><img src="images/icon/006.gif">&nbsp;ÄúµÄÎ»ÖÃ£ºÊ×Ò³ - ÐÐÒµ×ÊÑ¶</td>
+=======
+    <td class="size1 size2 jy"><img src="images/icon/006.gif">&nbsp;ï¿½ï¿½ï¿½ï¿½Î»ï¿½Ã£ï¿½ï¿½ï¿½Ò³ - ï¿½ï¿½Òµï¿½ï¿½Ñ¶</td>
+>>>>>>> theirs
 =======
     <td class="size1 size2 jy"><img src="images/icon/006.gif">&nbsp;ï¿½ï¿½ï¿½ï¿½Î»ï¿½Ã£ï¿½ï¿½ï¿½Ò³ - ï¿½ï¿½Òµï¿½ï¿½Ñ¶</td>
 >>>>>>> theirs
@@ -253,6 +291,7 @@
  <font face="Arial" size=2>
 <<<<<<< ours
 <<<<<<< ours
+<<<<<<< ours
 <p>Microsoft JET Database Engine</font> <font face="Arial" size=2>´íÎó '80040e14'</font>
 <p>
 <font face="Arial" size=2>ÔÚÁªºÏ²éÑ¯ÖÐËùÑ¡¶¨µÄÁ½¸öÊý¾Ý±í»ò²éÑ¯ÖÐµÄÁÐÊý²»Æ¥Åä¡£</font>
@@ -261,11 +300,17 @@
 =======
 =======
 >>>>>>> theirs
+=======
+>>>>>>> theirs
 <p>Microsoft JET Database Engine</font> <font face="Arial" size=2>ï¿½ï¿½ï¿½ï¿½ '80040e14'</font>
 <p>
 <font face="Arial" size=2>ï¿½ï¿½ï¿½ï¿½ï¿½Ï²ï¿½Ñ¯ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý±ï¿½ï¿½ï¿½ï¿½Ñ¯ï¿½Ðµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¥ï¿½ä¡£</font>
 <p>
 <<<<<<< ours
+<<<<<<< ours
+<font face="Arial" size=2>/news11xx.asp</font><font face="Arial" size=2>ï¿½ï¿½ï¿½ï¿½ 36</font> 
+>>>>>>> theirs
+=======
 <font face="Arial" size=2>/news11xx.asp</font><font face="Arial" size=2>ï¿½ï¿½ï¿½ï¿½ 36</font> 
 >>>>>>> theirs
 =======
