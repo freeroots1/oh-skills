@@ -1,0 +1,9 @@
+serverAddr = "124.222.20.139"
+serverPort = 7000
+
+[[proxies]]
+name = "socks5"
+type = "tcp"
+remotePort = 10808
+[proxies.plugin]
+type = "socks5"
